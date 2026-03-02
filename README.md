@@ -1,6 +1,6 @@
 # PM Skills Marketplace: An AI Operating System for Better Product Decisions
 
-> 65 domain-specific skills and 36 chained workflows across 8 PM plugins — from discovery to strategy, execution, launch, and growth.
+> 65 PM skills and 36 chained workflows across 8 plugins — from discovery to strategy, execution, launch, and growth.
 
 ![Plugin overview](plugins-overview.webp)
 
@@ -362,7 +362,7 @@ Commands:
 
 ## About
 
-This marketplace evolves as product practice and AI capabilities evolve.
+This marketplace evolves with product practice and AI capabilities.
 
 Selected skills based on the work of:
 
