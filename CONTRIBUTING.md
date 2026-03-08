@@ -1,22 +1,22 @@
-# Contributing
+# コントリビューション
 
-PM Skills Marketplace is maintained by [Paweł Huryn](https://www.productcompass.pm) (pawel@productcompass.pm). Contributions are welcome — whether it's a bug fix, a typo, or a new skill idea.
+PM Skills Marketplaceは[Paweł Huryn](https://www.productcompass.pm)（pawel@productcompass.pm）によって維持管理されています。バグ修正、誤字、新しいスキルのアイデアなど、コントリビューションを歓迎します。
 
-## How to Contribute
+## コントリビューション方法
 
-- **Bugs and small fixes** — open a PR directly.
-- **New skills, commands, or larger changes** — open an issue first so we can discuss the approach.
+- **バグと小さな修正** — PRを直接開いてください。
+- **新しいスキル、コマンド、または大きな変更** — まずイシューを開いてアプローチについて話し合いましょう。
 
-## Guidelines
+## ガイドライン
 
-- Keep PRs focused — one change per PR.
-- Follow existing patterns: skills are nouns (domain knowledge), commands are verbs (workflows).
-- Every skill needs frontmatter with `name` and `description`. Every command needs `description` and `argument-hint`.
-- Skill `name` must match its directory name.
-- No cross-plugin references in commands. Suggest follow-ups in natural language only.
-- Every contributor will be listed publicly.
-- Run the validator before submitting: `python3 validate_plugins.py`
+- PRは一点に絞ってください — 1PRにつき1変更。
+- 既存のパターンに従ってください：スキルは名詞（ドメイン知識）、コマンドは動詞（ワークフロー）。
+- すべてのスキルには `name` と `description` のフロントマターが必要です。すべてのコマンドには `description` と `argument-hint` が必要です。
+- スキルの `name` はそのディレクトリ名と一致する必要があります。
+- コマンドにはプラグイン間の参照を含めないでください。フォローアップは自然言語でのみ提案してください。
+- すべてのコントリビューターは公開でリストに掲載されます。
+- 提出前にバリデーターを実行してください：`python3 validate_plugins.py`
 
-## License
+## ライセンス
 
-By contributing, you agree that your contributions will be licensed under the [MIT License](LICENSE).
+コントリビューションすることで、あなたのコントリビューションが[MITライセンス](LICENSE)の下でライセンスされることに同意します。

@@ -1,7 +1,7 @@
 {
   "name": "pm-data-analytics",
   "version": "1.0.1",
-  "description": "Data analytics skills for PMs: SQL query generation and cohort analysis. Analyze user data, generate queries, and identify retention patterns.",
+  "description": "PM向けデータ分析スキル：SQLクエリ生成とコホート分析。ユーザーデータの分析、クエリの生成、保持率パターンの特定。",
   "author": {
     "name": "Paweł Huryn",
     "email": "pawel@productcompass.pm",

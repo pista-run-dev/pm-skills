@@ -1,34 +1,34 @@
 # pm-product-strategy
 
-Product strategy skills for PMs: vision, strategy canvas, startup canvas, value propositions, lean canvas, business model canvas, SWOT, PESTLE, Ansoff Matrix, Porter's Five Forces, pricing, and monetization.
+PM向けプロダクト戦略スキル：ビジョン、戦略キャンバス、スタートアップキャンバス、バリュープロポジション、リーンキャンバス、ビジネスモデルキャンバス、SWOT、PESTLE、アンゾフマトリクス、ポーターの5力、価格設定、マネタイズ。
 
-## Skills (12)
+## スキル（12）
 
-- **ansoff-matrix** — Generate an Ansoff Matrix analysis mapping growth strategies across market penetration, market development, product development, and diversification.
-- **business-model** — Generate a Business Model Canvas with all 9 building blocks.
-- **lean-canvas** — Generate a Lean Canvas business model with sections for problem, solution, metrics, cost structure, UVP, unfair advantage, channels, segments, and revenue.
-- **monetization-strategy** — Brainstorm 3-5 monetization strategies with audience fit, risks, and validation experiments.
-- **pestle-analysis** — Perform a PESTLE analysis covering Political, Economic, Social, Technological, Legal, and Environmental factors.
-- **porters-five-forces** — Perform Porter's Five Forces analysis evaluating competitive rivalry, supplier power, buyer power, threat of substitutes, and threat of new entrants.
-- **pricing-strategy** — Analyze and design pricing strategies including pricing models, competitive pricing analysis, willingness-to-pay estimation, and price elasticity considerations.
-- **product-strategy** — Generate a comprehensive product strategy using the 9-section Product Strategy Canvas covering vision, segments, costs, value propositions, trade-offs, metrics, growth, capabilities, and defensibility.
-- **product-vision** — Brainstorm an inspiring, achievable, and emotional product vision that motivates teams.
-- **startup-canvas** — Generate a Startup Canvas combining Product Strategy (9 sections) and Business Model (Cost Structure + Revenue Streams) for a new product. An alternative to Business Model Canvas and Lean Canvas that separates strategy from business model.
-- **swot-analysis** — Perform a detailed SWOT analysis identifying strengths, weaknesses, opportunities, and threats with actionable recommendations.
-- **value-proposition** — Generate a detailed value proposition using a 6-part JTBD template (Who, Why, What before, How, What after, Alternatives).
+- **ansoff-matrix** — 市場浸透、市場開発、プロダクト開発、多角化にわたる成長戦略をマッピングするアンゾフマトリクス分析を生成。
+- **business-model** — 9つの構成要素全てを含むビジネスモデルキャンバスを生成。
+- **lean-canvas** — 問題、ソリューション、メトリクス、コスト構造、UVP、不公平なアドバンテージ、チャネル、セグメント、収益に関するセクションを含むリーンキャンバスビジネスモデルを生成。
+- **monetization-strategy** — オーディエンス適合性、リスク、検証実験を含む3〜5つのマネタイズ戦略をブレインストーミング。
+- **pestle-analysis** — 政治、経済、社会、技術、法律、環境要因をカバーするPESTLE分析を実施。
+- **porters-five-forces** — 競争的競合、サプライヤーパワー、バイヤーパワー、代替品の脅威、新規参入者の脅威を評価するポーターの5力分析を実施。
+- **pricing-strategy** — 価格モデル、競合価格分析、支払意志額推定、価格弾力性の考慮を含む価格戦略を分析・設計。
+- **product-strategy** — ビジョン、セグメント、コスト、バリュープロポジション、トレードオフ、メトリクス、グロース、ケイパビリティ、防衛可能性をカバーする9セクションのプロダクト戦略キャンバスを使って包括的なプロダクト戦略を生成。
+- **product-vision** — チームを動機付ける鼓舞的で、達成可能で、感情的なプロダクトビジョンをブレインストーミング。
+- **startup-canvas** — 新プロダクト向けのプロダクト戦略（9セクション）とビジネスモデル（コスト構造＋収益ストリーム）を組み合わせたスタートアップキャンバスを生成。戦略とビジネスモデルを分離するビジネスモデルキャンバスとリーンキャンバスの代替。
+- **swot-analysis** — 実行可能な推奨事項を含む強み、弱み、オポチュニティ、脅威を特定する詳細なSWOT分析を実施。
+- **value-proposition** — 6パートJTBDテンプレート（誰が、なぜ、前は何だったか、どのように、後は何か、代替手段）を使って詳細なバリュープロポジションを生成。
 
-## Commands (5)
+## コマンド（5）
 
-- `/pm-product-strategy:business-model` — Explore business models using Lean Canvas, Business Model Canvas, Startup Canvas, or Value Proposition frameworks.
-- `/pm-product-strategy:market-scan` — Comprehensive macro environment analysis — SWOT, PESTLE, Porter's Five Forces, and Ansoff Matrix in one scan.
-- `/pm-product-strategy:pricing` — Design a pricing strategy — models, competitive analysis, willingness-to-pay estimation, and pricing experiments.
-- `/pm-product-strategy:strategy` — Create a comprehensive product strategy using the 9-section Strategy Canvas — from vision to defensibility.
-- `/pm-product-strategy:value-proposition` — Design a value proposition using the 6-part JTBD template — Who, Why, What before, How, What after, Alternatives.
+- `/pm-product-strategy:business-model` — リーンキャンバス、ビジネスモデルキャンバス、スタートアップキャンバス、またはバリュープロポジションフレームワークを使ってビジネスモデルを探索。
+- `/pm-product-strategy:market-scan` — 包括的なマクロ環境分析 — SWOT、PESTLE、ポーターの5力、アンゾフマトリクスを1回のスキャンで。
+- `/pm-product-strategy:pricing` — 価格戦略の設計 — モデル、競合分析、支払意志額推定、価格実験。
+- `/pm-product-strategy:strategy` — ビジョンから防衛可能性まで、9セクションの戦略キャンバスを使って包括的なプロダクト戦略を作成。
+- `/pm-product-strategy:value-proposition` — 6パートJTBDテンプレートを使ったバリュープロポジションの設計 — 誰が、なぜ、前は何だったか、どのように、後は何か、代替手段。
 
-## Author
+## 著者
 
 Paweł Huryn — [The Product Compass Newsletter](https://www.productcompass.pm)
 
-## License
+## ライセンス
 
 MIT

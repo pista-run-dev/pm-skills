@@ -1,24 +1,24 @@
 # pm-marketing-growth
 
-Product marketing and growth skills: marketing ideas, value proposition statements, North Star metrics, product naming, and positioning.
+プロダクトマーケティングとグロースキル：マーケティングアイデア、バリュープロポジションステートメント、ノーススターメトリクス、プロダクト命名、ポジショニング。
 
-## Skills (5)
+## スキル（5）
 
-- **marketing-ideas** — Generate 5 creative, cost-effective marketing ideas with channels, messaging, and engagement rationale.
-- **north-star-metric** — Identify a North Star Metric and 3-5 Input Metrics.
-- **positioning-ideas** — Brainstorm product positioning ideas differentiated from competitors.
-- **product-name** — Brainstorm 5 unique, memorable product names with rationale aligned to brand values and target audience.
-- **value-prop-statements** — Generate value proposition statements for marketing, sales, and onboarding from existing value propositions.
+- **marketing-ideas** — チャネル、メッセージング、エンゲージメント根拠を含む5つのクリエイティブでコスト効率の高いマーケティングアイデアを生成。
+- **north-star-metric** — ノーススターメトリクスと3〜5つのインプットメトリクスを特定。
+- **positioning-ideas** — 競合から差別化されたプロダクトポジショニングのアイデアをブレインストーミング。
+- **product-name** — ブランド価値とターゲットオーディエンスに沿った理由付けを含む5つのユニークで記憶に残るプロダクト名をブレインストーミング。
+- **value-prop-statements** — 既存のバリュープロポジションからマーケティング、セールス、オンボーディング向けのバリュープロポジションステートメントを生成。
 
-## Commands (2)
+## コマンド（2）
 
-- `/pm-marketing-growth:market-product` — Brainstorm marketing ideas, positioning, value prop statements, and product names — creative marketing toolkit.
-- `/pm-marketing-growth:north-star` — Define your North Star Metric and supporting input metrics — classify the business game and validate against best practices.
+- `/pm-marketing-growth:market-product` — マーケティングアイデア、ポジショニング、バリュープロップステートメント、プロダクト名をブレインストーミング — クリエイティブマーケティングツールキット。
+- `/pm-marketing-growth:north-star` — ノーススターメトリクスとサポートするインプットメトリクスを定義 — ビジネスゲームを分類し、ベストプラクティスに対して検証。
 
-## Author
+## 著者
 
 Paweł Huryn — [The Product Compass Newsletter](https://www.productcompass.pm)
 
-## License
+## ライセンス
 
 MIT

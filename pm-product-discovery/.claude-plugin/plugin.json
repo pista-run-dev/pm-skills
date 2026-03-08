@@ -1,7 +1,7 @@
 {
   "name": "pm-product-discovery",
   "version": "1.0.1",
-  "description": "Product discovery skills for PMs: ideation, experiments, assumption testing, feature prioritization, and customer interview synthesis.",
+  "description": "PM向けプロダクトディスカバリースキル：アイデア出し、実験、仮定テスト、フィーチャー優先順位付け、カスタマーインタビュー合成。",
   "author": {
     "name": "Paweł Huryn",
     "email": "pawel@productcompass.pm",

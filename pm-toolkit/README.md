@@ -1,26 +1,26 @@
 # pm-toolkit
 
-PM utility skills: resume review, NDA drafting, privacy policy generation, and grammar/flow checking. Essential tools for product managers beyond core product work.
+PMユーティリティスキル：履歴書レビュー、NDA草案作成、プライバシーポリシー生成、文法/フローチェック。コアなプロダクト業務を超えたプロダクトマネージャーに必要不可欠なツール。
 
-## Skills (4)
+## スキル（4）
 
-- **draft-nda** — Draft a detailed Non-Disclosure Agreement between two parties.
-- **grammar-check** — Identify grammar, logical, and flow errors in text and suggest targeted fixes without rewriting the entire text.
-- **privacy-policy** — Draft a detailed privacy policy for a product covering data types, jurisdiction, compliance considerations, and clauses needing legal review.
-- **review-resume** — Comprehensive PM resume review and tailoring against 10 best practices including XYZ+S formula, keyword optimization, job-specific tailoring, and structure.
+- **draft-nda** — 2者間の詳細な秘密保持契約書を草案作成。
+- **grammar-check** — テキストの文法、論理、フローエラーを特定し、テキスト全体を書き直すことなく的を絞った修正を提案。
+- **privacy-policy** — データの種類、管轄、コンプライアンス上の考慮事項、法的レビューが必要な条項をカバーするプロダクトの詳細なプライバシーポリシーを草案作成。
+- **review-resume** — XYZ+S公式、キーワード最適化、職種別カスタマイズ、構造を含む10のベストプラクティスに対する包括的なPM履歴書レビューとカスタマイズ。
 
-## Commands (5)
+## コマンド（5）
 
-- `/pm-toolkit:draft-nda` — Draft a Non-Disclosure Agreement between two parties with jurisdiction-appropriate clauses.
-- `/pm-toolkit:privacy-policy` — Draft a privacy policy covering data collection, usage, storage, and compliance requirements.
-- `/pm-toolkit:proofread` — Check grammar, logic, and flow in any text — targeted fixes without rewriting.
-- `/pm-toolkit:review-resume` — Comprehensive PM resume review against 10 best practices — structure, impact metrics, keywords, and actionable feedback.
-- `/pm-toolkit:tailor-resume` — Tailor a PM resume to a specific job description — keyword alignment, experience reframing, and strategic optimization.
+- `/pm-toolkit:draft-nda` — 管轄に適した条項を含む2者間の秘密保持契約書を草案作成。
+- `/pm-toolkit:privacy-policy` — データ収集、使用、保存、コンプライアンス要件をカバーするプライバシーポリシーを草案作成。
+- `/pm-toolkit:proofread` — あらゆるテキストの文法、論理、フローをチェック — 書き直しなしで的を絞った修正。
+- `/pm-toolkit:review-resume` — 10のベストプラクティスに対する包括的なPM履歴書レビュー — 構造、インパクトメトリクス、キーワード、実行可能なフィードバック。
+- `/pm-toolkit:tailor-resume` — 特定の求人説明に合わせてPM履歴書をカスタマイズ — キーワード整合、経験の再フレーミング、戦略的最適化。
 
-## Author
+## 著者
 
 Paweł Huryn — [The Product Compass Newsletter](https://www.productcompass.pm)
 
-## License
+## ライセンス
 
 MIT

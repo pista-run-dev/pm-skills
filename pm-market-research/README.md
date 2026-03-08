@@ -1,27 +1,27 @@
 # pm-market-research
 
-Market research skills for PMs: user personas, market segmentation, sentiment analysis, and competitive analysis.
+PM向けマーケットリサーチスキル：ユーザーペルソナ、市場セグメンテーション、センチメント分析、競合分析。
 
-## Skills (7)
+## スキル（7）
 
-- **competitor-analysis** — Analyze competitors with strengths, weaknesses, and differentiation opportunities.
-- **customer-journey-map** — Create an end-to-end customer journey map with stages, touchpoints, emotions, pain points, and opportunities.
-- **market-segments** — Identify 3-5 potential customer segments with demographics, JTBD, and product fit analysis.
-- **market-sizing** — Estimate market size using TAM, SAM, and SOM with top-down and bottom-up approaches.
-- **sentiment-analysis** — Analyze user feedback data to identify market segments with sentiment scores, JTBD, and product satisfaction insights.
-- **user-personas** — Create refined user personas from research data.
-- **user-segmentation** — Segment users from feedback data based on behavior, JTBD, and needs.
+- **competitor-analysis** — 強み、弱み、差別化のオポチュニティで競合を分析。
+- **customer-journey-map** — ステージ、タッチポイント、感情、ペインポイント、オポチュニティを含むエンドツーエンドのカスタマージャーニーマップを作成。
+- **market-segments** — 人口統計、JTBD、プロダクト適合性分析を含む3〜5つの潜在的な顧客セグメントを特定。
+- **market-sizing** — トップダウンとボトムアップアプローチでTAM、SAM、SOMを使った市場規模を推定。
+- **sentiment-analysis** — ユーザーフィードバックデータを分析して、センチメントスコア、JTBD、プロダクト満足度インサイトを含む市場セグメントを特定。
+- **user-personas** — リサーチデータから洗練されたユーザーペルソナを作成。
+- **user-segmentation** — 行動、JTBD、ニーズに基づくフィードバックデータからユーザーをセグメント化。
 
-## Commands (3)
+## コマンド（3）
 
-- `/pm-market-research:analyze-feedback` — Analyze user feedback at scale — sentiment analysis, theme extraction, and segment-level insights.
-- `/pm-market-research:competitive-analysis` — Analyze the competitive landscape — identify competitors, compare strengths and weaknesses, find differentiation opportunities.
-- `/pm-market-research:research-users` — Comprehensive user research — build personas, segment users, and map the customer journey from research data.
+- `/pm-market-research:analyze-feedback` — ユーザーフィードバックを大規模に分析 — センチメント分析、テーマ抽出、セグメントレベルのインサイト。
+- `/pm-market-research:competitive-analysis` — 競合環境を分析 — 競合を特定し、強みと弱みを比較し、差別化のオポチュニティを見つける。
+- `/pm-market-research:research-users` — 包括的なユーザーリサーチ — リサーチデータからペルソナ構築、ユーザーセグメント化、カスタマージャーニーマッピング。
 
-## Author
+## 著者
 
 Paweł Huryn — [The Product Compass Newsletter](https://www.productcompass.pm)
 
-## License
+## ライセンス
 
 MIT
