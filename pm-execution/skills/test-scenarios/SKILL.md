@@ -1,86 +1,86 @@
 ---
 name: test-scenarios
-description: "Create comprehensive test scenarios from user stories with test objectives, starting conditions, user roles, step-by-step actions, and expected outcomes. Use when writing QA test cases, creating test plans, defining acceptance tests, or preparing for feature validation."
+description: "テスト目標、開始条件、ユーザーロール、ステップバイステップのアクション、期待されるアウトカムを含むユーザーストーリーからの包括的なテストシナリオを作成します。QAテストケースの作成、テスト計画の策定、受け入れテストの定義、または機能検証の準備に使用します。"
 ---
-# Test Scenarios
+# テストシナリオ
 
-Create comprehensive test scenarios from user stories with test objectives, starting conditions, user roles, step-by-step test actions, and expected outcomes.
+テスト目標、開始条件、ユーザーロール、ステップバイステップのテストアクション、期待されるアウトカムを含むユーザーストーリーからの包括的なテストシナリオを作成します。
 
-**Use when:** Writing QA test cases, creating test plans, defining acceptance test scenarios, or validating user story implementations.
+**使用する場面：** QAテストケースの作成、テスト計画の策定、受け入れテストシナリオの定義、またはユーザーストーリーの実装の検証。
 
-**Arguments:**
-- `$PRODUCT`: The product or system name
-- `$USER_STORY`: The user story to test (title and acceptance criteria)
-- `$CONTEXT`: Additional testing context or constraints
+**引数：**
+- `$PRODUCT`：プロダクトまたはシステム名
+- `$USER_STORY`：テストするユーザーストーリー（タイトルと受け入れ基準）
+- `$CONTEXT`：追加のテストコンテキストまたは制約
 
-## Step-by-Step Process
+## ステップバイステップのプロセス
 
-1. **Review the user story** and acceptance criteria
-2. **Define test objectives** - What specific behavior to validate
-3. **Establish starting conditions** - System state, data setup, configurations
-4. **Identify user roles** - Who performs the test actions
-5. **Create test steps** - Break down interactions step-by-step
-6. **Define expected outcomes** - Observable results after each step
-7. **Consider edge cases** - Invalid inputs, boundary conditions
-8. **Output detailed test scenarios** - Ready for QA execution
+1. **ユーザーストーリーと受け入れ基準をレビューする**
+2. **テスト目標を定義する** - 検証する具体的な動作
+3. **開始条件を確立する** - システム状態、データ設定、設定
+4. **ユーザーロールを特定する** - テストアクションを実行するのは誰か
+5. **テストステップを作成する** - インタラクションをステップバイステップで分解する
+6. **期待されるアウトカムを定義する** - 各ステップ後の観察可能な結果
+7. **エッジケースを考慮する** - 無効な入力、境界条件
+8. **詳細なテストシナリオを出力する** - QA実行の準備が整った状態で
 
-## Scenario Template
+## シナリオテンプレート
 
-**Test Scenario:** [Clear scenario name]
+**Test Scenario:** [明確なシナリオ名]
 
-**Test Objective:** [What this test validates]
+**Test Objective:** [このテストが検証すること]
 
 **Starting Conditions:**
-- [System state required]
-- [Data or configuration needed]
-- [User setup or permissions]
+- [必要なシステム状態]
+- [必要なデータまたは設定]
+- [ユーザーセットアップまたは権限]
 
-**User Role:** [Who performs the test]
+**User Role:** [テストを実行するのは誰か]
 
 **Test Steps:**
-1. [First action and its expected result]
-2. [Second action and observable outcome]
-3. [Third action and system behavior]
-4. [Completion action and final state]
+1. [最初のアクションとその期待される結果]
+2. [2番目のアクションと観察可能なアウトカム]
+3. [3番目のアクションとシステムの動作]
+4. [完了アクションと最終状態]
 
 **Expected Outcomes:**
-- [Observable result 1]
-- [Observable result 2]
-- [Observable result 3]
+- [観察可能な結果1]
+- [観察可能な結果2]
+- [観察可能な結果3]
 
-## Example Test Scenario
+## テストシナリオの例
 
 **Test Scenario:** View Recently Viewed Products on Product Page
 
-**Test Objective:** Verify that the 'Recently viewed' section displays correctly and excludes the current product.
+**Test Objective:** 「最近見た」セクションが正しく表示され、現在のプロダクトが除外されることを確認する。
 
 **Starting Conditions:**
-- User is logged in or has browser history enabled
-- User has viewed at least 2 products in the current session
-- User is now on a product page different from previously viewed items
+- ユーザーがログインしているか、ブラウザ履歴が有効
+- ユーザーが現在のセッションで少なくとも2つのプロダクトを見た
+- ユーザーが以前見たアイテムとは異なるプロダクトページにいる
 
 **User Role:** Online Shopper
 
 **Test Steps:**
-1. Navigate to any product page → Section should appear at bottom with previously viewed items
-2. Scroll to bottom of page → "Recently viewed" section is visible with product cards
-3. Verify product thumbnails → Images, titles, and prices are displayed correctly
-4. Check current product → Current product is NOT in the recently viewed list
-5. Click on a product card → User navigates to the corresponding product page
+1. 任意のプロダクトページに移動する → 以前見たアイテムとともにセクションが下部に表示されるはず
+2. ページの下にスクロールする → 「最近見た」セクションがプロダクトカードとともに表示される
+3. プロダクトのサムネイルを確認する → 画像、タイトル、価格が正しく表示される
+4. 現在のプロダクトを確認する → 現在のプロダクトが最近見たリストに含まれていないこと
+5. プロダクトカードをクリックする → ユーザーが対応するプロダクトページに移動する
 
 **Expected Outcomes:**
-- Recently viewed section appears only after viewing at least 1 prior product
-- Section displays 4-8 product cards with complete information
-- Current product is excluded from the list
-- Each card shows "Viewed X minutes/hours ago" timestamp
-- Clicking cards navigates to correct product pages
-- Performance: Section loads within 2 seconds
+- 最近見たセクションは少なくとも1つ以上のプロダクトを見た後にのみ表示される
+- セクションには完全な情報を持つ4〜8つのプロダクトカードが表示される
+- 現在のプロダクトはリストから除外される
+- 各カードに「X分前/X時間前に見た」タイムスタンプが表示される
+- カードをクリックすると正しいプロダクトページに移動する
+- パフォーマンス：セクションが2秒以内に読み込まれる
 
-## Output Deliverables
+## 出力成果物
 
-- Comprehensive test scenarios for each acceptance criterion
-- Clear test objectives aligned with user story intent
-- Detailed step-by-step test actions
-- Observable expected outcomes after each step
-- Edge case and error scenario coverage
-- Ready for QA team execution and documentation
+- 各受け入れ基準の包括的なテストシナリオ
+- ユーザーストーリーの意図と整合した明確なテスト目標
+- 詳細なステップバイステップのテストアクション
+- 各ステップ後の観察可能な期待されるアウトカム
+- エッジケースとエラーシナリオのカバレッジ
+- QAチームの実行とドキュメント化の準備が整った状態

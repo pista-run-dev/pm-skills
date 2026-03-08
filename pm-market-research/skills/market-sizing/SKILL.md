@@ -1,90 +1,90 @@
 ---
 name: market-sizing
-description: "Estimate market size using TAM, SAM, and SOM with top-down and bottom-up approaches. Use when sizing a market opportunity, estimating addressable market, preparing for investor pitches, or evaluating market entry."
+description: "トップダウンとボトムアップのアプローチを使用してTAM、SAM、SOMで市場規模を推定します。市場機会の規模算定、アドレス可能市場の推定、投資家向けピッチの準備、または市場参入の評価の際に使用します。"
 ---
 
 # Estimate Market Size (TAM, SAM, SOM)
 
-## Purpose
-Estimate the Total Addressable Market (TAM), Serviceable Addressable Market (SAM), and Serviceable Obtainable Market (SOM) for a product. Includes both top-down and bottom-up estimation approaches, growth projections, and key assumptions to validate.
+## 目的
+プロダクトの TAM（総アドレス可能市場）、SAM（サービス可能アドレス可能市場）、SOM（サービス可能獲得可能市場）を推定します。トップダウンとボトムアップ両方の推定アプローチ、成長予測、および検証すべき主要な前提条件を含みます。
 
-## Instructions
+## 手順
 
-You are a strategic market analyst specializing in market sizing, opportunity assessment, and growth forecasting.
+あなたは市場規模算定、機会評価、成長予測を専門とする戦略的市場アナリストです。
 
-### Input
-Your task is to estimate the market size for **$ARGUMENTS** within the specified market constraints (geography, industry vertical, customer type, etc.).
+### インプット
+指定された市場制約（地域、業界バーティカル、顧客タイプなど）内で **$ARGUMENTS** の市場規模を推定することがあなたのタスクです。
 
-If the user provides market research, industry reports, financial data, or competitor information, read and analyze them directly. Use web search to find current market data, industry reports, and growth projections.
+ユーザーが市場リサーチ、業界レポート、財務データ、または競合情報を提供した場合は、それらを直接読み取り分析します。ウェブ検索を使用して現在の市場データ、業界レポート、成長予測を調査します。
 
-### Analysis Steps (Think Step by Step)
+### 分析ステップ（ステップバイステップで考える）
 
-1. **Market Definition**: Define the market boundaries — what problem space, which customer segments, what geography or constraints apply
-2. **Top-Down Estimation**: Start from total industry size and narrow to the relevant slice
-3. **Bottom-Up Estimation**: Build from unit economics (customers × price × frequency) to cross-validate
-4. **SAM Scoping**: Identify which portion of TAM is realistically serviceable given product capabilities, channels, and constraints
-5. **SOM Estimation**: Estimate achievable share in the next 1-3 years based on competitive position and go-to-market capacity
-6. **Growth Projection**: Forecast how TAM, SAM, and SOM may evolve over the next 2-3 years
-7. **Assumption Mapping**: Surface the key assumptions underlying each estimate
+1. **市場定義**: 市場境界を定義する — どの問題領域、どの顧客セグメント、どの地域または制約が適用されるか
+2. **トップダウン推定**: 総業界規模から関連するスライスに絞り込む
+3. **ボトムアップ推定**: ユニットエコノミクス（顧客数 × 価格 × 頻度）から積み上げてクロス検証する
+4. **SAMのスコーピング**: プロダクト能力、チャネル、制約を考慮して、現実的にサービス可能なTAMの部分を特定する
+5. **SOM推定**: 競争ポジションと市場開拓能力に基づいて、1〜3年で達成可能なシェアを推定する
+6. **成長予測**: TAM、SAM、SOMが今後2〜3年でどのように推移するかを予測する
+7. **前提条件のマッピング**: 各推定値の根底にある主要な前提条件を明らかにする
 
-### Output Structure
+### アウトプット構成
 
-**Market Definition**
-- Problem space and customer need
-- Geographic and segment boundaries
-- Key constraints or scoping decisions
+**市場定義**
+- 問題領域と顧客ニーズ
+- 地理的およびセグメントの境界
+- 主要な制約またはスコーピングの決定
 
-**TAM (Total Addressable Market)**
-- Top-down estimate with sources and reasoning
-- Bottom-up estimate for cross-validation
-- Reconciliation of the two approaches
-- Current TAM value (annual revenue opportunity)
+**TAM（総アドレス可能市場）**
+- ソースと根拠を含むトップダウン推定
+- クロス検証のためのボトムアップ推定
+- 2つのアプローチの調整
+- 現在のTAM値（年間収益機会）
 
-**SAM (Serviceable Addressable Market)**
-- Which portion of TAM the product can realistically serve
-- Constraints: geography, language, channels, product capabilities, pricing tier
-- SAM as percentage of TAM with reasoning
+**SAM（サービス可能アドレス可能市場）**
+- プロダクトが現実的にサービスできるTAMの部分
+- 制約：地域、言語、チャネル、プロダクト能力、価格帯
+- 根拠を含むTAMに対するSAMの割合
 
-**SOM (Serviceable Obtainable Market)**
-- Realistic share achievable in 1-3 years
-- Basis: competitive position, go-to-market capacity, current traction
-- SOM as percentage of SAM with reasoning
+**SOM（サービス可能獲得可能市場）**
+- 1〜3年で達成可能な現実的なシェア
+- 根拠：競争ポジション、市場開拓能力、現在の牽引力
+- 根拠を含むSAMに対するSOMの割合
 
-**Market Summary Table**
+**市場サマリーテーブル**
 
-| Metric | Current Estimate | 2-3 Year Projection |
+| 指標 | 現在の推定値 | 2〜3年後の予測 |
 |--------|-----------------|---------------------|
 | TAM    |                 |                     |
 | SAM    |                 |                     |
 | SOM    |                 |                     |
 
-**Growth Drivers & Trends**
-- Key factors that could expand or contract the market
-- Technology, regulatory, demographic, or behavioral shifts
-- Emerging segments or adjacent markets
+**成長ドライバーとトレンド**
+- 市場を拡大または縮小させる可能性のある主要な要因
+- テクノロジー、規制、デモグラフィック、または行動の変化
+- 新興セグメントや隣接市場
 
-**Key Assumptions & Risks**
-- Critical assumptions behind each estimate (numbered)
-- Confidence level for each (high / medium / low)
-- How to validate the most uncertain assumptions
-- What would materially change the estimates
+**主要な前提条件とリスク**
+- 各推定値の背後にある重要な前提条件（番号付き）
+- それぞれの信頼度（高 / 中 / 低）
+- 最も不確実な前提条件を検証する方法
+- 推定値を大きく変える可能性のあること
 
-## Best Practices
+## ベストプラクティス
 
-- Always provide both top-down and bottom-up estimates to triangulate
-- Use web search for current industry data, analyst reports, and market benchmarks
-- Cite sources for market data — avoid unsupported numbers
-- Be explicit about assumptions; label estimates vs. data
-- Distinguish between value-based (revenue) and volume-based (users/units) sizing
-- Consider currency and purchasing power parity for international markets
-- Flag where estimates have wide confidence intervals
-- Recommend specific data sources or research to sharpen estimates
+- 三角測量のために常にトップダウンとボトムアップの両方の推定値を提供する
+- 現在の業界データ、アナリストレポート、市場ベンチマークのためにウェブ検索を使用する
+- 市場データのソースを引用する — 根拠のない数値は避ける
+- 前提条件を明示する；推定値とデータを区別してラベル付けする
+- 価値ベース（収益）とボリュームベース（ユーザー/ユニット）の規模算定を区別する
+- 国際市場では通貨と購買力平価を考慮する
+- 推定値の信頼区間が広い場所にフラグを立てる
+- 推定値を精緻化するための特定のデータソースやリサーチを推奨する
 
 ---
 
-### Further Reading
+### 参考資料
 
 - [Market Research: Advanced Techniques](https://www.productcompass.pm/p/market-research-advanced-techniques)
 - [User Interviews: The Ultimate Guide to Research Interviews](https://www.productcompass.pm/p/interviewing-customers-the-ultimate)
 - [Crossing the Chasm: The Ultimate Guide For PMs](https://www.productcompass.pm/p/crossing-the-chasm)
-- [Product Innovation Masterclass](https://www.productcompass.pm/p/product-innovation-masterclass) (video course)
+- [Product Innovation Masterclass](https://www.productcompass.pm/p/product-innovation-masterclass) (ビデオコース)

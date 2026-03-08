@@ -1,51 +1,51 @@
 ---
 name: stakeholder-map
-description: "Build a stakeholder map using a power/interest grid, identify communication strategies per quadrant, and generate a communication plan. Use when managing stakeholders, preparing for a launch, aligning cross-functional teams, or planning stakeholder engagement."
+description: "パワー/インタレストグリッドを使用してステークホルダーマップを構築し、各象限のコミュニケーション戦略を特定し、コミュニケーション計画を生成します。ステークホルダーの管理、ローンチの準備、クロスファンクショナルチームの整合、またはステークホルダーエンゲージメントの計画に使用します。"
 ---
 
-## Stakeholder Mapping & Communication Plan
+## ステークホルダーマッピングとコミュニケーション計画
 
-Map stakeholders on a Power × Interest grid and create a tailored communication plan for each group.
+Power × Interestグリッドでステークホルダーをマッピングし、各グループに合わせたコミュニケーション計画を作成します。
 
-### Context
+### コンテキスト
 
-You are helping build a stakeholder map for **$ARGUMENTS**.
+**$ARGUMENTS**のステークホルダーマップ構築を支援します。
 
-If the user provides files (org charts, project briefs, team rosters), read them first. If they describe the product or initiative, use that context to infer likely stakeholders.
+ユーザーがファイル（組織図、プロジェクトブリーフ、チームロスター）を提供した場合は、最初にそれを読んでください。プロダクトやイニシアチブについて説明した場合は、そのコンテキストを使用して考えられるステークホルダーを推測してください。
 
-### Instructions
+### 指示
 
-1. **Identify stakeholders**: List all relevant individuals and groups — executives, engineering leads, designers, marketing, sales, support, legal, finance, external partners, and end users.
+1. **ステークホルダーを特定する**: すべての関連する個人とグループをリストアップしてください——エグゼクティブ、エンジニアリングリード、デザイナー、マーケティング、セールス、サポート、法務、財務、外部パートナー、エンドユーザー。
 
-2. **Classify each stakeholder** on two dimensions:
-   - **Power** (High/Low): Their ability to influence decisions, resources, or outcomes
-   - **Interest** (High/Low): How much the project directly affects them or how engaged they are
+2. **各ステークホルダーを2つの次元で分類する**：
+   - **Power**（高/低）：決定、リソース、またはアウトカムに影響する能力
+   - **Interest**（高/低）：プロジェクトが彼らに直接影響する度合い、またはエンゲージメントの度合い
 
-3. **Place stakeholders in the Power × Interest grid**:
+3. **ステークホルダーをPower × Interestグリッドに配置する**：
 
    | | High Interest | Low Interest |
    |---|---|---|
-   | **High Power** | **Manage Closely** — Regular 1:1s, involve in decisions, seek their input early | **Keep Satisfied** — Periodic updates, escalate only critical issues |
-   | **Low Power** | **Keep Informed** — Regular status updates, invite to demos, gather feedback | **Monitor** — Light-touch updates, available on request |
+   | **High Power** | **Manage Closely** — 定期的な1対1、意思決定への参加、早期に意見を求める | **Keep Satisfied** — 定期的な更新、重要な問題のみエスカレーション |
+   | **Low Power** | **Keep Informed** — 定期的なステータス更新、デモへの招待、フィードバック収集 | **Monitor** — 軽いタッチの更新、要請があれば対応 |
 
-4. **For each quadrant**, recommend:
-   - Communication frequency (daily, weekly, bi-weekly, monthly)
-   - Communication format (1:1, email, Slack, meeting, dashboard)
-   - Key messages and framing
-   - Potential risks if this stakeholder is neglected
+4. **各象限について、以下を推奨する**：
+   - コミュニケーション頻度（毎日、毎週、隔週、毎月）
+   - コミュニケーション形式（1対1、メール、Slack、ミーティング、ダッシュボード）
+   - 主要なメッセージとフレーミング
+   - このステークホルダーが無視された場合の潜在的なリスク
 
-5. **Create a communication plan table**:
+5. **コミュニケーション計画テーブルを作成する**：
 
    | Stakeholder | Role | Power | Interest | Strategy | Frequency | Channel | Key Message |
    |---|---|---|---|---|---|---|---|
 
-6. **Flag potential conflicts**: Identify stakeholders with competing interests and suggest alignment strategies.
+6. **潜在的な対立をフラグとして立てる**: 利益が競合するステークホルダーを特定し、整合戦略を提案してください。
 
-Think step by step. Save the stakeholder map as a markdown document.
+ステップバイステップで考える。ステークホルダーマップをmarkdownドキュメントとして保存する。
 
 ---
 
-### Further Reading
+### 参考資料
 
 - [The Product Management Frameworks Compendium + Templates](https://www.productcompass.pm/p/the-product-frameworks-compendium)
 - [Team Topologies: A Handbook to Set and Scale Product Teams](https://www.productcompass.pm/p/team-topologies-a-handbook-to-set)

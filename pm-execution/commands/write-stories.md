@@ -1,66 +1,66 @@
 ---
-description: Break a feature into backlog items — user stories, job stories, or WWA format with acceptance criteria
+description: 機能をバックログアイテムに分解する——受け入れ基準を含むユーザーストーリー、ジョブストーリー、またはWWAフォーマット
 argument-hint: "[user|job|wwa] <feature description or PRD>"
 ---
 
-# /write-stories -- Backlog Item Generator
+# /write-stories -- バックログアイテムジェネレーター
 
-Break a feature into well-structured backlog items. Choose from three formats based on your team's preference, each with full acceptance criteria.
+機能を構造化されたバックログアイテムに分解します。チームの好みに応じて3つのフォーマットから選択でき、各フォーマットには完全な受け入れ基準が含まれます。
 
-## Invocation
+## 呼び出し方
 
 ```
 /write-stories user Allow users to export reports as PDF and CSV
 /write-stories job Notification system for task deadlines
 /write-stories wwa Dark mode for the mobile app
-/write-stories [upload a PRD or feature spec]      # asks format preference
-/write-stories                                      # asks for feature and format
+/write-stories [upload a PRD or feature spec]      # フォーマットの好みを質問する
+/write-stories                                      # 機能とフォーマットを質問する
 ```
 
-## Formats
+## フォーマット
 
-### User Stories
-**Format**: "As a [user type], I want [capability], so that [benefit]"
-Apply the **user-stories** skill:
-- Follow the 3 C's: Card (brief), Conversation (context), Confirmation (acceptance criteria)
-- Validate against INVEST: Independent, Negotiable, Valuable, Estimable, Small, Testable
-- Include design links or mockup references where relevant
+### ユーザーストーリー
+**フォーマット**：「As a [user type], I want [capability], so that [benefit]」
+**user-stories**スキルを適用する：
+- 3つのCに従う：Card（簡潔）、Conversation（コンテキスト）、Confirmation（受け入れ基準）
+- INVESTに対して検証する：Independent、Negotiable、Valuable、Estimable、Small、Testable
+- 関連する場合はデザインリンクまたはモックアップ参照を含める
 
-### Job Stories
-**Format**: "When [situation], I want to [motivation], so I can [outcome]"
-Apply the **job-stories** skill:
-- Focus on the situation and context, not the user role
-- Ground in real user scenarios observed in research
-- Ideal for JTBD-oriented teams
+### ジョブストーリー
+**フォーマット**：「When [situation], I want to [motivation], so I can [outcome]」
+**job-stories**スキルを適用する：
+- ユーザーロールではなく、状況とコンテキストに焦点を当てる
+- 調査で観察された実際のユーザーシナリオに基づく
+- JTBDに特化したチームに最適
 
 ### WWA (Why-What-Acceptance)
-**Format**: Why [strategic context] → What [deliverable] → Acceptance [criteria]
-Apply the **wwas** skill:
-- Includes strategic reasoning (why we're building this)
-- Produces independent, valuable, testable items
-- Good for cross-functional teams that need business context
+**フォーマット**：Why [戦略的コンテキスト] → What [成果物] → Acceptance [基準]
+**wwas**スキルを適用する：
+- 戦略的な根拠を含める（なぜこれを構築するのか）
+- 独立した、価値ある、検証可能なアイテムを生成する
+- ビジネスコンテキストが必要なクロスファンクショナルチームに適している
 
-## Workflow
+## ワークフロー
 
-### Step 1: Accept the Feature
+### ステップ1：機能を受け取る
 
-Accept in any form: PRD, feature description, user research finding, or verbal idea. If a PRD is provided, extract the requirements to decompose.
+以下の形式で受け付ける：PRD、機能説明、ユーザー調査の発見、または口頭によるアイデア。PRDが提供された場合は、要件を抽出して分解する。
 
-### Step 2: Determine Format
+### ステップ2：フォーマットを決定する
 
-If not specified in the invocation, ask:
-- "Which format does your team use? **User stories**, **Job stories**, or **WWA**?"
-- If unsure, recommend user stories as the default
+呼び出しで指定されていない場合は、以下を質問する：
+- 「チームはどのフォーマットを使っていますか？**ユーザーストーリー**、**ジョブストーリー**、または**WWA**？」
+- 不明な場合は、デフォルトとしてユーザーストーリーを推奨する
 
-### Step 3: Decompose the Feature
+### ステップ3：機能を分解する
 
-- Break the feature into 5-15 independent stories (small enough to complete in one sprint)
-- Ensure each story is independently valuable (delivers user value on its own)
-- Order by dependency and priority
-- Write 3-5 acceptance criteria per story
-- Flag stories that need design input or technical spikes
+- 機能を5〜15の独立したストーリーに分解する（1スプリントで完了できるほど小さい）
+- 各ストーリーが独立して価値があることを確認する（単独でユーザー価値を提供する）
+- 依存関係と優先度で順序付ける
+- ストーリーごとに3〜5つの受け入れ基準を書く
+- デザイン入力または技術的スパイクが必要なストーリーにフラグを立てる
 
-### Step 4: Generate Stories
+### ステップ4：ストーリーを生成する
 
 ```
 ## Backlog: [Feature Name]
@@ -85,28 +85,28 @@ Priority: [P0/P1/P2] | Effort: [S/M/L] | Dependencies: [none or list]
 [Repeat for each story]
 
 ### Story Map
-[Visual ordering: must-have → should-have → nice-to-have]
+[視覚的な順序付け：must-have → should-have → nice-to-have]
 
 ### Technical Notes
-[Cross-cutting concerns: API changes, data migration, infrastructure]
+[横断的な懸念：API変更、データ移行、インフラ]
 
 ### Open Questions
-[Things that need answers before implementation can start]
+[実装を開始する前に答えが必要なこと]
 ```
 
-Save as markdown.
+markdownとして保存する。
 
-### Step 5: Offer Next Steps
+### ステップ5：次のステップを提案する
 
-- "Want me to **generate test scenarios** for these stories?"
-- "Should I **create dummy data** for development and testing?"
-- "Want me to **estimate sprint capacity** for these stories?"
-- "Should I **convert to a different format** (user stories ↔ job stories ↔ WWA)?"
+- 「これらのストーリーの**テストシナリオを生成**したいですか？」
+- 「開発とテスト用の**ダミーデータを作成**しましょうか？」
+- 「これらのストーリーの**スプリントキャパシティを推定**したいですか？」
+- 「**別のフォーマットに変換**したいですか（ユーザーストーリー ↔ ジョブストーリー ↔ WWA）？」
 
-## Notes
+## 注意事項
 
-- One story = one deployable unit of value — if it needs another story to be useful, they should be combined
-- Acceptance criteria should be testable by QA without additional interpretation
-- Error handling and edge cases deserve their own stories, not bullet points within a happy-path story
-- If the feature is large (15+ stories), suggest grouping into epics or phases
-- Flag any story that requires a spike (technical investigation before estimation is possible)
+- 1つのストーリー = デプロイ可能な1つの価値単位——別のストーリーがないと役に立たない場合は、組み合わせるべき
+- 受け入れ基準は追加の解釈なしにQAが検証可能であるべき
+- エラーハンドリングとエッジケースは、ハッピーパスのストーリーの箇条書きではなく、独自のストーリーに値する
+- 機能が大きい場合（15以上のストーリー）は、エピックまたはフェーズにグループ化することを提案する
+- 推定が可能になる前に技術的調査が必要なストーリーにフラグを立てる

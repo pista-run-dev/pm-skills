@@ -1,121 +1,121 @@
 ---
 name: lean-canvas
-description: "Generate a Lean Canvas with problem, solution, metrics, cost structure, UVP, unfair advantage, channels, segments, and revenue. Use when exploring a lean startup canvas, testing a business hypothesis, or modeling a new venture."
+description: "問題、ソリューション、メトリクス、コスト構造、UVP、アンフェアアドバンテージ、チャネル、セグメント、収益のセクションを持つリーンキャンバスを生成します。リーンスタートアップキャンバスの探索、ビジネス仮説のテスト、新規ベンチャーのモデリングに使用してください。"
 ---
-# Lean Canvas
+# リーンキャンバス
 
-## Metadata
-- **Name**: lean-canvas
-- **Description**: Generate a Lean Canvas business model with detailed sections for problem, solution, metrics, cost structure, UVP, unfair advantage, channels, segments, and revenue.
-- **Triggers**: lean canvas, startup canvas, lean model, business hypothesis
+## メタデータ
+- **名前**: lean-canvas
+- **説明**: 問題、ソリューション、メトリクス、コスト構造、UVP、アンフェアアドバンテージ、チャネル、セグメント、収益の詳細なセクションを持つリーンキャンバスビジネスモデルを生成します。
+- **トリガー**: リーンキャンバス、スタートアップキャンバス、リーンモデル、ビジネス仮説
 
-## Instructions
+## 指示
 
-You are a business model strategist designing a Lean Canvas for $ARGUMENTS.
+あなたは $ARGUMENTS のリーンキャンバスを設計するビジネスモデルストラテジストです。
 
-Your task is to create a comprehensive Lean Canvas that outlines the business hypothesis and key business model assumptions for the product.
+プロダクトのビジネス仮説と主要なビジネスモデルの仮定の概要を示す包括的なリーンキャンバスを作成するのがあなたの任務です。
 
-## Input Requirements
-- Product or feature description
-- Target customer segment(s)
-- Market context and problem space
-- Any available metrics or business constraints
+## 入力要件
+- プロダクトまたは機能の説明
+- ターゲット顧客セグメント
+- 市場コンテキストと問題空間
+- 利用可能なメトリクスやビジネス上の制約
 
-## Lean Canvas Template
+## リーンキャンバステンプレート
 
-### Section 1: Product Definition
+### セクション1：プロダクト定義
 
-**1. Problem**
-- Top 3 customer problems or needs
-- Customer pains and frustrations
-- Current unsatisfactory solutions
+**1. 問題**
+- 顧客の上位3つの問題またはニーズ
+- 顧客のペインとフラストレーション
+- 現在の不満足なソリューション
 
-**2. Solution**
-- Top 3 features or approaches
-- How each feature addresses the problem
-- Why this solution is novel or better
+**2. ソリューション**
+- 上位3つの機能またはアプローチ
+- 各機能が問題にどのように対処するか
+- なぜこのソリューションは新規または優れているか
 
-**3. Unique Value Proposition (UVP)**
-- Concise, memorable statement
-- Why customers choose you over alternatives
-- What makes you different (not just "better")
+**3. ユニークバリュープロポジション（UVP）**
+- 簡潔で記憶に残るステートメント
+- なぜ顧客は代替手段よりあなたを選ぶか
+- あなたを差別化するもの（単に「より良い」だけでなく）
 
-**4. Unfair Advantage**
-- What defensibility exists?
-- Barriers to competition (network effects, brand, IP, switching costs)
-- What competitors can't easily replicate
+**4. アンフェアアドバンテージ**
+- どのような防御力があるか？
+- 競争への障壁（ネットワーク効果、ブランド、IP、スイッチングコスト）
+- 競合他社が簡単に複製できないもの
 
-### Section 2: Market & Traction
+### セクション2：市場＆トラクション
 
-**5. Customer Segments**
-- Who is the target customer?
-- Early adopters and first segment
-- Customer personas or archetypes
-- How large is the addressable market?
+**5. 顧客セグメント**
+- ターゲット顧客は誰か？
+- アーリーアダプターと最初のセグメント
+- 顧客ペルソナまたはアーキタイプ
+- 対応可能な市場の規模は？
 
-**6. Channels**
-- How do you reach customers?
-- Primary acquisition channels
-- Distribution and sales approach
-- How do customers find you?
+**6. チャネル**
+- どのように顧客にリーチするか？
+- 主要な獲得チャネル
+- 配布と販売のアプローチ
+- 顧客はどのようにあなたを見つけるか？
 
-**7. Revenue Streams**
-- How do you make money?
-- Pricing model or revenue per customer
-- Customer lifetime value (LTV)
-- Revenue growth assumptions
+**7. 収益ストリーム**
+- どのように収益を上げるか？
+- 価格モデルまたは顧客1人当たりの収益
+- 顧客生涯価値（LTV）
+- 収益成長の仮定
 
-### Section 3: Economics & Validation
+### セクション3：経済学＆検証
 
-**8. Cost Structure**
-- Fixed costs (salaries, infrastructure, facilities)
-- Variable costs (COGS, transaction costs, support)
-- Key cost drivers
-- Cost per customer acquisition (CAC)
+**8. コスト構造**
+- 固定コスト（給料、インフラ、施設）
+- 変動コスト（COGS、トランザクションコスト、サポート）
+- 主要コストドライバー
+- 顧客獲得単価（CAC）
 
-**9. Key Metrics**
-- Activation: How do users get value quickly?
-- Retention: How many users stick around?
-- Revenue: How do we measure financial success?
-- North Star metric for the business
+**9. 主要メトリクス**
+- アクティベーション：ユーザーはどのように素早く価値を得るか？
+- リテンション：何人のユーザーが留まるか？
+- 収益：財務的成功をどのように測定するか？
+- ビジネスのノーススターメトリクス
 
-## Output Process
-1. Define the core problem(s) being solved
-2. Outline 2-3 solution approaches
-3. Craft a compelling UVP
-4. Identify what creates competitive advantage
-5. Target 1-2 customer segments
-6. Map acquisition channels
-7. Define revenue model and pricing
-8. Estimate cost structure
-9. Identify 3-5 critical metrics to track
-10. Surface key assumptions and hypotheses
-11. Suggest validation experiments (landing page, interviews, MVP)
+## アウトプットプロセス
+1. 解決されているコアな問題を定義する
+2. 2〜3つのソリューションアプローチを概説する
+3. 説得力のあるUVPを作成する
+4. 競争優位性を生み出すものを特定する
+5. 1〜2つの顧客セグメントをターゲットにする
+6. 獲得チャネルをマッピングする
+7. 収益モデルと価格設定を定義する
+8. コスト構造を見積もる
+9. 追跡する3〜5つの重要なメトリクスを特定する
+10. 主要な仮定と仮説を洗い出す
+11. 検証実験を提案する（ランディングページ、インタビュー、MVP）
 
-### Domain Context
+### ドメインコンテキスト
 
-**Lean Canvas vs Business Model Canvas vs Startup Canvas**:
+**リーンキャンバス vs ビジネスモデルキャンバス vs スタートアップキャンバス**：
 
-Lean Canvas (Ash Maurya) is a startup-focused adaptation of the Business Model Canvas that replaces Partners/Activities/Resources with Problem/Solution/Unfair Advantage. It's fast and hypothesis-driven, but has known limitations:
+Lean Canvas（Ash Maurya）は、Business Model CanvasのスタートアップフォーカスのAdaptationで、パートナー/アクティビティ/リソースを問題/ソリューション/アンフェアアドバンテージに置き換えます。高速で仮説駆動型ですが、既知の限界があります：
 
-- **Redundancy**: "Problem" overlaps with Market Segments (markets are defined by problems/JTBD), and "Solution" overlaps with Value Proposition (which by definition includes features). This can create confusion about what goes where.
-- **Missing strategic sections**: No vision (why should your team wake up every day?), no trade-offs (what you choose NOT to do), no relative costs (low cost vs unique value positioning), no key metrics.
-- **Narrow defensibility**: "Unfair Advantage" focuses on one defensive element, but strong strategy is hard to copy as an integrated whole — not because of a single advantage.
-- **No coherence check**: Doesn't address whether all strategic choices reinforce each other.
+- **冗長性**: 「問題」は市場セグメント（市場は問題/JTBDによって定義される）と重複し、「ソリューション」はバリュープロポジション（定義上、機能を含む）と重複する。これはどこに何を置くかについての混乱を生むことがある。
+- **欠けている戦略セクション**: ビジョン（なぜチームは毎日目覚めるのか？）、トレードオフ（しないことを選ぶもの）、相対コスト（低コスト対ユニークな価値のポジショニング）、主要メトリクスがない。
+- **狭い防御力**: 「アンフェアアドバンテージ」は1つの防御要素に焦点を当てているが、強い戦略は単一の優位性のためではなく、統合された全体としてコピーが難しい。
+- **一貫性チェックなし**: すべての戦略的選択が互いを強化しているかどうかに対処していない。
 
-**When to use Lean Canvas**: Quick hypothesis testing when you need speed over completeness. Best as a brainstorming tool, not a strategy document.
+**リーンキャンバスを使用するタイミング**: 完全性よりスピードが必要な時の迅速な仮説検証。ブレインストーミングツールとして最適で、戦略文書としてではない。
 
-**Consider instead**: **Startup Canvas** (Paweł Huryn) separates strategy (9 sections from the Product Strategy Canvas) from business model (Cost Structure + Revenue Streams). Recommended when you need both strategic clarity AND a business model for a new product.
+**代わりに検討**: **スタートアップキャンバス**（Paweł Huryn）は戦略（プロダクト戦略キャンバスからの9セクション）をビジネスモデル（コスト構造＋収益ストリーム）から分離する。新プロダクトに戦略的明確さとビジネスモデルの両方が必要な場合に推奨。
 
-## Notes
-- The Lean Canvas is designed for rapid hypothesis testing
-- Focus on addressing the riskiest assumptions first
-- Update the canvas as you learn and validate
-- Each section should be specific and measurable where possible
-- This canvas helps align founding teams on business strategy
+## 注意事項
+- リーンキャンバスは迅速な仮説検証のために設計されている
+- 最もリスクの高い仮定を最初に対処することに焦点を当てる
+- 学習し検証するにつれてキャンバスを更新する
+- 各セクションは可能な限り具体的で測定可能であるべき
+- このキャンバスは創業チームのビジネス戦略の調整を助ける
 
 ---
 
-### Further Reading
+### 参考文献
 
 - [Startup Canvas: Product Strategy and a Business Model for a New Product](https://www.productcompass.pm/p/startup-canvas)

@@ -1,54 +1,54 @@
 ---
-description: Analyze A/B test results — statistical significance, sample size validation, and ship/extend/stop recommendations
-argument-hint: "<test results as data, screenshot, or description>"
+description: A/Bテスト結果を分析する — 統計的有意性、サンプルサイズの検証、リリース/延長/停止の推奨
+argument-hint: "<データ、スクリーンショット、または説明としてのテスト結果>"
 ---
 
 # /analyze-test -- A/B Test Analysis
 
-Evaluate experiment results with statistical rigor and translate findings into a clear product decision: ship, extend, or stop.
+統計的な厳密さで実験結果を評価し、明確なプロダクト意思決定に変換します：リリース、延長、または停止。
 
-## Invocation
+## 呼び出し方
 
 ```
 /analyze-test Control: 4.2% conversion (n=5000), Variant: 4.8% conversion (n=5100)
-/analyze-test [upload a CSV of test results]
-/analyze-test [screenshot from your experimentation platform]
+/analyze-test [テスト結果のCSVをアップロード]
+/analyze-test [実験プラットフォームのスクリーンショット]
 ```
 
-## Workflow
+## ワークフロー
 
-### Step 1: Accept Test Data
+### ステップ1: テストデータを受け付ける
 
-Accept in any format:
-- Summary statistics (conversion rates, sample sizes per variant)
-- Raw event data (CSV with user_id, variant, converted, timestamp)
-- Screenshot from an experimentation platform (Optimizely, LaunchDarkly, etc.)
-- Description of the experiment and results
+任意の形式で受け付けます：
+- サマリー統計（コンバージョン率、バリアントごとのサンプルサイズ）
+- 生イベントデータ（user_id、variant、converted、timestamp を含むCSV）
+- 実験プラットフォームのスクリーンショット（Optimizely、LaunchDarklyなど）
+- 実験と結果の説明
 
-### Step 2: Validate Test Design
+### ステップ2: テスト設計を検証する
 
-Before analyzing results, check:
-- Was sample size sufficient? (run a power analysis)
-- Was the test run long enough? (capture weekly cycles, minimum 1-2 business cycles)
-- Was randomization clean? (check for sample ratio mismatch)
-- Were there any external factors during the test period?
+結果を分析する前に確認します：
+- サンプルサイズは十分だったか？（検出力分析を実行する）
+- テストは十分な期間実行されたか？（週次サイクルを捉える、最低1〜2ビジネスサイクル）
+- ランダム化はきれいだったか？（サンプル比率不一致を確認する）
+- テスト期間中に外部要因はあったか？
 
-Flag issues if found — results from a flawed test can be misleading.
+問題が見つかった場合はフラグを立てる — 欠陥のあるテストの結果は誤解を招く可能性があります。
 
-### Step 3: Analyze Results
+### ステップ3: 結果を分析する
 
-Apply the **ab-test-analysis** skill:
+**ab-test-analysis** スキルを適用します：
 
-- **Statistical significance**: Calculate p-value and confidence interval
-- **Effect size**: Absolute and relative difference between variants
-- **Practical significance**: Is the effect large enough to matter for the business?
-- **Confidence interval**: What's the range of plausible true effects?
-- **Segment analysis**: If data allows, check for differential effects by user segment
+- **統計的有意性**: p値と信頼区間を計算する
+- **効果サイズ**: バリアント間の絶対的および相対的な差異
+- **実務的有意性**: 効果はビジネスにとって十分に大きいか？
+- **信頼区間**: 真の効果の妥当な範囲は何か？
+- **セグメント分析**: データが許す場合、ユーザーセグメントごとの差分効果を確認する
 
-### Step 4: Generate Analysis
+### ステップ4: 分析を生成する
 
 ```
-## A/B Test Analysis: [Test Name]
+## A/B Test Analysis: [テスト名]
 
 **Date**: [today]
 **Test duration**: [X days/weeks]
@@ -64,7 +64,7 @@ Apply the **ab-test-analysis** skill:
 - **Relative lift**: [+X%] ([CI range])
 - **P-value**: [X]
 - **Statistically significant**: [Yes/No] at 95% confidence
-- **Minimum detectable effect**: [X%] (what the test was powered to detect)
+- **Minimum detectable effect**: [X%] (テストが検出する効果)
 
 ### Sample Size Check
 - **Required sample**: [N] per variant (for [X%] MDE at 80% power)
@@ -75,35 +75,35 @@ Apply the **ab-test-analysis** skill:
 
 **Recommendation: [SHIP / EXTEND / STOP]**
 
-[Clear explanation of why, considering both statistical and practical significance]
+[統計的有意性と実務的有意性の両方を考慮した明確な理由]
 
 ### Business Impact Estimate
-If shipped to 100% of users:
-- **Expected impact**: [metric change per month/quarter]
-- **Revenue impact**: [if applicable]
-- **Confidence**: [How certain we are about this estimate]
+100%のユーザーにリリースした場合：
+- **Expected impact**: [月次/四半期ごとの指標変化]
+- **Revenue impact**: [該当する場合]
+- **Confidence**: [この推定値の確実性]
 
 ### Caveats
-- [Any concerns about the test validity]
-- [Segments where results differ]
-- [Novelty effects or other biases to consider]
+- [テストの妥当性に関する懸念]
+- [結果が異なるセグメント]
+- [考慮すべきノベルティ効果またはその他のバイアス]
 
 ### Follow-Up
-- [What to test next based on learnings]
-- [Monitoring plan if shipping the variant]
+- [学習に基づいて次にテストすること]
+- [バリアントをリリースする場合のモニタリング計画]
 ```
 
-### Step 5: Offer Next Steps
+### ステップ5: 次のステップを提案する
 
-- "Want me to **design a follow-up experiment** based on these findings?"
-- "Should I **run the analysis for specific segments**?"
-- "Want me to **generate the SQL** to monitor this metric post-launch?"
+- 「これらの発見に基づいて**フォローアップ実験を設計**しましょうか？」
+- 「**特定のセグメントの分析を実行**すべきでしょうか？」
+- 「ローンチ後にこの指標をモニタリングするための**SQLを生成**しましょうか？」
 
-## Notes
+## 注意事項
 
-- Statistical significance ≠ practical significance — a 0.1% lift can be significant with enough data but not worth shipping
-- Always check for sample ratio mismatch before trusting results
-- Novelty effects can inflate short-term results — recommend monitoring for 2-4 weeks post-launch
-- If the test is underpowered, the right answer is usually "extend" not "no effect"
-- For revenue metrics, use confidence intervals to estimate best-case and worst-case business impact
-- If data is provided as CSV, generate the full analysis using Python with scipy.stats
+- 統計的有意性 ≠ 実務的有意性 — 0.1%のリフトは十分なデータで有意になり得るが、リリースする価値はないかもしれない
+- 結果を信頼する前に必ずサンプル比率不一致を確認する
+- ノベルティ効果は短期的な結果を膨らませる可能性がある — ローンチ後2〜4週間モニタリングすることを推奨する
+- テストがアンダーパワーの場合、正しい答えは通常「効果なし」ではなく「延長する」
+- 収益指標には、信頼区間を使用してベストケースとワーストケースのビジネスインパクトを推定する
+- データがCSVとして提供された場合は、scipy.stats を使用したPythonで完全な分析を生成する

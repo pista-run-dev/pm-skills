@@ -1,36 +1,36 @@
 ---
 name: summarize-meeting
-description: "Summarize a meeting transcript into structured notes with date, participants, topic, key decisions, summary points, and action items. Use when processing meeting recordings, creating meeting notes, writing meeting minutes, or recapping discussions."
+description: "ミーティングの議事録を、日付、参加者、トピック、主要な決定事項、サマリーポイント、アクションアイテムを含む構造化されたノートにまとめます。ミーティング録音の処理、ミーティングノートの作成、議事録の作成、または議論の要約に使用します。"
 ---
 
-# Summarize Meeting
+# ミーティングのサマリー
 
-## Purpose
+## 目的
 
-You are an experienced product manager responsible for creating clear, actionable meeting summaries from $ARGUMENTS. This skill transforms raw meeting transcripts into structured, accessible summaries that keep teams aligned and accountable.
+あなたは$ARGUMENTSから明確で実行可能なミーティングサマリーを作成する責任を持つ、経験豊富なプロダクトマネージャーです。このスキルは生のミーティングトランスクリプトを、チームを整合させ責任を明確に保つ構造化されたアクセスしやすいサマリーに変換します。
 
-## Context
+## コンテキスト
 
-Meeting summaries are how knowledge spreads and accountability stays clear in product teams. A well-structured summary captures decisions, key points, and action items in language everyone can understand, regardless of who attended.
+ミーティングサマリーは、プロダクトチームで知識が広がり、責任が明確になる方法です。よく構造化されたサマリーは、誰が参加したかに関わらず全員が理解できる言葉で、決定事項、主要ポイント、アクションアイテムを捉えます。
 
-## Instructions
+## 指示
 
-1. **Gather the Meeting Content**: If the user provides a meeting transcript, recording, or notes file, read them thoroughly. If they mention a meeting that needs context, use web search to find any related materials or background documents.
+1. **ミーティングコンテンツを収集する**: ユーザーがミーティングトランスクリプト、録音、またはノートファイルを提供した場合は、徹底的に読んでください。コンテキストが必要なミーティングについて言及した場合は、ウェブ検索を使用して関連する資料や背景ドキュメントを探してください。
 
-2. **Think Step by Step**:
-   - Who attended and what were their roles?
-   - What was the main topic or agenda?
-   - What decisions were made?
-   - What are the next steps and who owns them?
-   - Are there open questions or blockers?
+2. **ステップバイステップで考える**：
+   - 誰が参加し、彼らの役割は何だったか？
+   - 主なトピックやアジェンダは何だったか？
+   - どんな決定がなされたか？
+   - 次のステップは何で、誰がオーナーか？
+   - 未解決の質問やブロッカーがあるか？
 
-3. **Extract Key Information**:
-   - Identify main discussion topics
-   - Note decisions made during the meeting
-   - Flag any disagreements or concerns
-   - Determine action items with owners and due dates
+3. **重要な情報を抽出する**：
+   - 主要な議論トピックを特定する
+   - ミーティング中になされた決定を記録する
+   - 不一致や懸念にフラグを立てる
+   - オーナーと期限を持つアクションアイテムを特定する
 
-4. **Create Structured Summary**: Use this template:
+4. **構造化されたサマリーを作成する**: このテンプレートを使用してください：
 
    ```
    ## Meeting Summary
@@ -64,18 +64,18 @@ Meeting summaries are how knowledge spreads and accountability stays clear in pr
    - [Unresolved question 2]
    ```
 
-5. **Use Accessible Language**: Write for a primary school graduate. Use simple terms. Avoid jargon or explain it briefly.
+5. **わかりやすい言葉を使う**: 小学生が理解できるように書く。シンプルな言葉を使う。専門用語を避けるか、簡単に説明する。
 
-6. **Prioritize Clarity**: Focus on:
-   - What decisions affect the roadmap or strategy?
-   - What does each person need to do?
-   - By when do they need to do it?
+6. **明確さを優先する**: 以下に集中してください：
+   - どの決定がロードマップや戦略に影響するか？
+   - 各人が何をする必要があるか？
+   - いつまでに行う必要があるか？
 
-7. **Save the Output**: Save as a markdown document: `Meeting-Summary-[date]-[topic].md`
+7. **出力を保存する**: `Meeting-Summary-[date]-[topic].md`というmarkdownドキュメントとして保存する。
 
-## Notes
+## 注意事項
 
-- Be objective—summarize what was discussed, not personal opinions
-- Highlight action items clearly so nothing falls through the cracks
-- If the meeting was large or complex, consider breaking points into sections by topic
-- Use "we" language to keep the team feel inclusive and collaborative
+- 客観的に——議論された内容を要約し、個人的な意見は入れない
+- アクションアイテムを明確にハイライトして何も見落とさないようにする
+- ミーティングが大規模または複雑な場合は、トピック別にセクションに分けることを検討する
+- チームの連帯感を包括的で協力的に保つために「私たち」という言葉を使う

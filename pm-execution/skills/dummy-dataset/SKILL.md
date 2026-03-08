@@ -1,33 +1,33 @@
 ---
 name: dummy-dataset
-description: "Generate realistic dummy datasets for testing with customizable columns, constraints, and output formats (CSV, JSON, SQL, Python script). Use when creating test data, building mock datasets, or generating sample data for development and demos."
+description: "カスタマイズ可能なカラム、制約、出力フォーマット（CSV、JSON、SQL、Pythonスクリプト）を持つテスト用のリアルなダミーデータセットを生成します。テストデータの作成、モックデータセットの構築、または開発とデモ用のサンプルデータの生成に使用します。"
 ---
-# Dummy Dataset Generation
+# ダミーデータセット生成
 
-Generate realistic dummy datasets for testing with customizable columns, constraints, and output formats (CSV, JSON, SQL, Python script). Creates executable scripts or direct data files for immediate use.
+カスタマイズ可能なカラム、制約、出力フォーマット（CSV、JSON、SQL、Pythonスクリプト）を持つテスト用のリアルなダミーデータセットを生成します。即時使用のための実行可能なスクリプトまたは直接データファイルを作成します。
 
-**Use when:** Creating test data, generating sample datasets, building realistic mock data for development, or populating test environments.
+**使用する場面：** テストデータの作成、サンプルデータセットの生成、開発用のリアルなモックデータの構築、またはテスト環境のデータ投入。
 
-**Arguments:**
-- `$PRODUCT`: The product or system name
-- `$DATASET_TYPE`: Type of data (e.g., customer feedback, transactions, user profiles)
-- `$ROWS`: Number of rows to generate (default: 100)
-- `$COLUMNS`: Specific columns or fields to include
-- `$FORMAT`: Output format (CSV, JSON, SQL, Python script)
-- `$CONSTRAINTS`: Additional constraints or business rules
+**引数：**
+- `$PRODUCT`：プロダクトまたはシステム名
+- `$DATASET_TYPE`：データのタイプ（例：顧客フィードバック、トランザクション、ユーザープロフィール）
+- `$ROWS`：生成する行数（デフォルト：100）
+- `$COLUMNS`：含める特定のカラムまたはフィールド
+- `$FORMAT`：出力フォーマット（CSV、JSON、SQL、Pythonスクリプト）
+- `$CONSTRAINTS`：追加の制約またはビジネスルール
 
-## Step-by-Step Process
+## ステップバイステップのプロセス
 
-1. **Identify dataset type** - Understand the data domain
-2. **Define column specifications** - Names, data types, and value ranges
-3. **Determine row count** - How many sample records needed
-4. **Select output format** - CSV, JSON, SQL INSERT, or Python script
-5. **Apply realistic patterns** - Ensure data looks authentic and valid
-6. **Add business constraints** - Respect business logic and relationships
-7. **Generate or script data** - Create executable output
-8. **Validate output** - Ensure data quality and completeness
+1. **データセットタイプを特定する** - データドメインを理解する
+2. **カラム仕様を定義する** - 名前、データタイプ、値の範囲
+3. **行数を決定する** - 必要なサンプルレコード数
+4. **出力フォーマットを選択する** - CSV、JSON、SQL INSERT、またはPythonスクリプト
+5. **リアルなパターンを適用する** - データが本物らしく有効に見えることを確保する
+6. **ビジネス制約を追加する** - ビジネスロジックと関係を尊重する
+7. **データを生成またはスクリプト化する** - 実行可能な出力を作成する
+8. **出力を検証する** - データの品質と完全性を確保する
 
-## Template: Python Script Output
+## テンプレート：Pythonスクリプト出力
 
 ```python
 import csv
@@ -72,43 +72,43 @@ if __name__ == "__main__":
     print(f"Generated {len(dataset)} records in {FILENAME}")
 ```
 
-## Example Dataset Specification
+## データセット仕様の例
 
-**Dataset Type:** Customer Feedback
+**データセットタイプ：** 顧客フィードバック
 
-**Columns:**
-- feedback_id (auto-increment, U001, U002...)
-- customer_name (realistic names)
-- email (valid email format)
-- feedback_date (dates last 90 days)
-- rating (1-5 stars)
-- category (Bug, Feature Request, Complaint, Praise)
-- text (realistic feedback)
-- product (electronics, clothing, home)
+**カラム：**
+- feedback_id（自動増分、U001、U002...）
+- customer_name（リアルな名前）
+- email（有効なメール形式）
+- feedback_date（過去90日間の日付）
+- rating（1〜5つ星）
+- category（Bug、Feature Request、Complaint、Praise）
+- text（リアルなフィードバック）
+- product（electronics、clothing、home）
 
-**Constraints:**
-- Ratings skewed: 40% 5-star, 30% 4-star, 20% 3-star, 10% 1-2 star
-- Bug category only with ratings 1-3
-- Feature requests only with ratings 3-5
-- Email domains realistic (gmail, yahoo, company.com)
+**制約：**
+- 評価の偏り：5つ星40%、4つ星30%、3つ星20%、1〜2つ星10%
+- Bugカテゴリは評価1〜3のみ
+- Feature requestsは評価3〜5のみ
+- メールドメインはリアル（gmail、yahoo、company.com）
 
-## Output Deliverables
+## 出力成果物
 
-- Ready-to-execute Python script OR direct data file
-- CSV file with proper headers and formatting
-- JSON file with valid structure and types
-- SQL INSERT statements for database population
-- Data validation and constraint compliance
-- Realistic, business-appropriate values
-- Documentation of data generation logic
-- Quick-start instructions for using the dataset
+- すぐに実行できるPythonスクリプトまたは直接データファイル
+- 適切なヘッダーとフォーマットを持つCSVファイル
+- 有効な構造とタイプを持つJSONファイル
+- データベース投入のためのSQL INSERTステートメント
+- データ検証と制約コンプライアンス
+- リアルでビジネスに適した値
+- データ生成ロジックのドキュメント
+- データセット使用のためのクイックスタート手順
 
-## Output Formats
+## 出力フォーマット
 
-**CSV:** Flat tabular format, easy to import into spreadsheets and databases
+**CSV：** フラットな表形式、スプレッドシートとデータベースへのインポートが簡単
 
-**JSON:** Nested structure, ideal for APIs and NoSQL databases
+**JSON：** ネスト構造、APIとNoSQLデータベースに最適
 
-**SQL:** INSERT statements, directly executable on relational databases
+**SQL：** INSERTステートメント、リレーショナルデータベースで直接実行可能
 
-**Python Script:** Executable generator for custom or large datasets
+**Python Script：** カスタムまたは大規模データセットのための実行可能なジェネレーター

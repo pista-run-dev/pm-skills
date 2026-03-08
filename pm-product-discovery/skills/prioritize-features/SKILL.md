@@ -1,52 +1,52 @@
 ---
 name: prioritize-features
-description: "Prioritize a backlog of feature ideas based on impact, effort, risk, and strategic alignment with top 5 recommendations. Use when prioritizing a feature backlog, making scope decisions, or ranking product ideas."
+description: "インパクト・工数・リスク・戦略的整合性に基づいて機能アイデアのバックログを優先順位付けし、トップ5の推奨事項を提示します。機能バックログの優先順位付け、スコープの決定、またはプロダクトアイデアのランク付けを行うときに使用します。"
 ---
 
-## Prioritize Feature Backlog
+## 機能バックログの優先順位付け
 
-Evaluate and rank a backlog of feature ideas to identify the top 5 to pursue.
+機能アイデアのバックログを評価・ランク付けして、追求すべきトップ5を特定します。
 
-### Context
+### コンテキスト
 
-You are helping prioritize features for **$ARGUMENTS**.
+あなたは**$ARGUMENTS**の機能の優先順位付けを支援しています。
 
-If the user provides files (spreadsheets, backlogs, opportunity assessments), read and analyze them directly.
+ユーザーがファイル（スプレッドシート、バックログ、機会評価）を提供した場合は、直接読んで分析してください。
 
-### Domain Context
+### ドメインコンテキスト
 
-For framework selection guidance, see the `prioritization-frameworks` skill. Key recommendations:
+フレームワーク選択のガイダンスについては`prioritization-frameworks`スキルを参照してください。主要な推奨事項：
 
-**Opportunity Score** (Dan Olsen, *The Lean Product Playbook*) is recommended for evaluating customer problems: Opportunity Score = Importance × (1 − Satisfaction), normalized to 0–1. High Importance + low Satisfaction = best opportunities. Prioritize **problems (opportunities)**, not solutions.
+**Opportunity Score**（Dan Olsen、*The Lean Product Playbook*）は顧客の問題を評価するために推奨されます：Opportunity Score = Importance × (1 − Satisfaction)、0〜1に正規化。高いImportance + 低いSatisfaction = 最良の機会。**ソリューションではなく問題（機会）**を優先順位付けしてください。
 
-**ICE** is recommended for quick scoring of initiatives: Impact (Opportunity Score × # Customers) × Confidence × Ease. **RICE** adds Reach as a separate factor for larger teams.
+**ICE**はイニシアチブの迅速なスコアリングに推奨されます：Impact（Opportunity Score × 顧客数）× Confidence × Ease。**RICE**は大規模チーム向けにReachを別の要素として追加します。
 
-### Instructions
+### 手順
 
-The user will describe their product objective, desired outcomes, and provide feature ideas. Work through these steps:
+ユーザーはプロダクト目標、望ましい成果、機能アイデアを説明します。以下のステップを実行してください：
 
-1. **Understand priorities**: Confirm the product objective and success metrics.
+1. **優先事項を理解する**：プロダクト目標と成功指標を確認します。
 
-2. **Evaluate each feature** against:
-   - **Impact**: How much does it move the needle on desired outcomes? Consider Opportunity Score if customer data is available.
-   - **Effort**: How much development, design, and coordination is required?
-   - **Risk**: How much uncertainty exists? What assumptions need testing?
-   - **Strategic alignment**: How well does it fit the product vision and current goals?
+2. **各機能を以下に対して評価する**：
+   - **Impact**：望ましい成果にどの程度影響するか？顧客データが利用可能な場合はOpportunity Scoreを考慮してください。
+   - **Effort**：開発・デザイン・調整にどの程度必要か？
+   - **Risk**：どの程度の不確実性があるか？テストが必要な仮定は何か？
+   - **戦略的整合性**：プロダクトビジョンと現在の目標にどの程度適合しているか？
 
-3. **Recommend the top 5 features** with:
-   - Clear ranking (1-5)
-   - Brief rationale for each selection
-   - Key trade-offs considered
-   - What was deprioritized and why
+3. **トップ5の機能を推奨する**：
+   - 明確なランキング（1〜5位）
+   - 各選択の簡潔な根拠
+   - 考慮されたトレードオフ
+   - 優先度を下げられたものとその理由
 
-4. **Present as a prioritization table** if helpful.
+4. **役立つ場合は優先順位付けの表として提示する**。
 
-Think step by step. Save as markdown if the output is substantial.
+ステップバイステップで考えてください。アウトプットが実質的な場合はMarkdownとして保存してください。
 
 ---
 
-### Further Reading
+### 参考資料
 
 - [Kano Model: How to Delight Your Customers Without Becoming a Feature Factory](https://www.productcompass.pm/p/kano-model-how-to-delight-your-customers)
 - [The Product Management Frameworks Compendium + Templates](https://www.productcompass.pm/p/the-product-frameworks-compendium)
-- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (video course)
+- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (ビデオコース)

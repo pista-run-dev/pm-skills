@@ -1,85 +1,85 @@
 ---
 name: pricing-strategy
-description: "Analyze and design pricing strategies including pricing models, competitive pricing analysis, willingness-to-pay estimation, and price elasticity. Use when setting prices, evaluating pricing models, preparing for a pricing change, or comparing freemium vs paid approaches."
+description: "価格モデル、競合価格分析、支払意向の見積もり、価格弾力性を含む価格戦略を分析・設計します。価格設定、価格モデルの評価、価格変更の準備、フリーミアム対有料アプローチの比較に使用してください。"
 ---
 
-## Pricing Strategy
+## 価格戦略
 
-Design a pricing strategy grounded in value delivery, competitive positioning, and willingness to pay.
+価値提供、競合ポジショニング、支払意向に基づいた価格戦略を設計する。
 
-### Context
+### コンテキスト
 
-You are developing a pricing strategy for **$ARGUMENTS**.
+**$ARGUMENTS** の価格戦略を開発しています。
 
-If the user provides files (competitor pricing, survey data, financial models, or usage data), read them first. Use web search to research competitor pricing if needed.
+ユーザーがファイル（競合の価格設定、サーベイデータ、財務モデル、使用データ）を提供する場合は、最初に読んでください。必要に応じて、競合の価格設定を調査するためにウェブ検索を使用してください。
 
-### Instructions
+### 指示
 
-1. **Understand the value delivered**:
-   - What is the core value proposition?
-   - What is the customer's alternative (and its cost)?
-   - What quantifiable outcomes does the product deliver? (time saved, revenue gained, cost reduced)
-   - What is the customer's willingness to pay based on that value?
+1. **提供する価値を理解する**：
+   - コアなバリュープロポジションは何か？
+   - 顧客の代替手段（とそのコスト）は何か？
+   - プロダクトが提供する定量的なアウトカムは何か？（節約された時間、得られた収益、削減されたコスト）
+   - その価値に基づいた顧客の支払意向は何か？
 
-2. **Evaluate pricing models** — recommend the best fit:
+2. **価格モデルを評価する** — 最適なフィットを推奨する：
 
-   | Model | Best For | Example |
+   | モデル | 最適な用途 | 例 |
    |---|---|---|
-   | **Flat-rate** | Simple products, predictable costs | Basecamp ($99/mo flat) |
-   | **Per-seat** | Collaboration tools, team products | Slack, Figma |
-   | **Usage-based** | Infrastructure, API products | AWS, Twilio |
-   | **Tiered** | Products with distinct user segments | Most SaaS (Free/Pro/Enterprise) |
-   | **Freemium** | Products with viral/network effects | Spotify, Notion |
-   | **Freemium + usage** | Platform products | Vercel, OpenAI API |
-   | **Value-based** | High-impact enterprise tools | Salesforce, Palantir |
+   | **フラットレート** | シンプルなプロダクト、予測可能なコスト | Basecamp（月額$99フラット） |
+   | **シートごと** | コラボレーションツール、チームプロダクト | Slack、Figma |
+   | **使用量ベース** | インフラ、APIプロダクト | AWS、Twilio |
+   | **ティアード** | 明確なユーザーセグメントのあるプロダクト | ほとんどのSaaS（Free/Pro/Enterprise） |
+   | **フリーミアム** | バイラル/ネットワーク効果のあるプロダクト | Spotify、Notion |
+   | **フリーミアム＋使用量** | プラットフォームプロダクト | Vercel、OpenAI API |
+   | **価値ベース** | 高インパクトのエンタープライズツール | Salesforce、Palantir |
 
-3. **Analyze competitive pricing**:
-   - Map competitor pricing tiers and what's included
-   - Identify where your product sits (premium, mid-market, budget)
-   - Find pricing gaps or opportunities
-   - Note any industry pricing conventions
+3. **競合価格設定を分析する**：
+   - 競合の価格ティアと含まれるものをマッピングする
+   - プロダクトの位置を特定する（プレミアム、ミッドマーケット、バジェット）
+   - 価格ギャップや機会を見つける
+   - 業界の価格慣行に注目する
 
-4. **Design the pricing structure**:
-   - **Tiers**: Define 2-4 tiers with clear differentiation
-   - **Feature gating**: Which features go in which tier? (Use value metrics, not arbitrary limits)
-   - **Value metric**: What unit do you charge on? (users, events, storage, API calls)
-   - **Anchor pricing**: Set the most popular tier to feel like the obvious choice
-   - **Annual discount**: Typically 15-20% off monthly pricing
+4. **価格構造を設計する**：
+   - **ティア**: 明確な差別化を持つ2〜4ティアを定義する
+   - **機能ゲーティング**: どの機能をどのティアに置くか？（恣意的な制限ではなく価値メトリクスを使用する）
+   - **バリューメトリク**: どの単位で課金するか？（ユーザー、イベント、ストレージ、APIコール）
+   - **アンカー価格**: 最も人気のあるティアが明らかな選択に見えるよう設定する
+   - **年次割引**: 通常、月次価格より15〜20%割引
 
-5. **Estimate price sensitivity**:
-   - Van Westendorp Price Sensitivity Meter (if survey data available):
-     - Too cheap → quality concerns
-     - Cheap → good value
-     - Expensive → starting to hesitate
-     - Too expensive → won't buy
-   - Alternatively, estimate based on competitor pricing and value delivered
+5. **価格感度を見積もる**：
+   - Van Westendorp価格感度メーター（サーベイデータが利用可能な場合）：
+     - 安すぎる → 品質への懸念
+     - 安い → お得な価値
+     - 高い → 躊躇し始める
+     - 高すぎる → 買わない
+   - あるいは、競合価格と提供された価値に基づいて見積もる
 
-6. **Plan pricing experiments**:
-   - A/B test pricing pages (different price points, tier names, feature bundles)
-   - Founder-led sales conversations to test willingness to pay
-   - Landing page tests with different price anchors
-   - Cohort analysis of conversion rates by price point
+6. **価格実験を計画する**：
+   - 価格ページのA/Bテスト（異なる価格ポイント、ティア名、機能バンドル）
+   - 支払意向をテストするための創業者主導のセールス会話
+   - 異なる価格アンカーを使ったランディングページテスト
+   - 価格ポイント別のコンバージョン率のコホート分析
 
-7. **Output a pricing recommendation**:
+7. **価格推奨を出力する**：
    ```
-   Recommended Model: [Model type]
-   Value Metric: [What you charge on]
+   推奨モデル: [モデルタイプ]
+   バリューメトリク: [課金する単位]
 
-   | Tier | Price | Target Segment | Key Features | Positioning |
+   | ティア | 価格 | ターゲットセグメント | 主要機能 | ポジショニング |
    |---|---|---|---|---|
 
-   Key Assumptions:
-   - [Assumption] → [How to test]
+   主要な仮定：
+   - [仮定] → [テスト方法]
 
-   Risks:
-   - [Risk] → [Mitigation]
+   リスク：
+   - [リスク] → [軽減策]
    ```
 
-Think step by step. Save as markdown. Flag any assumptions that need validation before launch.
+ステップバイステップで考える。マークダウンとして保存する。ローンチ前に検証が必要な仮定にフラグを立てる。
 
 ---
 
-### Further Reading
+### 参考文献
 
 - [Product Pricing Strategies 101](https://www.productcompass.pm/p/product-pricing-strategies-101)
-- [The AI Product Pricing Masterclass: OpenAI Product Lead on Why SaaS Pricing Fails in AI (and How to Fix It)](https://www.productcompass.pm/p/ai-product-pricing) (video course)
+- [The AI Product Pricing Masterclass: OpenAI Product Lead on Why SaaS Pricing Fails in AI (and How to Fix It)](https://www.productcompass.pm/p/ai-product-pricing) (ビデオコース)

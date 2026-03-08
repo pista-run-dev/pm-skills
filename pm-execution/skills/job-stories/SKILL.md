@@ -1,74 +1,74 @@
 ---
 name: job-stories
-description: "Create job stories using the 'When [situation], I want to [motivation], so I can [outcome]' format with detailed acceptance criteria. Use when writing job stories, creating JTBD-style backlog items, or expressing user situations and motivations."
+description: "「When [situation], I want to [motivation], so I can [outcome]」フォーマットを使用して、詳細な受け入れ基準を含むジョブストーリーを作成します。ジョブストーリーの作成、JTBDスタイルのバックログアイテムの作成、またはユーザーの状況と動機の表現に使用します。"
 ---
-# Job Stories
+# ジョブストーリー
 
-Create job stories using the 'When [situation], I want to [motivation], so I can [outcome]' format. Generates stories with detailed acceptance criteria focused on user situations and outcomes.
+「When [situation], I want to [motivation], so I can [outcome]」フォーマットを使用してジョブストーリーを作成します。ユーザーの状況とアウトカムに焦点を当てた詳細な受け入れ基準を含むストーリーを生成します。
 
-**Use when:** Writing job stories, expressing user situations and motivations, creating JTBD-style backlog items, or focusing on user context rather than roles.
+**使用する場面：** ジョブストーリーの作成、ユーザーの状況と動機の表現、JTBDスタイルのバックログアイテムの作成、またはユーザーロールではなくユーザーコンテキストへの焦点。
 
-**Arguments:**
-- `$PRODUCT`: The product or system name
-- `$FEATURE`: The new feature to break into job stories
-- `$DESIGN`: Link to design files (Figma, Miro, etc.)
-- `$CONTEXT`: User situations or job scenarios
+**引数：**
+- `$PRODUCT`：プロダクトまたはシステム名
+- `$FEATURE`：ジョブストーリーに分解する新しい機能
+- `$DESIGN`：デザインファイルへのリンク（Figma、Miroなど）
+- `$CONTEXT`：ユーザーの状況またはジョブシナリオ
 
-## Step-by-Step Process
+## ステップバイステップのプロセス
 
-1. **Identify user situations** that trigger the need
-2. **Define motivations** underlying the user's behavior
-3. **Clarify outcomes** the user wants to achieve
-4. **Apply JTBD framework:** Focus on the job, not the role
-5. **Create acceptance criteria** that validate the outcome is achieved
-6. **Use observable, measurable language**
-7. **Link to design mockups** or prototypes
-8. **Output job stories** with detailed acceptance criteria
+1. **ユーザーの状況を特定する**：ニーズを引き起こすトリガー
+2. **動機を定義する**：ユーザーの行動の根底にある動機
+3. **アウトカムを明確にする**：ユーザーが達成したいこと
+4. **JTBDフレームワークを適用する**：ロールではなくジョブに焦点を当てる
+5. **受け入れ基準を作成する**：アウトカムが達成されたことを検証する
+6. **観察可能で測定可能な言語を使用する**
+7. **デザインモックアップまたはプロトタイプにリンクする**
+8. **ジョブストーリーを出力する**：詳細な受け入れ基準と共に
 
-## Story Template
+## ストーリーテンプレート
 
-**Title:** [Job outcome or result]
+**Title:** [ジョブのアウトカムまたは結果]
 
 **Description:** When [situation], I want to [motivation], so I can [outcome].
 
-**Design:** [Link to design files]
+**Design:** [デザインファイルへのリンク]
 
 **Acceptance Criteria:**
-1. [Situation is properly recognized]
-2. [System enables the desired motivation]
-3. [Progress or feedback is visible]
-4. [Outcome is achieved efficiently]
-5. [Edge cases are handled gracefully]
-6. [Integration and notifications work]
+1. [状況が適切に認識される]
+2. [システムが望ましい動機を可能にする]
+3. [進捗またはフィードバックが見える]
+4. [アウトカムが効率的に達成される]
+5. [エッジケースが適切に処理される]
+6. [統合と通知が機能する]
 
-## Example Job Story
+## ジョブストーリーの例
 
 **Title:** Track Weekly Snack Spending
 
 **Description:** When I'm preparing my weekly allowance for snacks (situation), I want to quickly see how much I've spent so far (motivation), so I can make sure I don't run out of money before the weekend (outcome).
 
-**Design:** [Figma link]
+**Design:** [Figmaリンク]
 
 **Acceptance Criteria:**
-1. Display Spending Summary with 'Weekly Spending Overview' section
-2. Real-Time Update when expense logged
-3. Progress Indicator (progress bar showing 0-100% of weekly budget)
-4. Remaining Budget Highlight in prominent color
-5. Detailed Spending Log with breakdown by category
-6. Notifications at 80% budget threshold
-7. Weekend-Specific Reminder at 90% by Thursday evening
-8. Easy Access and Navigation to detailed breakdown
+1. 「Weekly Spending Overview」セクションで支出サマリーを表示する
+2. 経費が記録されたときにリアルタイム更新する
+3. 週間予算の0〜100%を示すプログレスバー（進捗インジケーター）
+4. 目立つ色で残りの予算をハイライトする
+5. カテゴリ別の内訳を含む詳細な支出ログ
+6. 予算の80%時に通知する
+7. 木曜日の夜の90%時に週末固有のリマインダー
+8. 詳細な内訳への簡単なアクセスとナビゲーション
 
-## Output Deliverables
+## 出力成果物
 
-- Complete set of job stories for the feature
-- Each story follows the 'When...I want...so I can' format
-- 6-8 acceptance criteria focused on outcomes
-- Stories emphasize user situations and motivations
-- Clear links to design and prototypes
+- 機能の完全なジョブストーリーセット
+- 各ストーリーは「When...I want...so I can」フォーマットに従う
+- アウトカムに焦点を当てた6〜8つの受け入れ基準
+- ストーリーはユーザーの状況と動機を強調する
+- デザインとプロトタイプへの明確なリンク
 
 ---
 
-### Further Reading
+### 参考資料
 
-- [Jobs-to-be-Done Masterclass with Tony Ulwick and Sabeen Sattar](https://www.productcompass.pm/p/jobs-to-be-done-masterclass-with) (video course)
+- [Jobs-to-be-Done Masterclass with Tony Ulwick and Sabeen Sattar](https://www.productcompass.pm/p/jobs-to-be-done-masterclass-with)（動画コース）

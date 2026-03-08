@@ -1,61 +1,61 @@
 ---
 name: retro
-description: "Facilitate a structured sprint retrospective — what went well, what didn't, and prioritized action items with owners and deadlines. Use when running a retrospective, reflecting on a sprint, creating action items from team feedback, or learning how to run effective retros."
+description: "構造化されたスプリントレトロスペクティブを進行します。うまくいったこと、うまくいかなかったこと、オーナーと期限を持つ優先度付けされたアクションアイテム。レトロスペクティブの実施、スプリントの振り返り、チームフィードバックからアクションアイテムの作成、または効果的なレトロの実施方法を学ぶ際に使用します。"
 ---
 
-## Sprint Retrospective Facilitator
+## スプリントレトロスペクティブファシリテーター
 
-Run a structured retrospective that surfaces insights and produces actionable improvements.
+インサイトを表面化し、実行可能な改善を生み出す構造化されたレトロスペクティブを実施します。
 
-### Context
+### コンテキスト
 
-You are facilitating a retrospective for **$ARGUMENTS**.
+**$ARGUMENTS**のレトロスペクティブを進行します。
 
-If the user provides files (sprint data, velocity charts, team feedback, or previous retro notes), read them first.
+ユーザーがファイル（スプリントデータ、ベロシティチャート、チームフィードバック、または前回のレトロノート）を提供した場合は、最初にそれを読んでください。
 
-### Instructions
+### 指示
 
-1. **Choose a retro format** based on context (or let the user pick):
+1. **コンテキストに基づいてレトロフォーマットを選択する**（またはユーザーに選ばせる）：
 
-   **Format A — Start / Stop / Continue**:
-   - **Start**: What should we begin doing?
-   - **Stop**: What should we stop doing?
-   - **Continue**: What's working well that we should keep?
+   **フォーマットA — Start / Stop / Continue**：
+   - **Start**：何を始めるべきか？
+   - **Stop**：何をやめるべきか？
+   - **Continue**：続けるべきうまくいっていることは何か？
 
-   **Format B — 4Ls (Liked / Learned / Lacked / Longed For)**:
-   - **Liked**: What did the team enjoy?
-   - **Learned**: What new knowledge was gained?
-   - **Lacked**: What was missing?
-   - **Longed For**: What do we wish we had?
+   **フォーマットB — 4Ls (Liked / Learned / Lacked / Longed For)**：
+   - **Liked**：チームは何を楽しんだか？
+   - **Learned**：どんな新しい知識を得たか？
+   - **Lacked**：何が不足していたか？
+   - **Longed For**：何を望んでいたか？
 
-   **Format C — Sailboat**:
-   - **Wind (propels us)**: What's driving us forward?
-   - **Anchor (holds us back)**: What's slowing us down?
-   - **Rocks (risks)**: What dangers lie ahead?
-   - **Island (goal)**: Where are we trying to get to?
+   **フォーマットC — Sailboat**：
+   - **Wind（推進力）**：私たちを前進させているものは何か？
+   - **Anchor（足かせ）**：私たちの歩みを遅らせているものは何か？
+   - **Rocks（リスク）**：どんな危険が待ち構えているか？
+   - **Island（目標）**：どこに向かおうとしているのか？
 
-2. **If the user provides raw feedback** (e.g., sticky notes, survey responses, Slack messages):
-   - Group similar items into themes
-   - Identify the most frequently mentioned topics
-   - Note sentiment patterns (frustration, energy, confusion)
+2. **ユーザーが生のフィードバックを提供した場合**（例：付箋、アンケート回答、Slackメッセージ）：
+   - 類似のアイテムをテーマにグループ化する
+   - 最も頻繁に言及されたトピックを特定する
+   - センチメントのパターンに注目する（フラストレーション、エネルギー、混乱）
 
-3. **Analyze the sprint performance**:
-   - Sprint goal: achieved or not?
-   - Velocity vs. commitment (over-committed? under-committed?)
-   - Blockers encountered and how they were resolved
-   - Collaboration patterns (what worked, what didn't)
+3. **スプリントパフォーマンスを分析する**：
+   - スプリントゴール：達成されたかどうか？
+   - ベロシティとコミットメントの比較（過コミット？低コミット？）
+   - 遭遇したブロッカーとその解決方法
+   - コラボレーションパターン（うまくいったこと、うまくいかなかったこと）
 
-4. **Generate prioritized action items**:
+4. **優先度付けされたアクションアイテムを生成する**：
 
    | Priority | Action Item | Owner | Deadline | Success Metric |
    |---|---|---|---|---|
    | 1 | [Specific, actionable improvement] | [Name/Role] | [Date] | [How we'll know it worked] |
 
-   - Limit to 2-3 action items (more won't get done)
-   - Each must be specific, assignable, and measurable
-   - Reference previous retro actions if available — were they completed?
+   - 2〜3つのアクションアイテムに限定する（それ以上は実行されない）
+   - 各アイテムは具体的で、割り当て可能で、測定可能でなければならない
+   - 利用可能な場合は前回のレトロのアクションを参照する——完了されたか？
 
-5. **Create the retro summary**:
+5. **レトロサマリーを作成する**：
    ```
    ## Sprint [X] Retrospective — [Date]
 
@@ -73,4 +73,4 @@ If the user provides files (sprint data, velocity charts, team feedback, or prev
    - [Previous action] — [Status: Done / In Progress / Not Started]
    ```
 
-Save as markdown. Keep the tone constructive — the goal is improvement, not blame.
+markdownとして保存する。トーンを建設的に保つ——目標は改善であり、非難ではない。

@@ -1,71 +1,71 @@
 ---
-description: Analyze, categorize, and prioritize a batch of feature requests from customers or stakeholders
-argument-hint: "<feature requests as text, file, or paste>"
+description: 顧客またはステークホルダーからの機能リクエストのバッチを分析、分類、優先順位付けします
+argument-hint: "<テキスト、ファイル、または貼り付けとして機能リクエスト>"
 ---
 
-# /triage-requests -- Feature Request Triage
+# /triage-requests -- 機能リクエストのトリアージ
 
-Take a pile of feature requests — from support tickets, sales calls, surveys, or Slack — and turn them into a prioritized, actionable backlog.
+サポートチケット、営業電話、アンケート、またはSlackからの機能リクエストの山を受け取り、優先順位付けされたアクション可能なバックログに変換します。
 
-## Invocation
+## 呼び出し方
 
 ```
-/triage-requests                           # asks for input
-/triage-requests [paste a list of requests]
-/triage-requests [upload a CSV/spreadsheet]
+/triage-requests                           # 入力を求めます
+/triage-requests [リクエストのリストを貼り付け]
+/triage-requests [CSV/スプレッドシートをアップロード]
 ```
 
-## Workflow
+## ワークフロー
 
-### Step 1: Accept Feature Requests
+### ステップ1：機能リクエストを受け取る
 
-Accept requests in any format:
-- **Pasted text**: List of requests, one per line or paragraph
-- **Uploaded file**: CSV, Excel, or text file with request data
-- **Structured data**: If the input has columns (requester, request, date, etc.), preserve them
+任意の形式でリクエストを受け入れます：
+- **貼り付けられたテキスト**：1行または段落ごとのリクエストリスト
+- **アップロードされたファイル**：リクエストデータを含むCSV、Excel、またはテキストファイル
+- **構造化データ**：入力に列（リクエスター、リクエスト、日付など）がある場合は保持する
 
-If no input is provided, ask the user to paste or upload their feature requests.
+入力が提供されない場合は、機能リクエストを貼り付けまたはアップロードするようユーザーに求めます。
 
-Parse each request to extract:
-- The core ask (what the user wants)
-- Context (who asked, when, why — if available)
-- Frequency signals (how many people asked for similar things)
+各リクエストを解析して以下を抽出します：
+- コアの要求（ユーザーが望んでいること）
+- コンテキスト（誰が、いつ、なぜ — 利用可能な場合）
+- 頻度シグナル（似たようなことを求めた人数）
 
-### Step 2: Gather Prioritization Context
+### ステップ2：優先順位付けコンテキストを収集する
 
-Ask the user (conversationally, not all at once):
-- What is the product? What stage is it in?
-- What are the current strategic goals or OKRs? (helps assess alignment)
-- Any constraints to consider? (team size, technical debt, upcoming deadlines)
-- Are there segments whose requests should carry more weight? (enterprise, churning users, power users)
+ユーザーに質問します（会話形式で、一度に全部ではなく）：
+- 製品は何ですか？どのステージにありますか？
+- 現在の戦略的目標またはOKRは何ですか？（整合性の評価に役立つ）
+- 考慮すべき制約はありますか？（チームサイズ、技術的負債、迫るデッドライン）
+- より重視すべきリクエストを持つセグメントはありますか？（エンタープライズ、解約しているユーザー、パワーユーザー）
 
-### Step 3: Categorize and Analyze
+### ステップ3：分類と分析
 
-Apply the **analyze-feature-requests** skill:
+**analyze-feature-requests** スキルを適用します：
 
-- **Theme clustering**: Group similar requests into themes (e.g., "reporting & analytics", "collaboration", "mobile experience")
-- **Request count per theme**: How many unique requests map to each theme
-- **Strategic alignment**: Rate each theme against stated goals (High/Medium/Low/None)
-- **Segment analysis**: Which user segments are driving which themes
-- **Sentiment signals**: Are requests accompanied by frustration, churn threats, or delight?
+- **テーマのクラスタリング**：類似するリクエストをテーマにグループ化する（例：「レポートと分析」、「コラボレーション」、「モバイル体験」）
+- **テーマごとのリクエスト数**：各テーマにマッピングされる一意のリクエスト数
+- **戦略的整合性**：述べた目標に対して各テーマを評価する（高/中/低/なし）
+- **セグメント分析**：どのユーザーセグメントがどのテーマを推進しているか
+- **感情シグナル**：リクエストは不満、解約の脅威、または喜びを伴っているか？
 
-### Step 4: Prioritize
+### ステップ4：優先順位付け
 
-Apply the **prioritize-features** skill:
+**prioritize-features** スキルを適用します：
 
-For each theme (and the top individual requests within each theme):
+各テーマ（および各テーマ内のトップ個別リクエスト）について：
 
 | Factor | Assessment |
 |--------|-----------|
-| **Impact** | How many users affected? How severely? |
-| **Strategic alignment** | Does it serve current goals? |
-| **Effort estimate** | T-shirt size (S/M/L/XL) |
-| **Risk** | What happens if we don't do this? |
-| **Revenue signal** | Is this tied to deals, retention, or expansion? |
+| **Impact** | 影響を受けるユーザー数は？どの程度深刻か？ |
+| **Strategic alignment** | 現在の目標に役立つか？ |
+| **Effort estimate** | Tシャツサイズ（S/M/L/XL） |
+| **Risk** | これをしなかった場合はどうなるか？ |
+| **Revenue signal** | 取引、リテンション、または拡大に関連しているか？ |
 
-Rank themes and produce a prioritized list.
+テーマをランク付けして優先順位付けされたリストを作成します。
 
-### Step 5: Generate Triage Report
+### ステップ5：トリアージレポートを生成する
 
 ```
 ## Feature Request Triage Report
@@ -79,42 +79,42 @@ Rank themes and produce a prioritized list.
 |---|-------|----------|---------|-----------|--------|--------|----------|
 
 ### Priority 1: Act Now
-[Themes/requests to include in near-term planning]
-- **[Theme]**: [X] requests — [why it's urgent]
+[近期計画に含めるテーマ/リクエスト]
+- **[Theme]**: [X] requests — [なぜ緊急か]
   - Top requests: [list]
   - Recommended action: [build / prototype / investigate]
 
 ### Priority 2: Plan Next
-[Themes worth planning but not urgent]
+[計画する価値はあるが緊急ではないテーマ]
 
 ### Priority 3: Collect More Signal
-[Themes with potential but insufficient evidence]
+[可能性はあるが証拠が不十分なテーマ]
 
 ### Priority 4: Decline or Defer
-[Requests that don't align with strategy — with rationale]
+[戦略と整合しないリクエスト — 根拠あり]
 
 ### Notable Individual Requests
-[High-value one-off requests that didn't cluster into themes]
+[テーマにクラスタリングされなかった高価値の個別リクエスト]
 
 ### Patterns and Insights
-- [Key insight about what users are telling you]
-- [Segment-specific patterns]
-- [Gaps between what users ask for and underlying needs]
+- [ユーザーが伝えていることについての主要インサイト]
+- [セグメント固有のパターン]
+- [ユーザーが求めていることと根本的なニーズとのギャップ]
 ```
 
-Save the report as a markdown file to the user's workspace.
+レポートをMarkdownファイルとしてユーザーのワークスペースに保存します。
 
-### Step 6: Offer Next Steps
+### ステップ6：次のステップを提案する
 
-- "Want me to **create user stories** for the top-priority items?"
-- "Should I **brainstorm solutions** for any of these themes?"
-- "Want me to **design experiments** to validate demand before building?"
-- "Should I **draft a stakeholder update** summarizing this analysis?"
+- 「最優先項目の**ユーザーストーリーを作成**しますか？」
+- 「これらのテーマのいずれかに対して**ソリューションをブレインストーミング**しますか？」
+- 「構築前に需要を検証するための**実験を設計**しますか？」
+- 「この分析をまとめた**ステークホルダー向けアップデートを起草**しますか？」
 
-## Notes
+## 注意事項
 
-- If the user provides a CSV with columns, preserve the data structure and enrich it
-- Look for the need behind the request — "add dark mode" might really mean "reduce eye strain during long sessions"
-- Flag requests that conflict with each other (e.g., "simplify the UI" vs. "add more configuration options")
-- If request volume is large (50+), summarize themes first and offer to drill into specific themes on request
-- Output the enriched data as a downloadable CSV if the input was structured data
+- ユーザーが列付きのCSVを提供した場合、データ構造を保持してエンリッチしてください
+- リクエストの背後にあるニーズを探してください — 「ダークモードを追加」は本当に「長いセッション中の目の疲れを軽減」を意味するかもしれません
+- 互いに矛盾するリクエストにフラグを立ててください（例：「UIを簡略化」vs「設定オプションを増やす」）
+- リクエスト量が多い場合（50件以上）、まずテーマをまとめ、リクエストに応じて特定のテーマを掘り下げることを提案してください
+- 入力が構造化データだった場合は、エンリッチされたデータをダウンロード可能なCSVとして出力してください

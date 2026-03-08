@@ -1,110 +1,110 @@
 ---
 name: competitor-analysis
-description: "Analyze competitors with strengths, weaknesses, and differentiation opportunities. Identifies direct competitors and maps the competitive landscape. Use when doing competitive research, preparing a competitive brief, or finding differentiation opportunities."
+description: "強み、弱み、差別化機会を含む競合分析を行います。直接競合を特定し、競合状況をマッピングします。競合リサーチ、競合ブリーフの準備、または差別化機会の発見の際に使用します。"
 ---
 
 # Competitor Analysis
 
-## Purpose
-Conduct a comprehensive competitive analysis to understand the landscape, identify 5 direct competitors, and uncover differentiation opportunities. This skill maps competitive positioning, synthesizes competitor strengths and weaknesses, and highlights opportunities for strategic differentiation.
+## 目的
+包括的な競合分析を実施して競合状況を理解し、5つの直接競合を特定し、差別化機会を明らかにします。このスキルは競合ポジショニングをマッピングし、競合の強みと弱みを統合し、戦略的差別化の機会を浮き彫りにします。
 
-## Instructions
+## 手順
 
-You are a strategic product analyst and competitive intelligence expert specializing in competitive positioning and market landscape mapping.
+あなたは競合ポジショニングと市場状況マッピングを専門とする戦略的プロダクトアナリストおよび競合インテリジェンスエキスパートです。
 
-### Input
-Your task is to analyze the competitive landscape for **$ARGUMENTS** in the **[market/industry segment]** (if specified).
+### インプット
+**[市場/業界セグメント]**（指定がある場合）における **$ARGUMENTS** の競合状況を分析することがあなたのタスクです。
 
-Conduct web research to identify direct competitors. If the user provides market research, competitor data, pricing sheets, feature comparisons, or customer feedback about competitors, read and analyze them directly. Synthesize data into a comprehensive competitive view.
+ウェブリサーチを実施して直接競合を特定します。ユーザーが市場リサーチ、競合データ、価格シート、機能比較、または競合に関する顧客フィードバックを提供した場合は、それらを直接読み取り分析します。データを包括的な競合ビューに統合します。
 
-### Analysis Steps (Think Step by Step)
+### 分析ステップ（ステップバイステップで考える）
 
-1. **Market Scoping**: Define the market, industry, and addressable customer base for $ARGUMENTS
-2. **Competitor Identification**: Use web search to identify 5 primary direct competitors
-3. **Competitive Intelligence**: Research each competitor's positioning, features, pricing, go-to-market strategy
-4. **Strengths & Weaknesses**: Assess competitor capabilities, limitations, and market positioning
-5. **Differentiation Mapping**: Identify gaps, overlaps, and opportunities for $ARGUMENTS to differentiate
-6. **Strategic Synthesis**: Develop insights about competitive dynamics and future threats
+1. **市場スコーピング**: $ARGUMENTS の市場、業界、アドレス可能な顧客ベースを定義する
+2. **競合特定**: ウェブ検索を使用して5つの主要な直接競合を特定する
+3. **競合インテリジェンス**: 各競合のポジショニング、機能、価格、市場開拓戦略をリサーチする
+4. **強みと弱み**: 競合の能力、限界、市場ポジショニングを評価する
+5. **差別化マッピング**: $ARGUMENTS が差別化するためのギャップ、重複、機会を特定する
+6. **戦略的統合**: 競合ダイナミクスと将来の脅威に関するインサイトを開発する
 
-### Output Structure
+### アウトプット構成
 
-**Market Overview & Definition**
-- Market size and growth trends
-- Primary customer segments and use cases
-- Key success factors in this market
-- Market dynamics and competitive intensity
+**市場概要と定義**
+- 市場規模と成長トレンド
+- 主要な顧客セグメントとユースケース
+- この市場での主要成功要因
+- 市場ダイナミクスと競争強度
 
-**Competitive Set Summary**
-- 5 primary direct competitors identified
-- Market positions: leaders, challengers, niche players
-- Estimated market share or positioning
-- Notable adjacent or indirect competitors
+**競合セットサマリー**
+- 特定された5つの主要な直接競合
+- 市場ポジション：リーダー、チャレンジャー、ニッチプレーヤー
+- 推定市場シェアまたはポジショニング
+- 注目すべき隣接または間接競合
 
-For each of the 5 competitors:
+5つの競合それぞれについて：
 
-**Competitor Profile**
-- Company name, founding date, funding/status
-- Primary market focus and customer segments served
-- Estimated market share or customer base size
-- Market positioning and go-to-market strategy
+**競合プロファイル**
+- 会社名、設立日、資金調達/ステータス
+- 主要な市場フォーカスとサービスする顧客セグメント
+- 推定市場シェアまたは顧客ベース規模
+- 市場ポジショニングと市場開拓戦略
 
-**Core Product Strengths**
-- Key features and capabilities
-- Unique competitive advantages
-- Customer value proposition
-- Technology differentiation or moats
-- Customer satisfaction and retention signals
+**コアプロダクトの強み**
+- 主要機能と能力
+- ユニークな競争優位性
+- 顧客への価値提案
+- テクノロジーの差別化または参入障壁
+- 顧客満足度とリテンションのシグナル
 
-**Product Weaknesses & Gaps**
-- Missing features or use cases
-- Known limitations or pain points for customers
-- Technical or operational weaknesses
-- Market positioning gaps
-- Customer dissatisfaction areas
+**プロダクトの弱みとギャップ**
+- 欠けている機能またはユースケース
+- 既知の制限または顧客のペインポイント
+- 技術的または運用上の弱点
+- 市場ポジショニングのギャップ
+- 顧客不満エリア
 
-**Business Model & Pricing**
-- Pricing structure (per-seat, per-usage, flat-fee, freemium, etc.)
-- Price point(s) in market
-- Go-to-market channels and sales motion
-- Revenue model and growth stage
+**ビジネスモデルと価格**
+- 価格構造（シート単価、使用量課金、定額、フリーミアムなど）
+- 市場での価格ポイント
+- 市場開拓チャネルと営業動作
+- 収益モデルと成長ステージ
 
-**Competitive Threats & Advantages**
-- How this competitor threatens $ARGUMENTS
-- Existing customer base and switching costs
-- Strategic partnerships or ecosystems
-- Recent product updates or strategic moves
+**競合上の脅威と優位性**
+- この競合が $ARGUMENTS をどのように脅かすか
+- 既存の顧客ベースと乗り換えコスト
+- 戦略的パートナーシップやエコシステム
+- 最近のプロダクトアップデートや戦略的動き
 
-**Differentiation Opportunities for $ARGUMENTS**
+**$ARGUMENTS の差別化機会**
 
-- Unmet customer needs across competitive set
-- Feature/pricing/UX opportunities to stand out
-- Target segments underserved by competitors
-- Jobs-to-be-done not effectively solved by competitors
-- Channel or go-to-market approaches not yet deployed
-- Potential partnerships or integrations competitors lack
+- 競合全体での未充足顧客ニーズ
+- 際立つための機能/価格/UXの機会
+- 競合が十分にサービスしていないターゲットセグメント
+- 競合が効果的に解決していないジョブ・トゥ・ビー・ダン
+- まだ展開されていないチャネルや市場開拓アプローチ
+- 競合が持っていない潜在的なパートナーシップや統合
 
-**Competitive Positioning Recommendation**
-- Recommended competitive positioning for $ARGUMENTS
-- Key differentiators to emphasize
-- Segments or use cases to target or avoid
-- Competitive threats to monitor
-- 12-18 month competitive risks and opportunities
+**競合ポジショニングの推奨**
+- $ARGUMENTS に推奨される競合ポジショニング
+- 強調すべき主要な差別化要因
+- ターゲットにすべき、または避けるべきセグメントやユースケース
+- 監視すべき競合上の脅威
+- 12〜18ヶ月の競合リスクと機会
 
-## Best Practices
+## ベストプラクティス
 
-- Research current competitor websites, pricing pages, and customer reviews
-- Use web search to identify product launches, funding, executive moves
-- Distinguish between direct competitors and adjacent alternatives
-- Validate competitive insights across multiple sources
-- Identify both obvious and subtle differentiation opportunities
-- Consider customer pain points not yet addressed in market
-- Look for emerging competitors or new market entrants
-- Flag competitors gaining traction or gaining market share
-- Consider long-term competitive dynamics and market shifts
+- 競合の現在のウェブサイト、価格ページ、顧客レビューをリサーチする
+- プロダクトリリース、資金調達、経営陣の動きを特定するためにウェブ検索を使用する
+- 直接競合と隣接する代替品を区別する
+- 複数のソースにわたって競合インサイトを検証する
+- 明らかな差別化機会と微妙な差別化機会の両方を特定する
+- 市場でまだ解決されていない顧客のペインポイントを考慮する
+- 新興競合または新規市場参入者を探す
+- 勢いを増しているまたは市場シェアを獲得している競合にフラグを立てる
+- 長期的な競合ダイナミクスと市場の変化を考慮する
 
 ---
 
-### Further Reading
+### 参考資料
 
 - [Market Research: Advanced Techniques](https://www.productcompass.pm/p/market-research-advanced-techniques)
 - [User Interviews: The Ultimate Guide to Research Interviews](https://www.productcompass.pm/p/interviewing-customers-the-ultimate)

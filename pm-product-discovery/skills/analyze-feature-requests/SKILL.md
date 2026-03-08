@@ -1,49 +1,49 @@
 ---
 name: analyze-feature-requests
-description: "Analyze and prioritize a list of feature requests by theme, strategic alignment, impact, effort, and risk. Use when reviewing customer feature requests, triaging a backlog, or making prioritization decisions."
+description: "テーマ・戦略的整合性・インパクト・工数・リスクによって機能リクエストのリストを分析・優先順位付けします。顧客の機能リクエストのレビュー、バックログのトリアージ、または優先順位付けの決定を行うときに使用します。"
 ---
 
-## Analyze Feature Requests
+## 機能リクエストの分析
 
-Categorize, evaluate, and prioritize customer feature requests against product goals.
+顧客の機能リクエストをプロダクト目標に対して分類、評価、優先順位付けします。
 
-### Context
+### コンテキスト
 
-You are analyzing feature requests for **$ARGUMENTS**.
+あなたは**$ARGUMENTS**の機能リクエストを分析しています。
 
-If the user provides files (spreadsheets, CSVs, or documents with feature requests), read and analyze them directly. If data is in a structured format, consider creating a summary table.
+ユーザーがファイル（スプレッドシート、CSV、機能リクエストを含むドキュメント）を提供した場合は、直接読んで分析してください。データが構造化された形式の場合は、サマリー表の作成を検討してください。
 
-### Domain Context
+### ドメインコンテキスト
 
-Never allow customers to design solutions. Prioritize **opportunities (problems)**, not features. Use **Opportunity Score** (Dan Olsen) to evaluate customer-reported problems: Opportunity Score = Importance × (1 − Satisfaction), normalized to 0–1. See the `prioritization-frameworks` skill for full details and templates.
+顧客にソリューションを設計させないでください。**機能ではなく機会（問題）**を優先順位付けしてください。**Opportunity Score**（Dan Olsen）を使用して顧客報告の問題を評価します：Opportunity Score = Importance × (1 − Satisfaction)、0〜1に正規化。詳細とテンプレートについては`prioritization-frameworks`スキルを参照してください。
 
-### Instructions
+### 手順
 
-The user will describe their product goal and provide feature requests. Work through these steps:
+ユーザーはプロダクト目標を説明し、機能リクエストを提供します。以下のステップを実行してください：
 
-1. **Understand the goal**: Confirm the product objective and desired outcomes that will guide prioritization.
+1. **目標を理解する**：優先順位付けを導くプロダクト目標と望ましい成果を確認します。
 
-2. **Categorize requests into themes**: Group related requests together and name each theme.
+2. **リクエストをテーマに分類する**：関連するリクエストをグループ化し、各テーマに名前を付けます。
 
-3. **Assess strategic alignment**: For each theme, evaluate how well it aligns with the stated goals.
+3. **戦略的整合性を評価する**：各テーマについて、述べた目標とどの程度整合しているかを評価します。
 
-4. **Prioritize the top 3 features** based on:
-   - **Impact**: Customer value and number of users affected
-   - **Effort**: Development and design resources required
-   - **Risk**: Technical and market uncertainty
-   - **Strategic alignment**: Fit with product vision and goals
+4. **トップ3の機能を優先順位付けする**：
+   - **Impact**：顧客価値と影響を受けるユーザー数
+   - **Effort**：必要な開発・デザインリソース
+   - **Risk**：技術的・市場的不確実性
+   - **戦略的整合性**：プロダクトビジョンと目標への適合性
 
-5. **For each top feature**, provide:
-   - Rationale (customer needs, strategic alignment)
-   - Alternative solutions worth considering
-   - High-risk assumptions
-   - How to test those assumptions with minimal effort
+5. **各トップ機能について**、以下を提供します：
+   - 根拠（顧客ニーズ、戦略的整合性）
+   - 検討価値のある代替ソリューション
+   - 高リスクの仮定
+   - 最小限の工数でそれらの仮定をテストする方法
 
-Think step by step. Save as markdown or create a structured output document.
+ステップバイステップで考えてください。Markdownとして保存するか、構造化されたアウトプットドキュメントを作成してください。
 
 ---
 
-### Further Reading
+### 参考資料
 
 - [Kano Model: How to Delight Your Customers Without Becoming a Feature Factory](https://www.productcompass.pm/p/kano-model-how-to-delight-your-customers)
-- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (video course)
+- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (ビデオコース)

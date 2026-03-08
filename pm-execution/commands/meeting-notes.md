@@ -1,45 +1,45 @@
 ---
-description: Summarize a meeting transcript into structured notes with decisions, action items, and follow-ups
+description: ミーティングのトランスクリプトを、決定事項、アクションアイテム、フォローアップを含む構造化されたノートにまとめる
 argument-hint: "<transcript or meeting notes>"
 ---
 
-# /meeting-notes -- Meeting Summary
+# /meeting-notes -- ミーティングサマリー
 
-Transform a raw meeting transcript or rough notes into clear, structured meeting minutes with decisions captured and action items assigned.
+生のミーティングトランスクリプトや大雑把なノートを、決定事項が捉えられアクションアイテムが割り当てられた明確で構造化されたミーティング議事録に変換します。
 
-## Invocation
+## 呼び出し方
 
 ```
 /meeting-notes [paste transcript]
 /meeting-notes [upload transcript file, audio summary, or notes]
 ```
 
-## Workflow
+## ワークフロー
 
-### Step 1: Accept the Transcript
+### ステップ1：トランスクリプトを受け取る
 
-Accept in any format:
-- Full transcript (from Otter, Fireflies, Google Meet, Zoom, etc.)
-- Rough notes taken during the meeting
-- Audio summary or meeting recap from a transcription tool
-- Multiple inputs (e.g., transcript + the user's own notes)
+以下の形式で受け付ける：
+- 完全なトランスクリプト（Otter、Fireflies、Google Meet、Zoomなどから）
+- ミーティング中に取ったラフなメモ
+- 文字起こしツールからの音声サマリーまたはミーティングレキャップ
+- 複数の入力（例：トランスクリプト + ユーザー自身のノート）
 
-If the input is sparse, work with what's available and flag gaps.
+入力が少ない場合は、利用可能なものを使い、ギャップをフラグとして立てる。
 
-### Step 2: Extract and Structure
+### ステップ2：抽出と構造化
 
-Apply the **summarize-meeting** skill:
+**summarize-meeting**スキルを適用する：
 
-Parse the content to identify:
-- **Participants**: Who was present (from introductions, speaker labels, or mentions)
-- **Topics discussed**: Major agenda items or conversation threads
-- **Decisions made**: Explicit agreements or conclusions reached
-- **Action items**: Tasks assigned, with owner and deadline if mentioned
-- **Open questions**: Unresolved items that need follow-up
-- **Key quotes**: Important statements worth preserving verbatim
-- **Context**: Meeting type, project, and background
+コンテンツを解析して以下を特定する：
+- **参加者**：誰が参加したか（紹介、発言者ラベル、または言及から）
+- **議論されたトピック**：主要なアジェンダアイテムまたは会話スレッド
+- **なされた決定**：明示的な合意または結論
+- **アクションアイテム**：割り当てられたタスク（言及されていれば、オーナーと期限付き）
+- **未解決の質問**：フォローアップが必要な未解決のアイテム
+- **主要な引用**：そのまま保存する価値のある重要な発言
+- **コンテキスト**：ミーティングタイプ、プロジェクト、背景
 
-### Step 3: Generate Meeting Summary
+### ステップ3：ミーティングサマリーを生成する
 
 ```
 ## Meeting Summary
@@ -50,10 +50,10 @@ Parse the content to identify:
 **Topic**: [primary subject]
 
 ### Summary
-[3-5 sentence overview of what was discussed and concluded]
+[議論されたことと結論についての3〜5文の概要]
 
 ### Key Decisions
-1. **[Decision]** — [context and rationale]
+1. **[Decision]** — [コンテキストと根拠]
 2. ...
 
 ### Action Items
@@ -61,29 +61,29 @@ Parse the content to identify:
 |---|--------|-------|----------|--------|
 
 ### Discussion Highlights
-**[Topic 1]**: [key points, different perspectives, conclusion]
-**[Topic 2]**: [key points, different perspectives, conclusion]
+**[Topic 1]**: [主要ポイント、異なる視点、結論]
+**[Topic 2]**: [主要ポイント、異なる視点、結論]
 
 ### Open Questions
-- [Question] — needs input from [person/team]
+- [Question] — [person/team]からの入力が必要
 
 ### Next Steps
-- [What happens next]
-- Next meeting: [if mentioned]
+- [次に何が起こるか]
+- 次のミーティング：[言及された場合]
 ```
 
-Save as markdown.
+markdownとして保存する。
 
-### Step 4: Offer Follow-ups
+### ステップ4：フォローアップを提案する
 
-- "Want me to **email these notes** to participants?"
-- "Should I **create tickets** from the action items?"
-- "Want me to **draft a stakeholder update** based on the decisions made?"
+- 「参加者に**これらのノートをメール送信**したいですか？」
+- 「アクションアイテムから**チケットを作成**しましょうか？」
+- 「なされた決定に基づいて**ステークホルダー向け更新を起草**しましょうか？」
 
-## Notes
+## 注意事項
 
-- Decisions are the most valuable output — make sure every decision is captured clearly
-- Action items without owners are useless — if no owner was mentioned, flag it
-- Keep the summary concise — people who weren't in the meeting should get the gist in 30 seconds
-- If the transcript is very long (60+ min meeting), offer a TL;DR before the full summary
-- Distinguish between "discussed" and "decided" — many topics are explored without reaching a conclusion
+- 決定事項が最も価値ある出力——すべての決定が明確に捉えられていることを確認する
+- オーナーのないアクションアイテムは無意味——オーナーが言及されなかった場合はフラグを立てる
+- サマリーを簡潔に保つ——ミーティングに参加しなかった人が30秒で要点を理解できるようにする
+- トランスクリプトが非常に長い場合（60分以上のミーティング）は、完全なサマリーの前にTL;DRを提供する
+- 「議論した」と「決定した」を区別する——多くのトピックは結論に達することなく探求される

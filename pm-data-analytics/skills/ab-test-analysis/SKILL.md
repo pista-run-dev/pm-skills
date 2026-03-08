@@ -1,64 +1,64 @@
 ---
 name: ab-test-analysis
-description: "Analyze A/B test results with statistical significance, sample size validation, confidence intervals, and ship/extend/stop recommendations. Use when evaluating experiment results, checking if a test reached significance, interpreting split test data, or deciding whether to ship a variant."
+description: "統計的有意性、サンプルサイズの検証、信頼区間、リリース/延長/停止の推奨を含むA/Bテスト結果を分析します。実験結果の評価、テストが有意性に達したかの確認、スプリットテストデータの解釈、またはバリアントをリリースするかどうかの決定の際に使用します。"
 ---
 
 ## A/B Test Analysis
 
-Evaluate A/B test results with statistical rigor and translate findings into clear product decisions.
+A/Bテスト結果を統計的な厳密さで評価し、明確なプロダクト意思決定に変換します。
 
-### Context
+### コンテキスト
 
-You are analyzing A/B test results for **$ARGUMENTS**.
+**$ARGUMENTS** のA/Bテスト結果を分析します。
 
-If the user provides data files (CSV, Excel, or analytics exports), read and analyze them directly. Generate Python scripts for statistical calculations when needed.
+ユーザーがデータファイル（CSV、Excel、またはアナリティクスエクスポート）を提供した場合は、それらを直接読み取り分析します。必要に応じて統計計算のためにPythonスクリプトを生成します。
 
-### Instructions
+### 手順
 
-1. **Understand the experiment**:
-   - What was the hypothesis?
-   - What was changed (the variant)?
-   - What is the primary metric? Any guardrail metrics?
-   - How long did the test run?
-   - What is the traffic split?
+1. **実験を理解する**：
+   - 仮説は何だったか？
+   - 何が変更されたか（バリアント）？
+   - 主要指標は何か？ガードレール指標はあるか？
+   - テストはどのくらいの期間実行されたか？
+   - トラフィック分割は何か？
 
-2. **Validate the test setup**:
-   - **Sample size**: Is the sample large enough for the expected effect size?
-     - Use the formula: n = (Z²α/2 × 2 × p × (1-p)) / MDE²
-     - Flag if the test is underpowered (<80% power)
-   - **Duration**: Did the test run for at least 1-2 full business cycles?
-   - **Randomization**: Any evidence of sample ratio mismatch (SRM)?
-   - **Novelty/primacy effects**: Was there enough time to wash out initial behavior changes?
+2. **テスト設定を検証する**：
+   - **サンプルサイズ**: 期待される効果サイズに対してサンプルは十分に大きいか？
+     - 式を使用: n = (Z²α/2 × 2 × p × (1-p)) / MDE²
+     - テストがアンダーパワー（80%パワー未満）の場合にフラグを立てる
+   - **期間**: テストは少なくとも1〜2つの完全なビジネスサイクル実行されたか？
+   - **ランダム化**: サンプル比率不一致（SRM）の証拠はあるか？
+   - **ノベルティ/プライマシー効果**: 初期の行動変化を洗い出すのに十分な時間があったか？
 
-3. **Calculate statistical significance**:
-   - **Conversion rate** for control and variant
-   - **Relative lift**: (variant - control) / control × 100
-   - **p-value**: Using a two-tailed z-test or chi-squared test
-   - **Confidence interval**: 95% CI for the difference
-   - **Statistical significance**: Is p < 0.05?
-   - **Practical significance**: Is the lift meaningful for the business?
+3. **統計的有意性を計算する**：
+   - コントロールとバリアントの**コンバージョン率**
+   - **相対リフト**: (バリアント - コントロール) / コントロール × 100
+   - **p値**: 両側z検定またはカイ二乗検定を使用
+   - **信頼区間**: 差異の95% CI
+   - **統計的有意性**: p < 0.05 か？
+   - **実務的有意性**: リフトはビジネスにとって意味があるか？
 
-   If the user provides raw data, generate and run a Python script to calculate these.
+   ユーザーが生データを提供した場合は、これらを計算するPythonスクリプトを生成して実行します。
 
-4. **Check guardrail metrics**:
-   - Did any guardrail metrics (revenue, engagement, page load time) degrade?
-   - A winning primary metric with degraded guardrails may not be a true win
+4. **ガードレール指標を確認する**：
+   - ガードレール指標（収益、エンゲージメント、ページロード時間）が低下したか？
+   - ガードレールが低下した状態での主要指標の勝利は、真の勝利ではない可能性がある
 
-5. **Interpret results**:
+5. **結果を解釈する**：
 
-   | Outcome | Recommendation |
+   | 結果 | 推奨事項 |
    |---|---|
-   | Significant positive lift, no guardrail issues | **Ship it** — roll out to 100% |
-   | Significant positive lift, guardrail concerns | **Investigate** — understand trade-offs before shipping |
-   | Not significant, positive trend | **Extend the test** — need more data or larger effect |
-   | Not significant, flat | **Stop the test** — no meaningful difference detected |
-   | Significant negative lift | **Don't ship** — revert to control, analyze why |
+   | 有意なポジティブリフト、ガードレール問題なし | **リリースする** — 100%にロールアウト |
+   | 有意なポジティブリフト、ガードレール懸念あり | **調査する** — リリース前にトレードオフを理解する |
+   | 有意でない、ポジティブなトレンド | **テストを延長する** — より多くのデータまたはより大きな効果が必要 |
+   | 有意でない、フラット | **テストを停止する** — 意味のある差異は検出されず |
+   | 有意なネガティブリフト | **リリースしない** — コントロールに戻し、理由を分析する |
 
-6. **Provide the analysis summary**:
+6. **分析サマリーを提供する**：
    ```
-   ## A/B Test Results: [Test Name]
+   ## A/B Test Results: [テスト名]
 
-   **Hypothesis**: [What we expected]
+   **Hypothesis**: [期待したこと]
    **Duration**: [X days] | **Sample**: [N control / M variant]
 
    | Metric | Control | Variant | Lift | p-value | Significant? |
@@ -67,15 +67,15 @@ If the user provides data files (CSV, Excel, or analytics exports), read and ana
    | [Guardrail] | ... | ... | ... | ... | ... |
 
    **Recommendation**: [Ship / Extend / Stop / Investigate]
-   **Reasoning**: [Why]
-   **Next steps**: [What to do]
+   **Reasoning**: [理由]
+   **Next steps**: [次にすること]
    ```
 
-Think step by step. Save as markdown. Generate Python scripts for calculations if raw data is provided.
+ステップバイステップで考えます。マークダウンとして保存します。生データが提供された場合はPythonスクリプトで計算を生成します。
 
 ---
 
-### Further Reading
+### 参考資料
 
 - [A/B Testing 101 + Examples](https://www.productcompass.pm/p/ab-testing-101-for-pms)
 - [Testing Product Ideas: The Ultimate Validation Experiments Library](https://www.productcompass.pm/p/the-ultimate-experiments-library)

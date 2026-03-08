@@ -1,61 +1,61 @@
 ---
-description: Perform cohort analysis on user data — retention curves, feature adoption, and engagement trends
-argument-hint: "<data file or description of what to analyze>"
+description: ユーザーデータのコホート分析を実行する — リテンションカーブ、機能採用、エンゲージメントトレンド
+argument-hint: "<データファイルまたは分析内容の説明>"
 ---
 
 # /analyze-cohorts -- Cohort Analysis
 
-Analyze user retention and engagement patterns by cohort. Upload your data or describe what you need, and get retention curves, feature adoption trends, and actionable insights.
+コホートごとにユーザーリテンションとエンゲージメントパターンを分析します。データをアップロードするか必要なことを説明すれば、リテンションカーブ、機能採用トレンド、実用的なインサイトを取得できます。
 
-## Invocation
+## 呼び出し方
 
 ```
-/analyze-cohorts [upload a CSV of user activity data]
+/analyze-cohorts [ユーザーアクティビティデータのCSVをアップロード]
 /analyze-cohorts Monthly retention for users who signed up in Jan-Jun, grouped by acquisition channel
 /analyze-cohorts Help me set up a cohort analysis for our onboarding redesign
 ```
 
-## Workflow
+## ワークフロー
 
-### Step 1: Accept Data or Define Analysis
+### ステップ1: データを受け付けるか分析を定義する
 
-Two paths:
-- **With data**: User uploads a CSV/spreadsheet with user-level data (user_id, signup_date, activity_date, event_type, etc.)
-- **Without data**: User describes the analysis they need → generate the SQL query and analysis framework
+2つのパス：
+- **データあり**: ユーザーがユーザーレベルのデータ（user_id、signup_date、activity_date、event_typeなど）を含むCSV/スプレッドシートをアップロードする
+- **データなし**: ユーザーが必要な分析を説明する → SQLクエリと分析フレームワークを生成する
 
-### Step 2: Define Cohorts
+### ステップ2: コホートを定義する
 
-Ask:
-- What defines a cohort? (signup week/month, acquisition channel, plan tier, first feature used)
-- What is the retention event? (login, core action, any activity, purchase)
-- What time granularity? (daily, weekly, monthly)
-- What time range?
+確認事項：
+- コホートを定義するものは何か？（サインアップ週/月、獲得チャネル、プランの層、最初に使用した機能）
+- リテンションイベントは何か？（ログイン、コアアクション、任意のアクティビティ、購入）
+- 時間の粒度は？（日次、週次、月次）
+- 時間範囲は？
 
-### Step 3: Analyze
+### ステップ3: 分析する
 
-Apply the **cohort-analysis** skill:
+**cohort-analysis** スキルを適用します：
 
-**If data is provided:**
-- Process the data using Python (pandas) to create cohort tables
-- Calculate retention rates per cohort per period
-- Generate retention curves
-- Identify patterns: improving/declining cohorts, seasonal effects, anomalies
-- Compare feature adoption across cohorts
+**データが提供されている場合：**
+- Python（pandas）を使用してデータを処理し、コホートテーブルを作成する
+- コホートごと・期間ごとのリテンション率を計算する
+- リテンションカーブを生成する
+- パターンを特定する：改善/低下するコホート、季節効果、異常
+- コホック全体の機能採用を比較する
 
-**If describing an analysis:**
-- Design the cohort analysis framework
-- Generate SQL queries to extract the data
-- Create a template spreadsheet for the analysis
-- Define the metrics and visualization approach
+**分析を説明している場合：**
+- コホート分析フレームワークを設計する
+- データ抽出のためのSQLクエリを生成する
+- 分析用テンプレートスプレッドシートを作成する
+- 指標と可視化アプローチを定義する
 
-### Step 4: Generate Report
+### ステップ4: レポートを生成する
 
 ```
-## Cohort Analysis: [Description]
+## Cohort Analysis: [説明]
 
 **Date**: [today]
-**Cohort definition**: [e.g., signup month]
-**Retention event**: [e.g., completed a project]
+**Cohort definition**: [例：サインアップ月]
+**Retention event**: [例：プロジェクトを完了した]
 **Granularity**: [weekly/monthly]
 
 ### Retention Table
@@ -63,12 +63,12 @@ Apply the **cohort-analysis** skill:
 |--------|------|--------|--------|--------|-----|---------|
 
 ### Key Findings
-1. **[Finding]** — [supporting data]
+1. **[発見]** — [裏付けデータ]
 2. ...
 
 ### Cohort Comparison
-- **Best-performing cohort**: [which, why]
-- **Worst-performing cohort**: [which, why]
+- **Best-performing cohort**: [どれ、なぜ]
+- **Worst-performing cohort**: [どれ、なぜ]
 - **Trend**: [improving/declining/stable over time]
 
 ### Retention Benchmarks
@@ -76,24 +76,24 @@ Apply the **cohort-analysis** skill:
 |--------|----------|-------------------|-----|
 
 ### Recommendations
-1. [What to investigate or change based on findings]
+1. [発見に基づいて調査または変更すること]
 2. ...
 
 ### Follow-Up Queries
-[SQL queries for deeper investigation]
+[より深い調査のためのSQLクエリ]
 ```
 
-If data was provided, save analysis as both markdown report and CSV/spreadsheet.
+データが提供された場合は、マークダウンレポートとCSV/スプレッドシートの両方として分析を保存します。
 
-### Step 5: Offer Next Steps
+### ステップ5: 次のステップを提案する
 
-- "Want me to **segment this further** by another dimension?"
-- "Should I **set up metrics alerts** based on these retention thresholds?"
-- "Want me to **design experiments** to improve retention for the weakest cohort?"
+- 「**別の次元でさらに細分化**しましょうか？」
+- 「これらのリテンション閾値に基づいて**指標アラートを設定**すべきでしょうか？」
+- 「最も弱いコホートのリテンションを改善するための**実験を設計**しましょうか？」
 
-## Notes
+## 注意事項
 
-- Cohort analysis is only as good as the retention event definition — push for a meaningful action, not just "logged in"
-- Early cohorts often look different due to founding user bias — note this when comparing
-- If retention is calculated using a Python script, save the script so the user can re-run with new data
-- Seasonal effects can masquerade as trends — flag if cohort differences might be calendar-driven
+- コホート分析はリテンションイベントの定義と同程度に良い — 単なる「ログインした」ではなく、意味のあるアクションを主張する
+- 初期コホートはファウンディングユーザーバイアスのために異なって見えることが多い — 比較時にこれを記載する
+- リテンションがPythonスクリプトで計算されている場合は、ユーザーが新しいデータで再実行できるようにスクリプトを保存する
+- 季節効果がトレンドに見える場合がある — コホートの差異がカレンダー駆動の可能性がある場合にフラグを立てる

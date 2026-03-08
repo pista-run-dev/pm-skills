@@ -1,51 +1,51 @@
 ---
 name: value-prop-statements
-description: "Generate value proposition statements for marketing, sales, and onboarding from existing value propositions. Use when writing marketing copy, creating sales messaging, or crafting onboarding messages."
+description: "既存のバリュープロポジションからマーケティング、セールス、オンボーディング向けのバリュープロポジションステートメントを生成します。マーケティングコピーの執筆、セールスメッセージの作成、オンボーディングメッセージの策定に使用します。"
 ---
 # Value Proposition Statements
 
-Generate value proposition statements from existing value propositions for marketing, sales, and onboarding. Creates statements that address target segments, emphasize benefits, and highlight capabilities. Perfect for crafting targeted marketing content, sales presentations, and customer onboarding messages.
+マーケティング、セールス、オンボーディング向けに既存のバリュープロポジションからバリュープロポジションステートメントを生成します。ターゲットセグメントへの対応、ベネフィットの強調、機能の際立たせを行うステートメントを作成します。ターゲットを絞ったマーケティングコンテンツ、セールスプレゼンテーション、顧客オンボーディングメッセージの策定に最適です。
 
-## When to Use
+## 使用タイミング
 
-- Writing marketing copy and promotional content
-- Creating sales decks and pitch materials
-- Crafting customer onboarding messages
-- Developing segment-specific messaging
-- Triggers: value proposition statements, marketing copy, sales messaging, value statements, positioning copy
+- マーケティングコピーとプロモーションコンテンツの執筆
+- セールスデッキとピッチ資料の作成
+- 顧客オンボーディングメッセージの策定
+- セグメント固有のメッセージングの開発
+- トリガー: バリュープロポジションステートメント、マーケティングコピー、セールスメッセージング、バリューステートメント、ポジショニングコピー
 
-## Prompt
+## プロンプト
 
-You are an experienced product growth expert with expertise in value proposition development and targeted messaging.
+あなたはバリュープロポジション開発とターゲットメッセージングの専門知識を持つ経験豊富なプロダクトグロース専門家です。
 
-Based on the following value proposition(s) for $ARGUMENTS, develop comprehensive value proposition statements that can be used across marketing, sales, and onboarding contexts.
+$ARGUMENTS の以下のバリュープロポジションに基づいて、マーケティング、セールス、オンボーディングのコンテキスト全体で使用できる包括的なバリュープロポジションステートメントを開発してください。
 
-For each statement, ensure it:
-- Directly addresses a specific target market segment or use case
-- Emphasizes the primary benefit and desired outcome
-- Highlights the key features and capabilities that make it possible
-- Uses clear, compelling language that resonates with the audience
+各ステートメントについて、以下を確認してください：
+- 特定のターゲット市場セグメントまたはユースケースに直接対応している
+- プライマリベネフィットと望ましい成果を強調している
+- それを可能にする主要な機能と能力を際立たせている
+- オーディエンスに共鳴する明確で説得力のある言葉を使用している
 
-## Example Framework (Canva)
+## サンプルフレームワーク（Canva）
 
-To illustrate the approach, here are value proposition statements for Canva:
+アプローチを説明するために、Canvaのバリュープロポジションステートメントの例を示します：
 
-1. **For Social Media Marketers**: Canva empowers social media marketers to create stunning, on-brand designs effortlessly, without requiring expensive design software or hiring dedicated designers. Quickly produce professional-quality graphics that boost engagement and strengthen brand consistency across all channels.
+1. **ソーシャルメディアマーケター向け**：Canvaはソーシャルメディアマーケターが高価なデザインソフトウェアや専任デザイナーを雇うことなく、ブランドに沿った美しいデザインを手間なく作成できるようにします。エンゲージメントを高め、すべてのチャネルでブランドの一貫性を強化するプロフェッショナルクオリティのグラフィックをすばやく制作できます。
 
-2. **For Small Business Owners**: With Canva's intuitive drag-and-drop interface and extensive collection of pre-designed templates, small business owners can launch polished marketing campaigns in minutes. Create website graphics, social posts, flyers, and promotional materials that look professionally designed—all without prior design experience.
+2. **中小企業オーナー向け**：Canvaの直感的なドラッグ＆ドロップインターフェースと豊富な既製テンプレートにより、中小企業オーナーは数分でポリッシュされたマーケティングキャンペーンを開始できます。デザイン経験がなくても、プロがデザインしたように見えるウェブサイトグラフィック、ソーシャル投稿、チラシ、プロモーション素材を作成できます。
 
-3. **For Content Creators**: By using Canva, content creators can focus on storytelling while spending less time on design logistics. Produce consistent, visually appealing content at scale with templates tailored to different platforms, ultimately allowing more time for audience engagement and content strategy.
+3. **コンテンツクリエイター向け**：Canvaを使用することで、コンテンツクリエイターはデザインのロジスティクスに費やす時間を減らしながらストーリーテリングに集中できます。異なるプラットフォームに合わせたテンプレートを使って一貫性のある視覚的に魅力的なコンテンツを大規模に制作し、オーディエンスエンゲージメントとコンテンツ戦略により多くの時間を使えます。
 
-## Tips for Best Results
+## 最良の結果のためのヒント
 
-- Provide existing value propositions or key benefits
-- Specify target segments and their pain points
-- Include product features and differentiators
-- Share distribution channels (marketing, sales, onboarding)
-- Mention any brand tone or voice guidelines
+- 既存のバリュープロポジションまたは主要なベネフィットを提供する
+- ターゲットセグメントとそのペインポイントを指定する
+- 製品の機能と差別化要素を含める
+- 流通チャネルを共有する（マーケティング、セールス、オンボーディング）
+- ブランドのトーンやボイスガイドラインを述べる
 
 ---
 
-### Further Reading
+### 参考文献
 
 - [How to Design a Value Proposition Customers Can't Resist?](https://www.productcompass.pm/p/how-to-design-value-proposition-template)

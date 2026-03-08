@@ -1,13 +1,13 @@
 ---
-description: Create a comprehensive Product Requirements Document from a feature idea or problem statement
+description: 機能のアイデアや問題ステートメントから包括的なプロダクト要件ドキュメントを作成する
 argument-hint: "<feature or problem statement>"
 ---
 
-# /write-prd -- Product Requirements Document
+# /write-prd -- プロダクト要件ドキュメント
 
-Create a structured PRD that aligns stakeholders and guides development. Accepts anything from a vague idea to a detailed brief.
+ステークホルダーを整合させ、開発を導く構造化されたPRDを作成します。漠然としたアイデアから詳細なブリーフまで、あらゆる入力を受け付けます。
 
-## Invocation
+## 呼び出し方
 
 ```
 /write-prd SSO support for enterprise customers
@@ -15,33 +15,33 @@ Create a structured PRD that aligns stakeholders and guides development. Accepts
 /write-prd [upload a brief, research doc, or strategy deck]
 ```
 
-## Workflow
+## ワークフロー
 
-### Step 1: Understand the Feature
+### ステップ1：機能を理解する
 
-Accept the input in any form:
-- A feature name ("SSO support")
-- A problem statement ("Enterprise customers keep asking for centralized auth")
-- A user request ("Users want to export their data as CSV")
-- A vague idea ("We should do something about onboarding drop-off")
-- An uploaded document (brief, research, Slack thread, email)
+以下の形式で入力を受け付けます：
+- 機能名（「SSO support」）
+- 問題ステートメント（「Enterprise customers keep asking for centralized auth」）
+- ユーザーリクエスト（「Users want to export their data as CSV」）
+- 漠然としたアイデア（「We should do something about onboarding drop-off」）
+- アップロードされたドキュメント（ブリーフ、調査、Slackスレッド、メール）
 
-### Step 2: Gather Context
+### ステップ2：コンテキストを収集する
 
-Ask conversationally — most important questions first, fill gaps as you go:
+会話形式で質問する——最も重要な質問から始め、進めながらギャップを埋める：
 
-1. **User problem**: What problem does this solve? Who experiences it? How painful is it?
-2. **Target users**: Which user segment(s)? How many? What's their current workaround?
-3. **Success metrics**: How will we know this worked? What moves if we nail it?
-4. **Constraints**: Technical constraints, timeline, regulatory, dependencies on other teams?
-5. **Prior art**: Has this been attempted before? Existing solutions in the market?
-6. **Scope preference**: Full solution or phased approach?
+1. **ユーザーの問題**：どんな問題を解決するか？誰が経験しているか？どれくらい苦痛か？
+2. **ターゲットユーザー**：どのユーザーセグメント？何人？現在の回避策は？
+3. **成功指標**：これが機能したとどうやって知るか？うまくいった場合に何が動くか？
+4. **制約**：技術的制約、タイムライン、規制、他チームへの依存？
+5. **先行例**：以前に試みられたか？市場の既存ソリューションは？
+6. **スコープの好み**：完全なソリューションか段階的アプローチか？
 
-If the user provides a document with context, extract what's available and only ask about gaps.
+ユーザーがコンテキストを含むドキュメントを提供した場合は、利用可能な情報を抽出し、ギャップのみについて質問する。
 
-### Step 3: Generate the PRD
+### ステップ3：PRDを生成する
 
-Apply the **create-prd** skill to produce an 8-section document:
+**create-prd**スキルを適用して8セクションのドキュメントを生成する：
 
 ```
 ## Product Requirements Document: [Feature Name]
@@ -98,21 +98,21 @@ Apply the **create-prd** skill to produce an 8-section document:
 [Milestones, dependencies, phasing if applicable]
 ```
 
-### Step 4: Review and Iterate
+### ステップ4：レビューと反復
 
-After generating, offer:
-- "Want me to **tighten the scope**? I can challenge which P1s should really be P2s."
-- "Should I **run a pre-mortem** on this PRD?"
-- "Want me to **break this into user stories** for engineering?"
-- "Should I **create a stakeholder update** to socialize this?"
+生成後、以下を提案する：
+- 「**スコープを絞り込み**たいですか？P1の中でP2にすべきものを検討できます。」
+- 「このPRDに対して**プレモーテムを実施**しましょうか？」
+- 「エンジニアリング向けに**ユーザーストーリーに分解**しましょうか？」
+- 「これを広めるための**ステークホルダー向け更新**を作成しましょうか？」
 
-Save the PRD as a markdown file to the user's workspace.
+PRDをユーザーのワークスペースのmarkdownファイルとして保存する。
 
-## Notes
+## 注意事項
 
-- Be opinionated about scope — a tight PRD is better than an expansive vague one
-- If the idea is too big, proactively suggest phasing and spec only Phase 1
-- Non-goals are as important as goals — they prevent scope creep
-- Success metrics must be specific: "improve NPS" is bad, "increase NPS from 32 to 45 within 90 days of launch" is good
-- Open questions should be genuinely unresolved — don't list things you can answer from context
-- If the user provides research, weave insights into the Background section with attribution
+- スコープについて意見を持つ——コンパクトなPRDは広範で曖昧なものより優れている
+- アイデアが大きすぎる場合は、積極的に段階化を提案してフェーズ1のみを仕様化する
+- Non-goalsはgoalsと同じくらい重要——スコープクリープを防ぐ
+- 成功指標は具体的でなければならない：「NPSを改善する」は不良、「ローンチから90日以内にNPSを32から45に増加させる」は良好
+- 未解決の質問はコンテキストから答えられるものをリストに入れない
+- ユーザーが調査を提供した場合は、帰属を示してBackgroundセクションにインサイトを組み込む

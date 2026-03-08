@@ -1,53 +1,53 @@
 ---
 name: summarize-interview
-description: "Summarize a customer interview transcript into a structured template with JTBD, satisfaction signals, and action items. Use when processing interview recordings or transcripts, synthesizing discovery interviews, or creating interview summaries."
+description: "顧客インタビューのトランスクリプトを、JTBD・満足度シグナル・アクションアイテムを含む構造化テンプレートにまとめます。インタビューの録音やトランスクリプトの処理、ディスカバリーインタビューの統合、またはインタビューサマリーの作成を行うときに使用します。"
 ---
 
-## Summarize Customer Interview
+## 顧客インタビューの要約
 
-Transform an interview transcript into a structured summary focused on Jobs to Be Done, satisfaction, and action items.
+インタビューのトランスクリプトを、Jobs to Be Done・満足度・アクションアイテムに焦点を当てた構造化サマリーに変換します。
 
-### Context
+### コンテキスト
 
-You are summarizing a customer interview for the product discovery of **$ARGUMENTS**.
+あなたは**$ARGUMENTS**のプロダクトディスカバリーのための顧客インタビューを要約しています。
 
-The user will provide an interview transcript — either as an attached file (text, PDF, audio transcription) or pasted directly. Read any attached files first.
+ユーザーはインタビューのトランスクリプトを提供します。添付ファイル（テキスト、PDF、音声トランスクリプション）として、またはそのまま貼り付けて提供されます。添付ファイルがある場合は最初に読んでください。
 
-### Instructions
+### 手順
 
-1. **Read the full transcript** carefully before summarizing.
+1. **要約する前にトランスクリプト全体を注意深く読む**。
 
-2. **Fill in the summary template** below. Use "-" if information is unavailable. Replace numeric values with qualitative descriptions if needed (e.g., "not satisfied").
+2. **以下のサマリーテンプレートを記入する**。情報が利用できない場合は「-」を使用してください。必要に応じて数値を定性的な説明に置き換えてください（例：「満足していない」）。
 
-3. **Use clear, simple language** — a primary school graduate should be able to understand the summary.
+3. **明確でシンプルな言語を使用する** — 小学校を卒業した人がサマリーを理解できるようにしてください。
 
-### Output Template
+### アウトプットテンプレート
 
 ```
-**Date**: [Date and time of the interview]
-**Participants**: [Full names and roles]
-**Background**: [Background information about the customer]
+**Date**: [インタビューの日時]
+**Participants**: [フルネームと役割]
+**Background**: [顧客の背景情報]
 
-**Current Solution**: [What solution they currently use]
+**Current Solution**: [現在使用しているソリューション]
 
 **What They Like About Current Solution**:
-- [Job to be done, desired outcome, importance, and satisfaction level]
+- [Job to be done、望ましい成果、重要度、満足度]
 
 **Problems With Current Solution**:
-- [Job to be done, desired outcome, importance, and satisfaction level]
+- [Job to be done、望ましい成果、重要度、満足度]
 
 **Key Insights**:
-- [Unexpected findings or notable quotes]
+- [予想外の発見または注目すべき引用]
 
 **Action Items**:
-- [Date, Owner, Action — e.g., "2025-01-15, Paweł Huryn, Follow up with customer about pricing"]
+- [日付、担当者、アクション — 例："2025-01-15, Paweł Huryn, Follow up with customer about pricing"]
 ```
 
-Save the summary as a markdown document in the user's workspace.
+サマリーをMarkdownドキュメントとしてユーザーのワークスペースに保存してください。
 
 ---
 
-### Further Reading
+### 参考資料
 
 - [User Interviews: The Ultimate Guide to Research Interviews](https://www.productcompass.pm/p/interviewing-customers-the-ultimate)
-- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (video course)
+- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (ビデオコース)

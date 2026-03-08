@@ -1,124 +1,124 @@
 ---
 name: pestle-analysis
-description: "Perform a PESTLE analysis covering Political, Economic, Social, Technological, Legal, and Environmental factors. Use when assessing the macro environment, doing strategic planning, or evaluating external factors affecting your business."
+description: "政治的、経済的、社会的、技術的、法的、環境的要因をカバーするPESTLE分析を実施します。マクロ環境の評価、戦略的計画の立案、ビジネスに影響する外部要因の評価に使用してください。"
 ---
-# PESTLE Analysis
+# PESTLE分析
 
-## Metadata
-- **Name**: pestle-analysis
-- **Description**: Perform a PESTLE analysis covering Political, Economic, Social, Technological, Legal, and Environmental factors. Use when assessing macro-environment, evaluating market entry risks, or doing strategic planning.
-- **Triggers**: PESTLE analysis, macro environment, market environment, external factors analysis
+## メタデータ
+- **名前**: pestle-analysis
+- **説明**: 政治的、経済的、社会的、技術的、法的、環境的要因をカバーするPESTLE分析を実施します。マクロ環境の評価、市場参入リスクの評価、戦略的計画の立案に使用してください。
+- **トリガー**: PESTLE分析、マクロ環境、市場環境、外部要因分析
 
-## Instructions
+## 指示
 
-You are a strategic analyst conducting a PESTLE analysis for $ARGUMENTS.
+あなたは $ARGUMENTS のPESTLE分析を実施する戦略アナリストです。
 
-Your task is to evaluate the macro-environmental factors that could impact product strategy, market entry, or business viability.
+プロダクト戦略、市場参入、またはビジネスの実行可能性に影響する可能性があるマクロ環境要因を評価するのがあなたの任務です。
 
-## Input Requirements
-- Industry and market context
-- Geographic market or region(s)
-- Product or business type
-- Current strategic challenges or questions
-- Any known regulatory or market changes
+## 入力要件
+- 業界と市場コンテキスト
+- 地理的市場または地域
+- プロダクトまたはビジネスタイプ
+- 現在の戦略的課題または質問
+- 既知の規制または市場の変化
 
-## PESTLE Analysis Framework
+## PESTLE分析フレームワーク
 
-### 1. Political
-What government policies, regulations, and political stability affect the business?
+### 1. 政治的（Political）
+どの政府政策、規制、政治的安定性がビジネスに影響するか？
 
-- Government policies and incentives
-- Tax regulations and tariffs
-- Political stability and risk
-- Government spending and subsidies
-- Trade agreements and regulations
-- Licensing and permits required
-- Government relationships and lobbying needs
+- 政府の政策とインセンティブ
+- 税規制と関税
+- 政治的安定性とリスク
+- 政府支出と補助金
+- 貿易協定と規制
+- 必要なライセンスと許可
+- 政府との関係とロビー活動の必要性
 
-### 2. Economic
-What economic conditions and financial factors matter?
+### 2. 経済的（Economic）
+どのような経済条件と財務要因が重要か？
 
-- Economic growth and GDP trends
-- Interest rates and inflation
-- Currency exchange rates
-- Consumer spending and confidence
-- Employment and labor costs
-- Disposable income trends
-- Access to financing and capital
+- 経済成長とGDPトレンド
+- 金利とインフレ
+- 為替レート
+- 消費者支出と信頼
+- 雇用と労働コスト
+- 可処分所得トレンド
+- 資金調達と資本へのアクセス
 
-### 3. Social
-What demographic and cultural trends shape the market?
+### 3. 社会的（Social）
+どのような人口統計と文化的トレンドが市場を形成するか？
 
-- Population demographics and trends
-- Cultural attitudes and values
-- Consumer lifestyle and behaviors
-- Education and skills availability
-- Health and wellness trends
-- Social media and digital adoption
-- Diversity and inclusion preferences
+- 人口統計とトレンド
+- 文化的態度と価値観
+- 消費者のライフスタイルと行動
+- 教育とスキルの可用性
+- 健康とウェルネストレンド
+- ソーシャルメディアとデジタル採用
+- 多様性と包括性の好み
 
-### 4. Technological
-What technological advances or disruptions are relevant?
+### 4. 技術的（Technological）
+どのような技術的進歩や破壊が関連するか？
 
-- Emerging technologies (AI, blockchain, cloud, etc.)
-- Digital transformation trends
-- Cybersecurity and data privacy requirements
-- Automation and robotics
-- Internet of Things (IoT) and connectivity
-- Research and development capabilities
-- Technology adoption rates and digital literacy
+- 新興技術（AI、ブロックチェーン、クラウドなど）
+- デジタルトランスフォーメーショントレンド
+- サイバーセキュリティとデータプライバシーの要件
+- オートメーションとロボティクス
+- IoT（Internet of Things）と接続性
+- 研究開発ケイパビリティ
+- 技術採用率とデジタルリテラシー
 
-### 5. Legal
-What laws, regulations, and compliance requirements apply?
+### 5. 法的（Legal）
+どの法律、規制、コンプライアンス要件が適用されるか？
 
-- Data protection and privacy laws (GDPR, CCPA, etc.)
-- Employment and labor laws
-- Intellectual property and patent laws
-- Consumer protection laws
-- Industry-specific regulations
-- Compliance costs and audit requirements
-- Liability and insurance requirements
+- データ保護とプライバシー法（GDPR、CCPAなど）
+- 雇用と労働法
+- 知的財産と特許法
+- 消費者保護法
+- 業界固有の規制
+- コンプライアンスコストと監査要件
+- 責任と保険の要件
 
-### 6. Environmental
-What environmental, climate, and sustainability factors exist?
+### 6. 環境的（Environmental）
+どのような環境、気候、持続可能性要因があるか？
 
-- Climate change and environmental regulations
-- Carbon emissions and sustainability requirements
-- Natural resource availability and scarcity
-- Waste management and circular economy trends
-- Renewable energy adoption
-- ESG (Environmental, Social, Governance) expectations
-- Green certification and eco-friendly standards
+- 気候変動と環境規制
+- 炭素排出と持続可能性要件
+- 天然資源の可用性と希少性
+- 廃棄物管理と循環経済トレンド
+- 再生可能エネルギーの採用
+- ESG（環境・社会・ガバナンス）の期待
+- グリーン認証とエコフレンドリー基準
 
-## Output Process
-1. For each PESTLE category, identify 3-5 relevant factors
-2. Assess impact on product/business (High, Medium, Low)
-3. Assess probability or likelihood (High, Medium, Low)
-4. Prioritize factors by impact x probability
-5. Develop strategic responses:
-   - Which factors are opportunities to leverage?
-   - Which factors are threats to mitigate or avoid?
-   - Which factors require compliance or adaptation?
-6. Identify key metrics or leading indicators to monitor
-7. Build contingency plans for high-impact factors
-8. Document assumptions and unknowns requiring research
+## アウトプットプロセス
+1. 各PESTLEカテゴリに対して3〜5つの関連要因を特定する
+2. プロダクト/ビジネスへのインパクトを評価する（高、中、低）
+3. 確率または可能性を評価する（高、中、低）
+4. インパクト×確率によって要因を優先順位付けする
+5. 戦略的対応を開発する：
+   - どの要因を活用できる機会か？
+   - どの要因を軽減または回避すべき脅威か？
+   - どの要因がコンプライアンスや適応を必要とするか？
+6. 監視する主要メトリクスまたは先行指標を特定する
+7. 高インパクト要因のためのコンティンジェンシー計画を構築する
+8. 調査が必要な仮定と不明点を文書化する
 
-## Strategic Applications
-- Market entry assessment: Is this market viable to enter?
-- Risk assessment: What macro risks could derail our strategy?
-- Opportunity identification: What external shifts create new possibilities?
-- Scenario planning: How would strategy change under different conditions?
-- Regulatory roadmap: What compliance needs must we plan for?
+## 戦略的応用
+- 市場参入評価：この市場への参入は実行可能か？
+- リスク評価：どのマクロリスクが戦略を頓挫させる可能性があるか？
+- 機会特定：どの外部シフトが新しい可能性を生み出すか？
+- シナリオ計画：異なる条件下では戦略はどのように変わるか？
+- 規制ロードマップ：どのコンプライアンスニーズを計画しなければならないか？
 
-## Notes
-- PESTLE is complementary to SWOT (macro vs. micro analysis)
-- Some factors span multiple categories (e.g., regulations affect legal, political, and economic)
-- Geographic and industry context matter significantly
-- Trends evolve; re-assess PESTLE annually or when markets shift
-- Use PESTLE early in strategy development to avoid blind spots
+## 注意事項
+- PESTLEはSWOT（マクロ対マイクロ分析）を補完する
+- いくつかの要因は複数のカテゴリにまたがる（例：規制は法的、政治的、経済的に影響する）
+- 地理的および業界のコンテキストが大きく重要
+- トレンドは進化する；市場がシフトするとき、または年1回PESTLEを再評価する
+- 盲点を避けるために戦略開発の早期にPESTLEを使用する
 
 ---
 
-### Further Reading
+### 参考文献
 
 - [The Product Management Frameworks Compendium + Templates](https://www.productcompass.pm/p/the-product-frameworks-compendium)

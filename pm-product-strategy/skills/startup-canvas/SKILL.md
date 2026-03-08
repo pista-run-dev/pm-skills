@@ -1,136 +1,136 @@
 ---
 name: startup-canvas
-description: "Generate a Startup Canvas combining Product Strategy (9 sections) and Business Model (costs + revenue) for a new product. An alternative to BMC and Lean Canvas that separates strategy from business model. Use when launching a new product or evaluating a startup concept."
+description: "新プロダクトのためのプロダクト戦略（9セクション）とビジネスモデル（コスト＋収益）を組み合わせたスタートアップキャンバスを生成します。戦略とビジネスモデルを分離するBMCとリーンキャンバスの代替手段です。新プロダクトの立ち上げやスタートアップコンセプトの評価に使用してください。"
 ---
-# Startup Canvas
+# スタートアップキャンバス
 
-## Metadata
-- **Name**: startup-canvas
-- **Description**: Generate a Startup Canvas for a new product. Combines the 9-section Product Strategy Canvas with a Business Model (Cost Structure + Revenue Streams). Designed specifically for startups and new products.
-- **Triggers**: startup canvas, new product canvas, startup strategy, startup business model
+## メタデータ
+- **名前**: startup-canvas
+- **説明**: 新プロダクトのスタートアップキャンバスを生成します。9セクションのプロダクト戦略キャンバスとビジネスモデル（コスト構造＋収益ストリーム）を組み合わせます。スタートアップと新プロダクトに特化して設計されています。
+- **トリガー**: スタートアップキャンバス、新プロダクトキャンバス、スタートアップ戦略、スタートアップビジネスモデル
 
-## Domain Context
+## ドメインコンテキスト
 
-### Startup Canvas vs Business Model Canvas vs Lean Canvas
+### スタートアップキャンバス vs ビジネスモデルキャンバス vs リーンキャンバス
 
-Popular approaches like Business Model Canvas (Strategyzer) and Lean Canvas (Ash Maurya) mix strategy and business model into one artifact. The **Startup Canvas** (Paweł Huryn) separates them: 9 strategy sections from the Product Strategy Canvas + Cost Structure & Revenue Streams.
+Business Model Canvas（Strategyzer）やLean Canvas（Ash Maurya）などの一般的なアプローチは、戦略とビジネスモデルを1つのアーティファクトに混在させます。**スタートアップキャンバス**（Paweł Huryn）はそれらを分離します：プロダクト戦略キャンバスからの9つの戦略セクション＋コスト構造＆収益ストリーム。
 
-**Why not Business Model Canvas?**
-- No vision — why should your team wake up every day?
-- No Can't/Won't test — what stops competitors from copying you?
-- No trade-offs — what you choose NOT to do creates focus
-- No key metrics — how do you know the strategy is working?
-- Key Partnerships and Key Resources are rarely useful for early-stage products
+**なぜビジネスモデルキャンバスではないのか？**
+- ビジョンがない — なぜチームは毎日目覚めるのか？
+- Can't/Wontテストがない — 競合他社があなたをコピーするのを何が止めるのか？
+- トレードオフがない — しないことを選ぶことが焦点を生み出す
+- 主要メトリクスがない — 戦略が機能していることをどのように知るか？
+- 主要パートナーシップと主要リソースは、早期段階のプロダクトにはほとんど役に立たない
 
-**Why not Lean Canvas?**
-- Introduces redundancy: "Problem" overlaps with Market Segments (markets are defined by problems), "Solution" overlaps with Value Proposition (which by definition includes features)
-- No vision, no trade-offs, no relative costs
-- "Unfair Advantage" is too narrow — the entire strategy should be hard to copy, not just one element
-- Doesn't address the holistic fit of strategic choices reinforcing each other
+**なぜリーンキャンバスではないのか？**
+- 冗長性を生む：「問題」は市場セグメント（市場は問題によって定義される）と重複し、「ソリューション」はバリュープロポジション（定義上、機能を含む）と重複する
+- ビジョン、トレードオフ、相対コストがない
+- 「アンフェアアドバンテージ」は狭すぎる — 戦略全体が1つの要素だけでなく、コピーが難しいものであるべき
+- 戦略的選択が互いを強化しているかどうかの総合的な適合性に対処していない
 
-**When to use which:**
-- **Business Model Canvas**: Established businesses, corporate strategy, investor materials
-- **Lean Canvas**: Quick hypothesis testing when you just need speed
-- **Startup Canvas**: New products where you need both strategic clarity AND a business model — the recommended approach
+**どれをいつ使うか：**
+- **ビジネスモデルキャンバス**: 確立されたビジネス、企業戦略、投資家向け資料
+- **リーンキャンバス**: スピードだけが必要な時の迅速な仮説検証
+- **スタートアップキャンバス**: 戦略的明確さとビジネスモデルの両方が必要な新プロダクト — 推奨アプローチ
 
-## Instructions
+## 指示
 
-You are a product strategist and startup advisor designing a Startup Canvas for $ARGUMENTS.
+あなたは $ARGUMENTS のスタートアップキャンバスを設計するプロダクトストラテジストおよびスタートアップアドバイザーです。
 
-Your task is to create a comprehensive Startup Canvas that covers both the strategic choices and the business model for a new product.
+新プロダクトの戦略的選択とビジネスモデルの両方をカバーする包括的なスタートアップキャンバスを作成するのがあなたの任務です。
 
-## Input Requirements
-- Product or startup idea
-- Target market and customer insights
-- Competitive landscape
-- Founder/team constraints and resources
+## 入力要件
+- プロダクトまたはスタートアップのアイデア
+- ターゲット市場と顧客インサイト
+- 競合状況
+- 創業者/チームの制約とリソース
 
-## Startup Canvas Template
+## スタートアップキャンバステンプレート
 
-### Part 1: Product Strategy (9 Sections)
+### パート1：プロダクト戦略（9セクション）
 
-**1. Vision**
-- How can we inspire people? What are we aspiring to achieve? What values do we uphold?
-- Start simple. Your vision will evolve alongside the strategy.
+**1. ビジョン**
+- どのように人々にインスピレーションを与えることができるか？何を達成しようとしているか？どのような価値観を守っているか？
+- シンプルから始める。ビジョンは戦略とともに進化する。
 
-**2. Market Segments**
-- The market is defined by the problems people have (not demographics).
-- Jobs to Be Done (JTBD), desired outcomes, constraints.
-- What will be your first customer segment? Why this one first?
+**2. 市場セグメント**
+- 市場は人々が持つ問題（人口統計ではなく）によって定義される。
+- Jobs to Be Done (JTBD)、望ましいアウトカム、制約。
+- 最初の顧客セグメントは誰か？なぜこのセグメントが最初か？
 
-**3. Relative Costs**
-- Do you optimize for low cost (like Southwest Airlines) or unique value (like Starbucks)?
-- Low costs don't necessarily mean low prices.
+**3. 相対コスト**
+- 低コストを最適化するか（Southwest Airlinesのように）またはユニークな価値を最適化するか（Starbucksのように）？
+- 低コストは必ずしも低価格を意味しない。
 
-**4. Value Proposition**
-For each market segment:
-- **What before**: Existing, problematic state
-- **How**: Features and capabilities that change the situation
-- **What after**: The benefits and outcomes
-- **Alternatives**: Your unique value vs. competitors and substitutes (consider a Value Curve)
+**4. バリュープロポジション**
+各市場セグメントに対して：
+- **ビフォー（What before）**: 既存の問題のある状態
+- **ハウ（How）**: 状況を変える機能とケイパビリティ
+- **アフター（What after）**: 利点とアウトカム
+- **代替手段（Alternatives）**: 競合他社と代替品に対するユニークな価値（バリューカーブを考慮する）
 
-**5. Trade-offs**
-- What will you NOT do? Trade-offs create focus and amplify value.
-- Especially important for startups where it's tempting to chase every opportunity.
+**5. トレードオフ**
+- 何をしないか？トレードオフは焦点を生み出し、価値を増幅させる。
+- あらゆる機会を追いたくなるスタートアップにとって特に重要。
 
-**6. Key Metrics**
-- A few key metrics to measure if the product and strategy are working.
-- North Star Metric and One Metric That Matters (OMTM) for this quarter.
+**6. 主要メトリクス**
+- プロダクトと戦略が機能しているかを測定するいくつかの主要メトリクス。
+- ノーススターメトリクスと今四半期のOne Metric That Matters (OMTM)。
 
-**7. Growth**
-- Product-Led Growth or Sales-Led Growth?
-- Preferred channels: Social Media, SEO, Influencers, Resellers?
+**7. 成長**
+- プロダクト主導型成長（Product-Led Growth）か営業主導型成長（Sales-Led Growth）か？
+- 優先チャネル：ソーシャルメディア、SEO、インフルエンサー、リセラー？
 
-**8. Capabilities**
-- What competencies and resources do you need to acquire?
-- What do you build vs. partner for?
+**8. ケイパビリティ**
+- どのようなコンピテンシーとリソースを獲得する必要があるか？
+- 何を構築するか、何をパートナーに任せるか？
 
-**9. Can't/Won't**
-- What makes you think competitors can't or won't copy your strategy?
-- The entire strategy should be difficult to copy — not just one element.
-- Do all elements fit together and reinforce each other?
+**9. できない/しない（Can't/Won't）**
+- 競合他社があなたの戦略をコピーできない、またはしないと思う理由は何か？
+- 戦略全体がコピーが難しいものであるべき — 1つの要素だけでなく。
+- すべての要素が適合していて互いを強化しているか？
 
-### Part 2: Business Model
+### パート2：ビジネスモデル
 
-**10. Cost Structure**
-- Rent, hardware, licenses, technology, marketing, subscriptions, salaries.
-- Which are recurring? How will they scale?
+**10. コスト構造**
+- 家賃、ハードウェア、ライセンス、テクノロジー、マーケティング、サブスクリプション、給料。
+- どれが繰り返し発生するか？どのようにスケールするか？
 
-**11. Revenue Streams**
-- How much money from each channel?
-- Pricing approach: penetration, value-based, competitive, usage-based, SaaS?
-- Is the revenue model scalable? What are the biggest uncertainties?
+**11. 収益ストリーム**
+- 各チャネルからいくらの収益があるか？
+- 価格設定アプローチ：浸透、価値ベース、競合、使用量ベース、SaaS？
+- 収益モデルはスケーラブルか？最大の不確実性は何か？
 
-## Output Process
-1. Define the vision and aspirational impact
-2. Identify 2–3 target market segments with JTBD
-3. Establish cost positioning (low cost vs premium)
-4. Develop value propositions for each segment
-5. List explicit trade-offs
-6. Set North Star and quarterly OMTM
-7. Outline growth strategy and channels
-8. Document required capabilities
-9. Explain defensibility (Can't/Won't test)
-10. Estimate cost structure and revenue streams
-11. Validate strategy coherence: do all elements reinforce each other?
-12. Surface hypotheses that must be true for success
-13. Suggest low-effort experiments to test key assumptions
+## アウトプットプロセス
+1. ビジョンと志の高いインパクトを定義する
+2. JTBDを持つ2〜3つのターゲット市場セグメントを特定する
+3. コストポジショニングを確立する（低コスト対プレミアム）
+4. 各セグメントのバリュープロポジションを開発する
+5. 明示的なトレードオフをリストアップする
+6. ノーススターと四半期OMTMを設定する
+7. 成長戦略とチャネルの概要を示す
+8. 必要なケイパビリティを文書化する
+9. 防御力を説明する（Can't/Wontテスト）
+10. コスト構造と収益ストリームを見積もる
+11. 戦略の一貫性を検証する：すべての要素が互いを強化しているか？
+12. 成功するために必要な仮説を洗い出す
+13. 主要な仮定を検証するための低コストの実験を提案する
 
-## Notes
-- The Startup Canvas separates strategy from business model — keep them distinct but connected
-- Strategy should pass the Can't/Won't test: your competitors can't or won't copy the integrated set of choices
-- After drafting the first version, identify and start testing hypotheses
-- Mix and adapt approaches to suit your specific needs rather than following any canvas rigidly
-
----
-
-### Templates
-
-- [Startup Canvas (PPTX)](https://docs.google.com/presentation/d/1lA0SPflj5JT6jFV_jIDsqZJAYYperTFx/edit?usp=sharing&ouid=111307342557889008106&rtpof=true&sd=true)
+## 注意事項
+- スタートアップキャンバスは戦略とビジネスモデルを分離する — 別々にしながらも繋がりを保つ
+- 戦略はCan't/Wontテストを通過する必要がある：競合他社は統合された選択のセットをコピーできないか、しない
+- 最初のバージョンをドラフトした後、仮説を特定してテストを開始する
+- どのキャンバスにも厳密に従うのではなく、特定のニーズに合わせてアプローチを混合して適応する
 
 ---
 
-### Further Reading
+### テンプレート
+
+- [スタートアップキャンバス (PPTX)](https://docs.google.com/presentation/d/1lA0SPflj5JT6jFV_jIDsqZJAYYperTFx/edit?usp=sharing&ouid=111307342557889008106&rtpof=true&sd=true)
+
+---
+
+### 参考文献
 
 - [Startup Canvas: Product Strategy and a Business Model for a New Product](https://www.productcompass.pm/p/startup-canvas)
 - [Product Strategy Canvas](https://www.productcompass.pm/p/product-strategy-canvas)

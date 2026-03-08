@@ -1,47 +1,47 @@
 ---
 name: product-name
-description: "Brainstorm 5 unique, memorable product names with rationale aligned to brand values and target audience. Use when naming a new product, rebranding, or exploring product name ideas."
+description: "ブランド価値とターゲットオーディエンスに合致した根拠を持つ5つのユニークで記憶に残る製品名をブレインストーミングします。新製品の命名、リブランディング、製品名のアイデア探索に使用します。"
 ---
 # Product Name
 
-Brainstorm unique, memorable product names with rationale aligned to brand values and target audience. Use when naming a new product, rebranding, or exploring name options that strengthen your brand positioning.
+ブランド価値とターゲットオーディエンスに合致した根拠を持つユニークで記憶に残る製品名をブレインストーミングします。新製品の命名、リブランディング、またはブランドポジショニングを強化する名前のオプション探索に使用します。
 
-## When to Use
+## 使用タイミング
 
-- Naming a new product or feature
-- Rebranding or renaming existing products
-- Exploring name options before launch
-- Testing names against brand guidelines
-- Triggers: product name, name ideas, brand name, naming, what to call, product naming
+- 新製品または新機能の命名
+- 既存製品のリブランディングまたは改名
+- ローンチ前の名前オプションの探索
+- ブランドガイドラインに照らした名前のテスト
+- トリガー: 製品名、名前のアイデア、ブランド名、命名、何と呼ぶか、製品の命名
 
-## Prompt
+## プロンプト
 
-You are an experienced branding consultant with expertise in product naming, brand architecture, and market positioning.
+あなたは製品命名、ブランドアーキテクチャ、市場ポジショニングの専門知識を持つ経験豊富なブランディングコンサルタントです。
 
-Based on the following company and product context: $ARGUMENTS
+以下の会社と製品のコンテキストに基づいて：$ARGUMENTS
 
-Suggest five unique, memorable product names that align with the company's brand values, target audience, and market positioning.
+会社のブランド価値、ターゲットオーディエンス、市場ポジショニングに合致した5つのユニークで記憶に残る製品名を提案してください。
 
-For each name suggestion, provide:
+各名前の提案について、以下を提供します：
 
-1. **Name**: The proposed product name
-2. **Rationale**: Explain why this name works—how it reflects the product's value, appeals to the target audience, and aligns with brand positioning
-3. **Brand Fit**: How the name supports the overall brand architecture and messaging strategy
-4. **Memorability**: Why the name is distinctive, easy to remember, and differentiating in the market
-5. **Domain & Trademark Considerations**: Brief note on availability and potential trademark/domain concerns
+1. **名前**：提案する製品名
+2. **根拠**：この名前が機能する理由 — 製品の価値をどのように反映し、ターゲットオーディエンスにアピールし、ブランドポジショニングに合致するか
+3. **ブランドフィット**：名前が全体的なブランドアーキテクチャとメッセージング戦略をどのように支援するか
+4. **記憶しやすさ**：名前が市場で独特で覚えやすく、差別化されている理由
+5. **ドメインと商標の考慮事項**：取得可能性と潜在的な商標/ドメインの懸念に関する簡単なメモ
 
-Prioritize names that are:
-- Easy to pronounce and spell
-- Distinctive and differentiated from competitors
-- Aligned with brand tone and positioning
-- Relevant to the product's core value and use case
-- Available for trademark and domain registration
+以下を優先する名前：
+- 発音しやすく、スペルしやすい
+- 競合から際立ち、差別化されている
+- ブランドのトーンとポジショニングに合致している
+- 製品のコアバリューとユースケースに関連している
+- 商標とドメイン登録が可能
 
-## Tips for Best Results
+## 最良の結果のためのヒント
 
-- Share your brand guidelines and tone of voice
-- Specify target audience and their preferences
-- Mention competitor names and what you want to differentiate from
-- Include any naming conventions or patterns used by your company
-- Share the product's core value proposition and key features
-- Mention geographic markets or languages to consider
+- ブランドガイドラインとトーンオブボイスを共有する
+- ターゲットオーディエンスとその好みを指定する
+- 競合の名前と何から差別化したいかを述べる
+- 会社が使用する命名規則やパターンを含める
+- 製品のコアバリュープロポジションと主要機能を共有する
+- 考慮する地理的市場や言語を述べる

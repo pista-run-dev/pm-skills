@@ -1,64 +1,64 @@
 ---
 name: opportunity-solution-tree
-description: "Build an Opportunity Solution Tree (OST) to structure product discovery — map a desired outcome to opportunities, solutions, and experiments. Based on Teresa Torres' Continuous Discovery Habits. Use when structuring discovery work, mapping opportunities to solutions, or deciding what to build next."
+description: "プロダクトディスカバリーを構造化するためのOpportunity Solution Tree（OST）を構築します。望ましい成果を機会・ソリューション・実験にマッピングします。Teresa TorresのContinuous Discovery Habitsに基づきます。ディスカバリーワークの構造化、機会からソリューションへのマッピング、または次に何を構築するかを決めるときに使用します。"
 ---
 
-## Opportunity Solution Tree (OST)
+## Opportunity Solution Tree（OST）
 
-A visual framework for structuring continuous product discovery. Connects a desired **outcome** to customer **opportunities**, possible **solutions**, and **experiments** to validate them.
+継続的プロダクトディスカバリーを構造化するためのビジュアルフレームワーク。望ましい**成果**を顧客の**機会**、可能な**ソリューション**、それらを検証する**実験**に接続します。
 
-### Domain Context
+### ドメインコンテキスト
 
-The **Opportunity Solution Tree** (Teresa Torres, *Continuous Discovery Habits*) is the backbone of modern product discovery. It prevents teams from jumping to solutions by forcing them to first map the opportunity space.
+**Opportunity Solution Tree**（Teresa Torres、*Continuous Discovery Habits*）は現代のプロダクトディスカバリーの基盤です。チームがまず機会空間をマッピングすることを強制することで、ソリューションに飛びつくことを防ぎます。
 
-**Structure (4 levels):**
+**構造（4つのレベル）：**
 
-1. **Desired Outcome** (top) — The measurable business or product outcome the team is pursuing. Should be a single, clear metric (e.g., "increase 7-day retention to 40%"). This comes from your OKRs or product strategy.
+1. **望ましい成果**（トップ）— チームが追求している測定可能なビジネスまたはプロダクト成果。単一の明確な指標であるべきです（例：「7日間リテンションを40%に増加」）。OKRまたはプロダクト戦略から来るものです。
 
-2. **Opportunities** (second level) — Customer needs, pain points, or desires discovered through research. These are problems worth solving — not features. Frame them from the customer's perspective: "I struggle to..." or "I wish I could..." Prioritize using Opportunity Score: **Importance × (1 − Satisfaction)** (Dan Olsen, *The Lean Product Playbook*). Normalize Importance and Satisfaction to 0–1.
+2. **機会**（第2レベル）— 調査を通じて発見された顧客のニーズ、ペインポイント、または欲求。解決する価値のある問題です。機能ではありません。顧客の視点からフレーミングしてください：「私は...するのに苦労している」または「私は...できればいいのに」。Opportunity Scoreを使って優先順位付けしてください：**Importance × (1 − Satisfaction)**（Dan Olsen、*The Lean Product Playbook*）。ImportanceとSatisfactionを0〜1に正規化。
 
-3. **Solutions** (third level) — Possible ways to address each opportunity. Generate multiple solutions per opportunity — don't commit to the first idea. The **Product Trio** (PM + Designer + Engineer) should ideate together. "Best ideas often come from engineers."
+3. **ソリューション**（第3レベル）— 各機会に対処する可能な方法。機会ごとに複数のソリューションを生成してください。最初のアイデアにコミットしないでください。**プロダクトトリオ**（PM + デザイナー + エンジニア）が一緒にアイデアを出すべきです。「最良のアイデアはエンジニアから生まれることが多い。」
 
-4. **Experiments** (bottom) — Fast, cheap tests to validate whether a solution actually addresses the opportunity. Use assumption testing (Value, Usability, Viability, Feasibility risks). Prefer experiments with "skin-in-the-game" (Alberto Savoia) over opinion-based validation.
+4. **実験**（ボトム）— ソリューションが実際に機会に対処するかどうかを検証するための、速くて安価なテスト。仮定テスト（Value、Usability、Viability、Feasibilityリスク）を使用してください。意見ベースの検証よりも「スキン・イン・ザ・ゲーム」（Alberto Savoia）を持つ実験を優先してください。
 
-**Key principles:**
+**主要原則：**
 
-- **One outcome at a time.** Don't try to solve everything. Focus the tree on a single desired outcome.
-- **Opportunities, not features.** "Never allow customers to design solutions. Prioritize opportunities (problems), not features."
-- **Compare and contrast.** Always generate at least 3 solutions per opportunity before choosing. Avoid the "first idea" trap.
-- **Discovery is not linear.** Loop back if experiments fail. Kill solutions that don't validate. Explore new branches.
-- **Continuous, not periodic.** Update the tree weekly as you learn from interviews, analytics, and experiments.
+- **一度に一つの成果。** すべてを解決しようとしないでください。単一の望ましい成果にツリーを集中させてください。
+- **機能ではなく機会。**「顧客にソリューションを設計させないでください。機能ではなく機会（問題）を優先順位付けしてください。」
+- **比較と対比。** 選択する前に常に機会ごとに少なくとも3つのソリューションを生成してください。「最初のアイデア」の罠を避けてください。
+- **ディスカバリーは線形ではない。** 実験が失敗した場合はループバックしてください。検証されないソリューションを排除してください。新しいブランチを探索してください。
+- **定期的ではなく継続的。** インタビュー、分析、実験から学ぶにつれて、毎週ツリーを更新してください。
 
-### Instructions
+### 手順
 
-You are helping a product team build an Opportunity Solution Tree for **$ARGUMENTS**.
+あなたはプロダクトチームが**$ARGUMENTS**のOpportunity Solution Treeを構築するのを支援しています。
 
-### Input Requirements
-- A desired outcome or business metric to improve
-- Customer research data (interviews, surveys, analytics, feedback)
-- Optionally: existing opportunities or solution ideas to organize
+### 入力要件
+- 改善すべき望ましい成果またはビジネス指標
+- 顧客調査データ（インタビュー、アンケート、分析、フィードバック）
+- オプション：整理する既存の機会またはソリューションのアイデア
 
-### Process
+### プロセス
 
-1. **Define the desired outcome** — Confirm or help articulate a single, measurable outcome at the top of the tree.
+1. **望ましい成果を定義する** — ツリーの上部に単一の測定可能な成果を確認または明確にするのを支援します。
 
-2. **Map opportunities** — From provided research, identify 3-7 customer opportunities (needs/pains). Group related opportunities. Frame each from the customer's perspective.
+2. **機会をマッピングする** — 提供された調査から、3〜7つの顧客の機会（ニーズ/ペイン）を特定します。関連する機会をグループ化します。顧客の視点から各機会をフレーミングします。
 
-3. **Prioritize opportunities** — Use Opportunity Score or qualitative assessment to rank. Focus on the top 2-3.
+3. **機会を優先順位付けする** — Opportunity Scoreまたは定性的評価を使ってランク付けします。上位2〜3つに集中します。
 
-4. **Generate solutions** — For each prioritized opportunity, brainstorm 3+ solutions from PM, Designer, and Engineer perspectives.
+4. **ソリューションを生成する** — 優先順位付けされた各機会について、PM・デザイナー・エンジニアの視点から3つ以上のソリューションをブレインストーミングします。
 
-5. **Design experiments** — For the most promising solutions, suggest 1-2 fast experiments. Specify: hypothesis, method, metric, success threshold.
+5. **実験を設計する** — 最も有望なソリューションについて、1〜2つの速い実験を提案します。仮説、方法、指標、成功閾値を明記してください。
 
-6. **Visualize the tree** — Present the full OST in a clear hierarchical format.
+6. **ツリーを可視化する** — 完全なOSTを明確な階層形式で提示します。
 
-Think step by step. Save as markdown if substantial.
+ステップバイステップで考えてください。実質的な場合はMarkdownとして保存してください。
 
 ---
 
-### Further Reading
+### 参考資料
 
 - [The Extended Opportunity Solution Tree](https://www.productcompass.pm/p/the-extended-opportunity-solution-tree)
 - [What Is Product Discovery? The Ultimate Guide Step-by-Step](https://www.productcompass.pm/p/what-exactly-is-product-discovery)
 - [Product Trio: Beyond the Obvious](https://www.productcompass.pm/p/product-trio)
-- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (video course)
+- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (ビデオコース)

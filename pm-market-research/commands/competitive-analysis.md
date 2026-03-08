@@ -1,59 +1,59 @@
 ---
-description: Analyze the competitive landscape — identify competitors, compare strengths and weaknesses, find differentiation opportunities
-argument-hint: "<your product or market>"
+description: 競合状況を分析する — 競合を特定し、強みと弱みを比較し、差別化機会を発見する
+argument-hint: "<あなたのプロダクトまたは市場>"
 ---
 
 # /competitive-analysis -- Competitive Landscape Analysis
 
-Research and analyze your competitive landscape. Identifies direct and indirect competitors, maps positioning, and surfaces differentiation opportunities.
+競合状況をリサーチして分析します。直接および間接競合を特定し、ポジショニングをマッピングし、差別化機会を明らかにします。
 
-## Invocation
+## 呼び出し方
 
 ```
 /competitive-analysis AI-powered project management tools
 /competitive-analysis Our product vs Notion, Asana, and Monday.com
-/competitive-analysis [upload a competitor list or market brief]
+/competitive-analysis [競合リストまたは市場ブリーフをアップロード]
 ```
 
-## Workflow
+## ワークフロー
 
-### Step 1: Understand the Competitive Context
+### ステップ1: 競合コンテキストを理解する
 
-Ask:
-- What is your product? What category does it compete in?
-- Any specific competitors you want analyzed? Or should I identify them?
-- What's the lens? (feature comparison, positioning, pricing, go-to-market)
-- What will you use this analysis for? (strategy, sales enablement, investor pitch, product roadmap)
+確認事項：
+- あなたのプロダクトは何ですか？どのカテゴリで競合していますか？
+- 分析したい特定の競合はいますか？それとも私が特定すべきですか？
+- どのような視点で分析しますか？（機能比較、ポジショニング、価格、市場開拓）
+- この分析を何に使いますか？（戦略、セールスイネーブルメント、投資家向けピッチ、プロダクトロードマップ）
 
-### Step 2: Identify Competitors
+### ステップ2: 競合を特定する
 
-Apply the **competitor-analysis** skill:
+**competitor-analysis** スキルを適用します：
 
-- Identify 5 direct competitors (same category, same buyer)
-- Identify 2-3 indirect competitors (different approach, same job-to-be-done)
-- Note emerging/disruptive players if relevant
-- Use web research to gather current information
+- 5つの直接競合を特定する（同じカテゴリ、同じ購買者）
+- 2〜3つの間接競合を特定する（異なるアプローチ、同じジョブ・トゥ・ビー・ダン）
+- 関連する場合は新興/破壊的なプレーヤーを記録する
+- 現在の情報を収集するためにウェブリサーチを使用する
 
-### Step 3: Analyze Each Competitor
+### ステップ3: 各競合を分析する
 
-For each competitor:
-- **Positioning**: How they describe themselves, target audience, key messaging
-- **Strengths**: What they do well, where they win
-- **Weaknesses**: Where they fall short, common complaints
-- **Pricing**: Model and price points (if public)
-- **Market traction**: Funding, team size, customer base signals
-- **Recent moves**: New features, partnerships, pivots
+各競合について：
+- **ポジショニング**: 自社をどのように説明しているか、ターゲットオーディエンス、主要メッセージ
+- **強み**: 何が得意か、どこで勝っているか
+- **弱み**: どこが不十分か、よくある不満
+- **価格**: モデルと価格ポイント（公開されている場合）
+- **市場牽引力**: 資金調達、チーム規模、顧客ベースのシグナル
+- **最近の動き**: 新機能、パートナーシップ、ピボット
 
-### Step 4: Generate Competitive Analysis
+### ステップ4: 競合分析を生成する
 
 ```
-## Competitive Analysis: [Your Product/Market]
+## Competitive Analysis: [あなたのプロダクト/市場]
 
 **Date**: [today]
-**Analyzed**: [count] competitors
+**Analyzed**: [数] competitors
 
 ### Market Overview
-[2-3 sentences on market dynamics, trends, and where it's heading]
+[市場ダイナミクス、トレンド、今後の方向性に関する2〜3文]
 
 ### Competitive Landscape
 | Competitor | Category | Target | Positioning | Strength | Weakness |
@@ -64,34 +64,34 @@ For each competitor:
 |-----------|-------------|-------------|-------------|-------------|
 
 ### Positioning Map
-[2x2 matrix showing competitive positioning on key dimensions]
+[主要な次元での競合ポジショニングを示す2x2マトリクス]
 
 ### Differentiation Opportunities
-1. **[Opportunity]** — [why it's defensible and valuable]
+1. **[機会]** — [なぜそれが守りやすく価値があるか]
 2. ...
 
 ### Competitive Threats
-1. **[Threat]** — [what to watch for, recommended response]
+1. **[脅威]** — [注意すべきこと、推奨される対応]
 2. ...
 
 ### Recommendations
-- **Double down on**: [your unique advantages]
-- **Close the gap on**: [table-stakes features you're missing]
-- **Ignore**: [competitor moves that aren't worth responding to]
+- **Double down on**: [あなたのユニークな優位性]
+- **Close the gap on**: [欠けているテーブルステークス機能]
+- **Ignore**: [対応する価値のない競合の動き]
 ```
 
-Save as markdown.
+マークダウンとして保存します。
 
-### Step 5: Offer Next Steps
+### ステップ5: 次のステップを提案する
 
-- "Want me to **create a battlecard** for sales against a specific competitor?"
-- "Should I **develop positioning** that differentiates from the top competitors?"
-- "Want me to **identify feature gaps** to close and add to the roadmap?"
+- 「特定の競合に対してセールス用の**バトルカードを作成**しましょうか？」
+- 「トップ競合から差別化する**ポジショニングを開発**すべきでしょうか？」
+- 「ロードマップに追加すべき**機能ギャップを特定**しましょうか？」
 
-## Notes
+## 注意事項
 
-- Web research is used for current competitor data — results are as fresh as available sources
-- Distinguish between "table stakes" (must-have to compete) and "differentiators" (must-have to win)
-- Don't just list features — analyze *why* competitors make the choices they make
-- Pricing intelligence should note whether pricing is public, usage-based, or requires sales contact
-- Update this analysis quarterly — competitive landscapes shift fast
+- ウェブリサーチは現在の競合データに使用されます — 結果は利用可能なソースと同程度に新鮮です
+- 「テーブルステークス」（競争するために必須）と「差別化要因」（勝つために必須）を区別する
+- 単に機能を列挙するのではなく、競合がそのような選択をする*理由*を分析する
+- 価格インテリジェンスは、価格が公開されているか、使用量ベースか、または営業担当者への問い合わせが必要かを記載すべき
+- この分析を四半期ごとに更新する — 競合状況は急速に変化する

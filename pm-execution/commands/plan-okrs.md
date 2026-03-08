@@ -1,13 +1,13 @@
 ---
-description: Brainstorm team-level OKRs aligned with company objectives — qualitative objectives with measurable key results
+description: 会社の目標に沿ったチームレベルのOKRをブレインストーミングする——定性的な目標と測定可能なキー・リザルト
 argument-hint: "<team, product area, or company objective>"
 ---
 
-# /plan-okrs -- Team OKR Planning
+# /plan-okrs -- チームOKR計画
 
-Generate well-structured OKRs that connect team work to company strategy. Produces 3 OKR sets with qualitative objectives and quantitative key results.
+チームの作業を会社の戦略に結びつける、よく構造化されたOKRを生成します。定性的な目標と定量的なキー・リザルトを持つ3つのOKRセットを作成します。
 
-## Invocation
+## 呼び出し方
 
 ```
 /plan-okrs Growth team Q2 — company goal is 50% ARR increase
@@ -15,41 +15,41 @@ Generate well-structured OKRs that connect team work to company strategy. Produc
 /plan-okrs [upload company OKRs or strategy doc]
 ```
 
-## Workflow
+## ワークフロー
 
-### Step 1: Gather Context
+### ステップ1：コンテキストを収集する
 
-Ask the user:
-- What team or product area are these OKRs for?
-- What time period? (quarterly is standard, but could be annual or custom)
-- What are the company-level objectives these should ladder up to?
-- What happened last quarter? (hits, misses, learnings)
-- Any constraints or known priorities?
+ユーザーに質問する：
+- これらのOKRはどのチームまたはプロダクトエリアのためのものか？
+- 何の期間？（四半期が標準だが、年間またはカスタムもある）
+- これが達成すべき会社レベルの目標は何か？
+- 前の四半期に何があったか？（達成、未達、学び）
+- 制約や既知の優先事項はあるか？
 
-Accept company OKRs or strategy documents as uploads.
+会社のOKRや戦略ドキュメントをアップロードとして受け付ける。
 
-### Step 2: Generate OKRs
+### ステップ2：OKRを生成する
 
-Apply the **brainstorm-okrs** skill:
+**brainstorm-okrs**スキルを適用する：
 
-- Create 3 OKR sets (Objective + 3-5 Key Results each)
-- **Objectives**: Qualitative, inspiring, ambitious but achievable, action-oriented
-- **Key Results**: Quantitative, measurable, time-bound, have clear owners
-- Ensure OKRs ladder to company objectives with visible connection
-- Balance leading indicators (activity) with lagging indicators (outcomes)
+- 3つのOKRセットを作成する（各Objective + 3〜5つのKey Results）
+- **Objectives**：定性的、インスピレーション的、野心的だが達成可能、アクション指向
+- **Key Results**：定量的、測定可能、時間制限あり、明確なオーナーを持つ
+- OKRが会社の目標に可視的な繋がりで繋がっていることを確認する
+- 先行指標（活動）と遅行指標（アウトカム）のバランスを取る
 
-### Step 3: Validate Quality
+### ステップ3：品質を検証する
 
-Check each OKR against best practices:
-- Is the Objective inspiring? (Would you rally a team around it?)
-- Are Key Results measurable? (Can you check completion with data, not judgment?)
-- Are targets ambitious but not demoralizing? (70% achievement = well-calibrated)
-- Are there 3-5 KRs per Objective? (More = unfocused)
-- Do KRs avoid gaming? (e.g., "ship 5 features" incentivizes shipping junk)
+ベストプラクティスに照らして各OKRをチェックする：
+- ObjectiveはInspiring（鼓舞するもの）か？（チームを結集させられるか？）
+- Key Resultsは測定可能か？（判断ではなくデータで完了を確認できるか？）
+- 目標は野心的だが落胆させるものではないか？（70%達成 = よく調整されている）
+- Objectiveあたり3〜5つのKRがあるか？（それ以上 = 焦点が分散）
+- KRはゲーム化を避けているか？（例：「5つの機能をリリースする」はゴミをリリースする動機付けになる）
 
-Flag any issues and suggest improvements.
+問題を指摘し改善を提案する。
 
-### Step 4: Present and Iterate
+### ステップ4：提示と反復
 
 ```
 ## Team OKRs: [Team Name] — [Period]
@@ -73,26 +73,26 @@ Flag any issues and suggest improvements.
 Company Objective → Team Objective → Key Results → Expected Impact
 
 ### Scoring Guide
-- 0.0-0.3: Significant miss — investigate and learn
-- 0.4-0.6: Progress made but fell short
-- 0.7-0.9: Well-calibrated stretch goal — this is the target zone
-- 1.0: Either nailed it or target wasn't ambitious enough
+- 0.0-0.3: 大きなミス——調査して学ぶ
+- 0.4-0.6: 進捗はあったが目標に届かなかった
+- 0.7-0.9: よく調整されたストレッチゴール——これが目標ゾーン
+- 1.0: 達成したか、目標が十分に野心的でなかったか
 
 ### Check-in Cadence
-- **Weekly**: Quick traffic-light update on each KR
-- **Mid-quarter**: Deep review, adjust targets if context changed
-- **End of quarter**: Score, reflect, feed into next quarter
+- **毎週**：各KRに対するトラフィックライト更新
+- **四半期中盤**：深いレビュー、コンテキストが変わった場合は目標を調整
+- **四半期末**：スコア付け、振り返り、次の四半期に反映
 ```
 
-Offer:
-- "Want me to **adjust ambition levels** — make them more/less aggressive?"
-- "Should I **create a metrics dashboard** for tracking these?"
-- "Want me to **draft a stakeholder update** introducing these OKRs?"
+以下を提案する：
+- 「**野心のレベルを調整**したいですか——より積極的/消極的にしますか？」
+- 「これらを追跡するための**メトリクスダッシュボードを作成**しましょうか？」
+- 「これらのOKRを紹介する**ステークホルダー向け更新を起草**しましょうか？」
 
-## Notes
+## 注意事項
 
-- OKRs should describe outcomes, not outputs ("Increase activation by 20%" not "Ship onboarding redesign")
-- If the user doesn't have company OKRs, help them derive team objectives from product strategy or business goals
-- Maximum 3 objectives per team per quarter — more means less focus
-- Key Results should be stretch goals — if you're certain you'll hit them, they're not ambitious enough
-- Flag any KR that could be gamed and suggest a counter-metric
+- OKRはアウトプットではなくアウトカムを説明すべき（「オンボーディングを20%改善する」であって「オンボーディングのリデザインをリリースする」ではない）
+- ユーザーが会社のOKRを持っていない場合は、プロダクト戦略やビジネス目標からチームの目標を導き出す手助けをする
+- チームあたり四半期に最大3つの目標——それ以上は焦点が薄れる
+- Key Resultsはストレッチゴールであるべき——確実に達成できると分かっているなら、十分に野心的ではない
+- ゲーム化される可能性があるKRにフラグを立て、カウンター指標を提案する

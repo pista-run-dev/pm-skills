@@ -1,13 +1,13 @@
 ---
-description: Map stakeholders on a Power × Interest grid and create a tailored communication plan
+description: Power × Interestグリッドでステークホルダーをマッピングし、カスタマイズされたコミュニケーション計画を作成する
 argument-hint: "<project, initiative, or launch>"
 ---
 
-# /stakeholder-map -- Stakeholder Mapping & Communication Plan
+# /stakeholder-map -- ステークホルダーマッピングとコミュニケーション計画
 
-Identify all stakeholders for a project, map them by influence and interest, and generate a communication plan that ensures the right people get the right information at the right time.
+プロジェクトのすべてのステークホルダーを特定し、影響力と関心度でマッピングし、適切な人が適切な情報を適切なタイミングで受け取れるコミュニケーション計画を生成します。
 
-## Invocation
+## 呼び出し方
 
 ```
 /stakeholder-map New analytics platform launch
@@ -15,28 +15,28 @@ Identify all stakeholders for a project, map them by influence and interest, and
 /stakeholder-map [upload a project brief or org chart]
 ```
 
-## Workflow
+## ワークフロー
 
-### Step 1: Understand the Initiative
+### ステップ1：イニシアチブを理解する
 
-Ask:
-- What is the project or initiative?
-- What phase is it in? (planning, building, launching, post-launch)
-- Who are the obvious stakeholders you already know about?
-- Are there any politically sensitive dynamics to be aware of?
+以下を質問する：
+- プロジェクトまたはイニシアチブは何か？
+- どのフェーズにあるか？（計画、構築、ローンチ、ローンチ後）
+- すでに知っている明らかなステークホルダーは誰か？
+- 注意すべき政治的にデリケートなダイナミクスはあるか？
 
-### Step 2: Identify Stakeholders
+### ステップ2：ステークホルダーを特定する
 
-Brainstorm stakeholders the user might not have considered:
-- **Internal**: Engineering, Design, QA, Data, Legal, Finance, Marketing, Sales, Support, Leadership
-- **External**: Customers, partners, vendors, regulators, board members
-- **Often missed**: Adjacent teams, on-call engineers, customer success, documentation team
+ユーザーが考えていないかもしれないステークホルダーをブレインストーミングする：
+- **社内**：エンジニアリング、デザイン、QA、データ、法務、財務、マーケティング、セールス、サポート、リーダーシップ
+- **社外**：顧客、パートナー、ベンダー、規制当局、ボードメンバー
+- **見落とされやすい**：隣接するチーム、オンコールエンジニア、カスタマーサクセス、ドキュメンテーションチーム
 
-### Step 3: Map to Power × Interest Grid
+### ステップ3：Power × Interestグリッドにマッピングする
 
-Apply the **stakeholder-map** skill:
+**stakeholder-map**スキルを適用する：
 
-Place each stakeholder in a quadrant:
+各ステークホルダーを象限に配置する：
 
 ```
                     HIGH INTEREST
@@ -54,7 +54,7 @@ Place each stakeholder in a quadrant:
                     LOW INTEREST
 ```
 
-### Step 4: Generate Communication Plan
+### ステップ4：コミュニケーション計画を生成する
 
 ```
 ## Stakeholder Map: [Initiative]
@@ -78,30 +78,30 @@ Place each stakeholder in a quadrant:
 |------------|---------|-----------|---------|-------|
 
 #### Monitor (Low Power, Low Interest)
-[Minimal communication — include in broad updates only]
+[最小限のコミュニケーション——広範な更新にのみ含める]
 
 ### Potential Conflicts
-[Where stakeholder interests may clash — with mitigation strategies]
+[ステークホルダーの利益が衝突する可能性のある箇所——軽減戦略とともに]
 
 ### Escalation Path
-[Who to go to when decisions are blocked]
+[決定がブロックされたときに誰に相談するか]
 
 ### RACI Matrix
 | Decision Area | Responsible | Accountable | Consulted | Informed |
 |--------------|-------------|-------------|-----------|----------|
 ```
 
-Save as markdown.
+markdownとして保存する。
 
-### Step 5: Offer Next Steps
+### ステップ5：次のステップを提案する
 
-- "Want me to **draft the first stakeholder update** for the 'Manage Closely' group?"
-- "Should I **create a meeting prep brief** for key stakeholder conversations?"
-- "Want me to **set up a communication cadence** as a recurring checklist?"
+- 「「Manage Closely」グループへの**最初のステークホルダー更新を起草**したいですか？」
+- 「主要ステークホルダーとの会話のための**ミーティング準備ブリーフを作成**しましょうか？」
+- 「繰り返しチェックリストとして**コミュニケーションケイデンスを設定**しましょうか？」
 
-## Notes
+## 注意事項
 
-- The "Manage Closely" quadrant is where PMs spend most of their political capital — get these relationships right
-- "Stance" (supportive, neutral, resistant) helps prioritize where to invest relationship-building effort
-- Don't forget downstream stakeholders: support, docs, and sales enablement teams are often surprised by launches
-- Update the map as the project evolves — stakeholder interest shifts with project phase
+- 「Manage Closely」象限はPMが最も政治的資本を費やす場所——これらの関係を正しく構築する
+- 「Stance」（支持的、中立的、抵抗的）は関係構築への投資をどこに優先するかを判断するのに役立つ
+- 下流のステークホルダーを忘れない：サポート、ドキュメント、セールスイネーブルメントチームはローンチに驚かされることが多い
+- プロジェクトの進化に合わせてマップを更新する——ステークホルダーの関心はプロジェクトフェーズによって変わる

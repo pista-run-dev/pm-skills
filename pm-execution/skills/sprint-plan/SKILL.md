@@ -1,45 +1,45 @@
 ---
 name: sprint-plan
-description: "Plan a sprint with capacity estimation, story selection, dependency mapping, and risk identification. Use when preparing for sprint planning, estimating team capacity, selecting stories, or balancing sprint scope against velocity."
+description: "キャパシティ推定、ストーリー選択、依存関係マッピング、リスク特定でスプリントを計画します。スプリント計画の準備、チームキャパシティの推定、ストーリーの選択、またはスプリントスコープとベロシティのバランスを取る際に使用します。"
 ---
 
-## Sprint Planning
+## スプリント計画
 
-Plan a sprint by estimating team capacity, selecting and sequencing stories, and identifying risks.
+チームキャパシティを推定し、ストーリーを選択・順序付けし、リスクを特定することでスプリントを計画します。
 
-### Context
+### コンテキスト
 
-You are helping plan a sprint for **$ARGUMENTS**.
+**$ARGUMENTS**のスプリント計画を支援します。
 
-If the user provides files (backlogs, velocity data, team rosters, or previous sprint reports), read them first.
+ユーザーがファイル（バックログ、ベロシティデータ、チームロスター、または前回のスプリントレポート）を提供した場合は、最初にそれを読んでください。
 
-### Instructions
+### 指示
 
-1. **Estimate team capacity**:
-   - Number of team members and their availability (PTO, meetings, on-call)
-   - Historical velocity (average story points per sprint from last 3 sprints)
-   - Capacity buffer: reserve 15-20% for unexpected work, bugs, and tech debt
-   - Calculate available capacity in story points or ideal hours
+1. **チームキャパシティを推定する**：
+   - チームメンバーの人数とその可用性（PTO、ミーティング、オンコール）
+   - 過去のベロシティ（過去3スプリントの平均ストーリーポイント）
+   - キャパシティバッファ：予期しない作業、バグ、技術的負債のために15〜20%を確保する
+   - 利用可能なキャパシティをストーリーポイントまたはアイデアル時間で計算する
 
-2. **Review and select stories**:
-   - Pull from the prioritized backlog (highest priority first)
-   - Verify each story meets the Definition of Ready (clear AC, estimated, no blockers)
-   - Flag stories that need refinement before committing
-   - Stop adding stories when capacity is reached
+2. **ストーリーをレビューして選択する**：
+   - 優先度付けされたバックログから（最高優先度から）取り出す
+   - 各ストーリーがDefinition of Ready（明確なAC、推定済み、ブロッカーなし）を満たしているか確認する
+   - コミット前に精緻化が必要なストーリーにフラグを立てる
+   - キャパシティに達したらストーリーの追加を停止する
 
-3. **Map dependencies**:
-   - Identify stories that depend on other stories or external teams
-   - Sequence dependent stories appropriately
-   - Flag external dependencies and owners
-   - Identify the critical path
+3. **依存関係をマッピングする**：
+   - 他のストーリーや外部チームに依存するストーリーを特定する
+   - 依存するストーリーを適切に順序付けする
+   - 外部依存関係とオーナーにフラグを立てる
+   - クリティカルパスを特定する
 
-4. **Identify risks and mitigations**:
-   - Stories with high uncertainty or complexity
-   - External dependencies that could slip
-   - Knowledge concentration (only one person can do it)
-   - Suggest mitigations for each risk
+4. **リスクと軽減策を特定する**：
+   - 高い不確実性や複雑さを持つストーリー
+   - スリップする可能性のある外部依存関係
+   - 知識の集中（1人しかできない）
+   - 各リスクに対する軽減策を提案する
 
-5. **Create the sprint plan summary**:
+5. **スプリント計画サマリーを作成する**：
 
    ```
    Sprint Goal: [One sentence describing what success looks like]
@@ -56,12 +56,12 @@ If the user provides files (backlogs, velocity data, team rosters, or previous s
    - [Risk] → [Mitigation]
    ```
 
-6. **Define the sprint goal**: A single, clear sentence that captures the sprint's primary value delivery.
+6. **スプリントゴールを定義する**: スプリントの主要な価値提供を捉える、単一の明確な文。
 
-Think step by step. Save as markdown.
+ステップバイステップで考える。markdownとして保存する。
 
 ---
 
-### Further Reading
+### 参考資料
 
 - [Product Owner vs Product Manager: What's the difference?](https://www.productcompass.pm/p/product-manager-vs-product-owner)

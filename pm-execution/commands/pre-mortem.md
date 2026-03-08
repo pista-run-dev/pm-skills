@@ -1,55 +1,55 @@
 ---
-description: Run a pre-mortem risk analysis on a PRD, launch plan, or feature — identify what could go wrong before it does
+description: PRD、ローンチ計画、または機能のプレモーテムリスク分析を実施する——問題が起きる前に何が間違いになりうるかを特定する
 argument-hint: "<PRD, plan, or feature description>"
 ---
 
-# /pre-mortem -- Pre-Launch Risk Analysis
+# /pre-mortem -- ローンチ前リスク分析
 
-Imagine your launch has failed. Now work backward to figure out why. This command applies the Tigers/Paper Tigers/Elephants framework to surface real risks and create mitigation plans.
+ローンチが失敗したと想像してください。次に、なぜそうなったかを逆算して考えます。このコマンドはTigers/Paper Tigers/Elephantsフレームワークを適用して、実際のリスクを表面化し軽減計画を作成します。
 
-## Invocation
+## 呼び出し方
 
 ```
 /pre-mortem [paste or upload a PRD, launch plan, or feature spec]
 /pre-mortem We're launching a self-serve billing portal next month
 ```
 
-## Workflow
+## ワークフロー
 
-### Step 1: Accept the Plan
+### ステップ1：計画を受け取る
 
-Accept in any format: PRD, feature spec, launch plan, project brief, or verbal description. The more detail provided, the sharper the risk analysis.
+以下の形式で受け付ける：PRD、機能仕様、ローンチ計画、プロジェクトブリーフ、または口頭による説明。詳細が多いほど、リスク分析がより精確になる。
 
-### Step 2: Risk Identification
+### ステップ2：リスク特定
 
-Apply the **pre-mortem** skill:
+**pre-mortem**スキルを適用する：
 
-Imagine the product has launched and failed. Generate risks across categories:
-- **Technical**: Performance, scalability, integration failures, data issues
-- **User**: Adoption barriers, usability problems, unmet expectations
-- **Business**: Revenue impact, competitive response, market timing
-- **Operational**: Support load, documentation gaps, training needs
-- **Dependencies**: Third-party services, cross-team handoffs, regulatory
+プロダクトがローンチして失敗したと想像する。カテゴリ別にリスクを生成する：
+- **技術的**：パフォーマンス、スケーラビリティ、統合の失敗、データの問題
+- **ユーザー**：採用の障壁、ユーザビリティの問題、期待に応えられないこと
+- **ビジネス**：収益への影響、競合他社の反応、市場タイミング
+- **運用的**：サポート負荷、ドキュメントのギャップ、トレーニングの必要性
+- **依存関係**：サードパーティサービス、クロスチームの引き渡し、規制
 
-### Step 3: Classify Risks
+### ステップ3：リスクを分類する
 
-Categorize each risk:
+各リスクを分類する：
 
-**Tigers** — Real, substantive risks that could cause failure
-- Assess severity: Launch-blocking / Fast-follow / Track
-- For launch-blocking Tigers: immediate mitigation required
-- For fast-follow Tigers: plan to address within first sprint post-launch
-- For track Tigers: monitor but don't delay launch
+**Tigers** — 失敗を引き起こす可能性がある実際の、実質的なリスク
+- 深刻度を評価：ローンチブロッキング / ファストフォロー / トラック
+- ローンチブロッキングのTigers：即時の軽減が必要
+- ファストフォローのTigers：ローンチ後の最初のスプリント内に対処する計画
+- トラックのTigers：監視するがローンチを遅らせない
 
-**Paper Tigers** — Risks that feel scary but are overblown
-- Explain why the concern is manageable
-- Note what would need to change for this to become a real Tiger
+**Paper Tigers** — 怖く感じるが過大評価されているリスク
+- なぜ懸念が管理可能かを説明する
+- これが本当のTigerになるためには何が変わる必要があるかを記録する
 
-**Elephants** — Unspoken risks the team knows about but avoids discussing
-- Surface political, organizational, or uncomfortable risks
-- Frame constructively with suggested conversation starters
+**Elephants** — チームが認識しているが議論を避けているリスク
+- 政治的、組織的、または不快なリスクを表面化する
+- 提案された会話の出発点とともに建設的にフレーミングする
 
-### Step 4: Generate Pre-Mortem Report
+### ステップ4：プレモーテムレポートを生成する
 
 ```
 ## Pre-Mortem: [Feature/Launch]
@@ -71,13 +71,13 @@ Categorize each risk:
 |---|------|-----------|--------|-----------------|-------|
 
 ### Track Tigers
-[Risks to monitor post-launch with trigger conditions]
+[ローンチ後に監視するリスクとトリガー条件]
 
 ### Paper Tigers
-[Concerns that seem big but are manageable — with reasoning]
+[大きく見えるが管理可能な懸念——理由とともに]
 
 ### Elephants in the Room
-[Uncomfortable truths the team should discuss]
+[チームが議論すべき不都合な真実]
 
 ### Go/No-Go Checklist
 - [ ] All launch-blocking Tigers mitigated
@@ -87,18 +87,18 @@ Categorize each risk:
 - [ ] Support team briefed
 ```
 
-Save as markdown.
+markdownとして保存する。
 
-### Step 5: Offer Next Steps
+### ステップ5：次のステップを提案する
 
-- "Want me to **update the PRD** with risk mitigations?"
-- "Should I **create test scenarios** for the riskiest areas?"
-- "Want me to **draft a launch checklist** from these findings?"
+- 「リスク軽減策を含めて**PRDを更新**したいですか？」
+- 「最もリスクの高いエリアの**テストシナリオを作成**しましょうか？」
+- 「これらの調査結果から**ローンチチェックリストを起草**しましょうか？」
 
-## Notes
+## 注意事項
 
-- The best pre-mortems happen when the plan is 80% done — early enough to change course, late enough to have substance
-- Push past the obvious risks — the most dangerous risks are the ones nobody mentions
-- Elephants are the highest-value output — surfacing what the team avoids discussing
-- For each Tiger, the mitigation should be specific and assignable, not "be careful"
-- If the pre-mortem reveals too many launch-blocking Tigers, recommend delaying or phasing the launch
+- 最良のプレモーテムは計画が80%完成したときに実施する——方向転換できるほど早く、実質がある程度遅い
+- 明らかなリスクを超えて押し進める——最も危険なリスクは誰も言及しないもの
+- Elephantsが最も価値ある出力——チームが議論を避けていることを表面化する
+- 各Tigerに対して、軽減策は具体的で割り当て可能であるべきで、「注意する」ではない
+- プレモーテムがローンチブロッキングのTigersが多すぎることを明らかにした場合は、ローンチを延期または段階化することを推奨する

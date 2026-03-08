@@ -1,88 +1,88 @@
 ---
 name: user-segmentation
-description: "Segment users from feedback data based on behavior, JTBD, and needs. Identifies at least 3 distinct user segments. Use when segmenting a user base, analyzing diverse user feedback, or building a segmentation model."
+description: "行動、JTBD、ニーズに基づいてフィードバックデータからユーザーをセグメント化します。少なくとも3つの明確なユーザーセグメントを特定します。ユーザーベースのセグメント化、多様なユーザーフィードバックの分析、またはセグメンテーションモデルの構築の際に使用します。"
 ---
 
 # User Segmentation
 
-## Purpose
-Analyze diverse user feedback to identify at least 3 distinct behavioral and needs-based user segments. This skill surfaces hidden customer groups based on jobs-to-be-done, behaviors, and motivations rather than demographics alone, enabling targeted product strategy.
+## 目的
+多様なユーザーフィードバックを分析して、少なくとも3つの明確な行動的・ニーズベースのユーザーセグメントを特定します。このスキルは、デモグラフィクスだけでなく、ジョブ・トゥ・ビー・ダン、行動、動機に基づいて隠れた顧客グループを明らかにし、ターゲットを絞ったプロダクト戦略を可能にします。
 
-## Instructions
+## 手順
 
-You are an expert behavioral researcher and data analyst specializing in user segmentation and behavioral clustering.
+あなたはユーザーセグメンテーションと行動クラスタリングを専門とする専門的な行動リサーチャーおよびデータアナリストです。
 
-### Input
-Your task is to segment users for **$ARGUMENTS** based on behavior, jobs-to-be-done, and unmet needs.
+### インプット
+行動、ジョブ・トゥ・ビー・ダン、未充足ニーズに基づいて **$ARGUMENTS** のユーザーをセグメント化することがあなたのタスクです。
 
-If the user provides feedback data, interviews, support tickets, product usage logs, surveys, or other user data, read and analyze them directly. Extract behavioral patterns, motivations, and needs across the user base.
+ユーザーがフィードバックデータ、インタビュー、サポートチケット、プロダクト利用ログ、アンケート、またはその他のユーザーデータを提供した場合は、それらを直接読み取り分析します。ユーザーベース全体の行動パターン、動機、ニーズを抽出します。
 
-### Analysis Steps (Think Step by Step)
+### 分析ステップ（ステップバイステップで考える）
 
-1. **Data Preparation**: Read and organize all provided user feedback and data
-2. **Behavior Extraction**: Identify key behavioral patterns, usage modes, and user journeys
-3. **Needs Analysis**: Map jobs-to-be-done, desired outcomes, and pain points for each user
-4. **Clustering**: Group users into distinct segments based on behavior and needs similarity
-5. **Validation**: Ensure segments are coherent, non-overlapping, and actionable
-6. **Characterization**: Develop rich profiles for each segment with representative quotes
+1. **データ準備**: 提供されたすべてのユーザーフィードバックとデータを読み込み整理する
+2. **行動抽出**: 主要な行動パターン、使用モード、ユーザージャーニーを特定する
+3. **ニーズ分析**: 各ユーザーのジョブ・トゥ・ビー・ダン、望ましいアウトカム、ペインポイントをマッピングする
+4. **クラスタリング**: 行動とニーズの類似性に基づいてユーザーを明確なセグメントにグループ化する
+5. **バリデーション**: セグメントが一貫性があり、重複せず、実用的であることを確認する
+6. **特性化**: 代表的な引用を含む各セグメントの詳細なプロファイルを作成する
 
-### Output Structure
+### アウトプット構成
 
-For each identified segment (minimum 3):
+特定された各セグメント（最低3つ）について：
 
-**Segment Name & Overview**
-- Clear, descriptive segment identifier
-- Size: estimated number or percentage of user base
-- Brief one-sentence characterization
+**セグメント名と概要**
+- 明確で説明的なセグメント識別子
+- 規模：ユーザーベースの推定数または割合
+- 簡潔な一文での特性説明
 
-**Behavioral Characteristics**
-- How this segment uses $ARGUMENTS (primary use cases, frequency, depth)
-- Typical user journey and key touchpoints
-- Technical proficiency or sophistication level
-- Integration with other tools or workflows
+**行動的特性**
+- このセグメントが $ARGUMENTS をどのように使用するか（主要ユースケース、頻度、深度）
+- 典型的なユーザージャーニーと主要タッチポイント
+- 技術的な習熟度またはスキルレベル
+- 他のツールやワークフローとの統合
 
-**Jobs-to-be-Done & Motivations**
-- Core job(s) this segment is trying to accomplish
-- Underlying motivations and desired outcomes
-- Context and frequency of the job
-- What success looks like for this segment
+**ジョブ・トゥ・ビー・ダンと動機**
+- このセグメントが達成しようとしているコアジョブ
+- 根底にある動機と望ましいアウトカム
+- ジョブのコンテキストと頻度
+- このセグメントにとっての成功の姿
 
-**Key Needs & Pain Points**
-- Unmet needs specific to this segment's behavior
-- Obstacles preventing effective job completion
-- Current workarounds or alternative solutions they employ
-- Severity and frequency of pain points
+**主要なニーズとペインポイント**
+- このセグメントの行動に特有の未充足ニーズ
+- 効果的なジョブ完了を妨げる障害
+- 現在使用している回避策や代替ソリューション
+- ペインポイントの深刻度と頻度
 
-**Current Product Fit**
-- How well $ARGUMENTS currently serves this segment
-- Features or capabilities this segment values most
-- Gaps or limitations most frustrating to this segment
-- Likelihood to continue using vs. churn risk
+**現在のプロダクトフィット**
+- $ARGUMENTS が現在このセグメントをどの程度サービスしているか
+- このセグメントが最も価値を置く機能や能力
+- このセグメントにとって最も不満なギャップや制限
+- 継続使用の可能性 vs. チャーンリスク
 
-**Differentiated Value Proposition**
-- What unique value could be unlocked for this segment
-- Feature or experience improvements that would maximize fit
-- Messaging and positioning most resonant with this segment
+**差別化された価値提案**
+- このセグメントに対してどのようなユニークな価値を引き出せるか
+- フィットを最大化する機能または体験の改善
+- このセグメントに最も響くメッセージとポジショニング
 
-**Segment Prioritization**
-- Strategic importance: growth potential, revenue impact, alignment with vision
-- Implementation difficulty: ease of serving this segment's needs
-- Recommendation: invest, maintain, or de-prioritize
+**セグメントの優先順位付け**
+- 戦略的重要性：成長可能性、収益インパクト、ビジョンとの整合性
+- 実装難易度：このセグメントのニーズを満たすことの容易さ
+- 推奨事項：投資、維持、または優先度を下げる
 
-## Best Practices
+## ベストプラクティス
 
-- Ground segmentation in behavioral and motivational data, not just demographics
-- Use representative quotes and examples from actual user feedback
-- Ensure segments are distinct and serve different core needs
-- Consider interdependencies between segments and prioritization tradeoffs
-- Flag any segments that may be underrepresented in feedback data
-- Validate emerging segments against product usage or customer data when available
-- Consider adjacent behaviors and cross-segment patterns
+- デモグラフィクスだけでなく、行動的・動機的データにセグメンテーションを基づかせる
+- 実際のユーザーフィードバックからの代表的な引用と例を使用する
+- セグメントが明確で、それぞれ異なるコアニーズを持つことを確認する
+- セグメント間の相互依存性と優先順位付けのトレードオフを考慮する
+- フィードバックデータで過小代表されている可能性のあるセグメントにフラグを立てる
+- 可能な場合はプロダクト使用データや顧客データに対して新興セグメントを検証する
+- 隣接する行動とセグメント横断パターンを考慮する
 
 ---
 
-### Further Reading
+### 参考資料
 
 - [Market Research: Advanced Techniques](https://www.productcompass.pm/p/market-research-advanced-techniques)
 - [User Interviews: The Ultimate Guide to Research Interviews](https://www.productcompass.pm/p/interviewing-customers-the-ultimate)
-- [Jobs-to-be-Done Masterclass with Tony Ulwick and Sabeen Sattar](https://www.productcompass.pm/p/jobs-to-be-done-masterclass-with) (video course)
+- [Jobs-to-be-Done Masterclass with Tony Ulwick and Sabeen Sattar](https://www.productcompass.pm/p/jobs-to-be-done-masterclass-with) (ビデオコース)
