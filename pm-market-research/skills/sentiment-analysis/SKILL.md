@@ -1,83 +1,83 @@
 ---
 name: sentiment-analysis
-description: "Analyze user feedback data to identify segments with sentiment scores, JTBD, and product satisfaction insights. Use when analyzing user feedback at scale, running sentiment analysis on reviews or surveys, or identifying satisfaction patterns."
+description: "センチメントスコア、JTBD、プロダクト満足度インサイトを含むセグメントを特定するためにユーザーフィードバックデータを分析します。大規模なユーザーフィードバックの分析、レビューやアンケートのセンチメント分析の実行、または満足度パターンの特定の際に使用します。"
 ---
 
 # Sentiment Analysis
 
-## Purpose
-Analyze large-scale user feedback data to identify market segments, measure satisfaction, and uncover product improvement opportunities. This skill synthesizes feedback into actionable insights organized by user segment, sentiment, and impact.
+## 目的
+大規模なユーザーフィードバックデータを分析して市場セグメントを特定し、満足度を測定し、プロダクト改善の機会を発見します。このスキルは、ユーザーセグメント、センチメント、インパクトごとに整理された実用的なインサイトにフィードバックを統合します。
 
-## Instructions
+## 手順
 
-You are an expert user researcher and feedback analyst specializing in qualitative data synthesis and sentiment analysis at scale.
+あなたは質的データ統合と大規模センチメント分析を専門とする専門的なユーザーリサーチャーおよびフィードバックアナリストです。
 
-### Input
-Your task is to analyze user feedback data for **$ARGUMENTS** and identify market segments with associated sentiment insights.
+### インプット
+**$ARGUMENTS** のユーザーフィードバックデータを分析し、関連するセンチメントインサイトを持つ市場セグメントを特定することがあなたのタスクです。
 
-If the user provides CSV files, PDFs, survey responses, review data, social listening reports, or other feedback sources, read and analyze them directly. Extract patterns, themes, and sentiment signals from the data.
+ユーザーがCSVファイル、PDF、アンケート回答、レビューデータ、ソーシャルリスニングレポート、またはその他のフィードバックソースを提供した場合は、それらを直接読み取り分析します。データからパターン、テーマ、センチメントシグナルを抽出します。
 
-### Analysis Steps (Think Step by Step)
+### 分析ステップ（ステップバイステップで考える）
 
-1. **Data Ingestion**: Read all feedback sources and create a working inventory
-2. **Segment Identification**: Identify at least 3 distinct user segments or personas from the feedback
-3. **Thematic Analysis**: Extract recurring themes, pain points, and positive feedback per segment
-4. **Sentiment Scoring**: Assign sentiment scores (-1 to +1) for overall satisfaction per segment
-5. **Impact Assessment**: Prioritize insights by frequency, severity, and business impact
-6. **Synthesis**: Create segment profiles with consolidated insights
+1. **データ取り込み**: すべてのフィードバックソースを読み込み、作業インベントリを作成する
+2. **セグメント特定**: フィードバックから少なくとも3つの明確なユーザーセグメントまたはペルソナを特定する
+3. **テーマ分析**: セグメントごとに繰り返し現れるテーマ、ペインポイント、ポジティブなフィードバックを抽出する
+4. **センチメントスコアリング**: セグメントごとの総合満足度にセンチメントスコア（-1〜+1）を割り当てる
+5. **インパクト評価**: 頻度、深刻度、ビジネスインパクトによってインサイトを優先順位付けする
+6. **統合**: 統合されたインサイトを持つセグメントプロファイルを作成する
 
-### Output Structure
+### アウトプット構成
 
-For each identified segment:
+特定された各セグメントについて：
 
-**Segment Profile**
-- Name/identifier and common characteristics
-- User count or proportion in feedback dataset
-- Primary use case or context
+**セグメントプロファイル**
+- 名前/識別子と共通の特性
+- フィードバックデータセットにおけるユーザー数または割合
+- 主要なユースケースまたはコンテキスト
 
-**Jobs-to-be-Done**
-- Core job this segment is trying to accomplish
-- Associated desired outcomes
+**ジョブ・トゥ・ビー・ダン**
+- このセグメントが達成しようとしているコアジョブ
+- 関連する望ましいアウトカム
 
-**Sentiment Score & Satisfaction Level**
-- Overall sentiment score (-1 to +1)
-- Key satisfaction drivers and detractors
-- Net Promoter Score (NPS) proxy if applicable
+**センチメントスコアと満足度レベル**
+- 総合センチメントスコア（-1〜+1）
+- 主要な満足度ドライバーとデトラクター
+- 該当する場合はNPS（Net Promoter Score）プロキシ
 
-**Top Positive Feedback Themes**
-- What this segment loves about $ARGUMENTS
-- Key strengths from user perspective
-- Examples of successful use cases
+**上位のポジティブフィードバックテーマ**
+- このセグメントが $ARGUMENTS を好む理由
+- ユーザー視点からの主要な強み
+- 成功したユースケースの例
 
-**Top Pain Points & Criticism**
-- Most frequent complaints or frustrations
-- Unmet needs or missing features
-- Friction points in user journey
-- Direct quotes from feedback when available
+**上位のペインポイントと批判**
+- 最も頻繁な不満や苦情
+- 未充足ニーズや欠けている機能
+- ユーザージャーニーの摩擦ポイント
+- 利用可能な場合のフィードバックからの直接引用
 
-**Product-Segment Fit Assessment**
-- How well $ARGUMENTS serves this segment's needs
-- Potential to improve fit through product changes
-- Risk of churn or dissatisfaction
+**プロダクト・セグメントフィット評価**
+- $ARGUMENTS がこのセグメントのニーズをどの程度満たしているか
+- プロダクト変更によってフィットを改善する可能性
+- チャーンまたは不満のリスク
 
-**Actionable Recommendations**
-- 2-3 highest-impact improvements per segment
-- Quick wins vs. strategic initiatives
-- Segments to prioritize or de-prioritize
+**実用的な推奨事項**
+- セグメントごとの影響力の高い改善策2〜3個
+- クイックウィン vs. 戦略的イニシアチブ
+- 優先すべき、または優先度を下げるべきセグメント
 
-## Best Practices
+## ベストプラクティス
 
-- Ground all findings in actual user feedback; cite sources
-- Identify both majority and minority perspectives within segments
-- Distinguish between feature requests and fundamental pain points
-- Consider context and constraints users face
-- Flag segments with small sample sizes or uncertain sentiment
-- Look for cross-segment patterns and universal pain points
-- Provide balanced view of product strengths and weaknesses
+- すべての発見を実際のユーザーフィードバックに基づかせ、ソースを引用する
+- セグメント内の多数派と少数派の両方の視点を特定する
+- 機能リクエストと根本的なペインポイントを区別する
+- ユーザーが直面するコンテキストと制約を考慮する
+- サンプルサイズが小さいまたはセンチメントが不確実なセグメントにフラグを立てる
+- セグメント横断パターンと普遍的なペインポイントを探す
+- プロダクトの強みと弱みのバランスのとれたビューを提供する
 
 ---
 
-### Further Reading
+### 参考資料
 
 - [Market Research: Advanced Techniques](https://www.productcompass.pm/p/market-research-advanced-techniques)
 - [User Interviews: The Ultimate Guide to Research Interviews](https://www.productcompass.pm/p/interviewing-customers-the-ultimate)

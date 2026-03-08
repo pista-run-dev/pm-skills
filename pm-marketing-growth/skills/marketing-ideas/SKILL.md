@@ -1,44 +1,44 @@
 ---
 name: marketing-ideas
-description: "Generate 5 creative, cost-effective marketing ideas with channels, messaging, and engagement rationale. Use when brainstorming marketing campaigns, planning product promotion, or looking for creative marketing tactics."
+description: "チャネル、メッセージング、エンゲージメントの根拠を含む5つのクリエイティブでコスト効率の高いマーケティングアイデアを生成します。マーケティングキャンペーンのブレインストーミング、製品プロモーションの計画、クリエイティブなマーケティング戦術の探索に使用します。"
 ---
 # Marketing Ideas
 
-Generate 5 creative, cost-effective marketing ideas with channels, messaging, and engagement rationale. Use when brainstorming marketing campaigns, planning product promotion, or exploring creative marketing approaches.
+チャネル、メッセージング、エンゲージメントの根拠を含む5つのクリエイティブでコスト効率の高いマーケティングアイデアを生成します。マーケティングキャンペーンのブレインストーミング、製品プロモーション戦略の計画、クリエイティブなマーケティングアプローチの探索に使用します。
 
-## When to Use
+## 使用タイミング
 
-- Brainstorming marketing campaigns
-- Planning product promotion strategies
-- Exploring creative marketing approaches
-- Building growth initiatives
-- Triggers: marketing ideas, promote product, marketing campaign, creative marketing, growth ideas
+- マーケティングキャンペーンのブレインストーミング
+- 製品プロモーション戦略の計画
+- クリエイティブなマーケティングアプローチの探索
+- グロースイニシアチブの構築
+- トリガー: マーケティングアイデア、製品プロモーション、マーケティングキャンペーン、クリエイティブマーケティング、グロースアイデア
 
-## Prompt
+## プロンプト
 
-You are an experienced product marketer specializing in cost-effective growth strategies and creative campaign development.
+あなたはコスト効率の高いグロース戦略とクリエイティブなキャンペーン開発を専門とする経験豊富なプロダクトマーケターです。
 
-Analyze the following product and market context: $ARGUMENTS
+以下の製品と市場コンテキストを分析してください：$ARGUMENTS
 
-Generate 5 creative marketing ideas for promoting this product to the target market segment. For each idea:
+この製品をターゲット市場セグメントにプロモーションするための5つのクリエイティブなマーケティングアイデアを生成してください。各アイデアについて：
 
-1. **Channel**: Identify the primary marketing channel (social media, content, partnerships, community, email, etc.)
-2. **Core Message**: Craft a compelling message that resonates with the audience
-3. **Why It Works**: Provide a brief explanation of why this approach is likely to engage the target audience
-4. **Cost Efficiency**: Highlight what makes this strategy cost-effective or resource-efficient
+1. **チャネル**：プライマリマーケティングチャネルを特定する（ソーシャルメディア、コンテンツ、パートナーシップ、コミュニティ、メールなど）
+2. **コアメッセージ**：オーディエンスに響く説得力のあるメッセージを作成する
+3. **機能する理由**：このアプローチがターゲットオーディエンスをエンゲージする可能性が高い理由の簡単な説明
+4. **コスト効率**：この戦略がコスト効率またはリソース効率が高い理由を強調する
 
-Prioritize strategies that deliver high impact with limited budget. Consider unconventional approaches and leverage emerging trends where applicable.
+限られた予算で高い影響を生み出す戦略を優先してください。非従来的なアプローチを検討し、適用可能な場合は新興トレンドを活用してください。
 
-## Tips for Best Results
+## 最良の結果のためのヒント
 
-- Provide specific details about your product, target market, and business constraints
-- Include any existing brand positioning or messaging guidelines
-- Mention your current marketing channels and what's already working
-- Share any budget limitations or resource constraints
-- Include information about your target audience's preferences and behaviors
+- 製品、ターゲット市場、ビジネス制約についての具体的な詳細を提供する
+- 既存のブランドポジショニングまたはメッセージングガイドラインを含める
+- 現在のマーケティングチャネルとすでに機能していることを述べる
+- 予算の制限またはリソースの制約を共有する
+- ターゲットオーディエンスの好みと行動に関する情報を含める
 
 ---
 
-### Further Reading
+### 参考文献
 
 - [Product Management vs. Product Marketing vs. Product Growth 101](https://www.productcompass.pm/p/product-management-vs-product-marketing)

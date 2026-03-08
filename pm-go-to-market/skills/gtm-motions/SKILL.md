@@ -1,155 +1,155 @@
 ---
 name: gtm-motions
-description: "Identify the best GTM motions and tools across 7 motion types: Inbound, Outbound, Paid Digital, Community, Partners, ABM, and PLG. Use when selecting marketing channels, choosing between inbound and outbound strategy, or planning cross-channel campaigns."
+description: "インバウンド、アウトバウンド、有料デジタル、コミュニティ、パートナー、ABM、PLGの7種類のモーションにわたる最適なGTMモーションとツールを特定します。マーケティングチャネルの選択、インバウンドとアウトバウンド戦略の選定、クロスチャネルキャンペーンの計画に使用します。"
 ---
 # GTM Motions
 
-## Overview
-Identify and evaluate the best go-to-market motions for your product. This skill analyzes seven proven GTM approaches with specific tools and tactics to help you build a balanced acquisition strategy.
+## 概要
+製品に最適なGTMモーションを特定・評価します。このスキルは7つの実証済みGTMアプローチを具体的なツールと戦術とともに分析し、バランスのとれた獲得戦略を構築する支援をします。
 
-## When to Use
-- Selecting marketing channels for your product
-- Choosing between inbound vs outbound strategy
-- Building your GTM toolkit and tech stack
-- Evaluating PLG vs traditional sales motion
-- Planning cross-channel marketing campaigns
+## 使用タイミング
+- 製品のマーケティングチャネルを選択する時
+- インバウンド vs アウトバウンド戦略を選択する時
+- GTMツールキットとテックスタックを構築する時
+- PLG vs 従来のセールスモーションを評価する時
+- クロスチャネルマーケティングキャンペーンを計画する時
 
-## The 7 GTM Motions
+## 7つのGTMモーション
 
-### 1. Inbound Marketing
-Attract customers through valuable content and thought leadership.
-- **Tools**: LinkedIn, SEMRush, Grammarly, HubSpot, Airtable
-- **Tactics**: Blog content, webinars, whitepapers, SEO, email nurture sequences
-- **Best For**: B2B SaaS, technical products, long sales cycles
-- **Strength**: Builds brand authority and attracts high-intent prospects
-- **Challenge**: Requires consistent content creation; slower to show results
+### 1. インバウンドマーケティング
+価値あるコンテンツとソートリーダーシップを通じて顧客を引き付ける。
+- **ツール**: LinkedIn、SEMRush、Grammarly、HubSpot、Airtable
+- **戦術**: ブログコンテンツ、ウェビナー、ホワイトペーパー、SEO、メールナーチャーシーケンス
+- **最適な対象**: B2B SaaS、技術的製品、長い販売サイクル
+- **強み**: ブランド権威を構築し、高意図のプロスペクトを引き付ける
+- **課題**: 一貫したコンテンツ作成が必要；結果が出るまでに時間がかかる
 
-### 2. Outbound Sales
-Proactively reach target prospects through direct engagement.
-- **Tools**: LinkedIn Sales Navigator, ZoomInfo, Lemlist, Apollo, Hunter
-- **Tactics**: Cold email campaigns, LinkedIn outreach, phone prospecting, personalized demos
-- **Best For**: Enterprise sales, high-value contracts, niche markets
-- **Strength**: Predictable pipeline generation; control over target selection
-- **Challenge**: Low response rates; resource-intensive; requires skilled sales team
+### 2. アウトバウンドセールス
+直接エンゲージメントを通じてターゲットプロスペクトに積極的にリーチする。
+- **ツール**: LinkedIn Sales Navigator、ZoomInfo、Lemlist、Apollo、Hunter
+- **戦術**: コールドメールキャンペーン、LinkedInアウトリーチ、電話によるプロスペクティング、パーソナライズドデモ
+- **最適な対象**: エンタープライズセールス、高額契約、ニッチ市場
+- **強み**: 予測可能なパイプライン生成；ターゲット選択のコントロール
+- **課題**: 低い返信率；リソース集約的；熟練したセールスチームが必要
 
-### 3. Paid Digital Advertising
-Reach target audiences through paid channels with precision targeting.
-- **Tools**: Google Ads, Meta Ads, LinkedIn Ads, Newswire, Retargeting platforms
-- **Tactics**: Search ads, display advertising, social ads, video advertising, retargeting
-- **Best For**: Products with clear target demographics, competitive keywords
-- **Strength**: Fast results; scalable; measurable ROI; precise targeting
-- **Challenge**: Can be expensive; requires continuous optimization; competitive
+### 3. 有料デジタル広告
+精密なターゲティングで有料チャネルを通じてターゲットオーディエンスにリーチする。
+- **ツール**: Google Ads、Meta Ads、LinkedIn Ads、Newswire、リターゲティングプラットフォーム
+- **戦術**: 検索広告、ディスプレイ広告、ソーシャル広告、動画広告、リターゲティング
+- **最適な対象**: 明確なターゲットデモグラフィクスを持つ製品、競合キーワード
+- **強み**: 速い結果；スケーラブル；測定可能なROI；精密なターゲティング
+- **課題**: 費用がかかる場合がある；継続的な最適化が必要；競合が激しい
 
-### 4. Community Marketing
-Build engaged communities where customers help each other and spread the word.
-- **Tools**: Slack, Reddit, Discord, Circle, Mighty Networks, WhatsApp
-- **Tactics**: Community forums, user groups, events, mentorship, ambassador programs
-- **Best For**: Developer products, communities of practice, loyal user bases
-- **Strength**: Builds loyalty; organic word-of-mouth; valuable feedback; low CAC
-- **Challenge**: Requires active moderation; time to build critical mass
+### 4. コミュニティマーケティング
+顧客が互いに助け合い、口コミを広げるエンゲージメントの高いコミュニティを構築する。
+- **ツール**: Slack、Reddit、Discord、Circle、Mighty Networks、WhatsApp
+- **戦術**: コミュニティフォーラム、ユーザーグループ、イベント、メンターシップ、アンバサダープログラム
+- **最適な対象**: 開発者製品、実践コミュニティ、ロイヤルユーザーベース
+- **強み**: ロイヤルティの構築；有機的な口コミ；価値あるフィードバック；低いCAC
+- **課題**: 積極的なモデレーションが必要；クリティカルマスを構築するまでに時間がかかる
 
-### 5. Partner Marketing
-Leverage partner networks to co-market and reach new audiences.
-- **Tools**: Miro, AWS Startups, Oracle Partners, Stripe, Shopify App Store
-- **Tactics**: Partner integrations, co-marketing agreements, channel partnerships, resellers
-- **Best For**: Complementary products, platform ecosystems, expanding market reach
-- **Strength**: Access to established customer bases; shared costs; credibility
-- **Challenge**: Partner alignment; revenue sharing; dependency on partners
+### 5. パートナーマーケティング
+パートナーネットワークを活用して共同マーケティングを行い、新規オーディエンスにリーチする。
+- **ツール**: Miro、AWS Startups、Oracle Partners、Stripe、Shopify App Store
+- **戦術**: パートナーインテグレーション、共同マーケティング契約、チャネルパートナーシップ、リセラー
+- **最適な対象**: 補完的製品、プラットフォームエコシステム、市場リーチの拡大
+- **強み**: 確立された顧客ベースへのアクセス；共有コスト；信頼性
+- **課題**: パートナーとのアラインメント；収益分配；パートナーへの依存
 
 ### 6. Account-Based Marketing (ABM)
-Treat high-value accounts as individual markets with personalized campaigns.
-- **Tools**: Pipedrive, Hunter, Clay, 6sense, Terminus, Demandbase
-- **Tactics**: Personalized messaging, account-targeted content, coordinated sales/marketing
-- **Best For**: Enterprise deals, limited target accounts, high deal values
-- **Strength**: Higher conversion rates; larger deal sizes; strong sales-marketing alignment
-- **Challenge**: Requires detailed account research; resource intensive; not scalable to SMB
+パーソナライズされたキャンペーンで高価値アカウントを個別の市場として扱う。
+- **ツール**: Pipedrive、Hunter、Clay、6sense、Terminus、Demandbase
+- **戦術**: パーソナライズされたメッセージング、アカウントターゲットコンテンツ、セールス/マーケティングの連携
+- **最適な対象**: エンタープライズディール、限られたターゲットアカウント、高いディール価値
+- **強み**: 高いコンバージョン率；大きなディールサイズ；強力なセールス・マーケティングアラインメント
+- **課題**: 詳細なアカウントリサーチが必要；リソース集約的；SMBにはスケールしない
 
 ### 7. Product-Led Growth (PLG)
-Drive adoption through the product experience itself with minimal sales friction.
-- **Tools**: Hotjar, Amplitude, Sentry, PostHog, Intercom, Appcues
-- **Tactics**: Free trials, freemium models, in-app onboarding, self-serve demos, product analytics
-- **Best For**: Self-service products, SMB market, low ACV, viral potential
-- **Strength**: Low CAC; aligns product and growth; strong PMF signals; scalable
-- **Challenge**: Requires excellent product experience; lower price points; longer ROI
+セールスのフリクションを最小化し、製品体験そのものを通じて採用を促進する。
+- **ツール**: Hotjar、Amplitude、Sentry、PostHog、Intercom、Appcues
+- **戦術**: 無料トライアル、フリーミアムモデル、インアップオンボーディング、セルフサービスデモ、プロダクトアナリティクス
+- **最適な対象**: セルフサービス製品、SMB市場、低ACV、バイラルポテンシャル
+- **強み**: 低いCAC；製品とグロースのアラインメント；強力なPMFシグナル；スケーラブル
+- **課題**: 優れた製品体験が必要；低い価格帯；長いROI
 
-## How It Works
+## 仕組み
 
-### Step 1: Understand Your Product
-Define product characteristics:
-- Price point and ACV (contract value)
-- Sales cycle length
-- Buyer type and decision-making process
-- Product complexity and learning curve
-- Target market size and concentration
+### ステップ1: 製品の理解
+製品の特性を定義します：
+- 価格帯とACV（契約価値）
+- 販売サイクルの長さ
+- バイヤータイプと意思決定プロセス
+- 製品の複雑さと学習曲線
+- ターゲット市場の規模と集中度
 
-### Step 2: Evaluate Market Conditions
-Assess your market dynamics:
-- Competitive intensity of your keywords/channels
-- Target audience location and accessibility
-- Budget availability for paid channels
-- Your team size and capabilities
-- Timeline to revenue generation
+### ステップ2: 市場状況の評価
+市場のダイナミクスを評価します：
+- キーワード/チャネルの競合強度
+- ターゲットオーディエンスの場所とアクセス可能性
+- 有料チャネルへの予算の可用性
+- チームの規模と能力
+- 収益創出へのタイムライン
 
-### Step 3: Score Each Motion
-Rate fit for your product (1-10 scale):
-- Inbound: Content creation capability, brand building timeline
-- Outbound: Prospect list availability, sales team capacity
-- Paid: Budget flexibility, target audience clarity, conversion potential
-- Community: Existing communities, product network effects
-- Partners: Complementary products, channel availability
-- ABM: Deal size and account concentration
-- PLG: Product trial-ability, pricing flexibility
+### ステップ3: 各モーションのスコアリング
+製品へのフィットを評価します（1〜10のスケール）：
+- インバウンド：コンテンツ作成能力、ブランド構築タイムライン
+- アウトバウンド：プロスペクトリストの可用性、セールスチームのキャパシティ
+- 有料：予算の柔軟性、ターゲットオーディエンスの明確さ、コンバージョンポテンシャル
+- コミュニティ：既存コミュニティ、製品のネットワーク効果
+- パートナー：補完的製品、チャネルの可用性
+- ABM：ディールサイズとアカウントの集中度
+- PLG：製品のトライアル可能性、価格の柔軟性
 
-### Step 4: Design Motion Stack
-Select and prioritize 2-4 motions to execute:
-- Primary motion (highest potential for your business)
-- Secondary motions (complementary acquisition channels)
-- Motion sequencing (which to start first)
-- Resource allocation across channels
+### ステップ4: モーションスタックの設計
+実行する2〜4のモーションを選択・優先順位付けします：
+- プライマリモーション（ビジネスに最大のポテンシャル）
+- セカンダリモーション（補完的な獲得チャネル）
+- モーションのシーケンシング（どれを最初に始めるか）
+- チャネル全体のリソース配分
 
-### Step 5: Build Execution Plan
-Create 90-day implementation roadmap:
-- Quick wins and early validation
-- Team and tool requirements
-- Success metrics for each motion
-- Optimization and scaling strategy
-- Budget and resource allocation
+### ステップ5: 実行計画の構築
+90日間の実装ロードマップを作成します：
+- クイックウィンと早期検証
+- チームとツールの要件
+- 各モーションの成功指標
+- 最適化とスケーリング戦略
+- 予算とリソース配分
 
-## Input Format
-Use $ARGUMENTS to pass:
-- Product description and positioning
-- Target customer profile and market
-- Price point and sales cycle
-- Team size and capabilities
-- Budget and timeline constraints
-- Existing channels or data
+## 入力フォーマット
+$ARGUMENTS を使用して以下を渡します：
+- 製品の説明とポジショニング
+- ターゲット顧客プロファイルと市場
+- 価格帯と販売サイクル
+- チームの規模と能力
+- 予算とタイムラインの制約
+- 既存のチャネルまたはデータ
 
-## Output
-A comprehensive GTM motions analysis including:
-- Scoring of all 7 motions for your product
-- Recommended motion stack (primary and secondary)
-- Tool recommendations for each motion
-- 90-day execution plan with milestones
-- Resource and budget requirements
-- Success metrics and measurement framework
-- Competitive differentiation through motion choice
+## アウトプット
+以下を含む包括的なGTMモーション分析：
+- 製品に対する7つのモーションすべてのスコアリング
+- 推奨モーションスタック（プライマリとセカンダリ）
+- 各モーションへのツール推薦
+- マイルストーンを含む90日間の実行計画
+- リソースと予算の要件
+- 成功指標と測定フレームワーク
+- モーション選択による競合差別化
 
-## Framework
-Based on Product Compass GTM motion analysis. Provides a systematic approach to balancing customer acquisition across multiple channels.
+## フレームワーク
+Product Compass GTMモーション分析に基づいています。複数のチャネルにわたる顧客獲得のバランスを取る体系的なアプローチを提供します。
 
-## Tips
-- Most successful products use 2-4 complementary motions
-- Start with your strongest motion; add complexity gradually
-- Paid channels fund growth while organic channels build long-term value
-- Revisit motion mix quarterly as company scales
-- Combine inbound (brand) with outbound (sales) for B2B strength
-- Use PLG to reduce CAC; use paid to accelerate proven channels
+## ヒント
+- 最も成功する製品は2〜4の補完的なモーションを使用する
+- 最強のモーションから始め、徐々に複雑さを加える
+- 有料チャネルが成長に資金を提供する間、オーガニックチャネルが長期的な価値を構築する
+- 会社がスケールするにつれて四半期ごとにモーションミックスを再検討する
+- B2Bの強化のためインバウンド（ブランド）とアウトバウンド（セールス）を組み合わせる
+- PLGでCACを削減；有料で実証済みチャネルを加速させる
 
 ---
 
-### Further Reading
+### 参考文献
 
 - [5 GTM Principles You Should Know as a PM](https://www.productcompass.pm/p/5-gtm-principles-with-frameworks-templates)
-- [OpenAI’s Product Leader Shares 3-Layer Distribution Framework To Win Mind & Market Share in the AI World](https://www.productcompass.pm/p/distribution-framework-ai-products)
+- [OpenAI's Product Leader Shares 3-Layer Distribution Framework To Win Mind & Market Share in the AI World](https://www.productcompass.pm/p/distribution-framework-ai-products)
 - [Product Management vs. Product Marketing vs. Product Growth 101](https://www.productcompass.pm/p/product-management-vs-product-marketing)
 - [How to Design a Value Proposition Customers Can't Resist?](https://www.productcompass.pm/p/how-to-design-value-proposition-template)

@@ -1,108 +1,108 @@
 ---
 name: value-proposition
-description: "Design a detailed value proposition using a 6-part JTBD template — Who, Why, What before, How, What after, Alternatives. Use when creating a value proposition, analyzing customer value delivery, or articulating why customers should choose your product."
+description: "6パートのJTBDテンプレート（誰に、なぜ、ビフォー、ハウ、アフター、代替手段）を使って詳細なバリュープロポジションを設計します。バリュープロポジションの作成、顧客価値の提供分析、顧客がプロダクトを選ぶ理由の明確化に使用してください。"
 ---
-# Value Proposition
+# バリュープロポジション
 
-## Metadata
-- **Name**: value-proposition
-- **Description**: Generate a detailed value proposition using a 6-part template with JTBD framing. Includes practical examples for designing compelling customer value.
-- **Triggers**: value proposition, value prop, customer value, JTBD value, value map
+## メタデータ
+- **名前**: value-proposition
+- **説明**: JTBDフレーミングによる6パートテンプレートを使って詳細なバリュープロポジションを生成します。説得力のある顧客価値を設計するための実践的な例を含みます。
+- **トリガー**: バリュープロポジション、バリュープロップ、顧客価値、JTBDバリュー、バリューマップ
 
-## Instructions
+## 指示
 
-You are a product strategist designing a clear value proposition for $ARGUMENTS.
+あなたは $ARGUMENTS のための明確なバリュープロポジションを設計するプロダクトストラテジストです。
 
-Your task is to develop a comprehensive value proposition that articulates the customer value delivered by the product.
+プロダクトが提供する顧客価値を明確にする包括的なバリュープロポジションを開発するのがあなたの任務です。
 
-## Input Requirements
-- Product description and features
-- Target customer segment and their problems
-- Competitive alternatives and current solutions
-- Customer insights or market data
+## 入力要件
+- プロダクトの説明と機能
+- ターゲット顧客セグメントとその問題
+- 競合する代替手段と現在のソリューション
+- 顧客インサイトまたは市場データ
 
-## Value Proposition Template
+## バリュープロポジションテンプレート
 
-### 6-Part Structure
+### 6パート構成
 
-**1. Who**
-- Who is this value proposition for?
-- What customer segment are we addressing?
-- What are their characteristics and constraints?
+**1. 誰に（Who）**
+- このバリュープロポジションは誰のためのものか？
+- どの顧客セグメントに対応しているか？
+- 彼らの特徴と制約は何か？
 
-**2. Why (Problem)**
-- What is the customer's core problem or need?
-- What's the Job to Be Done (JTBD)?
-- What desired outcomes are they trying to achieve?
+**2. なぜ（Why）（問題）**
+- 顧客のコアな問題またはニーズは何か？
+- Jobs to Be Done (JTBD) は何か？
+- 彼らが達成しようとしている望ましいアウトカムは何か？
 
-**3. What Before**
-- What is the customer's current situation?
-- What are they using today to solve this problem?
-- What friction or pain exists in the current approach?
+**3. ビフォー（What Before）**
+- 顧客の現在の状況は？
+- この問題を解決するために今日何を使っているか？
+- 現在のアプローチにどのような摩擦や痛みがあるか？
 
-**4. How (Solution)**
-- How does the product solve the problem?
-- What specific features or capabilities deliver value?
-- Why is this solution better than alternatives?
+**4. ハウ（How）（ソリューション）**
+- プロダクトはどのように問題を解決するか？
+- どの特定の機能やケイパビリティが価値を提供するか？
+- なぜこのソリューションは代替手段より優れているか？
 
-**5. What After**
-- What is the improved outcome or future state?
-- How does the customer's life/work change?
-- What becomes possible that wasn't before?
+**5. アフター（What After）**
+- 改善されたアウトカムや将来の状態は何か？
+- 顧客の生活/仕事はどのように変わるか？
+- 以前は不可能だったことが何ができるようになるか？
 
-**6. Alternatives**
-- What other solutions could customers use?
-- Why would they choose us instead?
-- What's the switching cost or friction from alternatives?
+**6. 代替手段（Alternatives）**
+- 顧客が使用できる他のソリューションは何か？
+- なぜ顧客は我々を選ぶのか？
+- 代替手段からのスイッチングコストや摩擦は何か？
 
-## Example: Canva
-- **Who**: Non-designers who need to create marketing graphics
-- **Why**: They need professional-looking designs but can't hire designers or use complex tools
-- **What Before**: Using PowerPoint, Photoshop (too complex), or hiring expensive designers
-- **How**: Drag-and-drop templates, built-in design elements, AI design assistance, intuitive interface
-- **What After**: Create professional designs in minutes, launch campaigns faster, save design costs
-- **Alternatives**: Photoshop (complex), Fiverr (slow, expensive), Canva competitors (fewer templates, harder UX)
+## 例：Canva
+- **誰に（Who）**: マーケティンググラフィックを作成する必要があるノンデザイナー
+- **なぜ（Why）**: プロフェッショナルなデザインが必要だが、デザイナーを雇ったり複雑なツールを使ったりできない
+- **ビフォー（What Before）**: PowerPoint、Photoshop（複雑すぎ）、または高価なデザイナーの雇用
+- **ハウ（How）**: ドラッグ＆ドロップテンプレート、組み込みデザイン要素、AIデザインアシスタンス、直感的なインターフェース
+- **アフター（What After）**: 数分でプロフェッショナルなデザインを作成し、キャンペーンをより速く開始し、デザインコストを節約
+- **代替手段（Alternatives）**: Photoshop（複雑）、Fiverr（遅く、高価）、Canvaの競合（テンプレートが少なく、UXが難しい）
 
-## Output Process
-1. Identify and profile the target customer segment
-2. Define the core problem and JTBD
-3. Describe the current state and friction points
-4. Articulate how the product solves the problem
-5. Envision the improved outcome
-6. Compare against competitive alternatives
-7. Create a concise value prop statement (1-2 sentences)
-8. Develop a positioning statement for marketing use
+## アウトプットプロセス
+1. ターゲット顧客セグメントを特定してプロファイリングする
+2. コアな問題とJTBDを定義する
+3. 現在の状態と摩擦ポイントを説明する
+4. プロダクトがどのように問題を解決するかを明確にする
+5. 改善されたアウトカムを描く
+6. 競合する代替手段と比較する
+7. 簡潔なバリュープロップステートメントを作成する（1〜2文）
+8. マーケティング用のポジショニングステートメントを開発する
 
-### Domain Context
+### ドメインコンテキスト
 
-**This template vs Strategyzer's Value Proposition Canvas**: Strategyzer's canvas (by Alexander Osterwalder) is widely used but has structural limitations. This 6-part JTBD template (by Paweł Huryn and Aatir Abdul Rauf) addresses them:
+**このテンプレートとStrategyzerのバリュープロポジションキャンバスの比較**：Strategyzerのキャンバス（Alexander Osterwalderによる）は広く使用されているが、構造的な制限がある。この6パートJTBDテンプレート（Paweł HurynとAatir Abdul Raufによる）はそれらに対処している：
 
-- **Customer first**: This template starts with the customer (Who/Why) and works toward the solution. Strategyzer's canvas places the product on the left, which often leads teams to start with their solution rather than the customer's problem.
-- **One segment at a time**: This template is designed for one segment per pass. Strategyzer's canvas encourages mapping multiple products/services simultaneously, which dilutes focus.
-- **Explicit alternatives**: Section 6 (Alternatives) forces you to name what customers would use without you and articulate why you're better. Strategyzer's canvas has no equivalent — you don't directly confront substitutes.
-- **Simpler structure**: "What before → How → What after" is easier to fill out than separating Customer Jobs, Pains, and Gains on one side and Pain Relievers, Gain Creators, and Products on the other. The separation often creates confusion about where things go.
-- **Actionable output**: The final Value Proposition Statement is ready for marketing, sales, and onboarding. Strategyzer's canvas doesn't produce a reusable statement.
+- **顧客ファースト**: このテンプレートは顧客（誰に/なぜ）から始め、ソリューションに向かって進む。Strategyzerのキャンバスはプロダクトを左側に置いており、チームがソリューションから始めることが多い。
+- **一度に一つのセグメント**: このテンプレートは1回のパスに対して1つのセグメント向けに設計されている。Strategyzerのキャンバスは複数の製品/サービスを同時にマッピングすることを奨励しており、焦点が薄れる。
+- **明示的な代替手段**: セクション6（代替手段）は、顧客があなたなしで何を使うかを明示し、なぜあなたの方が優れているかを明確にすることを強制する。Strategyzerのキャンバスには代替手段を直接対決させるような相当する部分がない。
+- **シンプルな構造**: 「ビフォー→ハウ→アフター」は、顧客ジョブ、ペイン、ゲインを一方に、ペインリリーバー、ゲインクリエーター、製品を他方に分けるよりも入力しやすい。この分離はどこに何を置くかについての混乱を生むことが多い。
+- **実用的なアウトプット**: 最終的なバリュープロポジションステートメントはマーケティング、セールス、オンボーディングに即座に使用できる。Strategyzerのキャンバスは再利用可能なステートメントを生成しない。
 
-Use Strategyzer's Value Proposition Canvas when you need a detailed pains/gains decomposition for a mature product with complex customer needs. Use this 6-part template for clarity, speed, and actionable output.
+複雑な顧客ニーズを持つ成熟したプロダクトのための詳細なペイン/ゲインの分解が必要な場合は、StrategyzerのバリュープロポジションキャンバスをUseする。明確さ、スピード、実用的なアウトプットのためにはこの6パートテンプレートを使用する。
 
-## Notes
-- Jobs to Be Done (JTBD) framework focuses on the progress the customer is trying to make, not demographics
-- Value propositions are segment-specific; you may have different value props for different customer groups
-- The stronger your value prop, the easier marketing, sales, and product decisions become
-- Test value props with real customers before finalizing
-- Use a **Value Curve** (Blue Ocean Strategy) to visually compare your offering against competitors across key factors
-
----
-
-### Templates
-
-- [Value Proposition Template (PPTX)](https://docs.google.com/presentation/d/1RXH1Udj71aXQJzGeqYSOStnfQ-6dNz14/edit?slide=id.g2a98aeea3b1_0_247#slide=id.g2a98aeea3b1_0_247)
+## 注意事項
+- Jobs to Be Done (JTBD) フレームワークは、人口統計ではなく顧客が達成しようとしている進歩に焦点を当てる
+- バリュープロポジションはセグメント固有である；異なる顧客グループには異なるバリュープロップがある場合がある
+- バリュープロップが強ければ強いほど、マーケティング、セールス、プロダクトの意思決定が容易になる
+- 最終決定前にバリュープロップを実際の顧客でテストする
+- **バリューカーブ（Blue Ocean Strategy）**を使って、主要な要因にわたるあなたの提供物と競合他社を視覚的に比較する
 
 ---
 
-### Further Reading
+### テンプレート
+
+- [バリュープロポジションテンプレート (PPTX)](https://docs.google.com/presentation/d/1RXH1Udj71aXQJzGeqYSOStnfQ-6dNz14/edit?slide=id.g2a98aeea3b1_0_247#slide=id.g2a98aeea3b1_0_247)
+
+---
+
+### 参考文献
 
 - [How to Design a Value Proposition Customers Can't Resist?](https://www.productcompass.pm/p/how-to-design-value-proposition-template)
 - [How to Achieve Product-Market Fit? Part I: Market and Value Proposition](https://www.productcompass.pm/p/how-to-achieve-the-product-market)
-- [Jobs-to-be-Done Masterclass with Tony Ulwick and Sabeen Sattar](https://www.productcompass.pm/p/jobs-to-be-done-masterclass-with) (video course)
-- [Product Innovation Masterclass](https://www.productcompass.pm/p/product-innovation-masterclass) (video course)
+- [Jobs-to-be-Done Masterclass with Tony Ulwick and Sabeen Sattar](https://www.productcompass.pm/p/jobs-to-be-done-masterclass-with) (ビデオコース)
+- [Product Innovation Masterclass](https://www.productcompass.pm/p/product-innovation-masterclass) (ビデオコース)

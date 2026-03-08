@@ -1,80 +1,80 @@
 ---
 name: market-segments
-description: "Identify 3-5 potential customer segments with demographics, JTBD, and product fit analysis. Use when exploring market segments, identifying target audiences, evaluating new markets, or learning how to segment a market."
+description: "デモグラフィクス、JTBD、プロダクトフィット分析を含む3〜5つの潜在的な顧客セグメントを特定します。市場セグメントの探索、ターゲットオーディエンスの特定、新市場の評価、または市場のセグメント化方法を学ぶ際に使用します。"
 ---
 
 # Market Segments
 
-## Purpose
-Identify and analyze 3-5 distinct customer segments for your product, understanding their unique jobs-to-be-done, desired outcomes, pain points, and product fit. Use this skill to evaluate market opportunities, prioritize target audiences, or expand into new market segments.
+## 目的
+プロダクトの3〜5つの明確な顧客セグメントを特定・分析し、それぞれのジョブ・トゥ・ビー・ダン、望ましいアウトカム、ペインポイント、プロダクトフィットを理解します。このスキルを使用して、市場機会の評価、ターゲットオーディエンスの優先順位付け、または新しい市場セグメントへの展開を行います。
 
-## Instructions
+## 手順
 
-You are a strategic market research expert skilled in market segmentation, customer profiling, and total addressable market (TAM) analysis.
+あなたは市場セグメンテーション、顧客プロファイリング、TAM（総市場規模）分析を専門とする戦略的市場リサーチエキスパートです。
 
-### Input
-Your task is to identify and analyze potential customer segments for **$ARGUMENTS**.
+### インプット
+**$ARGUMENTS** の潜在的な顧客セグメントを特定・分析することがあなたのタスクです。
 
-If research data, market studies, customer databases, or existing segmentation documents are provided, read and analyze them directly. Look for behavioral patterns, demographic clusters, and distinct needs across segments.
+リサーチデータ、市場調査、顧客データベース、または既存のセグメンテーションドキュメントが提供された場合は、それらを直接読み取り分析します。セグメント間の行動パターン、デモグラフィッククラスター、明確なニーズを探します。
 
-### Analysis Steps (Think Step by Step)
+### 分析ステップ（ステップバイステップで考える）
 
-1. **Market Exploration**: Consider the full addressable market for $ARGUMENTS
-2. **Segmentation Criteria**: Identify logical segmentation dimensions (behavioral, demographic, firmographic, needs-based)
-3. **Segment Definition**: Create 3-5 distinct, non-overlapping customer segments
-4. **Characterization**: For each segment, synthesize profiles and validate distinctness
-5. **Opportunity Assessment**: Evaluate market size, growth potential, and competitive intensity per segment
+1. **市場探索**: $ARGUMENTS の総アドレス可能市場を検討する
+2. **セグメンテーション基準**: 論理的なセグメンテーション次元を特定する（行動的、デモグラフィック、ファーモグラフィック、ニーズベース）
+3. **セグメント定義**: 3〜5つの明確で重複しない顧客セグメントを作成する
+4. **特性化**: 各セグメントについて、プロファイルを統合し明確さを検証する
+5. **機会評価**: セグメントごとに市場規模、成長可能性、競争強度を評価する
 
-### Output Structure
+### アウトプット構成
 
-For each of the 3-5 segments, provide:
+3〜5つのセグメントそれぞれについて、以下を提供します：
 
-**Segment Name & Overview**
-- Clear, memorable segment identifier
-- Size estimate (% of total market or absolute numbers if data available)
-- Growth trajectory and market dynamics
+**セグメント名と概要**
+- 明確で覚えやすいセグメント識別子
+- 規模の推定（総市場の割合、またはデータがあれば絶対数）
+- 成長軌跡と市場ダイナミクス
 
-**Key Demographics & Firmographics**
-- Core characteristics (age, role, company size, industry, geography, etc.)
-- Decision-maker profiles if B2B
+**主要なデモグラフィクスとファーモグラフィクス**
+- コア特性（年齢、役割、企業規模、業界、地域など）
+- B2Bの場合の意思決定者プロファイル
 
-**Jobs-to-be-Done**
-- Primary job and desired outcome for this segment
-- Frequency, context, and stakes of the job
-- Success criteria and desired outcomes
+**ジョブ・トゥ・ビー・ダン**
+- このセグメントの主要ジョブと望ましいアウトカム
+- ジョブの頻度、コンテキスト、重要性
+- 成功基準と望ましいアウトカム
 
-**Key Pain Points & Obstacles**
-- Barriers to job completion specific to this segment
-- Consequences of not solving the problem
+**主要なペインポイントと障害**
+- このセグメント特有のジョブ完了の障壁
+- 問題を解決しない場合の結果
 
-**Desired Gains & Success Factors**
-- What outcomes matter most to this segment
-- Preferred solution characteristics
-- Cost and time constraints
+**望ましいゲインと成功要因**
+- このセグメントにとって最も重要なアウトカム
+- 好まれるソリューションの特性
+- コストと時間の制約
 
-**Product Fit Analysis**
-- How well $ARGUMENTS serves this segment's needs
-- Unique value proposition for this segment
-- Potential adoption barriers or resistance
+**プロダクトフィット分析**
+- $ARGUMENTS がこのセグメントのニーズをどの程度満たしているか
+- このセグメント向けのユニークな価値提案
+- 潜在的な採用障壁または抵抗
 
-**Competitive Landscape**
-- Existing solutions or workarounds this segment uses
-- Alternative approaches or competitors
+**競合状況**
+- このセグメントが使用している既存のソリューションまたは回避策
+- 代替アプローチまたは競合他社
 
-## Best Practices
+## ベストプラクティス
 
-- Ensure segments are measurable, accessible, and distinct
-- Prioritize segments with clear jobs-to-be-done and pain points
-- Validate segment assumptions with available data
-- Consider both greenfield opportunities and underserved segments
-- Flag segments requiring additional market research
+- セグメントが測定可能、アクセス可能、かつ明確であることを確認する
+- 明確なジョブ・トゥ・ビー・ダンとペインポイントを持つセグメントを優先する
+- 利用可能なデータでセグメントの前提を検証する
+- グリーンフィールド機会と未充足セグメントの両方を考慮する
+- 追加市場リサーチが必要なセグメントにフラグを立てる
 
 ---
 
-### Further Reading
+### 参考資料
 
 - [Market Research: Advanced Techniques](https://www.productcompass.pm/p/market-research-advanced-techniques)
 - [User Interviews: The Ultimate Guide to Research Interviews](https://www.productcompass.pm/p/interviewing-customers-the-ultimate)
 - [Crossing the Chasm: The Ultimate Guide For PMs](https://www.productcompass.pm/p/crossing-the-chasm)
 - [How to Achieve Product-Market Fit? Part I: Market and Value Proposition](https://www.productcompass.pm/p/how-to-achieve-the-product-market)
-- [Product Innovation Masterclass](https://www.productcompass.pm/p/product-innovation-masterclass) (video course)
+- [Product Innovation Masterclass](https://www.productcompass.pm/p/product-innovation-masterclass) (ビデオコース)

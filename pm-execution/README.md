@@ -1,42 +1,42 @@
 # pm-execution
 
-Execution and product management skills: PRDs, OKRs, roadmaps, sprints, pre-mortems, stakeholder maps, user stories, prioritization frameworks, and more.
+実行とプロダクト管理スキル：PRD、OKR、ロードマップ、スプリント、プレモーテム、ステークホルダーマップ、ユーザーストーリー、優先順位付けフレームワークなど。
 
-## Skills (15)
+## スキル（15）
 
-- **brainstorm-okrs** — Brainstorm team-level OKRs aligned with company objectives.
-- **create-prd** — Create a Product Requirements Document using a comprehensive 8-section template covering summary, background, objectives, market segments, value propositions, solution details, and release planning.
-- **dummy-dataset** — Generate realistic dummy datasets for testing with customizable columns, constraints, and output formats (CSV, JSON, SQL, Python script).
-- **job-stories** — Create job stories using the 'When [situation], I want to [motivation], so I can [outcome]' format with detailed acceptance criteria.
-- **outcome-roadmap** — Transform an output-focused roadmap into an outcome-focused one.
-- **pre-mortem** — Run a pre-mortem analysis on a PRD.
-- **prioritization-frameworks** — Reference guide to 9 prioritization frameworks with formulas, when-to-use guidance, and templates.
-- **release-notes** — Generate user-facing release notes from tickets, PRDs, or changelogs.
-- **retro** — Facilitate a structured sprint retrospective.
-- **sprint-plan** — Plan a sprint with capacity estimation, story selection, dependency mapping, and risk identification.
-- **stakeholder-map** — Build a stakeholder map using a power/interest grid, identify communication strategies per quadrant, and generate a communication plan.
-- **summarize-meeting** — Summarize a meeting transcript into a structured template with date, participants, topic, summary points, and action items.
-- **test-scenarios** — Create comprehensive test scenarios from user stories with test objectives, starting conditions, user roles, step-by-step actions, and expected outcomes.
-- **user-stories** — Create user stories following the 3 C's (Card, Conversation, Confirmation) and INVEST criteria with descriptions, design links, and acceptance criteria.
-- **wwas** — Create product backlog items in Why-What-Acceptance format.
+- **brainstorm-okrs** — 会社目標と整合したチームレベルのOKRをブレインストーミング。
+- **create-prd** — 概要、背景、目標、市場セグメント、バリュープロポジション、ソリューション詳細、リリース計画をカバーする包括的な8セクションテンプレートを使ったプロダクト要件定義書の作成。
+- **dummy-dataset** — カスタマイズ可能な列、制約、出力形式（CSV、JSON、SQL、Pythonスクリプト）を持つテスト用リアルなダミーデータセットを生成。
+- **job-stories** — 詳細な受け入れ基準を含む「[状況]の時、[動機]したい、それによって[アウトカム]できるように」形式でジョブストーリーを作成。
+- **outcome-roadmap** — アウトプット重視のロードマップをアウトカム重視のロードマップに変換。
+- **pre-mortem** — PRDのプレモーテム分析を実行。
+- **prioritization-frameworks** — 公式、使用タイミングのガイダンス、テンプレートを含む9つの優先順位付けフレームワークの参照ガイド。
+- **release-notes** — チケット、PRD、変更履歴からユーザー向けリリースノートを生成。
+- **retro** — 構造化されたスプリントレトロスペクティブをファシリテート。
+- **sprint-plan** — キャパシティ見積もり、ストーリー選択、依存関係マッピング、リスク特定を含むスプリントを計画。
+- **stakeholder-map** — パワー/インタレストグリッドを使ってステークホルダーマップを構築し、象限ごとのコミュニケーション戦略を特定し、コミュニケーション計画を生成。
+- **summarize-meeting** — ミーティング議事録を日付、参加者、トピック、要約ポイント、アクションアイテムを含む構造化テンプレートに要約。
+- **test-scenarios** — テスト目標、開始条件、ユーザーロール、ステップバイステップのアクション、期待される結果を含むユーザーストーリーから包括的なテストシナリオを作成。
+- **user-stories** — 説明、デザインリンク、受け入れ基準を含む3つのC（カード、会話、確認）とINVEST基準に従ったユーザーストーリーを作成。
+- **wwas** — Why-What-Acceptance形式でプロダクトバックログアイテムを作成。
 
-## Commands (10)
+## コマンド（10）
 
-- `/pm-execution:generate-data` — Generate realistic dummy datasets for testing — CSV, JSON, SQL inserts, or Python scripts.
-- `/pm-execution:meeting-notes` — Summarize a meeting transcript into structured notes with decisions, action items, and follow-ups.
-- `/pm-execution:plan-okrs` — Brainstorm team-level OKRs aligned with company objectives — qualitative objectives with measurable key results.
-- `/pm-execution:pre-mortem` — Run a pre-mortem risk analysis on a PRD, launch plan, or feature — identify what could go wrong before it does.
-- `/pm-execution:sprint` — Sprint lifecycle — plan a sprint, run a retrospective, or generate release notes.
-- `/pm-execution:stakeholder-map` — Map stakeholders on a Power × Interest grid and create a tailored communication plan.
-- `/pm-execution:test-scenarios` — Generate comprehensive test scenarios from user stories or feature specs — happy paths, edge cases, and error handling.
-- `/pm-execution:transform-roadmap` — Convert a feature-based roadmap into an outcome-focused roadmap that communicates strategic intent.
-- `/pm-execution:write-prd` — Create a comprehensive Product Requirements Document from a feature idea or problem statement.
-- `/pm-execution:write-stories` — Break a feature into backlog items — user stories, job stories, or WWA format with acceptance criteria.
+- `/pm-execution:generate-data` — テスト用リアルなダミーデータセットを生成 — CSV、JSON、SQLインサート、またはPythonスクリプト。
+- `/pm-execution:meeting-notes` — ミーティング議事録を決定事項、アクションアイテム、フォローアップを含む構造化ノートに要約。
+- `/pm-execution:plan-okrs` — 会社目標と整合したチームレベルのOKRをブレインストーミング — 測定可能なキー結果を含む定性的目標。
+- `/pm-execution:pre-mortem` — PRD、ローンチ計画、またはフィーチャーのプレモーテムリスク分析を実行 — 問題が起きる前に何が間違いうるかを特定。
+- `/pm-execution:sprint` — スプリントライフサイクル — スプリントを計画し、レトロスペクティブを実行し、またはリリースノートを生成。
+- `/pm-execution:stakeholder-map` — ステークホルダーをパワー×インタレストグリッドにマッピングし、個別コミュニケーション計画を作成。
+- `/pm-execution:test-scenarios` — ユーザーストーリーまたはフィーチャー仕様から包括的なテストシナリオを生成 — ハッピーパス、エッジケース、エラー処理。
+- `/pm-execution:transform-roadmap` — フィーチャーベースのロードマップを戦略的意図を伝えるアウトカム重視のロードマップに変換。
+- `/pm-execution:write-prd` — フィーチャーアイデアまたは問題文から包括的なプロダクト要件定義書を作成。
+- `/pm-execution:write-stories` — フィーチャーをバックログアイテムに分解 — 受け入れ基準を含むユーザーストーリー、ジョブストーリー、またはWWA形式。
 
-## Author
+## 著者
 
 Paweł Huryn — [The Product Compass Newsletter](https://www.productcompass.pm)
 
-## License
+## ライセンス
 
 MIT

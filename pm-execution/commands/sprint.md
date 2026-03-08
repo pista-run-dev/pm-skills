@@ -1,56 +1,56 @@
 ---
-description: Sprint lifecycle — plan a sprint, run a retrospective, or generate release notes
+description: スプリントライフサイクル——スプリントの計画、レトロスペクティブの実施、またはリリースノートの生成
 argument-hint: "[plan|retro|release-notes] <context>"
 ---
 
-# /sprint -- Sprint Lifecycle
+# /sprint -- スプリントライフサイクル
 
-Three modes covering the sprint lifecycle: **plan** for sprint planning, **retro** for retrospectives, **release-notes** for shipping communication.
+スプリントライフサイクルをカバーする3つのモード：スプリント計画のための**plan**、レトロスペクティブのための**retro**、リリースコミュニケーションのための**release-notes**。
 
-## Invocation
+## 呼び出し方
 
 ```
 /sprint plan 2-week sprint, 4 engineers, focus on checkout improvements
 /sprint retro [paste team feedback or sprint data]
 /sprint release-notes [paste tickets, changelog, or PRD]
-/sprint                    # asks which phase you're in
+/sprint                    # どのフェーズにいるか質問する
 ```
 
-## Modes
+## モード
 
 ---
 
-### Plan Mode
+### Planモード
 
-Prepare for sprint planning with capacity estimation, story selection, and risk identification.
+キャパシティ推定、ストーリー選択、リスク特定でスプリント計画を準備する。
 
-#### Workflow
+#### ワークフロー
 
-**Step 1: Gather Sprint Context**
-- Sprint duration (1 or 2 weeks)
-- Team composition (engineers, designers, QA — and availability)
-- Sprint goal or focus area
-- Backlog items to consider (paste, upload, or describe)
-- Any carry-over from last sprint
-- Known interruptions (holidays, on-call, meetings)
+**ステップ1：スプリントコンテキストを収集する**
+- スプリント期間（1週間または2週間）
+- チーム構成（エンジニア、デザイナー、QA——と可用性）
+- スプリントゴールまたは集中エリア
+- 検討するバックログアイテム（貼り付け、アップロード、または説明）
+- 前のスプリントからのキャリーオーバー
+- 既知の中断（祝日、オンコール、ミーティング）
 
-**Step 2: Estimate Capacity**
+**ステップ2：キャパシティを推定する**
 
-Apply the **sprint-plan** skill:
+**sprint-plan**スキルを適用する：
 
-- Calculate available engineering hours/points after meetings, on-call, PTO
-- Apply a velocity adjustment based on historical data (if provided) or industry standard (70% of theoretical capacity)
-- Show capacity breakdown per team member
+- ミーティング、オンコール、PTO後の利用可能なエンジニアリング時間/ポイントを計算する
+- 過去のデータ（提供された場合）または業界標準（理論上のキャパシティの70%）に基づいてベロシティ調整を適用する
+- チームメンバーごとのキャパシティ内訳を表示する
 
-**Step 3: Select and Sequence Stories**
+**ステップ3：ストーリーを選択して順序付けする**
 
-- Recommend which stories fit within capacity
-- Flag dependency chains (A must complete before B starts)
-- Identify risks: stories that are underspecified, have external dependencies, or need design input
-- Balance quick wins with larger items
-- Ensure every story has acceptance criteria
+- キャパシティ内に収まるストーリーを推奨する
+- 依存関係チェーンをフラグに立てる（AはBが始まる前に完了する必要がある）
+- リスクを特定する：仕様が不十分、外部依存関係がある、デザイン入力が必要なストーリー
+- クイックウィンと大きなアイテムのバランスを取る
+- すべてのストーリーが受け入れ基準を持っていることを確認する
 
-**Step 4: Generate Sprint Plan**
+**ステップ4：スプリント計画を生成する**
 
 ```
 ## Sprint Plan: [Sprint Name/Number]
@@ -83,34 +83,34 @@ Apply the **sprint-plan** skill:
 
 ---
 
-### Retro Mode
+### Retroモード
 
-Facilitate a structured retrospective that produces actionable improvements.
+実行可能な改善を生み出す構造化されたレトロスペクティブを進行する。
 
-#### Workflow
+#### ワークフロー
 
-**Step 1: Gather Sprint Feedback**
+**ステップ1：スプリントフィードバックを収集する**
 
-Accept input as:
-- Team feedback (pasted from a survey, Slack, or collaborative doc)
-- Sprint metrics (velocity, bugs, incidents)
-- The user's own observations
+以下の形式で入力を受け付ける：
+- チームフィードバック（アンケート、Slack、または共同ドキュメントから貼り付け）
+- スプリント指標（ベロシティ、バグ、インシデント）
+- ユーザー自身の観察
 
-Ask: "Which retro format do you prefer?"
-- **Start/Stop/Continue** (simple, fast)
-- **4Ls** (Liked, Learned, Lacked, Longed for)
-- **Sailboat** (Wind = helps, Anchor = slows, Rocks = risks, Island = goals)
+質問する：「どのレトロフォーマットを好みますか？」
+- **Start/Stop/Continue**（シンプル、高速）
+- **4Ls**（Liked、Learned、Lacked、Longed for）
+- **Sailboat**（Wind = 助け、Anchor = 遅らせる、Rocks = リスク、Island = 目標）
 
-**Step 2: Analyze and Structure**
+**ステップ2：分析と構造化**
 
-Apply the **retro** skill:
+**retro**スキルを適用する：
 
-- Categorize feedback into the chosen framework
-- Identify themes and patterns
-- Separate symptoms from root causes
-- Highlight wins worth celebrating
+- フィードバックを選択したフレームワークに分類する
+- テーマとパターンを特定する
+- 症状と根本原因を分離する
+- 称賛すべき勝利をハイライトする
 
-**Step 3: Generate Retro Summary**
+**ステップ3：レトロサマリーを生成する**
 
 ```
 ## Sprint Retrospective: [Sprint Name]
@@ -120,13 +120,13 @@ Apply the **retro** skill:
 **Participants**: [if known]
 
 ### What Went Well
-[Grouped themes with supporting evidence]
+[裏付けとなる証拠を含むグループ化されたテーマ]
 
 ### What Didn't Go Well
-[Grouped themes with root cause analysis]
+[根本原因分析を含むグループ化されたテーマ]
 
 ### Key Insights
-[2-3 patterns that emerged]
+[浮かび上がった2〜3つのパターン]
 
 ### Action Items
 | # | Action | Owner | Deadline | Priority |
@@ -139,55 +139,55 @@ Apply the **retro** skill:
 
 ---
 
-### Release Notes Mode
+### Release Notesモード
 
-Generate user-facing release notes from technical artifacts.
+技術的な成果物からユーザー向けリリースノートを生成する。
 
-#### Workflow
+#### ワークフロー
 
-**Step 1: Accept Release Content**
+**ステップ1：リリースコンテンツを受け取る**
 
-Accept:
-- Jira/Linear tickets or changelog
-- PRD or feature specs
-- Git commit messages or PR descriptions
-- Team's internal summary of what shipped
+以下を受け付ける：
+- Jira/Linearチケットまたは変更履歴
+- PRDまたは機能仕様
+- Gitコミットメッセージまたはプルリクエストの説明
+- チームのリリース内容の内部サマリー
 
-**Step 2: Transform**
+**ステップ2：変換する**
 
-Apply the **release-notes** skill:
+**release-notes**スキルを適用する：
 
-- Translate technical language into user benefits
-- Categorize as: New Features, Improvements, Bug Fixes
-- Write in the product's voice (ask about tone if not clear)
-- Highlight the most impactful change first
+- 技術的な言語をユーザーへのメリットに翻訳する
+- 新機能、改善点、バグ修正として分類する
+- プロダクトの声で書く（不明な場合はトーンについて質問する）
+- 最も影響の大きい変更を最初にハイライトする
 
-**Step 3: Generate Release Notes**
+**ステップ3：リリースノートを生成する**
 
 ```
 ## What's New — [Version/Date]
 
 ### Highlights
-[1-2 sentence summary of the most important change]
+[最も重要な変更の1〜2文のサマリー]
 
 ### New Features
-- **[Feature Name]** — [user-facing benefit in plain language]
+- **[Feature Name]** — [わかりやすい言葉でのユーザー向けメリット]
 
 ### Improvements
-- **[Improvement]** — [what's better now]
+- **[Improvement]** — [今より良くなったこと]
 
 ### Bug Fixes
 - Fixed [issue] that caused [user impact]
 
 ### Coming Soon
-[Optional teaser for next release]
+[次のリリースのオプションのティーザー]
 ```
 
-Save as markdown and offer to format for different channels (blog post, in-app, email, Slack announcement).
+markdownとして保存し、異なるチャンネル（ブログポスト、アプリ内、メール、Slackアナウンスメント）向けにフォーマットを変換する提案をする。
 
-## Notes
+## 注意事項
 
-- For plan mode: protect 20% buffer for unplanned work — teams that plan at 100% capacity always miss
-- For retro mode: focus on 2-3 high-impact action items, not 10 things nobody will do
-- For release notes: always frame changes as user benefits, not technical implementations
-- Each mode can chain to the others: plan → (sprint happens) → retro → release-notes
+- planモードの場合：予定外の作業のために20%のバッファを確保する——100%のキャパシティで計画するチームは常に目標を逃す
+- retroモードの場合：10の事項ではなく2〜3の影響の大きいアクションアイテムに集中する
+- release notesの場合：常に変更をユーザーへのメリットとして表現し、技術的な実装としては表現しない
+- 各モードは他のモードに連鎖できる：plan → （スプリント実施）→ retro → release-notes

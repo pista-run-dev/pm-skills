@@ -1,63 +1,63 @@
 ---
 name: customer-journey-map
-description: "Create an end-to-end customer journey map with stages, touchpoints, emotions, pain points, and opportunities. Use when mapping the customer experience, identifying friction points, improving onboarding, or visualizing the user journey."
+description: "ステージ、タッチポイント、感情、ペインポイント、機会を含むエンドツーエンドのカスタマージャーニーマップを作成します。カスタマー体験のマッピング、摩擦ポイントの特定、オンボーディングの改善、またはユーザージャーニーの可視化の際に使用します。"
 ---
 
 ## Customer Journey Map
 
-Map the end-to-end customer experience from awareness through advocacy, identifying emotions, pain points, and improvement opportunities at each stage.
+認知からアドボカシーまでのカスタマー体験をエンドツーエンドでマッピングし、各ステージの感情、ペインポイント、改善機会を特定します。
 
-### Context
+### コンテキスト
 
-You are creating a customer journey map for **$ARGUMENTS**.
+**$ARGUMENTS** のカスタマージャーニーマップを作成します。
 
-If the user provides files (interview transcripts, survey data, analytics, support tickets, or existing journey maps), read them first. Use web search to understand the product if a URL is provided.
+ユーザーがファイル（インタビュートランスクリプト、調査データ、アナリティクス、サポートチケット、または既存のジャーニーマップ）を提供した場合は、まずそれらを読み込みます。URLが提供された場合はウェブ検索でプロダクトを理解します。
 
-### Instructions
+### 手順
 
-1. **Define the persona**: Who is traveling this journey? Use a specific persona with JTBD, not a generic user.
+1. **ペルソナを定義する**: このジャーニーを辿るのは誰か？ JTBD を持つ特定のペルソナを使用し、汎用的なユーザーは避けます。
 
-2. **Map the journey stages** (adapt to the product):
+2. **ジャーニーステージをマッピングする**（プロダクトに合わせて調整）：
 
-   | Stage | Description |
+   | ステージ | 説明 |
    |---|---|
-   | **Awareness** | How do they first learn about the product? |
-   | **Consideration** | What do they evaluate? What alternatives do they compare? |
-   | **Acquisition** | How do they sign up or purchase? |
-   | **Onboarding** | First experience with the product — time to value |
-   | **Engagement** | Regular usage — building habits |
-   | **Retention** | What keeps them coming back? What might cause churn? |
-   | **Advocacy** | When and why do they recommend the product to others? |
+   | **認知 (Awareness)** | プロダクトをどのように最初に知るか？ |
+   | **検討 (Consideration)** | 何を評価するか？どの代替案と比較するか？ |
+   | **獲得 (Acquisition)** | どのようにサインアップまたは購入するか？ |
+   | **オンボーディング (Onboarding)** | プロダクトとの最初の体験 — 価値実現までの時間 |
+   | **エンゲージメント (Engagement)** | 定期的な使用 — 習慣の形成 |
+   | **リテンション (Retention)** | 何が戻ってくる理由になるか？何がチャーンを引き起こすか？ |
+   | **アドボカシー (Advocacy)** | いつ、なぜ他者にプロダクトを推薦するか？ |
 
-3. **For each stage, document**:
+3. **各ステージについて記録する**：
 
-   - **Touchpoints**: Where the user interacts with the product, brand, or team (website, email, in-app, support, social media)
-   - **User actions**: What they do at this stage
-   - **Thoughts & questions**: What's on their mind ("Is this worth my time?" "How do I...?")
-   - **Emotions**: How they feel (excited, confused, frustrated, delighted) — rate on a scale or use emoji indicators
-   - **Pain points**: Friction, confusion, drop-off risks
-   - **Opportunities**: How to improve the experience at this point
+   - **タッチポイント**: ユーザーがプロダクト、ブランド、またはチームと接触する場所（ウェブサイト、メール、アプリ内、サポート、ソーシャルメディア）
+   - **ユーザーのアクション**: このステージで何をするか
+   - **考えと疑問**: 何を考えているか（「これは時間を使う価値があるか？」「どうやって…？」）
+   - **感情**: どのように感じるか（興奮、混乱、不満、喜び）— スケールで評価するか絵文字インジケーターを使用
+   - **ペインポイント**: 摩擦、混乱、離脱リスク
+   - **機会**: この時点での体験を改善する方法
 
-4. **Identify critical moments**:
-   - **Aha moment**: When the user first experiences core value
-   - **Moments of truth**: Decision points where they commit or abandon
-   - **Churn triggers**: Where users most commonly drop off
+4. **重要な瞬間を特定する**：
+   - **アハモーメント**: ユーザーがコアバリューを初めて体験するとき
+   - **真実の瞬間**: コミットするか離脱するかの決断ポイント
+   - **チャーントリガー**: ユーザーが最も離脱する場所
 
-5. **Create the journey map table**:
+5. **ジャーニーマップテーブルを作成する**：
 
-   | Stage | Touchpoint | User Action | Emotion | Pain Point | Opportunity |
+   | ステージ | タッチポイント | ユーザーアクション | 感情 | ペインポイント | 機会 |
    |---|---|---|---|---|---|
 
-6. **Recommend prioritized improvements**:
-   - Which pain points have the highest impact on conversion or retention?
-   - What quick wins can improve the experience immediately?
-   - What requires deeper investment but has the biggest payoff?
+6. **優先順位付けされた改善を推奨する**：
+   - どのペインポイントがコンバージョンやリテンションに最も大きな影響を与えるか？
+   - 体験をすぐに改善できるクイックウィンは何か？
+   - より深い投資が必要だが最大のペイオフをもたらすものは何か？
 
-Think step by step. Save as a markdown document. For visual journey maps, suggest the user create one in Miro or FigJam using this analysis as the foundation.
+ステップバイステップで考えます。マークダウンドキュメントとして保存します。ビジュアルジャーニーマップについては、この分析を基盤として Miro または FigJam で作成するようユーザーに提案します。
 
 ---
 
-### Further Reading
+### 参考資料
 
 - [User Journey Mapping 101](https://www.productcompass.pm/p/user-journey-mapping-101)
 - [Funnel Analysis 101: How to Track and Optimize Your User Journey](https://www.productcompass.pm/p/funnel-analysis)

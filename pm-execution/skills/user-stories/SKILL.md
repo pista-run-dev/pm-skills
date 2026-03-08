@@ -1,74 +1,74 @@
 ---
 name: user-stories
-description: "Create user stories following the 3 C's (Card, Conversation, Confirmation) and INVEST criteria with descriptions, design links, and acceptance criteria. Use when writing user stories, breaking down features into backlog items, or defining acceptance criteria."
+description: "3つのC（Card、Conversation、Confirmation）とINVEST基準に従って、説明、デザインリンク、受け入れ基準を含むユーザーストーリーを作成します。ユーザーストーリーの作成、機能をバックログアイテムに分解する、または受け入れ基準の定義に使用します。"
 ---
-# User Stories
+# ユーザーストーリー
 
-Create user stories following the 3 C's (Card, Conversation, Confirmation) and INVEST criteria. Generates stories with descriptions, design links, and acceptance criteria.
+3つのC（Card、Conversation、Confirmation）とINVEST基準に従ってユーザーストーリーを作成します。説明、デザインリンク、受け入れ基準を含むストーリーを生成します。
 
-**Use when:** Writing user stories, breaking down features into stories, creating backlog items, or defining acceptance criteria.
+**使用する場面：** ユーザーストーリーの作成、機能をストーリーに分解する、バックログアイテムの作成、または受け入れ基準の定義。
 
-**Arguments:**
-- `$PRODUCT`: The product or system name
-- `$FEATURE`: The new feature to break into stories
-- `$DESIGN`: Link to design files (Figma, Miro, etc.)
-- `$ASSUMPTIONS`: Key assumptions or context
+**引数：**
+- `$PRODUCT`：プロダクトまたはシステム名
+- `$FEATURE`：ストーリーに分解する新しい機能
+- `$DESIGN`：デザインファイルへのリンク（Figma、Miroなど）
+- `$ASSUMPTIONS`：主要な仮定またはコンテキスト
 
-## Step-by-Step Process
+## ステップバイステップのプロセス
 
-1. **Analyze the feature** based on provided design and context
-2. **Identify user roles** and distinct user journeys
-3. **Apply 3 C's framework:**
-   - Card: Simple title and one-liner
-   - Conversation: Detailed discussion of intent
-   - Confirmation: Clear acceptance criteria
-4. **Respect INVEST criteria:** Independent, Negotiable, Valuable, Estimable, Small, Testable
-5. **Use plain language** a primary school graduate can understand
-6. **Link to design files** for visual reference
-7. **Output user stories** in structured format
+1. **機能を分析する**：提供されたデザインとコンテキストに基づいて
+2. **ユーザーロールを特定する**：異なるユーザーの旅を特定する
+3. **3つのCフレームワークを適用する**：
+   - Card：シンプルなタイトルと一行説明
+   - Conversation：意図の詳細な議論
+   - Confirmation：明確な受け入れ基準
+4. **INVEST基準を尊重する**：Independent、Negotiable、Valuable、Estimable、Small、Testable
+5. **わかりやすい言葉を使う**：小学生が理解できるレベル
+6. **デザインファイルにリンクする**：視覚的な参照のため
+7. **ユーザーストーリーを出力する**：構造化されたフォーマットで
 
-## Story Template
+## ストーリーテンプレート
 
-**Title:** [Feature name]
+**Title:** [機能名]
 
 **Description:** As a [user role], I want to [action], so that [benefit].
 
-**Design:** [Link to design files]
+**Design:** [デザインファイルへのリンク]
 
 **Acceptance Criteria:**
-1. [Clear, testable criterion]
-2. [Observable behavior]
-3. [System validates correctly]
-4. [Edge case handling]
-5. [Performance or accessibility consideration]
-6. [Integration point]
+1. [明確で検証可能な基準]
+2. [観察可能な動作]
+3. [システムが正しく検証する]
+4. [エッジケースの処理]
+5. [パフォーマンスまたはアクセシビリティの考慮]
+6. [統合ポイント]
 
-## Example User Story
+## ユーザーストーリーの例
 
 **Title:** Recently Viewed Section
 
 **Description:** As an Online Shopper, I want to see a 'Recently viewed' section on the product page to easily revisit items I considered.
 
-**Design:** [Figma link]
+**Design:** [Figmaリンク]
 
 **Acceptance Criteria:**
-1. The 'Recently viewed' section is displayed at the bottom of the product page for every user who has previously viewed at least 1 product.
-2. It is not displayed for users visiting the first product page of their session.
-3. The current product itself is excluded from the displayed items.
-4. The section showcases product cards or thumbnails with images, titles, and prices.
-5. Each product card indicates when it was viewed (e.g., 'Viewed 5 minutes ago').
-6. Clicking on a product card leads the user to the corresponding product page.
+1. 「最近見た」セクションは、少なくとも1つのプロダクトを以前に見たことがあるすべてのユーザーのプロダクトページ下部に表示される。
+2. セッションの最初のプロダクトページを訪問するユーザーには表示されない。
+3. 現在のプロダクト自体は表示されるアイテムから除外される。
+4. セクションには画像、タイトル、価格を含むプロダクトカードまたはサムネイルが表示される。
+5. 各プロダクトカードはいつ見たかを示す（例：「5分前に見た」）。
+6. プロダクトカードをクリックすると対応するプロダクトページに移動する。
 
-## Output Deliverables
+## 出力成果物
 
-- Complete set of user stories for the feature
-- Each story includes title, description, design link, and 4-6 acceptance criteria
-- Stories are independent and can be developed in any order
-- Stories are sized for one sprint cycle
-- Stories reference related design documentation
+- 機能の完全なユーザーストーリーセット
+- 各ストーリーにはタイトル、説明、デザインリンク、4〜6つの受け入れ基準を含む
+- ストーリーは独立していてどんな順序でも開発可能
+- ストーリーは1スプリントサイクルのサイズ
+- ストーリーは関連するデザインドキュメントを参照する
 
 ---
 
-### Further Reading
+### 参考資料
 
 - [How to Write User Stories: The Ultimate Guide](https://www.productcompass.pm/p/how-to-write-user-stories)

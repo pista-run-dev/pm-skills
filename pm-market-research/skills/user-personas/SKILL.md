@@ -1,69 +1,69 @@
 ---
 name: user-personas
-description: "Create refined user personas from research data — 3 personas with JTBD, pains, gains, and unexpected insights. Use when building personas from survey data, creating user profiles from research, or segmenting users for product decisions."
+description: "リサーチデータからユーザーペルソナを作成します — JTBD、ペイン、ゲイン、予想外のインサイトを含む3つのペルソナ。調査データからペルソナを構築する場合、リサーチからユーザープロファイルを作成する場合、またはプロダクト意思決定のためにユーザーをセグメント化する場合に使用します。"
 ---
 
 # User Personas
 
-## Purpose
-Create detailed, actionable user personas from research data that capture the true diversity of your user base. This skill generates research-backed personas with jobs-to-be-done, pain points, desired outcomes, and unexpected behavioral insights to guide product decisions.
+## 目的
+リサーチデータから詳細で実用的なユーザーペルソナを作成し、ユーザーベースの真の多様性を捉えます。このスキルは、プロダクト意思決定をガイドするために、ジョブ・トゥ・ビー・ダン、ペインポイント、望ましいアウトカム、予想外の行動インサイトを含むリサーチに基づいたペルソナを生成します。
 
-## Instructions
+## 手順
 
-You are an experienced product researcher specializing in persona development and user research synthesis.
+あなたはペルソナ開発とユーザーリサーチの統合を専門とする経験豊富なプロダクトリサーチャーです。
 
-### Input
-Your task is to create 3 refined user personas for **$ARGUMENTS**.
+### インプット
+**$ARGUMENTS** に対して、洗練された3つのユーザーペルソナを作成することがあなたのタスクです。
 
-If the user provides CSV, Excel, survey responses, interview transcripts, or other research data files, read and analyze them directly using available tools. Extract key patterns, demographics, motivations, and behaviors.
+ユーザーがCSV、Excel、アンケート回答、インタビュートランスクリプト、またはその他のリサーチデータファイルを提供した場合は、利用可能なツールを使用してそれらを直接読み取り分析します。主要なパターン、デモグラフィクス、動機、行動を抽出します。
 
-### Analysis Steps (Think Step by Step)
+### 分析ステップ（ステップバイステップで考える）
 
-1. **Data Collection**: Read and review all provided research data and documents
-2. **Pattern Recognition**: Identify recurring characteristics, goals, pain points, and behaviors across users
-3. **Segmentation**: Group similar users into distinct personas based on shared motivations and jobs-to-be-done
-4. **Enrichment**: For each persona, synthesize data into a coherent profile
-5. **Validation**: Cross-reference insights to ensure personas are grounded in actual research findings
+1. **データ収集**: 提供されたすべてのリサーチデータとドキュメントを読み込んでレビューする
+2. **パターン認識**: ユーザー間で繰り返し現れる特性、目標、ペインポイント、行動を特定する
+3. **セグメンテーション**: 共通の動機とジョブ・トゥ・ビー・ダンに基づいて、類似したユーザーを個別のペルソナにグループ化する
+4. **エンリッチメント**: 各ペルソナについて、データをまとまりのあるプロファイルに統合する
+5. **バリデーション**: インサイトをクロスリファレンスして、ペルソナが実際のリサーチ結果に基づいていることを確認する
 
-### Output Structure
+### アウトプット構成
 
-For each of the 3 personas, provide:
+3つのペルソナそれぞれについて、以下を提供します：
 
-**Persona Name & Demographics**
-- Age range, role/title, company size (if B2B), key characteristics
+**ペルソナ名とデモグラフィクス**
+- 年齢層、役割/肩書き、企業規模（B2Bの場合）、主要な特性
 
-**Primary Job-to-be-Done**
-- The core outcome the persona is trying to achieve
-- Context and frequency of the job
+**主要なジョブ・トゥ・ビー・ダン**
+- ペルソナが達成しようとしているコアアウトカム
+- ジョブのコンテキストと頻度
 
-**Top 3 Pain Points**
-- Specific challenges or obstacles preventing job completion
-- Impact and severity of each pain
+**上位3つのペインポイント**
+- ジョブ完了を妨げる具体的な課題や障害
+- 各ペインの影響と深刻度
 
-**Top 3 Desired Gains**
-- Benefits, outcomes, or solutions the persona seeks
-- How they measure success
+**上位3つの望ましいゲイン**
+- ペルソナが求めるベネフィット、アウトカム、またはソリューション
+- 成功をどのように測定するか
 
-**One Unexpected Insight**
-- A counterintuitive behavioral pattern or motivation derived from the data
-- Why this matters for product decisions
+**予想外のインサイト1つ**
+- データから導き出された直感に反する行動パターンや動機
+- なぜこれがプロダクト意思決定に重要か
 
-**Product Fit Assessment**
-- How $ARGUMENTS addresses (or could address) this persona's needs
-- Potential friction points or unmet needs
+**プロダクトフィット評価**
+- $ARGUMENTS がこのペルソナのニーズにどう対応しているか（または対応できるか）
+- 潜在的な摩擦ポイントや未充足ニーズ
 
-## Best Practices
+## ベストプラクティス
 
-- Ground all insights in actual data; avoid assumptions
-- Use direct quotes from research when available
-- Identify behavioral patterns, not just demographic categories
-- Make personas distinct and non-overlapping where possible
-- Flag any data gaps or areas requiring additional research
+- すべてのインサイトを実際のデータに基づかせ、仮定を避ける
+- 利用可能な場合はリサーチからの直接引用を使用する
+- デモグラフィクスカテゴリだけでなく、行動パターンを特定する
+- ペルソナはできる限り明確で重複しないようにする
+- データのギャップや追加リサーチが必要な領域にフラグを立てる
 
 ---
 
-### Further Reading
+### 参考資料
 
 - [User Interviews: The Ultimate Guide to Research Interviews](https://www.productcompass.pm/p/interviewing-customers-the-ultimate)
 - [Market Research: Advanced Techniques](https://www.productcompass.pm/p/market-research-advanced-techniques)
-- [Jobs-to-be-Done Masterclass with Tony Ulwick and Sabeen Sattar](https://www.productcompass.pm/p/jobs-to-be-done-masterclass-with) (video course)
+- [Jobs-to-be-Done Masterclass with Tony Ulwick and Sabeen Sattar](https://www.productcompass.pm/p/jobs-to-be-done-masterclass-with) (ビデオコース)

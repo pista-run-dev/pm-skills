@@ -1,13 +1,13 @@
 ---
-description: Create a full go-to-market strategy — beachhead segment, ICP, messaging, channels, and launch plan
-argument-hint: "<product or feature to launch>"
+description: 完全なGTM戦略を作成します — ビーチヘッドセグメント、ICP、メッセージング、チャネル、ローンチプラン
+argument-hint: "<ローンチする製品または機能>"
 ---
 
 # /plan-launch -- Go-to-Market Strategy
 
-Build a complete GTM plan from first principles: identify your beachhead market, define the ideal customer, craft messaging, choose channels, and create a launch timeline.
+第一原理からの完全なGTMプランを構築します：ビーチヘッド市場の特定、理想顧客の定義、メッセージングの作成、チャネルの選択、ローンチタイムラインの作成。
 
-## Invocation
+## 呼び出し方
 
 ```
 /plan-launch AI-powered proposal writer for consulting firms
@@ -15,116 +15,116 @@ Build a complete GTM plan from first principles: identify your beachhead market,
 /plan-launch [upload a PRD, strategy doc, or pitch deck]
 ```
 
-## Workflow
+## ワークフロー
 
-### Step 1: Understand the Launch
+### ステップ1: ローンチの理解
 
-Ask:
-- What are you launching? (new product, new feature, new tier, market expansion)
-- What stage? (pre-launch planning, imminent launch, post-launch optimization)
-- Do you have existing customers? Or starting from zero?
-- What's the timeline? Any hard deadlines?
-- Budget constraints? Team size?
+以下を確認します：
+- 何をローンチしますか？（新製品、新機能、新しいティア、市場拡大）
+- どのステージですか？（ローンチ前の計画、間近なローンチ、ローンチ後の最適化）
+- 既存の顧客がいますか？それともゼロからのスタートですか？
+- タイムラインは？ハードデッドラインはありますか？
+- 予算の制約は？チームのサイズは？
 
-### Step 2: Define Beachhead Segment
+### ステップ2: ビーチヘッドセグメントの定義
 
-Apply the **beachhead-segment** skill:
+**beachhead-segment** スキルを適用します：
 
-- Evaluate potential market segments against:
-  - Burning pain (how urgently they need this)
-  - Willingness to pay (budget and purchase authority)
-  - Winnable market share (can you reach and win them)
-  - Referral potential (will they tell others)
-- Recommend the single best starting segment with rationale
-- Map adjacent segments for expansion after beachhead is secured
+- 潜在的な市場セグメントを以下に照らして評価します：
+  - 切迫したペイン（どれほど緊急に必要としているか）
+  - 支払意欲（予算と購買権限）
+  - 獲得可能な市場シェア（リーチして勝てるか）
+  - 紹介ポテンシャル（他者に伝えるか）
+- 根拠を示して最良の開始セグメントを推薦する
+- ビーチヘッドを確保した後の拡張に向けた隣接セグメントをマッピングする
 
-### Step 3: Define Ideal Customer Profile
+### ステップ3: 理想顧客プロファイルの定義
 
-Apply the **ideal-customer-profile** skill:
+**ideal-customer-profile** スキルを適用します：
 
-- Demographics: company size, industry, geography, tech stack
-- Behaviors: how they discover solutions, buying process, decision makers
-- JTBD: specific jobs they're hiring your product for
-- Current alternatives: what they use today and why it falls short
-- Qualification criteria: how to identify them quickly
+- デモグラフィクス：企業規模、業界、地理、テックスタック
+- 行動：ソリューションの発見方法、購買プロセス、意思決定者
+- JTBD：製品を採用する具体的なジョブ
+- 現在の代替手段：現在使用しているものとそれが不十分な理由
+- 資格基準：素早く特定する方法
 
-### Step 4: Build GTM Strategy
+### ステップ4: GTM戦略の構築
 
-Apply the **gtm-strategy** skill:
+**gtm-strategy** スキルを適用します：
 
-- **Positioning**: How you describe yourself to this segment
-- **Messaging**: Key messages for different stakeholders (buyer, user, influencer)
-- **Channels**: Where and how to reach your ICP (ranked by expected ROI)
-- **Launch tactics**: Specific actions for pre-launch, launch day, and post-launch
-- **Pricing alignment**: How pricing supports the GTM motion
-- **Success metrics**: How you'll know the launch worked
+- **ポジショニング**：このセグメントに対する自社の説明方法
+- **メッセージング**：異なるステークホルダー向けの主要メッセージ（バイヤー、ユーザー、インフルエンサー）
+- **チャネル**：ICPにリーチする場所と方法（期待ROI順にランク付け）
+- **ローンチ戦術**：ローンチ前、ローンチ当日、ローンチ後の具体的なアクション
+- **価格設定のアラインメント**：価格設定がGTMモーションをどう支援するか
+- **成功指標**：ローンチの成功をどう判断するか
 
-### Step 5: Generate GTM Plan
+### ステップ5: GTMプランの生成
 
 ```
-## Go-to-Market Plan: [Product/Feature]
+## Go-to-Market Plan: [製品/機能]
 
-**Launch date**: [target]
-**Type**: [new product / feature / tier / market expansion]
+**ローンチ日**: [目標]
+**タイプ**: [新製品 / 機能 / ティア / 市場拡大]
 
 ### Beachhead Segment
-**Who**: [specific segment definition]
-**Why them first**: [rationale against criteria]
-**Size**: [TAM/SAM/SOM estimate]
+**対象**: [具体的なセグメント定義]
+**最初に選ぶ理由**: [基準に照らした根拠]
+**規模**: [TAM/SAM/SOMの推定]
 
 ### Ideal Customer Profile
-| Attribute | Definition |
+| 属性 | 定義 |
 |-----------|-----------|
-| Company size | [range] |
-| Industry | [specific] |
-| Decision maker | [title/role] |
-| Key JTBD | [job they need done] |
-| Current solution | [what they use today] |
-| Qualification signal | [how to identify them] |
+| 企業規模 | [範囲] |
+| 業界 | [具体的に] |
+| 意思決定者 | [役職/役割] |
+| 主要なJTBD | [必要なジョブ] |
+| 現在のソリューション | [現在使用しているもの] |
+| 資格シグナル | [特定方法] |
 
 ### Positioning & Messaging
-**Positioning statement**: For [who] who [need], [product] is [category] that [benefit]. Unlike [alternative], we [differentiator].
+**ポジショニングステートメント**: [誰]のための[何]を[必要としている人]に、[製品]は[ベネフィット]を提供する[カテゴリ]です。[代替手段]とは異なり、私たちは[差別化要素]を提供します。
 
-**Key messages by stakeholder**:
-| Audience | Message | Proof Point |
+**ステークホルダー別主要メッセージ**:
+| オーディエンス | メッセージ | 証拠ポイント |
 |----------|---------|------------|
 
 ### Channel Strategy
-| Channel | Tactic | Reach | Cost | Priority |
+| チャネル | 戦術 | リーチ | コスト | 優先度 |
 |---------|--------|-------|------|----------|
 
 ### Launch Timeline
-| Phase | Timing | Actions | Owner |
+| フェーズ | タイミング | アクション | オーナー |
 |-------|--------|---------|-------|
-| Pre-launch | [dates] | [list] | [who] |
-| Launch week | [dates] | [list] | [who] |
-| Post-launch | [dates] | [list] | [who] |
+| ローンチ前 | [日程] | [リスト] | [担当者] |
+| ローンチ週 | [日程] | [リスト] | [担当者] |
+| ローンチ後 | [日程] | [リスト] | [担当者] |
 
 ### Success Metrics
-| Metric | 30-day target | 90-day target |
+| 指標 | 30日間の目標 | 90日間の目標 |
 |--------|-------------|-------------|
 
 ### Risks & Mitigations
-| Risk | Likelihood | Impact | Mitigation |
+| リスク | 可能性 | 影響 | 軽減策 |
 |------|-----------|--------|-----------|
 
 ### Expansion Plan
-[After beachhead: which adjacent segments, in what order, with what adaptations]
+[ビーチヘッド後：どの隣接セグメントを、どの順序で、どのような適応を行うか]
 ```
 
-Save as markdown.
+マークダウンとして保存。
 
-### Step 6: Offer Next Steps
+### ステップ6: 次のステップの提案
 
-- "Want me to **design growth loops** for post-launch traction?"
-- "Should I **create competitive battlecards** for sales?"
-- "Want me to **draft marketing copy** for the launch?"
-- "Should I **build a metrics dashboard** for launch tracking?"
+- "ローンチ後のトラクションのために**グロースループを設計**しますか？"
+- "セールス向けの**競合バトルカードを作成**しますか？"
+- "ローンチ用の**マーケティングコピーを下書き**しますか？"
+- "ローンチ追跡のための**指標ダッシュボードを構築**しますか？"
 
-## Notes
+## 注意事項
 
-- "Everyone" is not a segment — the tighter the beachhead, the faster you learn
-- The ICP should be specific enough that sales/marketing can identify prospects in 30 seconds
-- Messaging should use the customer's language, not your internal terminology
-- Pre-launch activities (waitlist, beta, early access) are as important as launch day
-- Plan for post-launch: the first 90 days after launch determine long-term trajectory
+- 「全員」はセグメントではありません — ビーチヘッドが絞り込まれるほど、学習が速くなります
+- ICPはセールス/マーケティングが30秒でプロスペクトを特定できるほど具体的である必要があります
+- メッセージングは社内用語ではなく、顧客の言葉を使用する必要があります
+- ローンチ前の活動（ウェイトリスト、ベータ、アーリーアクセス）はローンチ当日と同じくらい重要です
+- ローンチ後を計画してください：ローンチ後の最初の90日間が長期的な軌道を決定します

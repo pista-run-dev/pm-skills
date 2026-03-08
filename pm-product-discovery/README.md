@@ -1,35 +1,35 @@
 # pm-product-discovery
 
-Product discovery skills for PMs: ideation, experiments, assumption testing, feature prioritization, and customer interview synthesis.
+PM向けプロダクトディスカバリースキル：アイデア出し、実験、仮定テスト、フィーチャー優先順位付け、カスタマーインタビュー合成。
 
-## Skills (13)
+## スキル（13）
 
-- **analyze-feature-requests** — Analyze and prioritize a list of feature requests by theme, strategic alignment, impact, effort, and risk.
-- **brainstorm-experiments-existing** — Design experiments to test assumptions for an existing product.
-- **brainstorm-experiments-new** — Design lean startup experiments (pretotypes) for a new product.
-- **brainstorm-ideas-existing** — Brainstorm product ideas for an existing product using multi-perspective ideation (PM, Designer, Engineer).
-- **brainstorm-ideas-new** — Brainstorm feature ideas for a new product in initial discovery.
-- **identify-assumptions-existing** — Identify risky assumptions for a feature idea in an existing product across Value, Usability, Viability, and Feasibility.
-- **identify-assumptions-new** — Identify risky assumptions for a new product idea across 8 risk categories including Go-to-Market, Strategy, and Team.
-- **interview-script** — Create a structured customer interview script with JTBD probing questions, warm-up, core exploration, and wrap-up sections.
-- **metrics-dashboard** — Define and design a product metrics dashboard with key metrics, data sources, visualization types, and alert thresholds.
-- **opportunity-solution-tree** — Build an Opportunity Solution Tree (OST) to structure product discovery — map a desired outcome to opportunities, solutions, and experiments.
-- **prioritize-assumptions** — Prioritize assumptions using an Impact × Risk matrix and suggest experiments for each.
-- **prioritize-features** — Prioritize a backlog of feature ideas based on impact, effort, risk, and strategic alignment.
-- **summarize-interview** — Summarize a customer interview transcript into a structured template with JTBD, satisfaction signals, and action items.
+- **analyze-feature-requests** — フィーチャーリクエストのリストをテーマ、戦略的整合性、インパクト、工数、リスクで分析・優先順位付け。
+- **brainstorm-experiments-existing** — 既存プロダクトの仮定をテストする実験を設計。
+- **brainstorm-experiments-new** — 新プロダクト向けのリーンスタートアップ実験（プレトタイプ）を設計。
+- **brainstorm-ideas-existing** — 多角的なアイデア出し（PM、デザイナー、エンジニア）を使って既存プロダクトのアイデアをブレインストーミング。
+- **brainstorm-ideas-new** — 初期ディスカバリーにおける新プロダクトのフィーチャーアイデアをブレインストーミング。
+- **identify-assumptions-existing** — 既存プロダクトのフィーチャーアイデアについて、価値、ユーザビリティ、実行可能性、実現可能性にわたる危険な仮定を特定。
+- **identify-assumptions-new** — Go-to-Market、戦略、チームを含む8つのリスクカテゴリにわたる新プロダクトアイデアの危険な仮定を特定。
+- **interview-script** — JTBDプロービング質問、ウォームアップ、コア探索、ラップアップセクションを含む構造化カスタマーインタビュースクリプトを作成。
+- **metrics-dashboard** — 主要メトリクス、データソース、可視化タイプ、アラート閾値を含むプロダクトメトリクスダッシュボードを定義・設計。
+- **opportunity-solution-tree** — プロダクトディスカバリーを構造化するオポチュニティ・ソリューションツリー（OST）を構築 — 望ましいアウトカムをオポチュニティ、ソリューション、実験にマッピング。
+- **prioritize-assumptions** — インパクト×リスクマトリクスを使って仮定を優先順位付けし、それぞれの実験を提案。
+- **prioritize-features** — インパクト、工数、リスク、戦略的整合性に基づいてフィーチャーアイデアのバックログを優先順位付け。
+- **summarize-interview** — カスタマーインタビューの議事録をJTBD、満足シグナル、アクションアイテムを含む構造化テンプレートに要約。
 
-## Commands (5)
+## コマンド（5）
 
-- `/pm-product-discovery:brainstorm` — Brainstorm product ideas or experiments from PM, Designer, and Engineer perspectives — for existing or new products.
-- `/pm-product-discovery:discover` — Run a full product discovery cycle — from ideation through assumption mapping to experiment design.
-- `/pm-product-discovery:interview` — Prepare a customer interview script or summarize an interview transcript into structured insights.
-- `/pm-product-discovery:setup-metrics` — Design a product metrics dashboard with North Star metric, input metrics, health metrics, and alert thresholds.
-- `/pm-product-discovery:triage-requests` — Analyze, categorize, and prioritize a batch of feature requests from customers or stakeholders.
+- `/pm-product-discovery:brainstorm` — PM、デザイナー、エンジニアの視点から既存または新プロダクトのアイデアまたは実験をブレインストーミング。
+- `/pm-product-discovery:discover` — アイデア出しから仮定マッピングを経て実験設計までの完全なプロダクトディスカバリーサイクルを実行。
+- `/pm-product-discovery:interview` — カスタマーインタビュースクリプトを準備するか、インタビュー議事録を構造化インサイトに要約。
+- `/pm-product-discovery:setup-metrics` — ノーススターメトリクス、インプットメトリクス、ヘルスメトリクス、アラート閾値を含むプロダクトメトリクスダッシュボードを設計。
+- `/pm-product-discovery:triage-requests` — 顧客やステークホルダーからのフィーチャーリクエストのバッチを分析、分類、優先順位付け。
 
-## Author
+## 著者
 
 Paweł Huryn — [The Product Compass Newsletter](https://www.productcompass.pm)
 
-## License
+## ライセンス
 
 MIT

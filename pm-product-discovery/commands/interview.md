@@ -1,120 +1,120 @@
 ---
-description: Prepare a customer interview script or summarize an interview transcript into structured insights
-argument-hint: "[prep|summarize] <topic or transcript>"
+description: 顧客インタビュースクリプトを準備するか、インタビューのトランスクリプトを構造化されたインサイトにまとめます
+argument-hint: "[prep|summarize] <トピックまたはトランスクリプト>"
 ---
 
-# /interview -- Customer Interview Prep & Summary
+# /interview -- 顧客インタビューの準備とまとめ
 
-Two modes: **prep** creates a structured interview script before you talk to customers, **summarize** extracts insights after you've done the interview.
+2つのモード：**prep**は顧客と話す前に構造化されたインタビュースクリプトを作成し、**summarize**はインタビューを実施した後にインサイトを抽出します。
 
-## Invocation
+## 呼び出し方
 
 ```
 /interview prep Onboarding experience for enterprise users
-/interview summarize [paste transcript or upload file]
-/interview                    # asks which mode you need
+/interview summarize [トランスクリプトを貼り付けるかファイルをアップロード]
+/interview                    # どのモードが必要かを質問します
 ```
 
-## Modes
+## モード
 
 ---
 
-### Prep Mode
+### Prep（準備）モード
 
-Create a structured interview script tailored to your research question.
+リサーチ質問に合わせた構造化されたインタビュースクリプトを作成します。
 
-#### Workflow
+#### ワークフロー
 
-**Step 1: Understand the Research Goal**
+**ステップ1：リサーチ目標を理解する**
 
-Ask the user:
-- What are you trying to learn? (specific research question)
-- Who are you interviewing? (segment, role, relationship to product)
-- How much time do you have? (15 min, 30 min, 60 min)
-- What decisions will this research inform?
+ユーザーに質問します：
+- 何を学ぼうとしていますか？（具体的なリサーチ質問）
+- 誰にインタビューしますか？（セグメント、役割、製品との関係）
+- どのくらい時間がありますか？（15分、30分、60分）
+- このリサーチはどのような意思決定に情報を提供しますか？
 
-**Step 2: Generate Interview Script**
+**ステップ2：インタビュースクリプトを生成する**
 
-Apply the **interview-script** skill:
+**interview-script** スキルを適用します：
 
-- Follow "The Mom Test" principles — ask about their life, not your idea
-- No leading questions, no pitching, focus on past behavior and real situations
-- Structure the script in sections:
+- 「The Mom Test」の原則に従う — あなたのアイデアではなく彼らの生活について質問する
+- 誘導質問なし、ピッチなし、過去の行動と実際の状況に焦点を当てる
+- スクリプトをセクションに構造化する：
 
 ```
 ## Interview Script: [Research Topic]
 
-**Research Question**: [what we're trying to learn]
-**Target Participant**: [who]
+**Research Question**: [学ぼうとしていること]
+**Target Participant**: [誰]
 **Duration**: [X] minutes
 
 ### Warm-up (3-5 min)
-[Rapport-building questions, role/context understanding]
+[ラポート構築の質問、役割/コンテキストの理解]
 
 ### Core Exploration (15-40 min)
-[JTBD probing, past behavior, current workflow, pain points]
-- For each question: the question + why you're asking it + follow-up prompts
+[JTBDの深掘り、過去の行動、現在のワークフロー、ペインポイント]
+- 各質問について：質問 + 質問する理由 + フォローアッププロンプト
 
 ### Specific Topics (5-10 min)
-[Targeted questions about specific features or concepts — if needed]
+[特定の機能やコンセプトについての質問 — 必要な場合]
 
 ### Wrap-up (3-5 min)
-[Open-ended closing, referral ask, next steps]
+[オープンエンドのクロージング、紹介のお願い、次のステップ]
 
 ### Note-Taking Template
-[Pre-formatted template to capture insights during the interview]
+[インタビュー中にインサイトをキャプチャするための事前フォーマットされたテンプレート]
 
 ### Red Flags to Watch For
-[Signs the conversation is going off-track or the participant is being polite rather than honest]
+[会話が脱線しているか、参加者が正直ではなく礼儀正しくしているサイン]
 ```
 
-**Step 3: Customize and Review**
+**ステップ3：カスタマイズとレビュー**
 
-- Adjust question count to fit the time slot
-- Add probing questions for specific hypotheses the user wants to test
-- Flag questions that might lead the witness
-- Offer a printable version (markdown file saved to workspace)
+- 時間枠に合わせて質問数を調整する
+- ユーザーがテストしたい特定の仮説への深掘り質問を追加する
+- 証人を誘導する可能性のある質問にフラグを立てる
+- 印刷可能なバージョンを提供する（ワークスペースに保存されたMarkdownファイル）
 
 ---
 
-### Summarize Mode
+### Summarize（まとめ）モード
 
-Transform an interview transcript into structured, actionable insights.
+インタビューのトランスクリプトを構造化されたアクション可能なインサイトに変換します。
 
-#### Workflow
+#### ワークフロー
 
-**Step 1: Accept the Transcript**
+**ステップ1：トランスクリプトを受け取る**
 
-Accept in any format:
-- **Pasted text**: Raw transcript or notes
-- **Uploaded file**: Document, text file, or meeting notes export
-- **Audio summary**: If the user describes what was said (not a full transcript)
+任意の形式で受け入れます：
+- **貼り付けられたテキスト**：生のトランスクリプトまたはノート
+- **アップロードされたファイル**：ドキュメント、テキストファイル、またはミーティングノートのエクスポート
+- **音声サマリー**：ユーザーが言われたことを説明する場合（完全なトランスクリプトではない）
 
-If the input is rough notes rather than a full transcript, work with what's available and note the limitations.
+入力が完全なトランスクリプトではなく粗いノートの場合は、利用可能なものを使って作業し、制限を明記してください。
 
-**Step 2: Extract and Structure**
+**ステップ2：抽出と構造化**
 
-Apply the **summarize-interview** skill:
+**summarize-interview** スキルを適用します：
 
-Parse the transcript to identify:
-- **Participant profile**: Role, experience level, segment, context
-- **Jobs to Be Done**: What the participant is trying to accomplish
-- **Current workflow**: How they solve the problem today
-- **Pain points**: Frustrations, workarounds, time sinks
-- **Satisfaction signals**: What works well, moments of delight
-- **Quotes**: Verbatim quotes that capture key insights (with timestamps if available)
-- **Surprises**: Anything unexpected or that contradicts assumptions
-- **Feature reactions**: If specific features/concepts were discussed, capture reactions
+トランスクリプトを解析して以下を特定します：
+- **参加者プロフィール**：役割、経験レベル、セグメント、コンテキスト
+- **Jobs to Be Done**：参加者が達成しようとしていること
+- **現在のワークフロー**：今日どのように問題を解決しているか
+- **ペインポイント**：不満、回避策、時間の無駄
+- **満足度シグナル**：うまくいっていること、喜びの瞬間
+- **引用**：主要インサイトをキャプチャする逐語的引用（利用可能な場合はタイムスタンプ付き）
+- **驚き**：予想外のこと、または仮定と矛盾すること
+- **機能への反応**：特定の機能/コンセプトが議論された場合は反応をキャプチャする
 
-**Step 3: Generate Interview Summary**
+**ステップ3：インタビューサマリーを生成する**
 
 ```
 ## Interview Summary
 
-**Participant**: [anonymized profile — role, segment, experience]
-**Date**: [if known]
-**Duration**: [if known]
-**Interviewer**: [if known]
+**Participant**: [匿名化されたプロフィール — 役割、セグメント、経験]
+**Date**: [分かれば]
+**Duration**: [分かれば]
+**Interviewer**: [分かれば]
 
 ### Key Insights
 1. **[Insight]** — [supporting evidence/quote]
@@ -126,7 +126,7 @@ Parse the transcript to identify:
 - **Related JTBDs**: [additional jobs]
 
 ### Current Workflow
-[How the participant currently solves the problem, step by step]
+[参加者が現在問題をどのようにステップバイステップで解決しているか]
 
 ### Pain Points
 | Pain Point | Severity | Quote |
@@ -144,26 +144,26 @@ Parse the transcript to identify:
 |-----------|--------|----------|
 
 ### Action Items
-- [ ] [Follow-up action from this interview]
-- [ ] [Research question to explore further]
+- [ ] [このインタビューからのフォローアップアクション]
+- [ ] [さらに探索するリサーチ質問]
 
 ### Raw Notes
-[If helpful, include annotated key sections]
+[役立つ場合は注釈付きの主要セクションを含める]
 ```
 
-Save the summary as a markdown file.
+サマリーをMarkdownファイルとして保存します。
 
-**Step 4: Connect to Broader Research**
+**ステップ4：より広いリサーチに接続する**
 
-Offer:
-- "Want me to **compare this with other interview summaries** you've done?"
-- "Should I **update assumptions** based on what this participant said?"
-- "Want me to **extract personas** from multiple interviews?"
+以下を提供します：
+- 「**他のインタビューサマリーとこれを比較**しますか？」
+- 「この参加者が言ったことに基づいて**仮定を更新**しますか？」
+- 「複数のインタビューから**ペルソナを抽出**しますか？」
 
-## Notes
+## 注意事項
 
-- In prep mode, always include "why you're asking" annotations — they help the interviewer stay on track
-- In summarize mode, distinguish between what the participant *said* vs. what they *did* (behavioral > stated)
-- Flag contradictions within the same interview (says one thing, describes doing another)
-- If the transcript mentions competitor products, capture competitive intelligence
-- For summarize mode, if multiple transcripts are provided, synthesize across them with cross-participant patterns
+- prepモードでは常に「なぜ質問するか」の注釈を含めてください — インタビュアーが軌道を維持するのに役立ちます
+- summarizeモードでは、参加者が*言った*ことと*した*ことを区別してください（行動的 > 述べられた）
+- 同じインタビュー内の矛盾にフラグを立ててください（ある一つのことを言い、別のことをしていると説明する）
+- トランスクリプトが競合製品に言及している場合は、競合インテリジェンスをキャプチャしてください
+- summarizeモードで複数のトランスクリプトが提供された場合は、参加者間のパターンで横断的に統合してください

@@ -1,49 +1,49 @@
 ---
 name: metrics-dashboard
-description: "Define and design a product metrics dashboard with key metrics, data sources, visualization types, and alert thresholds. Use when creating a metrics dashboard, defining KPIs, setting up product analytics, or building a data monitoring plan."
+description: "主要指標・データソース・可視化タイプ・アラート閾値を含むプロダクト指標ダッシュボードを定義・設計します。指標ダッシュボードの作成、KPIの定義、プロダクトアナリティクスのセットアップ、またはデータ監視計画の構築を行うときに使用します。"
 ---
 
-## Product Metrics Dashboard
+## プロダクト指標ダッシュボード
 
-Design a comprehensive product metrics dashboard with the right metrics, visualizations, and alert thresholds.
+適切な指標・可視化・アラート閾値を含む包括的なプロダクト指標ダッシュボードを設計します。
 
-### Context
+### コンテキスト
 
-You are designing a metrics dashboard for **$ARGUMENTS**.
+あなたは**$ARGUMENTS**の指標ダッシュボードを設計しています。
 
-If the user provides files (existing dashboards, analytics data, OKRs, or strategy docs), read them first.
+ユーザーがファイル（既存のダッシュボード、分析データ、OKR、または戦略ドキュメント）を提供した場合は、まずそれらを読んでください。
 
-### Domain Context
+### ドメインコンテキスト
 
-**Metrics vs KPIs vs NSM**: Metrics = all measurable things. KPIs = a few key quantitative metrics tracked over a longer period. North Star Metric = a single customer-centric KPI that is a leading indicator of business success.
+**指標 vs KPI vs NSM**：指標 = 測定可能なすべてのもの。KPI = より長期間にわたって追跡される少数の重要な定量的指標。North Star Metric = ビジネス成功の先行指標となる単一の顧客中心KPI。
 
-**4 criteria for a good metric** (Ben Yoskovitz, *Lean Analytics*): (1) Understandable — creates a common language. (2) Comparative — over time, not a snapshot. (3) Ratio or Rate — more revealing than whole numbers. (4) Behavior-changing — the Golden Rule: "If a metric won't change how you behave, it's a bad metric."
+**良い指標の4つの基準**（Ben Yoskovitz、*Lean Analytics*）：(1) 理解可能 — 共通言語を作る。(2) 比較可能 — スナップショットではなく時間経過で。(3) 比率またはレート — 絶対数より示唆に富む。(4) 行動変容 — ゴールデンルール：「指標があなたの行動を変えないなら、それは悪い指標だ。」
 
-**8 metric types**: Vanity vs Actionable (only actionable metrics change behavior), Qualitative vs Quantitative (WHAT vs WHY — you need both; never stop talking to customers), Exploratory vs Reporting (explore data to uncover unexpected insights), Lagging vs Leading (leading indicators enable faster learning cycles, e.g. customer complaints predict churn).
+**8つの指標タイプ**：虚栄指標 vs 実用指標（実用指標のみが行動を変える）、定性的 vs 定量的（WHAT vs WHY — 両方が必要；顧客との対話を止めないこと）、探索的 vs 報告的（予期しないインサイトを発見するためにデータを探索する）、遅行指標 vs 先行指標（先行指標はより速い学習サイクルを可能にする、例：顧客クレームは解約を予測する）。
 
-**5 action steps**: (1) Audit metrics against the 4 good-metric criteria. (2) Update dashboards — ensure all key metrics are good ones. (3) Identify vanity metrics — be careful how you use them. (4) Classify leading vs lagging indicators. (5) Pick one problem and dig deep into the data.
+**5つのアクションステップ**：(1) 4つの良い指標基準に対して指標を監査する。(2) ダッシュボードを更新する — すべての主要指標が良いものであることを確認する。(3) 虚栄指標を特定する — 使い方に注意する。(4) 先行指標と遅行指標を分類する。(5) 一つの問題を選び、データを深く掘り下げる。
 
-For case studies and more detail: [Are You Tracking the Right Metrics?](https://www.productcompass.pm/p/are-you-tracking-the-right-metrics) by Ben Yoskovitz
+ケーススタディと詳細：Ben Yoskovitzの[Are You Tracking the Right Metrics?](https://www.productcompass.pm/p/are-you-tracking-the-right-metrics)
 
-### Instructions
+### 手順
 
-1. **Identify the metrics framework** — organize metrics into layers:
+1. **指標フレームワークを特定する** — 指標をレイヤーに整理します：
 
-   **North Star Metric**: The single metric that best captures core value delivery
+   **North Star Metric**：プロダクトがユーザーに提供するコアバリューを最もよく捉える単一指標
 
-   **Input Metrics** (3-5): The levers that drive the North Star
+   **入力指標**（3〜5つ）：North Starを動かすレバー
 
-   **Health Metrics**: Guardrails that ensure overall product health
+   **ヘルス指標**：プロダクト全体の健全性を確保するガードレール
 
-   **Business Metrics**: Revenue, cost, and unit economics
+   **ビジネス指標**：収益、コスト、ユニットエコノミクス
 
-2. **For each metric, define**:
+2. **各指標について定義する**：
 
    | Metric | Definition | Data Source | Visualization | Target | Alert Threshold |
    |---|---|---|---|---|---|
-   | [Name] | [Exact calculation: numerator/denominator, time window] | [Where the data comes from] | [Line chart / Bar / Number / Funnel] | [Goal value] | [When to trigger an alert] |
+   | [Name] | [正確な計算：分子/分母、時間ウィンドウ] | [データの出所] | [Line chart / Bar / Number / Funnel] | [目標値] | [アラートをトリガーするタイミング] |
 
-3. **Design the dashboard layout**:
+3. **ダッシュボードレイアウトを設計する**：
 
    ```
    ┌─────────────────────────────────────────────┐
@@ -62,27 +62,27 @@ For case studies and more detail: [Are You Tracking the Right Metrics?](https://
    └─────────────────────────────────────────────┘
    ```
 
-4. **Set review cadence**:
-   - **Daily**: Operational health (errors, latency, critical flows)
-   - **Weekly**: Input metrics and engagement trends
-   - **Monthly**: North Star, business metrics, OKR progress
-   - **Quarterly**: Strategic review and metric recalibration
+4. **レビューケイデンスを設定する**：
+   - **日次**：運用上の健全性（エラー、レイテンシ、重要なフロー）
+   - **週次**：入力指標とエンゲージメントトレンド
+   - **月次**：North Star、ビジネス指標、OKR進捗
+   - **四半期**：戦略的レビューと指標の再調整
 
-5. **Define alerts**:
-   - What thresholds trigger investigation?
-   - Who gets alerted and through what channel?
-   - What's the expected response time?
+5. **アラートを定義する**：
+   - どの閾値が調査をトリガーするか？
+   - 誰がどのチャネルを通じてアラートを受け取るか？
+   - 期待される対応時間は何か？
 
-6. **Recommend tools** based on the user's context:
-   - Amplitude, Mixpanel, PostHog for product analytics
-   - Looker, Metabase, Mode for SQL-based dashboards
-   - Datadog, Grafana for operational health
+6. **ユーザーのコンテキストに基づいてツールを推奨する**：
+   - Amplitude、Mixpanel、PostHog（プロダクトアナリティクス）
+   - Looker、Metabase、Mode（SQLベースのダッシュボード）
+   - Datadog、Grafana（運用上の健全性）
 
-Think step by step. Save the dashboard specification as a markdown document.
+ステップバイステップで考えてください。ダッシュボード仕様をMarkdownドキュメントとして保存してください。
 
 ---
 
-### Further Reading
+### 参考資料
 
 - [The Ultimate List of Product Metrics](https://www.productcompass.pm/p/the-ultimate-list-of-product-metrics)
 - [The North Star Framework 101](https://www.productcompass.pm/p/the-north-star-framework-101)
@@ -91,4 +91,4 @@ Think step by step. Save the dashboard specification as a markdown document.
 - [The Google HEART Framework: Your Guide to Measuring User-Centric Success](https://www.productcompass.pm/p/the-google-heart-framework)
 - [Funnel Analysis 101: How to Track and Optimize Your User Journey](https://www.productcompass.pm/p/funnel-analysis)
 - [Are You Tracking the Right Metrics?](https://www.productcompass.pm/p/are-you-tracking-the-right-metrics)
-- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (video course)
+- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (ビデオコース)

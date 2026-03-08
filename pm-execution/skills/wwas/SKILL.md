@@ -1,69 +1,69 @@
 ---
 name: wwas
-description: "Create product backlog items in Why-What-Acceptance format — independent, valuable, testable items with strategic context. Use when writing structured backlog items, breaking features into work items, or using the WWA format."
+description: "戦略的コンテキストを含む独立した、価値ある、検証可能なアイテムとして、Why-What-Acceptanceフォーマットでプロダクトバックログアイテムを作成します。構造化されたバックログアイテムの作成、機能を作業アイテムに分解する、またはWWAフォーマットの使用に使用します。"
 ---
 # Why-What-Acceptance (WWA)
 
-Create product backlog items in Why-What-Acceptance format. Produces independent, valuable, testable items with strategic context.
+Why-What-Acceptanceフォーマットでプロダクトバックログアイテムを作成します。戦略的コンテキストを含む独立した、価値ある、検証可能なアイテムを生成します。
 
-**Use when:** Writing backlog items, creating product increments, breaking features into work items, or communicating strategic intent to teams.
+**使用する場面：** バックログアイテムの作成、プロダクトインクリメントの作成、機能を作業アイテムに分解する、またはチームへの戦略的意図の伝達。
 
-**Arguments:**
-- `$PRODUCT`: The product or system name
-- `$FEATURE`: The new feature or capability
-- `$DESIGN`: Link to design files (Figma, Miro, etc.)
-- `$ASSUMPTIONS`: Key assumptions and strategic context
+**引数：**
+- `$PRODUCT`：プロダクトまたはシステム名
+- `$FEATURE`：新しい機能またはキャパビリティ
+- `$DESIGN`：デザインファイルへのリンク（Figma、Miroなど）
+- `$ASSUMPTIONS`：主要な仮定と戦略的コンテキスト
 
-## Step-by-Step Process
+## ステップバイステップのプロセス
 
-1. **Define the strategic Why** - Connect work to business and team objectives
-2. **Describe the What** - Keep descriptions concise, reference designs
-3. **Write Acceptance Criteria** - High-level, not detailed specifications
-4. **Ensure independence** - Items can be developed in any order
-5. **Keep items negotiable** - Invite team conversation, not constraints
-6. **Make items valuable** - Each delivers measurable user or business value
-7. **Ensure testability** - Outcomes are observable and verifiable
-8. **Size appropriately** - Small enough for one sprint estimate
+1. **戦略的なWhyを定義する** - 作業をビジネスとチームの目標に結びつける
+2. **Whatを説明する** - 説明を簡潔に保ち、デザインを参照する
+3. **受け入れ基準を書く** - 詳細な仕様ではなく高レベルで
+4. **独立性を確保する** - アイテムはどんな順序でも開発できる
+5. **アイテムを交渉可能に保つ** - チームの会話を促し、制約を作らない
+6. **アイテムを価値あるものにする** - 各アイテムは測定可能なユーザーまたはビジネス価値を提供する
+7. **検証可能性を確保する** - アウトカムは観察可能で検証可能
+8. **適切なサイズにする** - 1スプリントの推定に十分なほど小さい
 
-## Item Template
+## アイテムテンプレート
 
-**Title:** [What will be delivered]
+**Title:** [何が提供されるか]
 
-**Why:** [1-2 sentences connecting to strategic context and team objectives]
+**Why:** [ビジネスコンテキストとチームの目標に結びつける1〜2文]
 
-**What:** [Short description and design link. 1-2 paragraphs maximum. A reminder of discussion, not detailed specification.]
+**What:** [短い説明とデザインリンク。最大1〜2段落。詳細な仕様ではなく、議論のリマインダー。]
 
 **Acceptance Criteria:**
-- [Observable outcome 1]
-- [Observable outcome 2]
-- [Observable outcome 3]
-- [Observable outcome 4]
+- [観察可能なアウトカム1]
+- [観察可能なアウトカム2]
+- [観察可能なアウトカム3]
+- [観察可能なアウトカム4]
 
-## Example WWA Item
+## WWAアイテムの例
 
 **Title:** Implement Real-Time Spending Tracker
 
-**Why:** Users need immediate feedback on spending to make conscious budget decisions. This directly supports our goal to improve financial awareness and reduce overspending.
+**Why:** ユーザーは意識的な予算決定をするために即時フィードバックが必要です。これは財務への意識を高め、過剰支出を減らすという私たちの目標を直接サポートします。
 
-**What:** Add a real-time spending tracker that updates as users log expenses. The tracker displays their current week's spending against their set budget. Designs available in [Figma link]. This is a reminder of our discussions - detailed specifications will emerge during development conversations with the team.
+**What:** ユーザーが経費を記録する際にリアルタイムで更新されるスペンディングトラッカーを追加します。トラッカーは設定した予算に対する現在の週の支出を表示します。デザインは[Figmaリンク]で利用可能です。これは議論のリマインダーであり、詳細な仕様はチームとの開発会話の中で出てきます。
 
 **Acceptance Criteria:**
-- Spending totals update within 2 seconds of logging an expense
-- Budget progress is visually indicated with a progress bar
-- Users can see remaining budget amount at a glance
-- System handles multiple expense categories correctly
+- 経費記録後2秒以内に支出合計が更新される
+- プログレスバーで予算の進捗が視覚的に示される
+- ユーザーは一目で残りの予算額を確認できる
+- システムは複数の経費カテゴリを正しく処理する
 
-## Output Deliverables
+## 出力成果物
 
-- Complete set of backlog items for the feature
-- Each item includes Why, What, and Acceptance Criteria sections
-- Items are independent and deliverable in any order
-- Items are sized for estimation and completion in one sprint
-- Strategic context is clear for team decision-making
-- Design references are included for implementation guidance
+- 機能の完全なバックログアイテムセット
+- 各アイテムにはWhy、What、Acceptance Criteriaセクションを含む
+- アイテムは独立していてどんな順序でも提供できる
+- アイテムは1スプリントでの推定と完了のためのサイズ
+- チームの意思決定のために戦略的コンテキストが明確
+- 実装ガイダンスのためのデザイン参照を含む
 
 ---
 
-### Further Reading
+### 参考資料
 
 - [How to Write User Stories: The Ultimate Guide](https://www.productcompass.pm/p/how-to-write-user-stories)

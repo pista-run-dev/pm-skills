@@ -1,48 +1,48 @@
 ---
 name: prioritize-assumptions
-description: "Prioritize assumptions using an Impact × Risk matrix and suggest experiments for each. Use when triaging a list of assumptions, deciding what to test first, or applying the assumption prioritization canvas."
+description: "インパクト×リスクマトリクスを使って仮定を優先順位付けし、各仮定に対する実験を提案します。仮定のリストをトリアージするとき、最初に何をテストするか決めるとき、または仮定優先順位付けキャンバスを適用するときに使用します。"
 ---
 
-## Prioritize Assumptions
+## 仮定の優先順位付け
 
-Triage assumptions using an Impact × Risk matrix and suggest targeted experiments.
+インパクト×リスクマトリクスを使って仮定をトリアージし、対象を絞った実験を提案します。
 
-### Context
+### コンテキスト
 
-You are helping prioritize assumptions for **$ARGUMENTS**.
+あなたは**$ARGUMENTS**の仮定の優先順位付けを支援しています。
 
-If the user provides files with assumptions or research data, read them first.
+ユーザーが仮定や調査データを含むファイルを提供した場合は、まずそれらを読んでください。
 
-### Domain Context
+### ドメインコンテキスト
 
-**ICE** works well for assumption prioritization: Impact (Opportunity Score × # Customers) × Confidence (1–10) × Ease (1–10). Opportunity Score = Importance × (1 − Satisfaction), normalized to 0–1 (Dan Olsen). **RICE** splits Impact into Reach × Impact separately: (R × I × C) / E. See the `prioritization-frameworks` skill for full formulas and templates.
+**ICE**は仮定の優先順位付けに適しています：Impact（Opportunity Score × 顧客数）× Confidence（1〜10）× Ease（1〜10）。Opportunity Score = Importance × (1 − Satisfaction)、0〜1に正規化（Dan Olsen）。**RICE**はImpactをReachとImpactに分けます：(R × I × C) / E。完全な式とテンプレートについては`prioritization-frameworks`スキルを参照してください。
 
-### Instructions
+### 手順
 
-The user will provide a list of assumptions to prioritize. Apply the following framework:
+ユーザーは優先順位付けする仮定のリストを提供します。以下のフレームワークを適用してください：
 
-1. **For each assumption**, evaluate two dimensions:
-   - **Impact**: The value created by validating this assumption AND the number of customers affected (in ICE: Impact = Opportunity Score × # Customers)
-   - **Risk**: Defined as (1 - Confidence) × Effort
+1. **各仮定について**、2つの次元を評価します：
+   - **Impact**：この仮定を検証することで生まれる価値 AND 影響を受ける顧客数（ICEでは：Impact = Opportunity Score × 顧客数）
+   - **Risk**：(1 - Confidence) × Effortとして定義
 
-2. **Categorize each assumption** using the Impact × Risk matrix:
-   - **Low Impact, Low Risk** → Defer testing until higher-priority assumptions are addressed
-   - **High Impact, Low Risk** → Proceed to implementation (low risk, high reward)
-   - **Low Impact, High Risk** → Reject the idea (not worth the investment)
-   - **High Impact, High Risk** → Design an experiment to test it
+2. **インパクト×リスクマトリクスを使って各仮定を分類する**：
+   - **低インパクト、低リスク** → 優先度の高い仮定が対処されるまでテストを延期する
+   - **高インパクト、低リスク** → 実装に進む（低リスク、高報酬）
+   - **低インパクト、高リスク** → アイデアを却下する（投資に見合わない）
+   - **高インパクト、高リスク** → テストする実験を設計する
 
-3. **For each assumption requiring testing**, suggest an experiment that:
-   - Maximizes validated learning with minimal effort
-   - Measures actual behavior, not opinions
-   - Has a clear success metric and threshold
+3. **テストが必要な各仮定について**、以下を満たす実験を提案します：
+   - 最小限の工数で検証済み学習を最大化する
+   - 意見ではなく実際の行動を測定する
+   - 明確な成功指標と閾値がある
 
-4. **Present results** as a prioritized matrix or table.
+4. **結果を**優先順位付けされたマトリクスまたは表として提示します。
 
-Think step by step. Save as markdown if the output is substantial.
+ステップバイステップで考えてください。アウトプットが実質的な場合はMarkdownとして保存してください。
 
 ---
 
-### Further Reading
+### 参考資料
 
 - [Assumption Prioritization Canvas: How to Identify And Test The Right Assumptions](https://www.productcompass.pm/p/assumption-prioritization-canvas)
-- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (video course)
+- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (ビデオコース)

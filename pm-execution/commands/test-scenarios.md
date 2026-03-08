@@ -1,13 +1,13 @@
 ---
-description: Generate comprehensive test scenarios from user stories or feature specs — happy paths, edge cases, and error handling
+description: ユーザーストーリーまたは機能仕様から包括的なテストシナリオを生成する——ハッピーパス、エッジケース、エラーハンドリング
 argument-hint: "<user stories, feature spec, or description>"
 ---
 
-# /test-scenarios -- Test Scenario Generator
+# /test-scenarios -- テストシナリオジェネレーター
 
-Turn user stories or feature descriptions into comprehensive test scenarios that QA can execute immediately. Covers happy paths, edge cases, error handling, and cross-browser/device considerations.
+ユーザーストーリーまたは機能説明をQAがすぐに実行できる包括的なテストシナリオに変換します。ハッピーパス、エッジケース、エラーハンドリング、クロスブラウザ/デバイスの考慮事項をカバーします。
 
-## Invocation
+## 呼び出し方
 
 ```
 /test-scenarios [paste user stories or acceptance criteria]
@@ -15,25 +15,25 @@ Turn user stories or feature descriptions into comprehensive test scenarios that
 /test-scenarios User can reset their password via email link
 ```
 
-## Workflow
+## ワークフロー
 
-### Step 1: Accept Input
+### ステップ1：入力を受け取る
 
-Accept: user stories, acceptance criteria, PRD sections, feature descriptions, or any specification of expected behavior.
+以下を受け付ける：ユーザーストーリー、受け入れ基準、PRDセクション、機能説明、または期待される動作のあらゆる仕様。
 
-### Step 2: Generate Test Scenarios
+### ステップ2：テストシナリオを生成する
 
-Apply the **test-scenarios** skill:
+**test-scenarios**スキルを適用する：
 
-For each user story or requirement, generate:
+各ユーザーストーリーまたは要件に対して、以下を生成する：
 
-**Happy Path Scenarios**: The expected user flow works correctly
-**Edge Cases**: Boundary conditions, unusual inputs, concurrent operations
-**Error Scenarios**: What happens when things go wrong
-**Security Scenarios**: If applicable (auth, permissions, data access)
-**Performance Scenarios**: If applicable (load, timeout, large data)
+**ハッピーパスシナリオ**：期待されるユーザーフローが正しく機能する
+**エッジケース**：境界条件、異常な入力、同時操作
+**エラーシナリオ**：問題が発生したときに何が起こるか
+**セキュリティシナリオ**：該当する場合（認証、権限、データアクセス）
+**パフォーマンスシナリオ**：該当する場合（負荷、タイムアウト、大きなデータ）
 
-### Step 3: Structure Output
+### ステップ3：出力を構造化する
 
 ```
 ## Test Scenarios: [Feature]
@@ -43,41 +43,41 @@ For each user story or requirement, generate:
 **Coverage**: [happy path / edge cases / errors / security / performance]
 
 ### Scenario 1: [Title]
-**Tests**: [which story or requirement]
-**Preconditions**: [setup needed]
-**User role**: [who is performing this]
+**Tests**: [どのストーリーまたは要件]
+**Preconditions**: [必要なセットアップ]
+**User role**: [誰がこれを実行するか]
 
 | Step | Action | Expected Result |
 |------|--------|----------------|
 | 1 | [user action] | [expected system response] |
 | 2 | [user action] | [expected system response] |
 
-**Postconditions**: [state after completion]
+**Postconditions**: [完了後の状態]
 **Priority**: [Critical / High / Medium / Low]
 
 ---
-[Repeat for each scenario]
+[各シナリオについて繰り返す]
 
 ### Coverage Matrix
 | Requirement | Happy Path | Edge Cases | Error Handling | Notes |
 |------------|-----------|-----------|---------------|-------|
 
 ### Test Data Requirements
-[What test data is needed to execute these scenarios]
+[これらのシナリオを実行するために必要なテストデータ]
 ```
 
-Save as markdown.
+markdownとして保存する。
 
-### Step 4: Offer Next Steps
+### ステップ4：次のステップを提案する
 
-- "Want me to **generate the test data** for these scenarios?"
-- "Should I **add more edge cases** for any specific scenario?"
-- "Want me to **create the user stories** that these scenarios test?"
+- 「これらのシナリオ用の**テストデータを生成**したいですか？」
+- 「特定のシナリオに**より多くのエッジケースを追加**しましょうか？」
+- 「これらのシナリオがテストする**ユーザーストーリーを作成**したいですか？」
 
-## Notes
+## 注意事項
 
-- Happy paths first, then layer in edge cases — ensure basic flows work before testing boundaries
-- Every acceptance criterion from the original story should map to at least one test scenario
-- Include both positive tests (it works) and negative tests (it fails gracefully)
-- For APIs, include scenarios for rate limiting, timeout, malformed requests, and auth failures
-- Flag scenarios that require specific test environments or third-party service mocking
+- まずハッピーパスから、次にエッジケースを重ねる——境界をテストする前に基本フローが機能することを確認する
+- 元のストーリーからのすべての受け入れ基準は、少なくとも1つのテストシナリオにマッピングされるべき
+- ポジティブテスト（機能する）とネガティブテスト（適切に失敗する）の両方を含める
+- APIの場合は、レート制限、タイムアウト、不正な形式のリクエスト、認証失敗のシナリオを含める
+- 特定のテスト環境またはサードパーティサービスのモッキングが必要なシナリオにフラグを立てる

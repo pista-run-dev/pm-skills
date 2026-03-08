@@ -2,7 +2,7 @@
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "pm-skills",
   "version": "1.0.1",
-  "description": "Structured AI workflows for better product decisions. 65 domain-specific skills and 36 chained workflows across 8 PM plugins — from discovery to strategy, execution, launch, and growth.",
+  "description": "より良いプロダクト意思決定のための構造化AIワークフロー。8つのPMプラグインにまたがる65のドメイン固有スキルと36の連鎖ワークフロー — ディスカバリーから戦略、実行、ローンチ、グロースまで。",
   "owner": {
     "name": "Paweł Huryn",
     "email": "pawel@productcompass.pm",
@@ -11,49 +11,49 @@
   "plugins": [
     {
       "name": "pm-product-discovery",
-      "description": "Product discovery skills for PMs: ideation, experiments, assumption testing, feature prioritization, and customer interview synthesis.",
+      "description": "PM向けプロダクトディスカバリースキル：アイデア出し、実験、仮定テスト、フィーチャー優先順位付け、カスタマーインタビュー合成。",
       "source": "./pm-product-discovery",
       "category": "product-management"
     },
     {
       "name": "pm-product-strategy",
-      "description": "Product strategy skills for PMs: vision, strategy canvas, value propositions, lean canvas, business model canvas, SWOT, PESTLE, Ansoff Matrix, Porter's Five Forces, and monetization.",
+      "description": "PM向けプロダクト戦略スキル：ビジョン、戦略キャンバス、バリュープロポジション、リーンキャンバス、ビジネスモデルキャンバス、SWOT、PESTLE、アンゾフマトリクス、ポーターの5力、マネタイズ。",
       "source": "./pm-product-strategy",
       "category": "product-management"
     },
     {
       "name": "pm-execution",
-      "description": "Execution and product management skills: PRDs, OKRs, roadmaps, sprints, pre-mortems, stakeholder maps, user stories, prioritization frameworks, and more.",
+      "description": "実行とプロダクト管理スキル：PRD、OKR、ロードマップ、スプリント、プレモーテム、ステークホルダーマップ、ユーザーストーリー、優先順位付けフレームワークなど。",
       "source": "./pm-execution",
       "category": "product-management"
     },
     {
       "name": "pm-market-research",
-      "description": "Market research skills for PMs: user personas, market segmentation, sentiment analysis, and competitive analysis.",
+      "description": "PM向けマーケットリサーチスキル：ユーザーペルソナ、市場セグメンテーション、センチメント分析、競合分析。",
       "source": "./pm-market-research",
       "category": "product-management"
     },
     {
       "name": "pm-data-analytics",
-      "description": "Data analytics skills for PMs: SQL query generation and cohort analysis. Analyze user data, generate queries, and identify retention patterns.",
+      "description": "PM向けデータ分析スキル：SQLクエリ生成とコホート分析。ユーザーデータの分析、クエリの生成、保持率パターンの特定。",
       "source": "./pm-data-analytics",
       "category": "product-management"
     },
     {
       "name": "pm-go-to-market",
-      "description": "Go-to-market skills for PMs: GTM strategy, growth loops, GTM motions, beachhead segments, and ideal customer profiles.",
+      "description": "PM向けGo-to-Marketスキル：GTM戦略、グロースループ、GTMモーション、ビーチヘッドセグメント、理想顧客プロファイル。",
       "source": "./pm-go-to-market",
       "category": "product-management"
     },
     {
       "name": "pm-marketing-growth",
-      "description": "Product marketing and growth skills: marketing ideas, value proposition statements, North Star metrics, product naming, and positioning.",
+      "description": "プロダクトマーケティングとグロースキル：マーケティングアイデア、バリュープロポジションステートメント、ノーススターメトリクス、プロダクト命名、ポジショニング。",
       "source": "./pm-marketing-growth",
       "category": "product-management"
     },
     {
       "name": "pm-toolkit",
-      "description": "PM utility skills: resume review, NDA drafting, privacy policy generation, and grammar/flow checking. Essential tools for product managers beyond core product work.",
+      "description": "PMユーティリティスキル：履歴書レビュー、NDA草案作成、プライバシーポリシー生成、文法/フローチェック。コアなプロダクト業務を超えたプロダクトマネージャーに必要不可欠なツール。",
       "source": "./pm-toolkit",
       "category": "product-management"
     }

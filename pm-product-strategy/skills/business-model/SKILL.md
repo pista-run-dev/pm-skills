@@ -1,133 +1,133 @@
 ---
 name: business-model
-description: "Generate a Business Model Canvas with all 9 building blocks. Use when creating a business model, documenting how a business creates value, or analyzing an existing business model."
+description: "9つのビルディングブロックすべてを含むビジネスモデルキャンバスを生成します。ビジネスモデルの作成、ビジネスが価値を創造する方法の文書化、既存のビジネスモデルの分析に使用してください。"
 ---
-# Business Model Canvas
+# ビジネスモデルキャンバス
 
-## Metadata
-- **Name**: business-model
-- **Description**: Generate a Business Model Canvas with all 9 building blocks. Use when creating a business model, documenting how a business creates value, or analyzing an existing business model.
-- **Triggers**: business model canvas, BMC, business model, how we make money
+## メタデータ
+- **名前**: business-model
+- **説明**: 9つのビルディングブロックすべてを含むビジネスモデルキャンバスを生成します。ビジネスモデルの作成、ビジネスが価値を創造する方法の文書化、既存のビジネスモデルの分析に使用してください。
+- **トリガー**: ビジネスモデルキャンバス、BMC、ビジネスモデル、どのように収益を上げるか
 
-## Instructions
+## 指示
 
-You are a business model strategist designing a Business Model Canvas for $ARGUMENTS.
+あなたは $ARGUMENTS のビジネスモデルキャンバスを設計するビジネスモデルストラテジストです。
 
-Your task is to create a comprehensive Business Model Canvas that outlines how the business creates, delivers, and captures value.
+ビジネスがどのように価値を創造、提供、獲得するかを概説する包括的なビジネスモデルキャンバスを作成するのがあなたの任務です。
 
-## Input Requirements
-- Product or service description
-- Target customer(s) and market
-- Current business operations or assumptions
-- Competitive context or industry dynamics
+## 入力要件
+- プロダクトまたはサービスの説明
+- ターゲット顧客と市場
+- 現在のビジネスオペレーションまたは仮定
+- 競合コンテキストまたは業界のダイナミクス
 
-## Business Model Canvas Template
+## ビジネスモデルキャンバステンプレート
 
-### Left Side: Creating Value
+### 左側：価値の創造
 
-**1. Key Partners**
-- Who are the key strategic partners and suppliers?
-- What partnerships enable our business model?
-- Which activities do partners handle?
-- Are there joint ventures or co-creation opportunities?
+**1. 主要パートナー**
+- 主要な戦略的パートナーとサプライヤーは誰か？
+- どのパートナーシップがビジネスモデルを可能にするか？
+- パートナーはどのアクティビティを担当するか？
+- ジョイントベンチャーや共創の機会はあるか？
 
-**2. Key Activities**
-- What key activities does the business perform?
-- What processes are critical to delivering value?
-- Are these activities in-house or outsourced?
-- Production, problem-solving, platform/network activities?
+**2. 主要アクティビティ**
+- ビジネスが実行する主要なアクティビティは何か？
+- 価値提供に不可欠なプロセスは何か？
+- これらのアクティビティは社内か外部委託か？
+- 製造、問題解決、プラットフォーム/ネットワークアクティビティ？
 
-**3. Key Resources**
-- What resources are necessary to create value?
-- Physical assets, intellectual property, human capital, financial
-- What resources enable key activities and partnerships?
-- What's the minimum viable resource set?
+**3. 主要リソース**
+- 価値を創造するために必要なリソースは何か？
+- 物理的資産、知的財産、人的資本、財務
+- 主要アクティビティとパートナーシップを可能にするリソースは何か？
+- 最小限の実行可能なリソースセットは何か？
 
-### Center: The Value Proposition
+### 中央：バリュープロポジション
 
-**4. Value Propositions**
-- What value do we deliver to customers?
-- Which customer problems do we solve?
-- What needs are satisfied?
-- What products/services address each segment?
-- Quantitative (price, speed, quality) vs. qualitative (design, status)
+**4. バリュープロポジション**
+- 顧客にどのような価値を届けるか？
+- どの顧客の問題を解決するか？
+- どのようなニーズが満たされるか？
+- どの製品/サービスが各セグメントに対応するか？
+- 定量的（価格、スピード、品質）対定性的（デザイン、ステータス）
 
-### Right Side: Delivering Value
+### 右側：価値の提供
 
-**5. Customer Relationships**
-- How do we establish and maintain customer relationships?
-- Personal assistance, self-service, automated, community, co-creation
-- Cost of customer acquisition and retention
-- How do we keep customers engaged?
+**5. 顧客関係**
+- どのように顧客関係を確立・維持するか？
+- 個人アシスタンス、セルフサービス、自動化、コミュニティ、共創
+- 顧客獲得とリテンションのコスト
+- どのように顧客を引き付け続けるか？
 
-**6. Channels**
-- How do customers discover and access the value?
-- Awareness: How do customers learn about us?
-- Purchase: How do they buy?
-- Delivery: How is value delivered?
-- After-sales: How do we support customers?
-- Direct vs. indirect, owned vs. partner channels
+**6. チャネル**
+- 顧客はどのように価値を発見し、アクセスするか？
+- 認知：顧客はどのように私たちについて知るか？
+- 購入：どのように買うか？
+- 提供：価値はどのように提供されるか？
+- アフターセールス：どのように顧客をサポートするか？
+- ダイレクト対間接、自社所有対パートナーチャネル
 
-**7. Customer Segments**
-- Who are the key customer segments?
-- Mass market, niche market, segmented, multi-sided platform
-- What are their defining characteristics?
-- Distinct needs, channels, relationships, or profitability
+**7. 顧客セグメント**
+- 主要な顧客セグメントは誰か？
+- マスマーケット、ニッチマーケット、セグメント化、マルチサイドプラットフォーム
+- 彼らの定義的な特徴は何か？
+- 明確なニーズ、チャネル、関係、または収益性
 
-### Bottom: Financial Viability
+### 下側：財務的実行可能性
 
-**8. Cost Structure**
-- What are the most important costs?
-- Fixed vs. variable costs
-- Cost drivers (scale, automation, labor, infrastructure)
-- Is this a cost-driven or value-driven business?
+**8. コスト構造**
+- 最も重要なコストは何か？
+- 固定コスト対変動コスト
+- コストドライバー（スケール、自動化、労働力、インフラ）
+- これはコスト駆動型か価値駆動型ビジネスか？
 
-**9. Revenue Streams**
-- How does the business make money?
-- Per customer, per transaction, subscription, licensing, rents
-- Pricing mechanisms (fixed, dynamic, value-based)
-- Customer lifetime value and unit economics
+**9. 収益ストリーム**
+- ビジネスはどのように収益を上げるか？
+- 顧客ごと、トランザクションごと、サブスクリプション、ライセンシング、レント
+- 価格メカニズム（固定、ダイナミック、価値ベース）
+- 顧客生涯価値とユニットエコノミクス
 
-## Output Process
-1. Identify and profile customer segments
-2. Define the core value proposition(s)
-3. Map customer relationships and channels
-4. List key activities and resources
-5. Identify key partners
-6. Outline cost structure
-7. Define revenue streams
-8. Ensure all 9 blocks align and support each other
-9. Test economic viability (LTV > 3x CAC)
-10. Identify key assumptions and risks
+## アウトプットプロセス
+1. 顧客セグメントを特定してプロファイリングする
+2. コアなバリュープロポジションを定義する
+3. 顧客関係とチャネルをマッピングする
+4. 主要アクティビティとリソースをリストアップする
+5. 主要パートナーを特定する
+6. コスト構造の概要を示す
+7. 収益ストリームを定義する
+8. 9つのブロックすべてが整合していることを確認する
+9. 経済的実行可能性をテストする（LTV > 3x CAC）
+10. 主要な仮定とリスクを特定する
 
-### Domain Context
+### ドメインコンテキスト
 
-**Business Model Canvas vs Lean Canvas vs Startup Canvas**:
+**ビジネスモデルキャンバス vs リーンキャンバス vs スタートアップキャンバス**：
 
-Business Model Canvas (Strategyzer, Alexander Osterwalder) is the most widely used canvas framework. It provides a balanced, holistic view of how value flows through the organization. However, it has known limitations for product strategy:
+Business Model Canvas（Strategyzer、Alexander Osterwalder）は最も広く使用されているキャンバスフレームワークです。価値が組織を通じてどのように流れるかについての均衡のとれた全体的な視点を提供します。ただし、プロダクト戦略には既知の限界があります：
 
-- **No vision**: Why should your team wake up every day? BMC doesn't address motivation or aspiration.
-- **No Can't/Won't test**: What stops competitors from copying you? BMC lacks a defensibility section that goes beyond listing resources.
-- **No trade-offs**: What you choose NOT to do creates focus and amplifies value — BMC doesn't address this.
-- **No key metrics**: How do you know the strategy is working? BMC has no metrics section.
-- **Low-value sections for startups**: Key Partnerships and Key Resources are rarely useful for early-stage products.
+- **ビジョンがない**: なぜチームは毎日目覚めるのか？BMCはモチベーションや志を扱っていない。
+- **Can't/Wontテストがない**: 何が競合他社があなたをコピーするのを止めるのか？BMCにはリソースをリストアップする以上の防御力セクションがない。
+- **トレードオフがない**: しないことを選ぶことが焦点を生み出し、価値を増幅させる — BMCはこれを扱っていない。
+- **主要メトリクスがない**: 戦略が機能していることをどのように知るか？BMCにはメトリクスセクションがない。
+- **スタートアップには低価値のセクション**: 主要パートナーシップと主要リソースは、早期段階のプロダクトにはほとんど役に立たない。
 
-**When to use BMC**: Established businesses, corporate strategy, investor materials where you need to articulate how all operational pieces connect.
+**BMCを使用するタイミング**: すべての運営上の繋がりを明確にする必要がある確立されたビジネス、企業戦略、投資家向け資料。
 
-**Alternatives**:
-- **Lean Canvas** (Ash Maurya): Startup-focused, faster, replaces Partners/Activities/Resources with Problem/Solution/Unfair Advantage. Better for hypothesis testing but still mixes strategy and business model.
-- **Startup Canvas** (Paweł Huryn): Separates strategy (9 sections from the Product Strategy Canvas) from business model (Cost Structure + Revenue Streams). Recommended for new products where you need strategic clarity alongside the business model.
+**代替手段**：
+- **リーンキャンバス**（Ash Maurya）：スタートアップフォーカス、より高速、パートナー/アクティビティ/リソースを問題/ソリューション/アンフェアアドバンテージに置き換える。仮説検証には優れているが、依然として戦略とビジネスモデルを混在させる。
+- **スタートアップキャンバス**（Paweł Huryn）：戦略（プロダクト戦略キャンバスからの9セクション）をビジネスモデル（コスト構造＋収益ストリーム）から分離する。ビジネスモデルとともに戦略的明確さが必要な新プロダクトに推奨。
 
-## Notes
-- The Business Model Canvas provides a holistic view of how value flows through the organization
-- Each block should reinforce and support the others
-- Strong business models have clear, defensible value propositions
-- Financial sustainability requires revenue to exceed costs at scale
-- Use this to identify opportunities for innovation and optimization
+## 注意事項
+- ビジネスモデルキャンバスは価値が組織を通じてどのように流れるかの全体的な視点を提供する
+- 各ブロックは他のブロックを強化・サポートする必要がある
+- 強いビジネスモデルは明確で防御力のあるバリュープロポジションを持つ
+- 財務的持続可能性にはスケールで収益がコストを超えることが必要
+- これを使って革新と最適化の機会を特定する
 
 ---
 
-### Further Reading
+### 参考文献
 
 - [Business Model Canvas Examples: Google Maps, Airbnb, Uber](https://www.productcompass.pm/p/business-model-canvas-examples)
 - [Startup Canvas: Product Strategy and a Business Model for a New Product](https://www.productcompass.pm/p/startup-canvas)

@@ -1,87 +1,87 @@
 ---
 name: sql-queries
-description: "Generate SQL queries from natural language descriptions. Supports BigQuery, PostgreSQL, MySQL, and other dialects. Reads database schemas from uploaded diagrams or documentation. Use when writing SQL, building data reports, exploring databases, or translating business questions into queries."
+description: "自然言語の説明からSQLクエリを生成します。BigQuery、PostgreSQL、MySQL、その他のダイアレクトをサポートします。アップロードされた図や文書からデータベーススキーマを読み込みます。SQLの記述、データレポートの構築、データベースの探索、またはビジネス上の質問をクエリに変換する際に使用します。"
 ---
 
 # SQL Query Generator
 
-## Purpose
-Transform natural language requirements into optimized SQL queries across multiple database platforms. This skill helps product managers, analysts, and engineers generate accurate queries without manual syntax work.
+## 目的
+自然言語の要件を複数のデータベースプラットフォームで最適化されたSQLクエリに変換します。このスキルは、プロダクトマネージャー、アナリスト、エンジニアが手動のシンタックス作業なしに正確なクエリを生成するのを支援します。
 
-## How It Works
+## 仕組み
 
-### Step 1: Understand Your Database Schema
-- If you provide a schema file (SQL, documentation, or diagram description), I will read and analyze it
-- Extract table names, column definitions, data types, and relationships
-- Identify primary keys, foreign keys, and indexing strategies
+### ステップ1: データベーススキーマを理解する
+- スキーマファイル（SQL、ドキュメント、または図の説明）を提供した場合は、それを読み取り分析します
+- テーブル名、カラム定義、データ型、リレーションシップを抽出します
+- 主キー、外部キー、インデックス戦略を特定します
 
-### Step 2: Process Your Request
-- Clarify the exact data you need to retrieve or analyze
-- Confirm the SQL dialect (BigQuery, PostgreSQL, MySQL, Snowflake, etc.)
-- Ask for any additional requirements (filters, aggregations, sorting)
+### ステップ2: リクエストを処理する
+- 取得または分析が必要な正確なデータを明確にします
+- SQLダイアレクトを確認します（BigQuery、PostgreSQL、MySQL、Snowflakeなど）
+- 追加要件（フィルター、集計、ソート）を確認します
 
-### Step 3: Generate Optimized Query
-- Write efficient SQL that leverages your database structure
-- Include comments explaining complex logic
-- Add performance considerations for large datasets
-- Provide alternative approaches if applicable
+### ステップ3: 最適化されたクエリを生成する
+- データベース構造を活用した効率的なSQLを記述します
+- 複雑なロジックを説明するコメントを含めます
+- 大規模データセットのパフォーマンス上の考慮事項を追加します
+- 該当する場合は代替アプローチを提供します
 
-### Step 4: Explain and Test
-- Explain the query logic in plain English
-- Suggest how to test or validate results
-- Offer tips for performance optimization
-- If you want, generate a test script or sample data
+### ステップ4: 説明とテスト
+- クエリのロジックを平易な英語で説明します
+- 結果をテストまたは検証する方法を提案します
+- パフォーマンス最適化のヒントを提供します
+- 希望に応じてテストスクリプトまたはサンプルデータを生成します
 
-## Usage Examples
+## 使用例
 
-**Example 1: Query from Schema File**
+**例1：スキーマファイルからのクエリ**
 ```
-Upload your database_schema.sql file and say:
-"Generate a query to find users who signed up in the last 30 days
-and had at least 5 active sessions"
-```
-
-**Example 2: Query from Diagram Description**
-```
-"Here's my database: Users table (id, email, created_at), Sessions table
-(id, user_id, timestamp, duration). Generate a query for average session
-duration per user in January 2026."
+database_schema.sql ファイルをアップロードして次のように言います：
+「過去30日間にサインアップし、少なくとも5回のアクティブセッションを
+持つユーザーを見つけるクエリを生成してください」
 ```
 
-**Example 3: Complex Analysis Query**
+**例2：図の説明からのクエリ**
 ```
-"Create a BigQuery query to analyze our revenue by region and customer tier,
-including year-over-year growth rates."
+「私のデータベース：Users テーブル (id, email, created_at)、Sessions テーブル
+(id, user_id, timestamp, duration)。2026年1月のユーザーごとの平均セッション
+時間のクエリを生成してください。」
 ```
 
-## Key Capabilities
+**例3：複雑な分析クエリ**
+```
+「地域と顧客層別の収益を分析し、前年比成長率を含む
+BigQuery クエリを作成してください。」
+```
 
-- **Multi-Dialect Support**: Works with BigQuery, PostgreSQL, MySQL, Snowflake, SQL Server
-- **File Reading**: Reads schema files, SQL dumps, and data documentation
-- **Query Optimization**: Suggests indexes, partitioning, and performance improvements
-- **Explanation**: Breaks down queries for learning and documentation
-- **Testing**: Can generate test queries and sample data scripts
-- **Script Execution**: Create executable SQL scripts for your database
+## 主な機能
 
-## Tips for Best Results
+- **マルチダイアレクトサポート**: BigQuery、PostgreSQL、MySQL、Snowflake、SQL Server で動作
+- **ファイル読み込み**: スキーマファイル、SQLダンプ、データドキュメントを読み取る
+- **クエリ最適化**: インデックス、パーティショニング、パフォーマンス改善を提案
+- **説明**: 学習とドキュメント化のためにクエリを分解
+- **テスト**: テストクエリとサンプルデータスクリプトを生成できる
+- **スクリプト実行**: データベース用の実行可能なSQLスクリプトを作成
 
-1. **Provide context**: Share your database schema or structure
-2. **Be specific**: Clearly describe what data you need and any filters
-3. **Mention database**: Specify which SQL dialect you're using
-4. **Include constraints**: Mention data volume, time ranges, and performance needs
-5. **Request format**: Ask for the query result format if you need specific output
+## 最良の結果を得るためのヒント
 
-## Output Format
+1. **コンテキストを提供する**: データベーススキーマまたは構造を共有する
+2. **具体的にする**: 必要なデータとフィルターを明確に説明する
+3. **データベースを明記する**: 使用するSQLダイアレクトを指定する
+4. **制約を含める**: データ量、時間範囲、パフォーマンスニーズを明記する
+5. **形式をリクエストする**: 特定のアウトプット形式が必要な場合はクエリ結果の形式を指定する
 
-You'll receive:
-- **SQL Query**: Production-ready SQL code with comments
-- **Explanation**: What the query does and how it works
-- **Performance Notes**: Optimization tips and considerations
-- **Test Script** (if requested): Sample data and validation queries
+## アウトプット形式
+
+以下を受け取ります：
+- **SQLクエリ**: コメント付きの本番対応SQLコード
+- **説明**: クエリが何をどのように行うか
+- **パフォーマンスノート**: 最適化のヒントと考慮事項
+- **テストスクリプト**（リクエストされた場合）: サンプルデータと検証クエリ
 
 ---
 
-### Further Reading
+### 参考資料
 
 - [The Product Analytics Playbook: AARRR, HEART, Cohorts & Funnels for PMs](https://www.productcompass.pm/p/the-product-analytics-playbook-aarrr)
 - [How to Become a Technology-Literate PM](https://www.productcompass.pm/p/how-to-become-a-technology-literate)

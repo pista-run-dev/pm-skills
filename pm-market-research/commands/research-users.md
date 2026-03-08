@@ -1,87 +1,87 @@
 ---
-description: Comprehensive user research — build personas, segment users, and map the customer journey from research data
-argument-hint: "<research data, survey results, or product description>"
+description: 包括的なユーザーリサーチ — リサーチデータからペルソナを構築し、ユーザーをセグメント化し、カスタマージャーニーをマッピングする
+argument-hint: "<リサーチデータ、アンケート結果、またはプロダクト説明>"
 ---
 
 # /research-users -- User Research Synthesis
 
-Turn raw research data into actionable user personas, behavioral segments, and customer journey maps. Accepts survey data, interview notes, feedback, analytics, or a product description for exploratory research.
+生のリサーチデータを実用的なユーザーペルソナ、行動セグメント、カスタマージャーニーマップに変換します。アンケートデータ、インタビューノート、フィードバック、アナリティクス、または探索的リサーチのためのプロダクト説明を受け付けます。
 
-## Invocation
+## 呼び出し方
 
 ```
-/research-users [upload survey results, interview notes, or feedback data]
+/research-users [アンケート結果、インタビューノート、またはフィードバックデータをアップロード]
 /research-users B2B project management tool for agencies — help me understand our users
-/research-users [paste user feedback or support ticket data]
+/research-users [ユーザーフィードバックまたはサポートチケットデータを貼り付け]
 ```
 
-## Workflow
+## ワークフロー
 
-### Step 1: Accept Research Inputs
+### ステップ1: リサーチインプットを受け付ける
 
-Accept from any combination:
-- Survey responses (CSV, spreadsheet, pasted)
-- Interview notes or transcripts
-- Support tickets or feature requests
-- Product analytics / behavioral data
-- NPS or satisfaction data
-- Product description (for exploratory research without data)
+以下のいずれかの組み合わせで受け付けます：
+- アンケート回答（CSV、スプレッドシート、貼り付け）
+- インタビューノートまたはトランスクリプト
+- サポートチケットまたは機能リクエスト
+- プロダクトアナリティクス / 行動データ
+- NPS または満足度データ
+- プロダクト説明（データなしの探索的リサーチ用）
 
-Ask:
-- What research do you have? What format?
-- What do you want to understand? (who are our users, how do they differ, where's the friction)
-- What decisions will this inform? (roadmap, positioning, pricing, onboarding)
+確認事項：
+- どのようなリサーチがありますか？どんな形式ですか？
+- 何を理解したいですか？（ユーザーは誰か、どのように異なるか、どこに摩擦があるか）
+- この結果は何の意思決定に使いますか？（ロードマップ、ポジショニング、価格、オンボーディング）
 
-### Step 2: Build Personas
+### ステップ2: ペルソナを構築する
 
-Apply the **user-personas** skill:
+**user-personas** スキルを適用します：
 
-- Identify 3-4 distinct personas from the data
-- For each persona: name, role, goals (JTBD), pains, gains, behavioral patterns
-- Include unexpected insights — things that surprised you in the data
-- Note persona prevalence (what % of your base each represents, if data allows)
+- データから3〜4つの明確なペルソナを特定する
+- 各ペルソナについて：名前、役割、目標（JTBD）、ペイン、ゲイン、行動パターン
+- 予想外のインサイトを含める — データで驚いたこと
+- ペルソナの普及率を記録する（データが許す場合、全体の何%を占めるか）
 
-### Step 3: Segment Users
+### ステップ3: ユーザーをセグメント化する
 
-Apply the **user-segmentation** and **market-segments** skills:
+**user-segmentation** および **market-segments** スキルを適用します：
 
-- Create behavioral segments (not just demographics)
-- For each segment: size, JTBD, product fit, willingness to pay, engagement level
-- Identify the highest-value segment and the highest-growth segment
-- Map segments to personas (how they overlap)
+- 行動セグメントを作成する（デモグラフィクスだけでなく）
+- 各セグメントについて：規模、JTBD、プロダクトフィット、支払意欲、エンゲージメントレベル
+- 最高価値セグメントと最高成長セグメントを特定する
+- セグメントをペルソナにマッピングする（どのように重複するか）
 
-### Step 4: Map the Customer Journey
+### ステップ4: カスタマージャーニーをマッピングする
 
-Apply the **customer-journey-map** skill:
+**customer-journey-map** スキルを適用します：
 
-- Map the end-to-end journey: Awareness → Consideration → Onboarding → Active Use → Expansion → Advocacy
-- For each stage: touchpoints, emotions, pain points, aha moments
-- Identify the biggest drop-off points
-- Highlight moments of delight worth amplifying
+- エンドツーエンドのジャーニーをマッピングする：認知 → 検討 → オンボーディング → アクティブ利用 → 拡大 → アドボカシー
+- 各ステージについて：タッチポイント、感情、ペインポイント、アハモーメント
+- 最大の離脱ポイントを特定する
+- 増幅する価値のある喜びの瞬間をハイライトする
 
-### Step 5: Generate Research Report
+### ステップ5: リサーチレポートを生成する
 
 ```
-## User Research Report: [Product]
+## User Research Report: [プロダクト]
 
 **Date**: [today]
-**Data sources**: [what was analyzed]
-**Sample size**: [if applicable]
+**Data sources**: [分析した内容]
+**Sample size**: [該当する場合]
 
 ### Executive Summary
-[3-5 sentences: key findings and implications]
+[3〜5文：主要な発見と示唆]
 
 ### Personas
 
-#### Persona 1: [Name] — "[Quote that captures them]"
-- **Who**: [role, context, experience level]
+#### Persona 1: [名前] — "[その人を表す引用]"
+- **Who**: [役割、コンテキスト、経験レベル]
 - **Primary JTBD**: [When..., I want to..., so I can...]
-- **Key pains**: [top 3]
-- **Key gains**: [what delights them]
-- **Behavioral pattern**: [how they use the product]
-- **Prevalence**: [X% of user base]
+- **Key pains**: [上位3つ]
+- **Key gains**: [喜ぶもの]
+- **Behavioral pattern**: [プロダクトの使い方]
+- **Prevalence**: [ユーザーベースの X%]
 
-[Repeat for each persona]
+[各ペルソナについて繰り返す]
 
 ### User Segments
 | Segment | Size | Primary JTBD | Product Fit | Value | Growth |
@@ -92,30 +92,30 @@ Apply the **customer-journey-map** skill:
 |-------|------------|---------|-------------|---------------|
 
 ### Key Insights
-1. [Insight with supporting evidence]
+1. [根拠となるエビデンスを含むインサイト]
 2. ...
 
 ### Recommendations
-1. [Actionable recommendation tied to findings]
+1. [発見に結びついた実用的な推奨事項]
 2. ...
 
 ### Open Questions
-[What the data didn't answer — suggested follow-up research]
+[データが答えなかったこと — 推奨されるフォローアップリサーチ]
 ```
 
-Save as markdown.
+マークダウンとして保存します。
 
-### Step 6: Offer Next Steps
+### ステップ6: 次のステップを提案する
 
-- "Want me to **create interview scripts** to go deeper on a specific persona?"
-- "Should I **analyze sentiment** across these segments?"
-- "Want me to **build a value proposition** for the top persona?"
-- "Should I **prioritize the journey map pain points** as feature opportunities?"
+- 「特定のペルソナについてより深く掘り下げるための**インタビュースクリプトを作成**しましょうか？」
+- 「これらのセグメント全体で**センチメントを分析**すべきでしょうか？」
+- 「トップペルソナのための**価値提案を構築**しましょうか？」
+- 「ジャーニーマップのペインポイントを**機能の機会として優先順位付け**すべきでしょうか？」
 
-## Notes
+## 注意事項
 
-- If data is thin, be transparent about confidence levels — 5 interviews → hypotheses, not conclusions
-- Personas should be useful, not decorative — every persona should influence a product decision
-- Behavioral segments are more actionable than demographic segments for product decisions
-- The journey map should surface emotions, not just actions — where users feel frustrated vs. delighted drives prioritization
-- If no data is provided, generate research-informed hypotheses and recommend how to validate them
+- データが少ない場合は、信頼度について透明に — 5件のインタビュー → 結論ではなく仮説
+- ペルソナは有用であるべきで、装飾的であってはならない — すべてのペルソナはプロダクト意思決定に影響を与えるべき
+- 行動セグメントはデモグラフィックセグメントよりもプロダクト意思決定に実用的
+- ジャーニーマップはアクションだけでなく感情を表面化すべき — ユーザーが不満を感じる vs. 喜ぶ場所が優先順位付けを左右する
+- データが提供されない場合は、リサーチに基づいた仮説を生成し、それを検証する方法を推奨する

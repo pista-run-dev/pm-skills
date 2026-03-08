@@ -1,77 +1,77 @@
 ---
 name: competitive-battlecard
-description: "Create sales-ready competitive battlecards comparing your product against a specific competitor — positioning, feature comparison, objection handling, and win/loss patterns. Use when preparing sales teams, creating competitive materials, or responding to 'why not competitor X?'"
+description: "特定の競合に対して製品を比較するセールスレディな競合バトルカードを作成します。ポジショニング、機能比較、異議対応、勝敗パターンを含みます。セールスチームの準備、競合資料の作成、「なぜ競合Xではないのか？」への対応に使用します。"
 ---
 
 ## Competitive Battlecard
 
-Create a concise, sales-ready battlecard for use against a specific competitor.
+特定の競合に対して使用するための簡潔でセールスレディなバトルカードを作成します。
 
-### Context
+### コンテキスト
 
-You are creating a competitive battlecard for **$ARGUMENTS**.
+**$ARGUMENTS** に対する競合バトルカードを作成しています。
 
-Use web search to research the competitor's current product, pricing, positioning, and recent changes. If the user provides files (feature lists, win/loss data, sales call notes), read them first.
+ウェブ検索を使用して競合の現在の製品、価格設定、ポジショニング、最近の変更を調査してください。ユーザーがファイル（機能リスト、勝敗データ、セールスコールのメモ）を提供した場合は、まずそれらを読んでください。
 
-### Instructions
+### 手順
 
-1. **Research the competitor** (use web search):
-   - Current product offerings and features
-   - Pricing tiers and model
-   - Target market and positioning
-   - Recent product launches or changes
-   - Known strengths and weaknesses
-   - Customer reviews and sentiment (G2, Capterra, Reddit)
+1. **競合を調査する**（ウェブ検索を使用）：
+   - 現在の製品提供と機能
+   - 価格帯とモデル
+   - ターゲット市場とポジショニング
+   - 最近の製品ローンチまたは変更
+   - 既知の強みと弱み
+   - 顧客レビューと感情（G2、Capterra、Reddit）
 
-2. **Create the battlecard** with these sections:
+2. **以下のセクションでバトルカードを作成する**：
 
-   ### Company Overview
-   - Founded, HQ, funding/revenue (if public)
-   - Target market and ICP
-   - Positioning in one sentence
+   ### 会社概要
+   - 設立年、本社所在地、資金調達/収益（公開の場合）
+   - ターゲット市場とICP
+   - 一文でのポジショニング
 
-   ### Quick Comparison
+   ### クイック比較
 
-   | Capability | Us | Them | Winner |
+   | 機能領域 | 自社 | 競合 | 勝者 |
    |---|---|---|---|
-   | [Feature area 1] | [Our approach] | [Their approach] | [Us/Them/Tie] |
-   | [Feature area 2] | ... | ... | ... |
-   | Pricing | ... | ... | ... |
-   | Support | ... | ... | ... |
+   | [機能領域1] | [自社のアプローチ] | [競合のアプローチ] | [自社/競合/引き分け] |
+   | [機能領域2] | ... | ... | ... |
+   | 価格設定 | ... | ... | ... |
+   | サポート | ... | ... | ... |
 
-   ### Where We Win
-   - [Advantage 1]: [Proof point or customer quote]
-   - [Advantage 2]: [Specific capability they lack]
-   - [Advantage 3]: [Better approach with reasoning]
+   ### 自社が勝つ場面
+   - [優位性1]：[証拠ポイントまたは顧客の声]
+   - [優位性2]：[競合が持たない具体的な機能]
+   - [優位性3]：[理由を含む優れたアプローチ]
 
-   ### Where They Win
-   - [Their strength 1]: [Our counter-positioning]
-   - [Their strength 2]: [How we mitigate this gap]
+   ### 競合が勝つ場面
+   - [競合の強み1]：[自社のカウンターポジショニング]
+   - [競合の強み2]：[このギャップをどう軽減するか]
 
-   ### Common Objections & Responses
+   ### よくある異議への対応
 
-   | Prospect Says | Respond With |
+   | プロスペクトの発言 | 返答内容 |
    |---|---|
-   | "Competitor X has [feature]" | "[Our alternative approach and why it's better for them]" |
-   | "They're cheaper" | "[Value framing: total cost of ownership, ROI, hidden costs]" |
-   | "They're more established" | "[Our advantages: speed, innovation, focus, support]" |
+   | "競合Xは[機能]を持っている" | "[自社の代替アプローチとそれが彼らにとってより良い理由]" |
+   | "競合の方が安い" | "[価値のフレーミング：総所有コスト、ROI、隠れたコスト]" |
+   | "競合の方が実績がある" | "[自社の優位性：スピード、イノベーション、フォーカス、サポート]" |
 
-   ### Landmines to Plant
-   Questions to ask the prospect that highlight competitor weaknesses:
-   - "How important is [area where we excel] to your team?"
-   - "Have you evaluated [specific capability they lack]?"
+   ### 埋め込む地雷
+   競合の弱点を浮き彫りにするためにプロスペクトに聞く質問：
+   - "自社が優れる[領域]はあなたのチームにとってどれほど重要ですか？"
+   - "[競合が持たない特定の機能]を評価したことはありますか？"
 
-   ### Win/Loss Patterns
-   - We tend to win when: [pattern]
-   - We tend to lose when: [pattern]
-   - Key differentiator in competitive deals: [what tips the scale]
+   ### 勝敗パターン
+   - 自社が勝つ傾向がある時：[パターン]
+   - 自社が負ける傾向がある時：[パターン]
+   - 競合ディールでの決め手となる差別化要素：[スケールを傾ける要素]
 
-3. **Keep it scannable**: Sales reps need to reference this during calls. Use tables, bold text, and short bullets.
+3. **スキャンしやすい形にする**：セールス担当者はコール中にこれを参照する必要があります。テーブル、太字テキスト、短い箇条書きを使用してください。
 
-Save as markdown. Format for easy printing or sharing in Notion/Confluence.
+マークダウンとして保存。NotionまたはConfluenceでの印刷またはシェアが簡単な形式にフォーマットする。
 
 ---
 
-### Further Reading
+### 参考文献
 
 - [How to Design a Value Proposition Customers Can't Resist?](https://www.productcompass.pm/p/how-to-design-value-proposition-template)

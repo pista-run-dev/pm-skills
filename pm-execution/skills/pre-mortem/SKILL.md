@@ -1,64 +1,64 @@
 ---
 name: pre-mortem
-description: "Run a pre-mortem risk analysis on a PRD or launch plan. Categorizes risks as Tigers (real problems), Paper Tigers (overblown concerns), and Elephants (unspoken worries), then classifies as launch-blocking, fast-follow, or track. Use when preparing for launch, stress-testing a product plan, or identifying what could go wrong."
+description: "PRDまたはローンチ計画のプレモーテムリスク分析を実施します。リスクをTigers（実際の問題）、Paper Tigers（過大評価された懸念）、Elephants（語られていない心配）として分類し、ローンチブロッキング、ファストフォロー、またはトラックとして分類します。ローンチの準備、プロダクト計画のストレステスト、または何が間違いになりうるかを特定する際に使用します。"
 ---
 
-# Pre-Mortem: Risk Analysis for Product Launch
+# プレモーテム：プロダクトローンチのリスク分析
 
-## Purpose
+## 目的
 
-You are a veteran product manager conducting a pre-mortem analysis on $ARGUMENTS. This skill imagines launch failure and works backward to identify real risks, distinguish them from perceived worries, and create action plans to mitigate launch-blocking issues.
+あなたは$ARGUMENTSのプレモーテム分析を行うベテランのプロダクトマネージャーです。このスキルはローンチの失敗を想定して逆算し、実際のリスクを特定し、認知された懸念と区別し、ローンチをブロックする問題を軽減するためのアクションプランを作成します。
 
-## Context
+## コンテキスト
 
-A pre-mortem is a structured risk-identification exercise that forces teams to think critically about what could go wrong before launch, when there's still time to act. By assuming failure, we surface hidden concerns and separate legitimate threats from overblown worries.
+プレモーテムは構造化されたリスク特定演習であり、まだ行動する時間があるローンチ前に、何が間違いになりうるかについてチームが批判的に考えることを強制します。失敗を前提とすることで、隠れた懸念を表面化し、正当な脅威を過大評価された懸念から分離します。
 
-## Instructions
+## 指示
 
-1. **Gather the PRD**: If the user provides a PRD or product plan file, read it thoroughly. Understand the product, target market, key assumptions, and timeline. If relevant, use web search to research competitive landscape or market conditions.
+1. **PRDを収集する**: ユーザーがPRDまたはプロダクト計画ファイルを提供した場合は、徹底的に読んでください。プロダクト、ターゲット市場、主要な仮定、タイムラインを理解してください。関連する場合は、ウェブ検索を使用して競合環境や市場状況を調査してください。
 
-2. **Think Step by Step**:
-   - Imagine the product launches in 14 days
-   - Now imagine it fails—customers don't adopt it, revenue targets miss, reputation takes a hit
-   - What went wrong?
-   - What did we miss or not execute well?
-   - What were we overconfident about?
+2. **ステップバイステップで考える**：
+   - プロダクトが14日後にローンチすると想像する
+   - 次に、失敗したと想像する——顧客が採用せず、売上目標を逃し、評判が傷つく
+   - 何が間違ったのか？
+   - 何を見落としたか、または十分に実行できなかったか？
+   - 何について過信していたか？
 
-3. **Categorize Risks**: Classify each potential failure as one of three types:
+3. **リスクを分類する**: 各潜在的な失敗を3つのタイプのいずれかに分類してください：
 
-   **Tigers**: Real problems you personally see that could derail the project
-   - Based on evidence, past experience, or clear logic
-   - Should keep you awake at night
-   - Require action
+   **Tigers**：プロジェクトを脱線させる可能性がある、個人的に認識している実際の問題
+   - 証拠、過去の経験、または明確な論理に基づく
+   - 夜も眠れないほど心配すべき問題
+   - 対処が必要
 
-   **Paper Tigers**: Problems others might worry about, but you don't believe in them
-   - Valid concerns on the surface, but unlikely or overblown
-   - Not worth significant resource investment
-   - Worth documenting to align stakeholders
+   **Paper Tigers**：他者が心配するかもしれないが、信じていない問題
+   - 表面上は妥当な懸念だが、起こりにくいまたは過大評価されている
+   - 重大なリソース投資の価値はない
+   - ステークホルダーを整合させるためにドキュメント化する価値はある
 
-   **Elephants**: Something you're not sure is a problem, but the team isn't discussing it enough
-   - Unspoken concerns or assumptions nobody is validating
-   - Could be real; you're unsure
-   - Deserve investigation before launch
+   **Elephants**：問題かもしれないが、チームが十分に議論していないこと
+   - 誰も検証していない、語られていない懸念や仮定
+   - 本物かもしれない；不確か
+   - ローンチ前に調査が必要
 
-4. **Classify Tigers by Urgency**:
+4. **TigersをUrgencyで分類する**：
 
-   **Launch-Blocking**: Must be solved before launch
-   - Example: Core feature broken, regulatory blocker, key customer dependency unmet
+   **ローンチブロッキング**：ローンチ前に解決必須
+   - 例：コア機能が壊れている、規制上のブロッカー、主要な顧客依存関係が未達成
 
-   **Fast-Follow**: Must be solved within 30 days post-launch
-   - Example: Performance issues, secondary features incomplete
+   **ファストフォロー**：ローンチ後30日以内に解決必須
+   - 例：パフォーマンスの問題、二次機能の未完成
 
-   **Track**: Monitor post-launch; solve if it becomes an issue
-   - Example: Nice-to-have features, edge cases
+   **トラック**：ローンチ後に監視；問題になったら解決する
+   - 例：あれば嬉しい機能、エッジケース
 
-5. **Create Action Plans**: For every Launch-Blocking Tiger:
-   - Describe the risk clearly
-   - Suggest a concrete mitigation action
-   - Identify the best owner (function/person)
-   - Set a decision/completion date
+5. **アクションプランを作成する**: すべてのローンチブロッキングTigerに対して：
+   - リスクを明確に説明する
+   - 具体的な軽減アクションを提案する
+   - 最適なオーナー（機能/人）を特定する
+   - 決定/完了日を設定する
 
-6. **Structure Output**: Present the analysis as:
+6. **出力を構造化する**: 以下として分析を提示してください：
 
    ```
    ## Pre-Mortem Analysis: [Product Name]
@@ -76,18 +76,18 @@ A pre-mortem is a structured risk-identification exercise that forces teams to t
    [For each, include: Risk, Mitigation, Owner, Due Date]
    ```
 
-7. **Save the Output**: Save as a markdown document: `PreMortem-[product-name]-[date].md`
+7. **出力を保存する**: `PreMortem-[product-name]-[date].md`というmarkdownドキュメントとして保存する。
 
-## Notes
+## 注意事項
 
-- Be honest and constructive—the goal is to improve launch readiness, not assign blame
-- Default to "Tiger" if unsure; it's better to address risks early
-- Involve cross-functional perspectives (engineering, design, go-to-market) in your analysis
-- Revisit the pre-mortem 2-3 weeks before launch to verify mitigations are on track
+- 正直で建設的に——目標はローンチ準備を改善することであり、非難することではない
+- 不確かな場合は「Tiger」をデフォルトとする；早期にリスクに対処するほうが良い
+- 分析にクロスファンクショナルな視点（エンジニアリング、デザイン、ゴートゥーマーケット）を含める
+- ローンチ2〜3週間前にプレモーテムを再確認して、軽減策が軌道に乗っているか検証する
 
 ---
 
-### Further Reading
+### 参考資料
 
 - [How Meta and Instagram Use Pre-Mortems to Avoid Post-Mortems](https://www.productcompass.pm/p/how-to-run-pre-mortem-template)
 - [How to Manage Risks as a Product Manager](https://www.productcompass.pm/p/how-to-manage-risks-as-a-product-manager)

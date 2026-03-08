@@ -1,45 +1,45 @@
 ---
 name: brainstorm-experiments-new
-description: "Design lean startup experiments (pretotypes) for a new product. Creates XYZ hypotheses and suggests low-effort validation methods like landing pages, explainer videos, and pre-orders. Use when validating a new product idea, creating pretotypes, or testing market demand."
+description: "新製品向けのリーンスタートアップ実験（プレタイプ）を設計します。XYZ仮説を作成し、ランディングページ、説明動画、事前注文などの低コスト検証方法を提案します。新製品アイデアの検証、プレタイプの作成、または市場需要のテストを行うときに使用します。"
 ---
 
-## Design Lean Startup Experiments (New Product)
+## リーンスタートアップ実験の設計（新製品）
 
-Create XYZ hypotheses and design pretotype experiments to validate a new product concept with minimal effort.
+XYZ仮説を作成し、最小限の工数で新製品コンセプトを検証するプレタイプ実験を設計します。
 
-### Context
+### コンテキスト
 
-You are helping validate a new product concept: **$ARGUMENTS** using lean startup methodology.
+あなたはリーンスタートアップ手法を使用して新製品コンセプトの検証を支援しています：**$ARGUMENTS**
 
-If the user provides files (market research, landing page mockups), read them first.
+ユーザーがファイル（市場調査、ランディングページのモックアップ）を提供した場合は、まずそれらを読んでください。
 
-### Instructions
+### 手順
 
-1. **Create an XYZ Hypothesis** in the form: "At least X% of Y will do Z"
-   - **X%**: The percentage of the target market expected to engage
-   - **Y**: The specific target market (e.g., "mid-size luxury sedan buyers")
-   - **Z**: How they will engage with the product
+1. **XYZ仮説を作成する**：「少なくともYのX%がZを行う」という形式で
+   - **X%**：エンゲージすると予想されるターゲット市場の割合
+   - **Y**：特定のターゲット市場（例：「中規模高級セダンの購入者」）
+   - **Z**：製品とどのようにエンゲージするか
 
-2. **Suggest 2-3 pretotype experiments** to test the hypothesis with minimal effort. Consider:
-   - **Landing Page**: Test interest by measuring sign-ups or clicks
-   - **Explainer Video**: Test understanding and appeal through engagement metrics
-   - **Email Campaign**: Test demand through response and click-through rates
-   - **Pre-Order / Waitlist**: Test willingness to pay through skin-in-the-game commitment
-   - **Concierge / Manual MVP**: Deliver the service manually to test value
+2. **最小限の工数で仮説をテストするためのプレタイプ実験を2〜3つ提案する**。以下を検討してください：
+   - **ランディングページ**：サインアップやクリックを測定して関心をテストする
+   - **説明動画**：エンゲージメント指標を通じて理解と訴求力をテストする
+   - **メールキャンペーン**：反応とクリック率を通じて需要をテストする
+   - **事前注文 / ウェイトリスト**：スキン・イン・ザ・ゲームのコミットメントを通じて支払い意欲をテストする
+   - **コンシェルジュ / 手動MVP**：価値をテストするためにサービスを手動で提供する
 
-3. **Key principles** (Alberto Savoia, *The Right It*):
-   - **Skin-in-the-Game**: Test willingness to pay — not just interest. Real commitment (time, money, reputation) is the only reliable signal.
-   - **Your Own Data (YODA)**: Collect your own data through experiments rather than relying on Others' Data (ODP) like market reports or analogies. "The market for your idea does not care about the market for someone else's idea."
-   - Measure actual behavior, not users' opinions
+3. **主要原則**（Alberto Savoia、*The Right It*）：
+   - **スキン・イン・ザ・ゲーム**：単なる関心ではなく、支払い意欲をテストしてください。実際のコミットメント（時間、お金、評判）だけが信頼できるシグナルです。
+   - **自分のデータ（YODA）**：市場レポートや類推などの他者のデータ（ODP）に頼るのではなく、実験を通じて自分のデータを収集してください。「あなたのアイデアの市場は、他の誰かのアイデアの市場を気にしない。」
+   - ユーザーの意見ではなく、実際の行動を測定してください
 
-4. **For each experiment**, specify the hypothesis being tested, the method, the metric, and the success threshold.
+4. **各実験について**、テストする仮説、方法、指標、成功閾値を明記してください。
 
-Think step by step. Save as markdown if substantial.
+ステップバイステップで考えてください。実質的な場合はMarkdownとして保存してください。
 
 ---
 
-### Further Reading
+### 参考資料
 
 - [How to Build the Right Product with Alberto Savoia (ex-Innovator at Google)](https://www.productcompass.pm/p/how-to-build-the-right-product-with)
 - [Testing Product Ideas: The Ultimate Validation Experiments Library](https://www.productcompass.pm/p/the-ultimate-experiments-library)
-- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (video course)
+- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (ビデオコース)

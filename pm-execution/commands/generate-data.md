@@ -1,13 +1,13 @@
 ---
-description: Generate realistic dummy datasets for testing — CSV, JSON, SQL inserts, or Python scripts
+description: テスト用のリアルなダミーデータセットを生成する——CSV、JSON、SQL INSERT、またはPythonスクリプト
 argument-hint: "<description of the data you need>"
 ---
 
-# /generate-data -- Test Data Generator
+# /generate-data -- テストデータジェネレーター
 
-Create realistic dummy datasets for development, testing, demos, or prototyping. Outputs as ready-to-use files in your preferred format.
+開発、テスト、デモ、またはプロトタイピング用のリアルなダミーデータセットを作成します。希望するフォーマットですぐに使えるファイルとして出力します。
 
-## Invocation
+## 呼び出し方
 
 ```
 /generate-data 1000 users with names, emails, plan tier, signup date, and activity score
@@ -15,35 +15,35 @@ Create realistic dummy datasets for development, testing, demos, or prototyping.
 /generate-data Sample data matching this schema: [paste table definition]
 ```
 
-## Workflow
+## ワークフロー
 
-### Step 1: Define the Dataset
+### ステップ1：データセットを定義する
 
-Understand:
-- What entities? (users, orders, events, products, etc.)
-- What columns? (with data types and constraints)
-- How many rows?
-- Any relationships between tables?
-- Any specific distributions? (e.g., "80% should be on the free plan")
-- Any realistic constraints? (emails should be unique, dates should be chronological)
+以下を理解する：
+- どんなエンティティ？（ユーザー、注文、イベント、プロダクトなど）
+- どんなカラム？（データタイプと制約付き）
+- 何行？
+- テーブル間の関係はあるか？
+- 特定の分布はあるか？（例：「80%はフリープランにすべき」）
+- リアルな制約はあるか？（メールは一意であるべき、日付は時系列順であるべき）
 
-### Step 2: Generate the Data
+### ステップ2：データを生成する
 
-Apply the **dummy-dataset** skill:
+**dummy-dataset**スキルを適用する：
 
-- Create a Python script that generates the dataset
-- Use realistic-looking data (not random strings): proper names, valid email formats, real-seeming dates
-- Respect constraints: unique IDs, foreign key relationships, chronological ordering
-- Apply specified distributions
-- Execute the script and produce the output file
+- データセットを生成するPythonスクリプトを作成する
+- リアルに見えるデータを使用する（ランダムな文字列ではない）：適切な名前、有効なメール形式、本物らしい日付
+- 制約を守る：一意のID、外部キー関係、時系列順
+- 指定された分布を適用する
+- スクリプトを実行して出力ファイルを生成する
 
-### Step 3: Deliver
+### ステップ3：提供する
 
-Output in the requested format (or ask):
-- **CSV**: Most common, works everywhere
-- **JSON**: For API testing or frontend development
-- **SQL INSERT**: For populating test databases
-- **Python script**: For reproducible generation (user can tweak and re-run)
+リクエストされたフォーマットで出力する（または質問する）：
+- **CSV**：最も一般的で、どこでも機能する
+- **JSON**：APIテストまたはフロントエンド開発用
+- **SQL INSERT**：テストデータベースへの投入用
+- **Pythonスクリプト**：再現可能な生成のため（ユーザーが調整して再実行できる）
 
 ```
 ## Generated Dataset: [Description]
@@ -57,26 +57,26 @@ Output in the requested format (or ask):
 |--------|------|-----------|-------------|
 
 ### Sample (first 5 rows)
-[Preview of the data]
+[データのプレビュー]
 
 ### Files
 - [data file]
 - [generator script, if applicable]
 ```
 
-Save data file and generator script to the user's workspace.
+データファイルとジェネレータースクリプトをユーザーのワークスペースに保存する。
 
-### Step 4: Offer Follow-ups
+### ステップ4：フォローアップを提案する
 
-- "Want me to **add more columns** or **increase the dataset size**?"
-- "Should I **create related tables** (e.g., orders for these users)?"
-- "Want me to **write test scenarios** that use this data?"
-- "Should I **create SQL queries** to analyze this dataset?"
+- 「**カラムを追加**したり**データセットサイズを増加**したいですか？」
+- 「**関連テーブルを作成**しましょうか？（例：これらのユーザーの注文）」
+- 「このデータを使用する**テストシナリオを作成**したいですか？」
+- 「このデータセットを分析する**SQLクエリを作成**しましょうか？」
 
-## Notes
+## 注意事項
 
-- Always provide the generator script so the user can regenerate with different parameters
-- For demo datasets, make the data tell a story (e.g., seasonal trends, a retention problem, a power user segment)
-- Respect realistic cardinality: 1000 users don't have 1000 unique cities
-- For financial data, use realistic price distributions — not uniform random
-- Never include real personal data — all names, emails, and identifiers must be fake
+- ユーザーが異なるパラメーターで再生成できるように、常にジェネレータースクリプトを提供する
+- デモデータセットの場合は、データをストーリーとして語るようにする（例：季節的なトレンド、リテンション問題、パワーユーザーセグメント）
+- リアルなカーディナリティを尊重する：1000人のユーザーが1000の異なる都市を持つことはない
+- 財務データの場合は、一様なランダム分布ではなくリアルな価格分布を使用する
+- 実際の個人データは絶対に含めない——すべての名前、メール、識別子は偽物でなければならない

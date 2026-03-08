@@ -1,106 +1,106 @@
 ---
 name: product-strategy
-description: "Create a comprehensive product strategy using the 9-section Product Strategy Canvas — vision, segments, costs, value propositions, trade-offs, metrics, growth, capabilities, and defensibility. Use when building a product strategy, creating a strategic plan, or defining product direction."
+description: "9セクションのプロダクト戦略キャンバス（ビジョン、セグメント、コスト、バリュープロポジション、トレードオフ、メトリクス、成長、ケイパビリティ、防御力）を使って包括的なプロダクト戦略を作成します。プロダクト戦略の構築、戦略計画の作成、プロダクト方向性の定義に使用してください。"
 ---
-# Product Strategy Canvas
+# プロダクト戦略キャンバス
 
-## Metadata
-- **Name**: product-strategy
-- **Description**: Generate a comprehensive product strategy using the 9-section Product Strategy Canvas. Covers vision, market segments, costs, value propositions, trade-offs, metrics, growth, capabilities, and defensibility.
-- **Triggers**: product strategy, strategy canvas, strategic plan, product strategy document
+## メタデータ
+- **名前**: product-strategy
+- **説明**: 9セクションのプロダクト戦略キャンバスを使って包括的なプロダクト戦略を生成します。ビジョン、市場セグメント、コスト、バリュープロポジション、トレードオフ、メトリクス、成長、ケイパビリティ、防御力をカバーします。
+- **トリガー**: プロダクト戦略、戦略キャンバス、戦略計画、プロダクト戦略ドキュメント
 
-## Instructions
+## 指示
 
-You are an experienced product strategist developing a comprehensive product strategy for $ARGUMENTS.
+あなたは $ARGUMENTS のための包括的なプロダクト戦略を策定する、経験豊富なプロダクトストラテジストです。
 
-Your task is to create a detailed Product Strategy Canvas that outlines how the product will compete, win, and grow in the market.
+プロダクトが市場でどのように競争し、勝利し、成長するかを概説する詳細なプロダクト戦略キャンバスを作成するのがあなたの任務です。
 
-## Input Requirements
-- Product description and current positioning
-- Market context, competitors, and customer insights
-- Company resources, constraints, and priorities
-- Any relevant business or market data
+## 入力要件
+- プロダクトの説明と現在のポジショニング
+- 市場コンテキスト、競合他社、顧客インサイト
+- 会社のリソース、制約、優先事項
+- 関連するビジネスまたは市場データ
 
-## Product Strategy Canvas Template
+## プロダクト戦略キャンバステンプレート
 
-### 1. Vision
-- How can we inspire people?
-- What are we aspiring to achieve?
-- What values do we uphold?
+### 1. ビジョン
+- どのように人々にインスピレーションを与えることができるか？
+- 何を達成しようとしているか？
+- どのような価値観を守っているか？
 
-### 2. Market Segments
-- Market defined by people's problems (not demographics)
-- Jobs to Be Done (JTBD), desired outcomes, constraints
-- Who is our first segment?
-- Why this segment first?
+### 2. 市場セグメント
+- 人々の問題（人口統計ではなく）によって定義された市場
+- Jobs to Be Done (JTBD)、望ましいアウトカム、制約
+- 最初のセグメントは誰か？
+- なぜこのセグメントが最初か？
 
-### 3. Relative Costs
-- Do we optimize for low cost (like Southwest Airlines)?
-- Or do we emphasize unique value (like Starbucks)?
-- What's our cost position relative to competitors?
+### 3. 相対コスト
+- 低コストを最適化するか（Southwest Airlinesのように）？
+- それともユニークな価値を強調するか（Starbucksのように）？
+- 競合他社に対するコストポジションは？
 
-### 4. Value Proposition
-For each target segment:
-- **What before**: The customer's current situation, pain, or need
-- **How**: How your product delivers the solution
-- **What after**: The improved outcome or future state
-- **Alternatives**: What customers use today instead
+### 4. バリュープロポジション
+各ターゲットセグメントに対して：
+- **ビフォー（What before）**: 顧客の現在の状況、痛み、またはニーズ
+- **ハウ（How）**: プロダクトがソリューションを提供する方法
+- **アフター（What after）**: 改善されたアウトカムまたは将来の状態
+- **代替手段（Alternatives）**: 顧客が現在使用しているもの
 
-### 5. Trade-offs
-- What will we NOT do?
-- What features or markets are out of scope?
-- How does saying "no" create focus and amplify our value?
+### 5. トレードオフ
+- 何をしないか？
+- どの機能や市場がスコープ外か？
+- 「ノー」と言うことがどのように焦点を生み出し、価値を増幅させるか？
 
-### 6. Key Metrics
-- **North Star Metric**: Single metric that drives overall business success
-- **OMTM (One Metric That Matters)**: The one metric we optimize for this quarter
+### 6. 主要メトリクス
+- **ノーススターメトリクス（North Star Metric）**: ビジネス全体の成功を牽引する単一のメトリクス
+- **OMTM（One Metric That Matters）**: 今四半期に最適化する1つのメトリクス
 
-### 7. Growth
-- Sales-Led Growth or Product-Led Growth?
-- Primary acquisition channels
-- How do we scale?
-- What's our unit economics?
+### 7. 成長
+- 営業主導型成長（Sales-Led Growth）かプロダクト主導型成長（Product-Led Growth）か？
+- 主要な獲得チャネル
+- どのようにスケールするか？
+- ユニットエコノミクスは？
 
-### 8. Capabilities
-- What competencies and resources do we need?
-- What do we build vs. partner for?
-- What capabilities must we develop to win?
+### 8. ケイパビリティ
+- どのようなコンピテンシーとリソースが必要か？
+- 何を構築するか、何をパートナーに任せるか？
+- 勝つためにどのようなケイパビリティを開発しなければならないか？
 
-### 9. Can't/Won't
-- Why can't competitors easily copy this?
-- What defensibility do we have (network effects, switching costs, IP)?
-- What barriers to entry exist for new competitors?
+### 9. できない/しない（Can't/Won't）
+- なぜ競合他社が簡単にコピーできないのか？
+- どのような防御力があるか（ネットワーク効果、スイッチングコスト、IP）？
+- 新規競合他社に対してどのような参入障壁が存在するか？
 
-## Output Process
-1. Define the vision and aspirational impact
-2. Identify 2-3 target market segments with their JTBD
-3. Establish cost positioning (low cost vs. premium value)
-4. Develop value propositions for each segment
-5. List explicit trade-offs (what we won't do)
-6. Set North Star and quarterly OMTM
-7. Outline growth strategy and channels
-8. Document required capabilities and partnerships
-9. Explain defensibility and barriers to competition
-10. Validate strategy coherence: ensure elements reinforce each other
-11. Surface critical hypotheses that must be true for success
-12. Suggest low-effort experiments to test key assumptions
+## アウトプットプロセス
+1. ビジョンと志の高いインパクトを定義する
+2. JTBDを持つ2〜3つのターゲット市場セグメントを特定する
+3. コストポジショニングを確立する（低コスト対プレミアム価値）
+4. 各セグメントのバリュープロポジションを開発する
+5. 明示的なトレードオフをリストアップする（何をしないか）
+6. ノーススターと四半期OMTMを設定する
+7. 成長戦略とチャネルの概要を示す
+8. 必要なケイパビリティとパートナーシップを文書化する
+9. 防御力と競争への障壁を説明する
+10. 戦略の一貫性を検証する：要素が互いを強化していることを確認する
+11. 成功するために必要な重要な仮説を洗い出す
+12. 主要な仮定を検証するための低コストの実験を提案する
 
-## Notes
-- Ensure all 9 elements fit together logically
-- Identify what must be true for this strategy to work (hypotheses)
-- Propose validation experiments with minimal effort
-- Strategy guides decisions; clarity enables faster execution
-- Revisit quarterly as market conditions change
-
----
-
-### Templates
-
-- [Product Strategy Canvas (PPTX)](https://docs.google.com/presentation/d/1xRBqSOISvAKzwM_z5tC8fiuO5O2YhboB/edit?usp=sharing&ouid=111307342557889008106&rtpof=true&sd=true)
+## 注意事項
+- すべての9要素が論理的に適合していることを確認する
+- この戦略が機能するために何が真でなければならないかを特定する（仮説）
+- 最小限の労力で検証実験を提案する
+- 戦略は意思決定をガイドする；明確さはより速い実行を可能にする
+- 市場状況の変化に合わせて四半期ごとに見直す
 
 ---
 
-### Further Reading
+### テンプレート
+
+- [プロダクト戦略キャンバス (PPTX)](https://docs.google.com/presentation/d/1xRBqSOISvAKzwM_z5tC8fiuO5O2YhboB/edit?usp=sharing&ouid=111307342557889008106&rtpof=true&sd=true)
+
+---
+
+### 参考文献
 
 - [Product Strategy Canvas: From Vision to Action](https://www.productcompass.pm/p/product-strategy-canvas)
 - [Product Strategy Examples: Google Maps, Netflix, OpenAI](https://www.productcompass.pm/p/product-strategy-examples)
@@ -108,4 +108,4 @@ For each target segment:
 - [Product Model First Principles: Product Team and Product Strategy In Depth](https://www.productcompass.pm/p/product-model-first-principles-transformed-cagan)
 - [Introducing the Product Strategy Canvas](https://www.productcompass.pm/p/new-product-strategy-canvas)
 - [Business Outcomes vs Product Outcomes vs Customer Outcomes](https://www.productcompass.pm/p/business-outcomes-vs-product-outcomes)
-- [From Strategy to Objectives Masterclass](https://www.productcompass.pm/p/product-vision-strategy-objectives-course) (video course)
+- [From Strategy to Objectives Masterclass](https://www.productcompass.pm/p/product-vision-strategy-objectives-course) (ビデオコース)

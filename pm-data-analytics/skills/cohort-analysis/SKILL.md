@@ -1,113 +1,113 @@
 ---
 name: cohort-analysis
-description: "Perform cohort analysis on user engagement data — retention curves, feature adoption trends, and segment-level insights. Use when analyzing user retention by cohort, studying feature adoption over time, investigating churn patterns, or identifying engagement trends."
+description: "ユーザーエンゲージメントデータのコホート分析を実行します — リテンションカーブ、機能採用トレンド、セグメントレベルのインサイト。コホートごとのユーザーリテンション分析、時間経過による機能採用の研究、チャーンパターンの調査、またはエンゲージメントトレンドの特定の際に使用します。"
 ---
 
 # Cohort Analysis & Retention Explorer
 
-## Purpose
-Analyze user engagement and retention patterns by cohort to identify trends in user behavior, feature adoption, and long-term engagement. Combine quantitative insights with qualitative research recommendations.
+## 目的
+コホートごとにユーザーエンゲージメントとリテンションパターンを分析し、ユーザー行動、機能採用、長期的なエンゲージメントのトレンドを特定します。定量的インサイトと定性的リサーチの推奨を組み合わせます。
 
-## How It Works
+## 仕組み
 
-### Step 1: Read and Validate Your Data
-- Accept CSV, Excel, or JSON data files with user cohort information
-- Verify data structure: cohort identifier, time periods, engagement metrics
-- Check for missing values and data quality issues
-- Summarize key statistics (cohort sizes, date ranges, metrics available)
+### ステップ1: データを読み込み検証する
+- ユーザーコホート情報を含むCSV、Excel、またはJSONデータファイルを受け付ける
+- データ構造を検証：コホート識別子、時間期間、エンゲージメント指標
+- 欠損値とデータ品質の問題を確認する
+- 主要な統計をサマリー化する（コホートサイズ、日付範囲、利用可能な指標）
 
-### Step 2: Generate Quantitative Analysis
-- Calculate cohort retention rates and engagement trends
-- Identify retention curves, drop-off patterns, and anomalies
-- Compute feature adoption rates across cohorts
-- Calculate month-over-month or period-over-period changes
-- Generate Python analysis scripts using pandas and numpy if requested
+### ステップ2: 定量的分析を生成する
+- コホートリテンション率とエンゲージメントトレンドを計算する
+- リテンションカーブ、離脱パターン、異常を特定する
+- コホート全体の機能採用率を計算する
+- 月次または期間対期間の変化を計算する
+- リクエストされた場合は pandas と numpy を使用したPython分析スクリプトを生成する
 
-### Step 3: Create Visualizations
-- Generate retention heatmaps (cohorts vs. time periods)
-- Create line charts showing cohort progression
-- Build comparison charts for feature adoption
-- Visualize drop-off points and engagement trends
-- Output as interactive charts or static images
+### ステップ3: 可視化を作成する
+- リテンションヒートマップを生成する（コホート vs. 時間期間）
+- コホートの進行を示す折れ線グラフを作成する
+- 機能採用の比較チャートを構築する
+- 離脱ポイントとエンゲージメントトレンドを可視化する
+- インタラクティブチャートまたは静的画像として出力する
 
-### Step 4: Identify Insights & Patterns
-- Spot one or more significant patterns:
-  - Early churn in specific cohorts
-  - Late-stage engagement changes
-  - Feature adoption clusters
-  - Seasonal or temporal trends
-- Highlight surprising findings and deviations
-- Compare cohort performance to establish baselines
+### ステップ4: インサイトとパターンを特定する
+- 1つ以上の重要なパターンを発見する：
+  - 特定のコホートでの早期チャーン
+  - 後期のエンゲージメント変化
+  - 機能採用クラスター
+  - 季節的または時間的トレンド
+- 驚くべき発見と逸脱をハイライトする
+- ベースラインを確立するためにコホートパフォーマンスを比較する
 
-### Step 5: Suggest Follow-Up Research
-- Recommend qualitative research methods:
-  - Targeted user interviews with churning users
-  - Feature usage surveys with engaged cohorts
-  - Session replays of key interaction patterns
-  - Win/loss analysis for high vs. low retention cohorts
-- Design follow-up quantitative studies
-- Suggest A/B tests or feature experiments
+### ステップ5: フォローアップリサーチを提案する
+- 定性的リサーチ手法を推奨する：
+  - チャーンしているユーザーへのターゲット設定されたユーザーインタビュー
+  - エンゲージしているコホートへの機能使用アンケート
+  - 主要なインタラクションパターンのセッションリプレイ
+  - リテンションが高いvs.低いコホートのウィン/ロス分析
+- フォローアップの定量的研究を設計する
+- A/Bテストまたは機能実験を提案する
 
-## Usage Examples
+## 使用例
 
-**Example 1: Upload CSV Data**
+**例1：CSVデータのアップロード**
 ```
-Upload cohort_engagement.csv with columns: cohort_month, weeks_active,
-user_id, feature_x_usage, engagement_score
+cohort_engagement.csv をアップロード（カラム：cohort_month, weeks_active,
+user_id, feature_x_usage, engagement_score）
 
-Request: "Analyze retention patterns and identify why Q4 2025 cohorts
-underperform compared to Q3"
-```
-
-**Example 2: Describe Data Format**
-```
-"I have monthly user cohorts from Jan-Dec 2025. Each row shows:
-cohort date, user ID, purchase frequency, and support tickets.
-Analyze which cohorts show best long-term retention."
+リクエスト: 「リテンションパターンを分析し、Q4 2025のコホートが
+Q3と比較してなぜパフォーマンスが低いかを特定してください」
 ```
 
-**Example 3: Feature Adoption Analysis**
+**例2：データ形式の説明**
 ```
-Upload feature_usage.xlsx with cohort adoption data.
-
-Request: "Compare adoption curves for our new feature across cohorts.
-Which cohorts adopted fastest? Any patterns?"
+「2025年1月〜12月の月次ユーザーコホートがあります。各行には：
+コホート日、ユーザーID、購入頻度、サポートチケットが含まれています。
+長期リテンションが最も良いコホートを分析してください。」
 ```
 
-## Key Capabilities
+**例3：機能採用分析**
+```
+コホート採用データを含む feature_usage.xlsx をアップロード。
 
-- **Data Reading**: Import CSV, Excel, JSON, SQL query results
-- **Retention Analysis**: Calculate and visualize retention rates over time
-- **Cohort Comparison**: Compare metrics across cohort groups
-- **Anomaly Detection**: Flag unusual patterns or drop-offs
-- **Python Scripts**: Generate reusable analysis code for ongoing analysis
-- **Visualizations**: Create heatmaps, charts, and interactive dashboards
-- **Research Design**: Suggest targeted follow-up studies and interview approaches
-- **Statistical Summary**: Provide quantitative metrics and correlation analysis
+リクエスト: 「コホック全体で新機能の採用カーブを比較してください。
+どのコホートが最も早く採用しましたか？パターンはありますか？」
+```
 
-## Tips for Best Results
+## 主な機能
 
-1. **Include time dimension**: Provide data across multiple time periods
-2. **Define cohort clearly**: Make cohort grouping explicit (signup month, feature launch date, etc.)
-3. **Provide context**: Explain product changes, launches, or events during the period
-4. **Multiple metrics**: Include retention, engagement, feature usage, revenue, etc.
-5. **Sufficient data**: At least 3-4 cohorts for meaningful pattern identification
-6. **Request specific output**: Ask for visualizations, Python scripts, or research recommendations
+- **データ読み込み**: CSV、Excel、JSON、SQLクエリ結果をインポート
+- **リテンション分析**: 時間の経過とともにリテンション率を計算し可視化する
+- **コホート比較**: コホートグループ間で指標を比較する
+- **異常検出**: 異常なパターンや離脱にフラグを立てる
+- **Pythonスクリプト**: 継続的な分析のための再利用可能な分析コードを生成する
+- **可視化**: ヒートマップ、チャート、インタラクティブダッシュボードを作成する
+- **リサーチデザイン**: ターゲット設定されたフォローアップ調査とインタビューアプローチを提案する
+- **統計サマリー**: 定量的指標と相関分析を提供する
 
-## Output Format
+## 最良の結果を得るためのヒント
 
-You'll receive:
-- **Data Summary**: Cohort overview and data quality assessment
-- **Quantitative Findings**: Key metrics, retention rates, and trend analysis
-- **Visualizations**: Charts showing retention curves, adoption patterns
-- **Pattern Identification**: 2-3 significant insights from the data
-- **Research Recommendations**: Specific qualitative and quantitative follow-ups
-- **Analysis Scripts** (if requested): Python code for reproducible analysis
-- **Next Steps**: Prioritized actions based on findings
+1. **時間次元を含める**: 複数の時間期間にわたるデータを提供する
+2. **コホートを明確に定義する**: コホートのグループ化を明示する（サインアップ月、機能ローンチ日など）
+3. **コンテキストを提供する**: 期間中のプロダクト変更、ローンチ、またはイベントを説明する
+4. **複数の指標**: リテンション、エンゲージメント、機能使用、収益などを含める
+5. **十分なデータ**: 意味のあるパターン特定のために少なくとも3〜4コホート
+6. **特定のアウトプットをリクエストする**: 可視化、Pythonスクリプト、またはリサーチ推奨を要求する
+
+## アウトプット形式
+
+以下を受け取ります：
+- **データサマリー**: コホートの概要とデータ品質評価
+- **定量的発見**: 主要指標、リテンション率、トレンド分析
+- **可視化**: リテンションカーブ、採用パターンを示すチャート
+- **パターン特定**: データからの2〜3つの重要なインサイト
+- **リサーチ推奨**: 特定の定性的・定量的フォローアップ
+- **分析スクリプト**（リクエストされた場合）: 再現可能な分析のためのPythonコード
+- **次のステップ**: 発見に基づいた優先順位付けされたアクション
 
 ---
 
-### Further Reading
+### 参考資料
 
 - [Cohort Analysis 101: How to Reduce Churn and Make Better Product Decisions](https://www.productcompass.pm/p/cohort-analysis)
 - [The Product Analytics Playbook: AARRR, HEART, Cohorts & Funnels for PMs](https://www.productcompass.pm/p/the-product-analytics-playbook-aarrr)

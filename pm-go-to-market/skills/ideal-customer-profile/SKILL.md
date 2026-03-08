@@ -1,164 +1,164 @@
 ---
 name: ideal-customer-profile
-description: "Identify the Ideal Customer Profile (ICP) from research data with demographics, behaviors, JTBD, and needs. Use when defining your ICP, analyzing PMF survey data, or understanding who your best customers are."
+description: "デモグラフィクス、行動、JTBD、ニーズを含む調査データからICP（理想顧客プロファイル）を特定します。ICPの定義、PMFサーベイデータの分析、最良の顧客の理解に使用します。"
 ---
 # Ideal Customer Profile
 
-## Overview
-Identify your Ideal Customer Profile (ICP) from research and survey data. This skill synthesizes customer research to define the customer most likely to find value, retain, and expand with your product.
+## 概要
+調査・アンケートデータからICP（理想顧客プロファイル）を特定します。このスキルは顧客調査を統合し、製品から最も価値を見出し、継続・拡大する可能性が最も高い顧客を定義します。
 
-## When to Use
-- Defining ICP from product-market fit survey data
-- Targeting high-value customer segments
-- Analyzing customer success and expansion patterns
-- Prioritizing sales and marketing efforts
-- Evaluating new customer opportunities for fit
-- Refining target market definition
+## 使用タイミング
+- PMFアンケートデータからICPを定義する時
+- 高価値顧客セグメントをターゲティングする時
+- 顧客の成功と拡大パターンを分析する時
+- セールスとマーケティングの取り組みに優先順位をつける時
+- フィットの観点から新規顧客機会を評価する時
+- ターゲット市場の定義を精緻化する時
 
-## ICP Framework Components
+## ICPフレームワークのコンポーネント
 
-### Demographics
-Who are they from a firmographic and personal perspective?
-- Company size (employees, revenue)
-- Industry or vertical
-- Geographic location
-- Job title and department
-- Years of experience in role
-- Education and background
-- Organizational structure and reporting
+### デモグラフィクス
+ファーモグラフィクスおよび個人的な観点から、彼らは誰か？
+- 企業規模（従業員数、収益）
+- 業界またはバーティカル
+- 地理的な場所
+- 職種と部署
+- 役割での経験年数
+- 学歴と経歴
+- 組織構造とレポートライン
 
-### Behaviors
-How do they work and make decisions?
-- How they discover and evaluate solutions
-- Buying process and decision-making timeline
-- Technical literacy and product adoption speed
-- Collaboration style (solo decision vs committee)
-- Change management and adoption style
-- Tool switching frequency
-- Community involvement and peer influence
+### 行動
+彼らはどのように仕事し、意思決定を行うか？
+- ソリューションを発見・評価する方法
+- 購買プロセスと意思決定タイムライン
+- 技術リテラシーと製品採用速度
+- コラボレーションスタイル（個人の意思決定 vs 委員会）
+- 変更管理と採用スタイル
+- ツール切り替えの頻度
+- コミュニティへの参加とピアの影響
 
 ### Jobs to Be Done (JTBD)
-What are they trying to accomplish?
-- Primary job/goal they're trying to achieve
-- Secondary jobs that support the primary job
-- Emotional jobs (how they want to feel)
-- Social jobs (status and perception)
-- Jobs they avoid or want to eliminate
-- Frequency and importance of each job
-- Success metrics for completing job
+彼らは何を達成しようとしているか？
+- 達成しようとしているプライマリジョブ/ゴール
+- プライマリジョブを支援するセカンダリジョブ
+- 感情的なジョブ（どのように感じたいか）
+- 社会的なジョブ（ステータスと認知）
+- 避けたいまたは排除したいジョブ
+- 各ジョブの頻度と重要性
+- ジョブ完了の成功指標
 
-### Needs and Pain Points
-What problems does your product solve?
-- Specific pain points they experience
-- Current workarounds and limitations
-- Impact on productivity or outcomes
-- Cost or time burden of the problem
-- Emotional frustration levels
-- Barriers to solving the problem
-- Available budget to solve
-- Competing priorities
+### ニーズとペインポイント
+製品はどのような問題を解決するか？
+- 経験している具体的なペインポイント
+- 現在の回避策と制限
+- 生産性または成果への影響
+- 問題のコストまたは時間的な負担
+- 感情的なフラストレーションレベル
+- 問題解決の障壁
+- 解決のための利用可能な予算
+- 競合する優先事項
 
-## How It Works
+## 仕組み
 
-### Step 1: Gather Customer Data
-Collect research about actual and potential customers:
-- Product-market fit survey responses
-- Customer interview transcripts
-- Trial or freemium user behavior data
-- Customer feedback and support tickets
-- Churn analysis and customer lifecycle data
-- Win/loss analysis from sales
-- Competitor customer analysis
+### ステップ1: 顧客データの収集
+実際の顧客と潜在顧客に関する調査を収集します：
+- PMFアンケート回答
+- 顧客インタビューのトランスクリプト
+- トライアルまたはフリーミアムユーザーの行動データ
+- 顧客フィードバックとサポートチケット
+- チャーン分析と顧客ライフサイクルデータ
+- セールスからの勝敗分析
+- 競合顧客分析
 
-### Step 2: Segment by Value
-Identify customer cohorts and their value:
-- Highest LTV (lifetime value) customers
-- Fastest time-to-value customers
-- Lowest churn rate customers
-- Highest expansion/upsell customers
-- Most enthusiastic/engaged customers
-- Best reference/case study potential
-- Most aligned with product vision
+### ステップ2: 価値によるセグメント化
+顧客コホートとその価値を特定します：
+- 最高LTV（ライフタイムバリュー）の顧客
+- 最速でタイム・トゥ・バリューを達成する顧客
+- 最低チャーン率の顧客
+- 最高拡張/アップセルの顧客
+- 最も熱心/エンゲージメントの高い顧客
+- 最良のリファレンス/ケーススタディの候補
+- 製品ビジョンに最も合致している顧客
 
-### Step 3: Profile Demographics
-Extract firmographic patterns:
-- Common company sizes (employee count, revenue)
-- Industry verticals and sub-verticals
-- Geographic concentrations
-- Typical department and reporting structure
-- Budget holders and budget available
-- Company stage (startup, growth, enterprise)
-- Company culture indicators
+### ステップ3: デモグラフィクスのプロファイリング
+ファーモグラフィクスのパターンを抽出します：
+- 一般的な企業規模（従業員数、収益）
+- 業界バーティカルとサブバーティカル
+- 地理的な集中
+- 典型的な部署とレポートライン
+- 予算保持者と利用可能な予算
+- 企業ステージ（スタートアップ、成長期、エンタープライズ）
+- 企業文化の指標
 
-### Step 4: Identify Behaviors
-Map decision-making and adoption patterns:
-- How they discovered your product (channel)
-- Evaluation process and timeline
-- Key stakeholders in decision
-- Obstacles during sales process
-- Product adoption speed and breadth
-- Team involvement in onboarding
-- Frequency of feature usage
-- Support and service needs
+### ステップ4: 行動の特定
+意思決定と採用パターンをマッピングします：
+- 製品を発見した方法（チャネル）
+- 評価プロセスとタイムライン
+- 意思決定における主要なステークホルダー
+- セールスプロセスにおける障害
+- 製品採用の速度と幅
+- オンボーディングへのチームの関与
+- 機能使用の頻度
+- サポートとサービスのニーズ
 
-### Step 5: Define JTBD
-Articulate what they're trying to accomplish:
-- Primary job/goal (functional job)
-- Emotional dimensions (how they want to feel)
-- Social dimensions (team and stakeholder impact)
-- Success metrics (how they measure success)
-- Context and constraints (when, where, with whom)
-- Competing jobs and priorities
-- Importance ranking of various jobs
+### ステップ5: JTBDの定義
+彼らが達成しようとしていることを明確化します：
+- プライマリジョブ/ゴール（機能的なジョブ）
+- 感情的な次元（どのように感じたいか）
+- 社会的な次元（チームとステークホルダーへの影響）
+- 成功指標（どのように成功を測るか）
+- コンテキストと制約（いつ、どこで、誰と）
+- 競合するジョブと優先事項
+- 様々なジョブの重要度ランキング
 
-### Step 6: Document Pain Points and Needs
-Synthesize specific problem areas:
-- Before state (current situation and frustrations)
-- Desired after state (ideal future state)
-- Gap size and impact quantification
-- Emotional dimensions of the problem
-- Resource constraints preventing solutions
-- Skepticism or hesitations
-- Success criteria for solution
+### ステップ6: ペインポイントとニーズの文書化
+具体的な問題領域を統合します：
+- ビフォア状態（現状の状況とフラストレーション）
+- 望ましいアフター状態（理想の将来状態）
+- ギャップの大きさと影響の定量化
+- 問題の感情的な次元
+- 解決策を妨げるリソースの制約
+- 懐疑心または躊躇
+- ソリューションの成功基準
 
-## Input Format
-Use $ARGUMENTS to pass:
-- Research data (surveys, interviews, transcripts)
-- Customer success/metrics data
-- Product usage analytics
-- Sales activity and win/loss data
-- Existing customer database
-- Competitive intelligence
+## 入力フォーマット
+$ARGUMENTS を使用して以下を渡します：
+- 調査データ（アンケート、インタビュー、トランスクリプト）
+- 顧客の成功/指標データ
+- 製品使用状況アナリティクス
+- セールス活動と勝敗データ
+- 既存の顧客データベース
+- 競合インテリジェンス
 
-## Output
-A comprehensive ICP definition including:
-- Firmographic profile (company size, industry, location)
-- Behavioral profile (buying patterns, adoption style)
-- Complete JTBD mapping (functional, emotional, social jobs)
-- Top 5-7 pain points and specific needs
-- Quantified impact metrics (cost of problem, value of solution)
-- Decision-making process and key stakeholders
-- Typical customer journey and timeline
-- Go-to-market implications and messaging
-- Disqualification criteria (who is NOT a good fit)
-- High-value segment within ICP (ideal-of-the-ideal)
+## アウトプット
+以下を含む包括的なICP定義：
+- ファーモグラフィクスプロファイル（企業規模、業界、場所）
+- 行動プロファイル（購買パターン、採用スタイル）
+- 完全なJTBDマッピング（機能的、感情的、社会的ジョブ）
+- 上位5〜7のペインポイントと具体的なニーズ
+- 定量化された影響指標（問題のコスト、ソリューションの価値）
+- 意思決定プロセスと主要ステークホルダー
+- 典型的な顧客ジャーニーとタイムライン
+- GTMへの示唆とメッセージング
+- 不適格基準（誰が適切でないか）
+- ICP内の高価値セグメント（理想の中の理想）
 
-## Framework
-Based on Jobs to Be Done theory by Clayton Christensen and customer profiling methodology. Combines behavioral data with motivational insights to define actionable customer profiles.
+## フレームワーク
+Clayton ChristensenのJobs to Be Done理論と顧客プロファイリング方法論に基づいています。行動データと動機的洞察を組み合わせて、実用的な顧客プロファイルを定義します。
 
-## Tips
-- Use quantitative and qualitative data together
-- Interview 10+ high-value customers for pattern identification
-- Look for non-obvious demographic patterns (outliers can be high-value)
-- Define both ideal ICP and acceptable secondary segments
-- Revisit ICP quarterly as you gather more customer data
-- Use ICP to evaluate all new sales opportunities
-- Share ICP across entire organization (marketing, sales, product)
-- Remember: ICP should drive focus, not exclude all others
+## ヒント
+- 定量的データと定性的データを組み合わせて使用する
+- パターン特定のために10人以上の高価値顧客にインタビューする
+- 非明白なデモグラフィクスパターンを探す（外れ値が高価値である場合がある）
+- 理想ICPと許容できるセカンダリセグメントの両方を定義する
+- より多くの顧客データを収集するたびに四半期ごとにICPを再訪する
+- すべての新規セールス機会の評価にICPを使用する
+- ICP を組織全体（マーケティング、セールス、プロダクト）で共有する
+- ICPはフォーカスを促進するものであり、他者をすべて除外するものではない
 
 ---
 
-### Further Reading
+### 参考文献
 
 - [5 GTM Principles You Should Know as a PM](https://www.productcompass.pm/p/5-gtm-principles-with-frameworks-templates)
 - [How to Design a Value Proposition Customers Can't Resist?](https://www.productcompass.pm/p/how-to-design-value-proposition-template)

@@ -1,150 +1,150 @@
 ---
 name: monetization-strategy
-description: "Brainstorm 3-5 monetization strategies with audience fit, risks, and validation experiments. Use when exploring revenue models, evaluating pricing strategies, or deciding how to monetize a product."
+description: "オーディエンスフィット、リスク、検証実験を含む3〜5つのマネタイゼーション戦略をブレインストーミングします。収益モデルの探索、価格戦略の評価、プロダクトのマネタイズ方法の決定に使用してください。"
 ---
-# Monetization Strategy
+# マネタイゼーション戦略
 
-## Metadata
-- **Name**: monetization-strategy
-- **Description**: Brainstorm 3-5 monetization strategies with audience fit, risks, and validation experiments. Use when exploring revenue models, pricing strategies, or business model options.
-- **Triggers**: monetization strategy, revenue model, pricing strategy, how to monetize, make money
+## メタデータ
+- **名前**: monetization-strategy
+- **説明**: オーディエンスフィット、リスク、検証実験を含む3〜5つのマネタイゼーション戦略をブレインストーミングします。収益モデル、価格戦略、ビジネスモデルオプションの探索に使用してください。
+- **トリガー**: マネタイゼーション戦略、収益モデル、価格戦略、マネタイズ方法、収益化
 
-## Instructions
+## 指示
 
-You are an experienced business model strategist brainstorming monetization strategies for $ARGUMENTS.
+あなたは $ARGUMENTS のマネタイゼーション戦略をブレインストーミングする経験豊富なビジネスモデルストラテジストです。
 
-Your task is to develop 3-5 distinct monetization approaches that could work for the product or feature, evaluate fit with the target market, and outline low-effort validation experiments.
+プロダクトや機能に対して機能する可能性がある3〜5つの明確なマネタイゼーションアプローチを開発し、ターゲット市場へのフィットを評価し、低コストの検証実験の概要を示すのがあなたの任務です。
 
-## Input Requirements
-- Product or feature description
-- Target market segment(s) and customer profile
-- Current willingness to pay or budget constraints
-- Competitive monetization approaches
-- Company priorities (revenue growth, user growth, profitability)
+## 入力要件
+- プロダクトまたは機能の説明
+- ターゲット市場セグメントと顧客プロファイル
+- 現在の支払意向または予算制約
+- 競合のマネタイゼーションアプローチ
+- 会社の優先事項（収益成長、ユーザー成長、収益性）
 
-## Monetization Framework
+## マネタイゼーションフレームワーク
 
-For each strategy, include:
+各戦略に含めること：
 
-### 1. Strategy Name & Description
-- What is the monetization model?
-- How does it work for this product?
-- Who pays and what do they get?
+### 1. 戦略名と説明
+- マネタイゼーションモデルは何か？
+- このプロダクトに対してどのように機能するか？
+- 誰が払い、何を得るか？
 
-### 2. How It Works
-- Revenue model and pricing mechanics
-- Value exchange between company and customer
-- Payment frequency and transaction size
-- Lifecycle and retention mechanisms
+### 2. 仕組み
+- 収益モデルと価格メカニズム
+- 会社と顧客間の価値交換
+- 支払い頻度とトランザクション規模
+- ライフサイクルとリテンションメカニズム
 
-### 3. Audience Fit
-- Why does this resonate with your target customer?
-- How does it align with customer needs and preferences?
-- What problems does it solve for the customer?
-- Addressable market size and revenue potential
+### 3. オーディエンスフィット
+- なぜこれがターゲット顧客に響くのか？
+- 顧客のニーズと好みとどのように一致するか？
+- 顧客のどのような問題を解決するか？
+- 対応可能な市場規模と収益ポテンシャル
 
-### 4. Unit Economics
-- Estimated customer acquisition cost (CAC)
-- Estimated customer lifetime value (LTV)
-- Break-even timeline
-- Target gross margin
+### 4. ユニットエコノミクス
+- 推定顧客獲得コスト（CAC）
+- 推定顧客生涯価値（LTV）
+- 損益分岐タイムライン
+- ターゲット粗利率
 
-### 5. Risks & Challenges
-- Market adoption risk
-- Pricing or feature sensitivity
-- Competitive vulnerability
-- Customer churn or resistance
-- Implementation complexity
+### 5. リスクと課題
+- 市場採用リスク
+- 価格や機能の感度
+- 競合脆弱性
+- 顧客チャーンまたは抵抗
+- 実装の複雑さ
 
-### 6. Competitive Position
-- How do competitors monetize?
-- What makes your approach differentiated?
-- Barriers to customer switching
-- Defense against competitive pricing
+### 6. 競合ポジション
+- 競合他社はどのようにマネタイズしているか？
+- あなたのアプローチを差別化するものは何か？
+- 顧客スイッチングへの障壁
+- 競合の価格設定に対する防御
 
-### 7. Validation Experiment
-- Low-cost test to validate customer willingness to pay
-- Method: survey, landing page, pilot, freemium, waitlist
-- Success metric and decision criteria
-- Timeline and resources required
+### 7. 検証実験
+- 顧客の支払意向を検証する低コストのテスト
+- 方法：サーベイ、ランディングページ、パイロット、フリーミアム、ウェイトリスト
+- 成功メトリクスと意思決定基準
+- タイムラインと必要なリソース
 
-## Example Monetization Strategies
+## マネタイゼーション戦略の例
 
-### 1. Freemium (Free Base + Paid Premium)
-- **How**: Free core features, premium advanced features behind paywall
-- **Fit**: Best for high-volume, low-touch products (design tools, productivity, communication)
-- **Risks**: Low conversion rates (typically 1-5%), features must be clear to justify upgrade
-- **Experiment**: Launch freemium version, track conversion rate, gather upgrade feedback
+### 1. フリーミアム（無料ベース＋有料プレミアム）
+- **仕組み**: 無料のコア機能、ペイウォール後ろの有料高度機能
+- **フィット**: 高ボリューム、低タッチプロダクトに最適（デザインツール、生産性、コミュニケーション）
+- **リスク**: 低いコンバージョン率（通常1〜5%）、アップグレードを正当化するために機能が明確でなければならない
+- **実験**: フリーミアムバージョンを立ち上げ、コンバージョン率を追跡し、アップグレードフィードバックを収集する
 
-### 2. Subscription (Recurring Monthly/Annual)
-- **How**: Recurring charge for ongoing access and updates
-- **Fit**: Best for products with continuous value (software, platforms, services)
-- **Risks**: Customer churn, cannibalization from annual vs. monthly
-- **Experiment**: Offer subscription to beta customers, measure churn rate and NPS
+### 2. サブスクリプション（月次/年次の定期課金）
+- **仕組み**: 継続的なアクセスとアップデートに対する定期課金
+- **フィット**: 継続的な価値を持つプロダクトに最適（ソフトウェア、プラットフォーム、サービス）
+- **リスク**: 顧客チャーン、年次対月次のカニバリゼーション
+- **実験**: ベータ顧客にサブスクリプションを提供し、チャーン率とNPSを測定する
 
-### 3. Usage-Based (Pay Per Use)
-- **How**: Customers pay based on usage volume (API calls, storage, transactions)
-- **Fit**: Best for B2B platforms, APIs, services with variable customer needs
-- **Risks**: Unpredictable revenue, customer cost anxiety, usage optimization by customers
-- **Experiment**: Implement usage tracking, pilot with 5-10 beta customers, model revenue
+### 3. 使用量ベース（使用量ごとの課金）
+- **仕組み**: 顧客は使用量（APIコール、ストレージ、トランザクション）に基づいて支払う
+- **フィット**: B2B プラットフォーム、API、様々な顧客ニーズのサービスに最適
+- **リスク**: 予測不可能な収益、顧客のコスト不安、顧客による使用量最適化
+- **実験**: 使用量追跡を実装し、5〜10のベータ顧客でパイロット、収益をモデル化する
 
-### 4. Enterprise/Seat-Based (Per User/Seat)
-- **How**: Price per user, department, or seat using the product
-- **Fit**: Best for B2B SaaS with team/organization adoption
-- **Risks**: Sales complexity, contract length, implementation overhead
-- **Experiment**: Conduct 5-10 customer interviews, validate pricing per seat, define support model
+### 4. エンタープライズ/シートベース（ユーザー/シートごとの課金）
+- **仕組み**: プロダクトを使用するユーザー、部門、またはシートごとの価格
+- **フィット**: チーム/組織の採用があるB2B SaaSに最適
+- **リスク**: セールスの複雑さ、契約期間、実装のオーバーヘッド
+- **実験**: 5〜10の顧客インタビューを実施し、シートごとの価格を検証し、サポートモデルを定義する
 
-### 5. One-Time Purchase (Buy Once)
-- **How**: Single upfront purchase for permanent or one-time license
-- **Fit**: Best for niche products, tools, or templates (not ongoing services)
-- **Risks**: Revenue concentration in launch period, no recurring revenue, updates/support questions
-- **Experiment**: Launch limited offering, track conversion and customer satisfaction
+### 5. 一回購入（一度だけ購入）
+- **仕組み**: 永久または一回限りのライセンスに対する一括前払い購入
+- **フィット**: ニッチプロダクト、ツール、またはテンプレートに最適（継続サービスではない）
+- **リスク**: ローンチ期間に収益が集中、定期収益なし、アップデート/サポートの疑問
+- **実験**: 限定オファリングを立ち上げ、コンバージョンと顧客満足度を追跡する
 
-### 6. Marketplace/Transaction Fee
-- **How**: Take a percentage or fixed fee from transactions between buyers and sellers
-- **Fit**: Best for platforms connecting supply and demand
-- **Risks**: Market liquidity chicken-and-egg problem, trust and safety, competitive pressure
-- **Experiment**: MVP with limited sellers, offer free period to drive initial supply, model unit economics
+### 6. マーケットプレイス/トランザクション手数料
+- **仕組み**: 買い手と売り手のトランザクションからパーセンテージまたは固定手数料を取る
+- **フィット**: 供給と需要を繋ぐプラットフォームに最適
+- **リスク**: 市場流動性の鶏と卵の問題、信頼と安全性、競合圧力
+- **実験**: 限られた売り手でMVP、初期供給を促進するために無料期間を提供し、ユニットエコノミクスをモデル化する
 
-### 7. Advertising/Sponsorship
-- **How**: Generate revenue from ads, sponsored content, or brand partnerships
-- **Fit**: Best for high-traffic, consumer-facing products
-- **Risks**: Brand damage from intrusive ads, user experience degradation, advertiser concentration
-- **Experiment**: Test ads with small user segment, measure engagement and revenue impact
+### 7. 広告/スポンサーシップ
+- **仕組み**: 広告、スポンサーコンテンツ、またはブランドパートナーシップから収益を生成する
+- **フィット**: 高トラフィックの消費者向けプロダクトに最適
+- **リスク**: 侵入的な広告によるブランドダメージ、ユーザーエクスペリエンスの低下、広告主の集中
+- **実験**: 小規模なユーザーセグメントで広告をテストし、エンゲージメントと収益インパクトを測定する
 
-## Output Process
-1. Brainstorm 3-5 distinct monetization strategies (avoid repeating similar models)
-2. For each strategy:
-   - Describe how it works specifically for this product
-   - Assess fit with target customer and willingness to pay
-   - Outline key risks and challenges
-   - Estimate unit economics (CAC, LTV, timeline)
-   - Compare against competitive approaches
-3. For each strategy, design a low-effort validation experiment
-4. Prioritize by:
-   - Strategic fit (revenue, growth, profitability goals)
-   - Ease of implementation
-   - Market validation potential
-   - Competitive advantage
-5. Recommend 1-2 strategies to test first
-6. Create testing roadmap and success criteria
+## アウトプットプロセス
+1. 3〜5つの明確なマネタイゼーション戦略をブレインストーミングする（類似モデルの繰り返しを避ける）
+2. 各戦略について：
+   - このプロダクトに対してどのように機能するかを説明する
+   - ターゲット顧客と支払意向へのフィットを評価する
+   - 主要なリスクと課題の概要を示す
+   - ユニットエコノミクスを見積もる（CAC、LTV、タイムライン）
+   - 競合アプローチと比較する
+3. 各戦略について、低コストの検証実験を設計する
+4. 以下によって優先順位をつける：
+   - 戦略的フィット（収益、成長、収益性の目標）
+   - 実装の容易さ
+   - 市場検証のポテンシャル
+   - 競争優位性
+5. 最初にテストする1〜2つの戦略を推奨する
+6. テストロードマップと成功基準を作成する
 
-## Strategic Considerations
-- **Revenue Goals**: How much revenue is needed? By when?
-- **Growth Goals**: Does monetization need to support user growth?
-- **Market Dynamics**: Are customers ready to pay? For what?
-- **Competitive Pressure**: How will competitors respond?
-- **Unit Economics**: What gross margin is required for viability?
+## 戦略的考慮事項
+- **収益目標**: どれくらいの収益が必要か？いつまでに？
+- **成長目標**: マネタイゼーションはユーザー成長をサポートする必要があるか？
+- **市場ダイナミクス**: 顧客は支払う準備ができているか？何に対して？
+- **競合圧力**: 競合他社はどのように対応するか？
+- **ユニットエコノミクス**: 実行可能性に必要な粗利率は何か？
 
-## Notes
-- Best monetization strategies align with customer value and willingness to pay
-- Test early and often; don't wait for perfect product to validate pricing
-- Most products use hybrid models (e.g., freemium + upgrade, subscription + marketplace fees)
-- Pricing can be changed; customer relationships are harder to rebuild
-- Monitor competitors but don't race to the bottom on price
+## 注意事項
+- 最善のマネタイゼーション戦略は顧客価値と支払意向に一致する
+- 早期かつ頻繁にテストする；価格を検証するためにパーフェクトなプロダクトを待たない
+- ほとんどのプロダクトはハイブリッドモデルを使用する（例：フリーミアム＋アップグレード、サブスクリプション＋マーケットプレイス手数料）
+- 価格は変更できる；顧客関係は再構築が難しい
+- 競合他社を監視するが価格の底辺競争はしない
 
 ---
 
-### Further Reading
+### 参考文献
 
 - [Product Pricing Strategies 101](https://www.productcompass.pm/p/product-pricing-strategies-101)

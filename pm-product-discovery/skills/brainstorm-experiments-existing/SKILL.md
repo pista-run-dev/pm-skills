@@ -1,51 +1,51 @@
 ---
 name: brainstorm-experiments-existing
-description: "Design experiments to test assumptions for an existing product — prototypes, A/B tests, spikes, and other low-effort validation methods. Use when validating assumptions, testing feature ideas cheaply, or planning product experiments."
+description: "既存製品の仮定をテストする実験（プロトタイプ、A/Bテスト、スパイクなど低コストの検証方法）を設計します。仮定の検証、機能アイデアを低コストでテストするとき、またはプロダクト実験の計画を立てるときに使用します。"
 ---
 
-## Design Experiments (Existing Product)
+## 実験の設計（既存製品）
 
-Design low-effort experiments to test product assumptions before committing to full implementation.
+完全な実装にコミットする前に、製品の仮定をテストするための低工数の実験を設計します。
 
-### Context
+### コンテキスト
 
-You are helping a product team design experiments for **$ARGUMENTS**. The team has a feature idea and assumptions that need validation.
+あなたはプロダクトチームが**$ARGUMENTS**の実験を設計するのを支援しています。チームは機能アイデアと検証が必要な仮定を持っています。
 
-If the user provides files (PRDs, assumption lists, designs), read them first.
+ユーザーがファイル（PRD、仮定リスト、デザイン）を提供した場合は、まずそれらを読んでください。
 
-### Instructions
+### 手順
 
-The user will describe their idea and assumptions. Work through these steps:
+ユーザーはアイデアと仮定を説明します。以下のステップを実行してください：
 
-1. **Clarify the idea and assumptions**: Confirm what the team wants to build and what they need to validate.
+1. **アイデアと仮定を明確にする**：チームが構築したいものと検証が必要なことを確認します。
 
-2. **Suggest experiments** for each assumption. Consider methods like:
-   - First-click testing or task completion with a prototype
-   - Feature stubs or fake door tests
-   - Technical spikes
-   - A/B tests on production (with risk mitigation)
-   - Wizard of Oz approaches
-   - Survey-based validation (behavioral, not opinion-based)
+2. **各仮定に対する実験を提案する**。以下のような方法を検討してください：
+   - プロトタイプを使ったファーストクリックテストまたはタスク完了テスト
+   - 機能スタブまたはフェイクドアテスト
+   - テクニカルスパイク
+   - 本番環境でのA/Bテスト（リスク軽減策を含む）
+   - ウィザード・オブ・オズアプローチ
+   - 調査ベースの検証（意見ではなく行動ベース）
 
-3. **Key principles to follow**:
-   - Measure actual behavior, not users' opinions
-   - Test responsibly — don't put users or the business at risk
-   - For production tests (e.g., A/B tests), explain risk mitigation strategies
-   - Aim for maximum validated learning with minimal effort
+3. **従うべき主要原則**：
+   - ユーザーの意見ではなく、実際の行動を測定してください
+   - 責任を持ってテストしてください。ユーザーやビジネスをリスクにさらさないでください
+   - 本番テスト（例：A/Bテスト）については、リスク軽減戦略を説明してください
+   - 最小限の工数で最大限の検証済み学習を目指してください
 
-4. **For each experiment**, specify:
-   - **Assumption**: What do we believe?
-   - **Experiment**: What exactly will we do to validate it?
-   - **Metric**: What will be measured?
-   - **Success threshold**: The expected value if we are right
+4. **各実験について**、以下を明記してください：
+   - **仮定**：何を信じているか？
+   - **実験**：それを検証するために正確に何をするか？
+   - **指標**：何を測定するか？
+   - **成功閾値**：正しい場合の期待値
 
-Think step by step. Present experiments in a clear table or structured format. Save as markdown if substantial.
+ステップバイステップで考えてください。実験を明確な表または構造化された形式で提示してください。実質的な場合はMarkdownとして保存してください。
 
 ---
 
-### Further Reading
+### 参考資料
 
 - [Testing Product Ideas: The Ultimate Validation Experiments Library](https://www.productcompass.pm/p/the-ultimate-experiments-library)
 - [Assumption Prioritization Canvas: How to Identify And Test The Right Assumptions](https://www.productcompass.pm/p/assumption-prioritization-canvas)
 - [What Is Product Discovery? The Ultimate Guide Step-by-Step](https://www.productcompass.pm/p/what-exactly-is-product-discovery)
-- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (video course)
+- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (ビデオコース)

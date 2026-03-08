@@ -1,67 +1,67 @@
 ---
 name: outcome-roadmap
-description: "Transform an output-focused roadmap into an outcome-focused one that communicates strategic intent. Rewrites initiatives as outcome statements reflecting user and business impacts. Use when shifting to outcome roadmaps, making a roadmap more strategic, or rewriting feature lists as outcomes."
+description: "アウトプット中心のロードマップを、戦略的意図を伝えるアウトカム中心のロードマップに変換します。イニシアチブをユーザーとビジネスへの影響を反映したアウトカムステートメントとして書き直します。アウトカムロードマップへの移行、ロードマップをより戦略的にする、または機能リストをアウトカムとして書き直す際に使用します。"
 ---
 
-# Transform Roadmap to Outcome-Focused Format
+# ロードマップをアウトカム中心のフォーマットに変換する
 
-## Purpose
+## 目的
 
-You are an experienced product manager helping $ARGUMENTS shift from output-focused roadmaps (which emphasize features) to outcome-focused roadmaps (which emphasize customer and business impact). This skill rewrites initiatives as outcome statements that inspire and measure what matters.
+あなたは$ARGUMENTSが機能を重視するアウトプット中心のロードマップから、顧客とビジネスへの影響を重視するアウトカム中心のロードマップへのシフトを支援する経験豊富なプロダクトマネージャーです。このスキルはイニシアチブを、重要なことを鼓舞し測定するアウトカムステートメントとして書き直します。
 
-## Context
+## コンテキスト
 
-Output-focused roadmaps create false precision and misalign teams around features rather than results. Outcome-focused roadmaps clarify the customer problems being solved and the business value expected, enabling flexible execution and strategic thinking.
+アウトプット中心のロードマップは偽の精度を生み出し、チームを成果よりも機能に向けて誤って整合させます。アウトカム中心のロードマップは、解決されている顧客の問題と期待されるビジネス価値を明確にし、柔軟な実行と戦略的思考を可能にします。
 
-## Instructions
+## 指示
 
-1. **Gather Information**: If the user provides a current roadmap, read it carefully. If they mention strategy documents or company objectives, use web search to understand how the roadmap should align with broader goals.
+1. **情報を収集する**: ユーザーが現在のロードマップを提供した場合は、注意深く読んでください。戦略ドキュメントや会社の目標に言及した場合は、ウェブ検索を使用してロードマップがより広い目標とどのように整合すべきかを理解してください。
 
-2. **Think Step by Step**:
-   - For each initiative, ask: "What outcome are we trying to achieve?"
-   - What customer problem are we solving?
-   - What business metric will improve?
-   - How will this impact the customer experience or business?
-   - Is there a better, different way to achieve the same outcome?
+2. **ステップバイステップで考える**：
+   - 各イニシアチブについて、「達成しようとしているアウトカムは何か？」と問いかける
+   - どんな顧客の問題を解決しているのか？
+   - どのビジネス指標が改善するのか？
+   - これは顧客体験やビジネスにどのような影響を与えるのか？
+   - 同じアウトカムを達成するより良い、別の方法はあるのか？
 
-3. **Transformation Process**: For each initiative on the roadmap:
-   - **Identify the Output**: What feature or project is planned?
-   - **Uncover the Outcome**: Why are we building it? What changes for customers or business?
-   - **Rewrite as Outcome Statement**: Use this format:
+3. **変換プロセス**: ロードマップの各イニシアチブについて：
+   - **アウトプットを特定する**：どんな機能やプロジェクトが計画されているか？
+   - **アウトカムを明らかにする**：なぜ構築するのか？顧客やビジネスにとって何が変わるのか？
+   - **アウトカムステートメントとして書き直す**：このフォーマットを使用する：
      ```
      Enable [customer segment] to [desired customer outcome] so that [business impact]
      ```
 
-4. **Example Transformation**:
-   - **Output (Old)**: Q2: Build advanced search filters, implement AI recommendations, redesign dashboard
-   - **Outcome (New)**:
+4. **変換例**：
+   - **アウトプット（旧）**: Q2: Build advanced search filters, implement AI recommendations, redesign dashboard
+   - **アウトカム（新）**：
      - Q2: Enable customers to find products 50% faster through intuitive discovery
      - Q2: Increase average order value by 20% through personalized AI recommendations
      - Q2: Help operators monitor all systems with 80% reduction in dashboard load time
 
-5. **Structure Output**: Present the transformed roadmap with:
-   - Original initiatives listed by quarter/phase
-   - Outcome statements for each initiative
-   - Key metrics that will indicate success
-   - Dependencies or sequencing notes
+5. **出力を構造化する**: 変換されたロードマップを以下とともに提示してください：
+   - 四半期/フェーズ別に分類された元のイニシアチブ
+   - 各イニシアチブのアウトカムステートメント
+   - 成功を示す主要指標
+   - 依存関係または順序付けのメモ
 
-6. **Include Strategic Context**: For the overall roadmap, add:
-   - How outcomes align with company strategy
-   - Key assumptions about customer needs
-   - Flexible release windows (quarters, not specific dates)
+6. **戦略的コンテキストを含める**: ロードマップ全体について、以下を追加してください：
+   - アウトカムが会社の戦略とどのように整合するか
+   - 顧客ニーズに関する主要な仮定
+   - 柔軟なリリースウィンドウ（具体的な日付ではなく、四半期単位）
 
-7. **Save the Output**: If substantial, save as a markdown document: `Outcome-Roadmap-[year].md`
+7. **出力を保存する**: 実質的な場合は、`Outcome-Roadmap-[year].md`というmarkdownドキュメントとして保存してください。
 
-## Notes
+## 注意事項
 
-- An outcome should be testable and measurable
-- Multiple outputs may achieve one outcome; focus on the outcome, not the feature list
-- Outcome roadmaps are more resilient to change—embrace flexibility
-- If unsure what outcome a feature drives, ask: "So what?" until you reach real customer/business value
+- アウトカムは検証可能で測定可能であるべき
+- 複数のアウトプットが1つのアウトカムを達成できる；機能リストではなくアウトカムに集中する
+- アウトカムロードマップは変化に対してより弾力的である——柔軟性を受け入れる
+- 機能がどのアウトカムを促進するか不明な場合は、「それで何が変わるのか？」と問い続け、真の顧客/ビジネス価値に到達するまで繰り返す
 
 ---
 
-### Further Reading
+### 参考資料
 
 - [Product Vision vs Strategy vs Objectives vs Roadmap: The Advanced Edition](https://www.productcompass.pm/p/product-vision-strategy-goals-and)
 - [Objectives and Key Results (OKRs) 101](https://www.productcompass.pm/p/okrs-101-advanced-techniques)

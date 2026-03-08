@@ -1,84 +1,84 @@
 ---
-description: Generate SQL queries from natural language — supports BigQuery, PostgreSQL, MySQL, and more
-argument-hint: "<what you want to know, in plain English>"
+description: 自然言語からSQLクエリを生成する — BigQuery、PostgreSQL、MySQL、その他をサポート
+argument-hint: "<知りたいことを平易な日本語/英語で>"
 ---
 
 # /write-query -- SQL Query Generator
 
-Describe what data you need in plain English and get an optimized SQL query. Supports multiple dialects and can read your schema from uploaded files.
+必要なデータを平易な言葉で説明すれば、最適化されたSQLクエリを取得できます。複数のダイアレクトをサポートし、アップロードされたファイルからスキーマを読み込めます。
 
-## Invocation
+## 呼び出し方
 
 ```
 /write-query Show me daily active users for the last 30 days, broken down by plan tier
 /write-query Find users who signed up last month but never completed onboarding
-/write-query [upload a schema diagram] What's the conversion rate from trial to paid by cohort?
+/write-query [スキーマ図をアップロード] What's the conversion rate from trial to paid by cohort?
 ```
 
-## Workflow
+## ワークフロー
 
-### Step 1: Understand the Question
+### ステップ1: 質問を理解する
 
-Parse the user's natural language request to identify:
-- What data is being requested (metrics, dimensions, filters)
-- Time range and granularity
-- Grouping and ordering preferences
-- Output expectations (raw data, aggregated, ranked)
+ユーザーの自然言語リクエストを解析して以下を特定します：
+- リクエストされているデータ（指標、ディメンション、フィルター）
+- 時間範囲と粒度
+- グループ化と並び替えの設定
+- アウトプットの期待値（生データ、集計、ランキング）
 
-### Step 2: Determine Schema
+### ステップ2: スキーマを決定する
 
-If a schema is available (uploaded diagram, DDL, or description):
-- Map the request to specific tables and columns
-- Identify necessary joins
+スキーマが利用可能な場合（アップロードされた図、DDL、または説明）：
+- リクエストを特定のテーブルとカラムにマッピングする
+- 必要なジョインを特定する
 
-If no schema is provided:
-- Ask for the database type (BigQuery, PostgreSQL, MySQL, etc.)
-- Infer a reasonable schema from the question and ask the user to confirm
-- Use common SaaS data model conventions as defaults
+スキーマが提供されていない場合：
+- データベースの種類を確認する（BigQuery、PostgreSQL、MySQLなど）
+- 質問から合理的なスキーマを推測し、ユーザーに確認を求める
+- 一般的なSaaSデータモデル規約をデフォルトとして使用する
 
-### Step 3: Generate Query
+### ステップ3: クエリを生成する
 
-Apply the **sql-queries** skill:
+**sql-queries** スキルを適用します：
 
-- Write the SQL query in the correct dialect
-- Optimize for readability and performance
-- Include comments explaining key logic
-- Add CTEs for complex queries to improve readability
-- Handle edge cases (NULLs, timezone considerations, duplicate handling)
+- 正しいダイアレクトでSQLクエリを記述する
+- 読みやすさとパフォーマンスのために最適化する
+- 主要なロジックを説明するコメントを含める
+- 複雑なクエリの読みやすさを向上するためにCTEを追加する
+- エッジケースを処理する（NULL、タイムゾーンの考慮、重複処理）
 
-### Step 4: Present and Iterate
+### ステップ4: 提示とイテレーション
 
 ```
-## SQL Query: [What It Does]
+## SQL Query: [何をするか]
 
 **Dialect**: [BigQuery / PostgreSQL / MySQL / etc.]
-**Tables used**: [list]
+**Tables used**: [リスト]
 
 ### Query
-[SQL code block with comments]
+[コメント付きSQLコードブロック]
 
 ### What This Returns
-[Description of the output: columns, rows, expected result shape]
+[アウトプットの説明：カラム、行、期待される結果の形]
 
 ### Assumptions
-- [Schema assumptions made]
-- [Business logic assumptions]
+- [行われたスキーマの前提条件]
+- [ビジネスロジックの前提条件]
 
 ### Notes
-- [Performance considerations for large datasets]
-- [Edge cases handled or flagged]
+- [大規模データセットのパフォーマンス上の考慮事項]
+- [処理またはフラグを立てたエッジケース]
 ```
 
-Offer:
-- "Want me to **modify this** — add filters, change grouping, extend the time range?"
-- "Should I **create a companion query** for a related metric?"
-- "Want me to **build a dashboard** around this query?"
-- "Need a **cohort analysis** version of this?"
+提案事項：
+- 「**修正**しましょうか — フィルターを追加、グループ化を変更、時間範囲を延長？」
+- 「関連する指標の**コンパニオンクエリを作成**すべきでしょうか？」
+- 「このクエリを中心に**ダッシュボードを構築**しましょうか？」
+- 「**コホート分析**バージョンが必要ですか？」
 
-## Notes
+## 注意事項
 
-- Always include comments in the SQL — PMs share queries with analysts who need to understand intent
-- Default to readable over clever — CTEs over nested subqueries
-- Flag queries that might be slow on large datasets and suggest optimization
-- If the request is ambiguous (e.g., "active users"), ask the user to define the metric precisely
-- Offer to generate the query in multiple dialects if the user is unsure which database they're using
+- SQLには常にコメントを含める — PMはクエリを意図を理解する必要のあるアナリストと共有する
+- 巧みさよりも読みやすさを優先する — ネストしたサブクエリよりCTE
+- 大規模データセットで遅くなる可能性のあるクエリにフラグを立て、最適化を提案する
+- リクエストが曖昧な場合（例：「アクティブユーザー」）、ユーザーに指標を正確に定義するよう求める
+- ユーザーが使用しているデータベースが不明な場合は、複数のダイアレクトでクエリを生成することを提案する

@@ -1,52 +1,52 @@
 ---
 name: identify-assumptions-new
-description: "Identify risky assumptions for a new product idea across 8 risk categories including Go-to-Market, Strategy, and Team. Use when evaluating startup risks, assessing a new product concept, or mapping assumptions for a new venture."
+description: "Go-to-Market・戦略・チームを含む8つのリスクカテゴリーで新製品アイデアのリスクのある仮定を特定します。スタートアップリスクの評価、新製品コンセプトの査定、または新規ベンチャーの仮定マッピングを行うときに使用します。"
 ---
 
-## Identify Assumptions (New Product)
+## 仮定の特定（新製品）
 
-Comprehensive risk identification across 8 categories — extending the 4 core product risks (Teresa Torres, *Continuous Discovery Habits*) with Ethics, Go-to-Market, Strategy & Objectives, and Team risks that are critical for new products.
+8つのカテゴリーにわたる包括的なリスク特定 — テレサ・トレス（*Continuous Discovery Habits*）の4つのコアプロダクトリスク（Value、Usability、Viability、Feasibility）を、新製品にとって重要なEthics、Go-to-Market、Strategy & Objectives、Teamリスクで拡張します。
 
-### Context
+### コンテキスト
 
-You are evaluating assumptions for a new product: **$ARGUMENTS**.
+あなたは新製品の仮定を評価しています：**$ARGUMENTS**
 
-If the user provides files (business plans, research), read them first.
+ユーザーがファイル（事業計画、調査）を提供した場合は、まずそれらを読んでください。
 
-### Domain Context
+### ドメインコンテキスト
 
-**The 4 core product risks** (Teresa Torres, *Continuous Discovery Habits*): Value, Usability, Viability, Feasibility.
+**4つのコアプロダクトリスク**（Teresa Torres、*Continuous Discovery Habits*）：Value、Usability、Viability、Feasibility。
 
-**For new products, extend to 8 risk categories.** Good teams assume at least three-quarters of their ideas won't perform as they hope.
+**新製品については、8つのリスクカテゴリーに拡張してください。** 優れたチームは、アイデアの少なくとも4分の3は期待通りのパフォーマンスを発揮しないと想定しています。
 
-### Instructions
+### 手順
 
-The user will describe the product concept, target segment, and feature idea. Work through these steps:
+ユーザーは製品コンセプト、ターゲットセグメント、機能アイデアを説明します。以下のステップを実行してください：
 
-1. **Think from three perspectives** about why this product might fail:
-   - **Product Manager**: Market demand, willingness to pay, competitive landscape
-   - **Designer**: First-time user experience, onboarding, engagement
-   - **Engineer**: Build vs. buy decisions, scalability, technical debt
+1. **この製品が失敗するかもしれない理由について3つの視点から考える**：
+   - **プロダクトマネージャー**：市場需要、支払い意欲、競争環境
+   - **デザイナー**：初回ユーザー体験、オンボーディング、エンゲージメント
+   - **エンジニア**：内製vs外部調達の意思決定、スケーラビリティ、技術的負債
 
-2. **Identify assumptions across 8 risk categories**:
+2. **8つのリスクカテゴリーにわたる仮定を特定する**：
 
-   - **Value**: Will it create value for customers? Will they keep using it?
-   - **Usability**: Will people figure out how to use it? Can we onboard them fast enough? Will it increase cognitive load?
-   - **Viability**: Can we sell/monetize/finance it? Is it worth the cost? Can we support customers and help them succeed? Can we scale? Will it be compliant?
-   - **Feasibility**: Can we do it with the current technology? Is this integration possible? Can it be efficient? Can we scale it?
-   - **Ethics**: Should we do it at all? Are there any ethical considerations? Will it pose a risk for our customers?
-   - **Go-to-Market** (especially critical for new products): Can we market it? Do we have the required channels? Can we convince customers to try it? Is this the right messaging for this channel? Is this the right time? Is this the right way to launch it?
-   - **Strategy & Objectives**: What are our assumptions? Can others copy our strategy? Have we considered political, economic, legal, technological, and environmental factors? Are those the best problems to solve?
-   - **Team**: How well will the team work together? Do we have the right people? Do we have the right tools? Will the entire team stay with us long enough?
+   - **Value**：顧客に価値を生み出すか？使い続けるか？
+   - **Usability**：使い方を理解できるか？十分に早くオンボードできるか？認知負荷が増加するか？
+   - **Viability**：販売・収益化・資金調達できるか？コストに見合うか？顧客をサポートし成功を支援できるか？スケールできるか？コンプライアンスを維持できるか？
+   - **Feasibility**：現在の技術で実現できるか？この統合は可能か？効率的にできるか？スケールできるか？
+   - **Ethics**：そもそも行うべきか？倫理的考慮事項はあるか？顧客にリスクをもたらすか？
+   - **Go-to-Market**（新製品にとって特に重要）：マーケティングできるか？必要なチャネルはあるか？顧客に試してもらえるか？このチャネルに適したメッセージングか？タイミングは正しいか？このローンチ方法は正しいか？
+   - **Strategy & Objectives**：私たちの仮定は何か？他者が戦略をコピーできるか？政治的・経済的・法的・技術的・環境的要因を考慮したか？解決すべき最良の問題はこれか？
+   - **Team**：チームはどのくらいうまく機能するか？適切な人材はいるか？適切なツールはあるか？チーム全員が十分に長く一緒にいるか？
 
-3. **For each assumption**, rate confidence and suggest a test.
+3. **各仮定について**、信頼度を評価し、テスト方法を提案してください。
 
-Think step by step. Save as markdown.
+ステップバイステップで考えてください。Markdownとして保存してください。
 
 ---
 
-### Further Reading
+### 参考資料
 
 - [Assumption Prioritization Canvas: How to Identify And Test The Right Assumptions](https://www.productcompass.pm/p/assumption-prioritization-canvas)
 - [What Is Product Discovery? The Ultimate Guide Step-by-Step](https://www.productcompass.pm/p/what-exactly-is-product-discovery)
-- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (video course)
+- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (ビデオコース)

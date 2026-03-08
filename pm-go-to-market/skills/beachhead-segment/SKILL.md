@@ -1,143 +1,143 @@
 ---
 name: beachhead-segment
-description: "Identify the first beachhead market segment for a product launch. Evaluates segments against burning pain, willingness to pay, winnable market share, and referral potential. Use when choosing a first market, targeting an initial customer segment, or planning market entry strategy."
+description: "製品ローンチのための最初のビーチヘッド市場セグメントを特定します。切迫したペイン、支払意欲、獲得可能な市場シェア、紹介ポテンシャルに基づいてセグメントを評価します。最初の市場選択、初期顧客セグメントのターゲティング、市場参入戦略の計画に使用します。"
 ---
 # Beachhead Segment
 
-## Overview
-Identify the first beachhead market segment for product launch. This skill evaluates potential market segments against key criteria to find your initial winning segment that enables fast PMF validation and adjacent expansion.
+## 概要
+製品ローンチのための最初のビーチヘッド市場セグメントを特定します。このスキルは潜在的な市場セグメントを主要基準に照らして評価し、PMF検証と隣接市場への拡張を可能にする初期の勝利セグメントを見つけます。
 
-## When to Use
-- Choosing a first market for your product
-- Targeting an initial customer segment
-- Planning initial market entry strategy
-- Deciding where to focus limited resources
-- Validating GTM assumptions with early adopters
+## 使用タイミング
+- 製品の最初の市場を選択する時
+- 初期顧客セグメントをターゲティングする時
+- 初期市場参入戦略を計画する時
+- 限られたリソースの集中先を決定する時
+- アーリーアダプターでGTMの仮説を検証する時
 
-## Key Evaluation Criteria
+## 主要評価基準
 
-### 1. Burning Pain Point
-Does this segment experience an acute, unmet problem?
-- Daily frustration with the status quo
-- Significant productivity loss or cost impact
-- Emotional urgency to find a solution
-- Current workarounds are expensive or fragile
-- Problem is getting worse over time
+### 1. 切迫したペインポイント
+このセグメントは急性の未解決問題を抱えているか？
+- 現状に対する日常的なフラストレーション
+- 大きな生産性損失またはコストへの影響
+- 解決策を見つけることへの感情的な緊迫感
+- 現在の回避策は高コストまたは不安定
+- 時間とともに悪化している問題
 
-### 2. Willingness to Pay
-Does this segment have budget and motivation to pay for a solution?
-- Documented budget allocation for this problem area
-- ROI is clear and compelling (value > cost)
-- Economic impact of problem justifies solution cost
-- Decision-maker has autonomy or influence over budget
-- No free or DIY alternatives that fully satisfy need
+### 2. 支払意欲
+このセグメントは解決策に対する予算と動機を持っているか？
+- この問題領域に対する文書化された予算配分
+- ROIが明確で説得力がある（価値 > コスト）
+- 問題の経済的影響が解決策コストを正当化する
+- 意思決定者が予算に対する自律性または影響力を持つ
+- ニーズを完全に満たす無料またはDIYの代替手段がない
 
-### 3. Winnable Market Share
-Can you realistically capture 60-70% of this segment in 3-18 months?
-- Segment is large enough but not oversaturated
-- Limited competition or easy differentiation
-- Market players are fragmented or complacent
-- Your product has clear competitive advantage
-- You have unique access or distribution advantage
+### 3. 獲得可能な市場シェア
+3〜18ヶ月でこのセグメントの60〜70%を現実的に獲得できるか？
+- セグメントは十分な規模だが過飽和ではない
+- 競合が少ないか差別化が容易
+- 市場プレイヤーが分散しているか油断している
+- 製品に明確な競合優位性がある
+- ユニークなアクセスまたは販売チャネルの優位性がある
 
-### 4. Referral Potential
-Will customers naturally refer or recommend to others?
-- Segment contains professional communities
-- Customers interact with adjacent segments (expansion opportunity)
-- High word-of-mouth culture in this industry
-- Network effects within the segment
-- Solving problem for one creates demand in adjacent segments
+### 4. 紹介ポテンシャル
+顧客は自然に他者を紹介または推薦するか？
+- セグメントに専門的なコミュニティが含まれる
+- 顧客が隣接セグメントと交流する（拡張の機会）
+- この業界にはワード・オブ・マウス文化が根付いている
+- セグメント内でのネットワーク効果がある
+- 一人の問題を解決することで隣接セグメントに需要が生まれる
 
-## How It Works
+## 仕組み
 
-### Step 1: List Potential Segments
-Brainstorm all possible target segments:
-- Industry verticals (SaaS, healthcare, manufacturing, etc.)
-- Company size (SMB, mid-market, enterprise)
-- Job titles or roles
-- Geographic regions
-- Use cases or use-case variations
-- Customer maturity level
+### ステップ1: 潜在セグメントのリスト化
+すべての可能なターゲットセグメントをブレインストーミングします：
+- 業界バーティカル（SaaS、ヘルスケア、製造業など）
+- 企業規模（SMB、ミッドマーケット、エンタープライズ）
+- 職種または役割
+- 地理的地域
+- ユースケースまたはユースケースのバリエーション
+- 顧客の成熟度レベル
 
-### Step 2: Research Pain Points
-Validate burning pain in each segment:
-- Customer interviews and discovery calls
-- Problem validation through surveys
-- Market research and analyst reports
-- Competitor positioning and customer reviews
-- Quantify cost/impact of the problem
-- Identify current workarounds and limitations
+### ステップ2: ペインポイントのリサーチ
+各セグメントで切迫したペインを検証します：
+- 顧客インタビューとディスカバリーコール
+- アンケートによる問題の検証
+- 市場調査とアナリストレポート
+- 競合のポジショニングと顧客レビュー
+- 問題のコスト/影響を定量化する
+- 現在の回避策と制限を特定する
 
-### Step 3: Assess Willingness to Pay
-Determine budget and economic viability:
-- Segment's budget for this problem category
-- ROI calculation (value gained vs cost)
-- Current spending on solutions or workarounds
-- Budget decision-making process
-- Typical deal size expectations
-- Pricing sensitivity in the segment
+### ステップ3: 支払意欲の評価
+予算と経済的実行可能性を判断します：
+- この問題カテゴリへのセグメントの予算
+- ROI計算（得られる価値 vs コスト）
+- 解決策や回避策への現在の支出
+- 予算の意思決定プロセス
+- 典型的なディールサイズの期待値
+- セグメントにおける価格感度
 
-### Step 4: Evaluate Winnability
-Assess realistic market share potential:
-- Total addressable market (TAM) size
-- Competitive landscape and positioning
-- Your differentiation or unfair advantage
-- Distribution access to this segment
-- Time and resources required
-- Market growth and momentum
+### ステップ4: 獲得可能性の評価
+現実的な市場シェアポテンシャルを評価します：
+- 総市場規模（TAM）
+- 競合状況とポジショニング
+- 差別化または不公平な優位性
+- このセグメントへの販売チャネルアクセス
+- 必要な時間とリソース
+- 市場の成長とモメンタム
 
-### Step 5: Identify Referral Pathways
-Map expansion opportunities:
-- Adjacent segments that reference segment influences
-- Network effects within the segment
-- Professional communities and associations
-- Customer-to-customer recommendations
-- Natural expansion path to adjacent markets
-- Viral or network effects from solving core pain
+### ステップ5: 紹介経路の特定
+拡張の機会をマッピングします：
+- セグメントが影響を与える隣接セグメント
+- セグメント内でのネットワーク効果
+- 専門コミュニティと業界団体
+- 顧客間の推薦
+- 隣接市場への自然な拡張パス
+- コアペインを解決することからのバイラルまたはネットワーク効果
 
-### Step 6: Select Beachhead
-Choose your primary launch segment:
-- Highest combined score across four criteria
-- Most achievable for your current resources
-- Shortest path to PMF and revenue
-- Best reference for adjacent expansion
-- Most enthusiastic early customer cohort
+### ステップ6: ビーチヘッドの選定
+プライマリローンチセグメントを選択します：
+- 4つの基準全体で最高の総合スコア
+- 現在のリソースで最も達成可能
+- PMFと収益への最短パス
+- 隣接拡張への最良のリファレンス
+- 最も熱心なアーリーカスタマーコホート
 
-## Input Format
-Use $ARGUMENTS to pass:
-- Product description and capabilities
-- Initial market research and validation data
-- Potential segment options
-- Constraints and limitations
-- Timeline and resource constraints
-- Current customer data or feedback
+## 入力フォーマット
+$ARGUMENTS を使用して以下を渡します：
+- 製品の説明と機能
+- 初期市場調査と検証データ
+- 潜在的なセグメントオプション
+- 制約と制限
+- タイムラインとリソースの制約
+- 現在の顧客データまたはフィードバック
 
-## Output
-A beachhead segment analysis including:
-- Top 3-5 recommended segments with scoring
-- Primary beachhead segment recommendation
-- Pain point validation and evidence
-- Willingness to pay assessment and pricing guidance
-- Realistic market share and revenue projections
-- Referral and expansion pathways to adjacent segments
-- 90-day customer acquisition plan for beachhead
-- Post-beachhead expansion roadmap
+## アウトプット
+以下を含むビーチヘッドセグメント分析：
+- スコアリングを含む上位3〜5推奨セグメント
+- プライマリビーチヘッドセグメントの推薦
+- ペインポイントの検証と証拠
+- 支払意欲の評価と価格設定ガイダンス
+- 現実的な市場シェアと収益予測
+- 隣接セグメントへの紹介と拡張経路
+- ビーチヘード向け90日間の顧客獲得計画
+- ビーチヘッド後の拡張ロードマップ
 
-## Framework
-Based on Geoffrey Moore's beachhead market strategy in "Crossing the Chasm." Focuses on finding the smallest winnable, referenceable market that validates PMF and enables expansion.
+## フレームワーク
+Geoffrey Mooreの「キャズムを越えて」におけるビーチヘッド市場戦略に基づいています。PMFを検証し拡張を可能にする、最小限の獲得可能かつリファレンス可能な市場を見つけることに焦点を当てています。
 
-## Tips
-- Start absurdly specific. A niche beachhead is better than a vague mass market
-- Choose the segment most likely to evangelize your solution
-- Validate all four criteria with at least 10 customer interviews
-- Select segment with fastest path to revenue and references
-- Ensure beachhead can reference to adjacent market segments
-- Focus all resources on dominating the beachhead (not diluting efforts)
-- Plan exit from beachhead only after 60%+ market share
+## ヒント
+- 極めて具体的なところから始める。ニッチなビーチヘッドは曖昧な大衆市場より良い
+- 最もソリューションを広めてくれそうなセグメントを選ぶ
+- 少なくとも10件の顧客インタビューで4つの基準すべてを検証する
+- 最も早く収益とリファレンスへ至れるセグメントを選ぶ
+- ビーチヘッドが隣接市場セグメントへの参照につながることを確認する
+- ビーチヘッドの支配に全リソースを集中させる（努力を分散させない）
+- 60%以上の市場シェアを獲得後にのみビーチヘッドからの撤退を計画する
 
 ---
 
-### Further Reading
+### 参考文献
 
 - [5 GTM Principles You Should Know as a PM](https://www.productcompass.pm/p/5-gtm-principles-with-frameworks-templates)
 - [Product-Led Growth 101, Part 1/2](https://www.productcompass.pm/p/product-led-growth-101-12)

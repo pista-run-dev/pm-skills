@@ -1,96 +1,96 @@
 ---
 name: swot-analysis
-description: "Perform a detailed SWOT analysis — strengths, weaknesses, opportunities, and threats with actionable recommendations. Use when doing strategic assessment, competitive analysis, or evaluating a product or business position."
+description: "強み、弱み、機会、脅威を行動可能な推奨事項とともに詳細にSWOT分析します。戦略的評価、競合分析、プロダクトまたはビジネスポジションの評価に使用してください。"
 ---
-# SWOT Analysis
+# SWOT分析
 
-## Metadata
-- **Name**: swot-analysis
-- **Description**: Perform a detailed SWOT analysis for a product. Identifies strengths, weaknesses, opportunities, and threats with actionable recommendations.
-- **Triggers**: SWOT analysis, strengths weaknesses, SWOT matrix, strategic assessment
+## メタデータ
+- **名前**: swot-analysis
+- **説明**: プロダクトの詳細なSWOT分析を実施します。行動可能な推奨事項とともに強み、弱み、機会、脅威を特定します。
+- **トリガー**: SWOT分析、強み弱み、SWOTマトリクス、戦略的評価
 
-## Instructions
+## 指示
 
-You are a strategic analyst conducting a SWOT analysis for $ARGUMENTS.
+あなたは $ARGUMENTS のSWOT分析を実施する戦略アナリストです。
 
-Your task is to thoroughly evaluate the internal and external factors that will impact product success and competitive positioning.
+プロダクトの成功と競合ポジショニングに影響する内部および外部要因を徹底的に評価するのがあなたの任務です。
 
-## Input Requirements
-- Product description and current state
-- Competitive landscape and market context
-- Company capabilities, resources, and constraints
-- Market trends and industry dynamics
-- Customer feedback or usage data (optional)
+## 入力要件
+- プロダクトの説明と現在の状況
+- 競合状況と市場コンテキスト
+- 会社のケイパビリティ、リソース、制約
+- 市場トレンドと業界ダイナミクス
+- 顧客フィードバックまたは使用データ（任意）
 
-## SWOT Analysis Framework
+## SWOT分析フレームワーク
 
-### 1. Strengths (Internal, Positive)
-What internal capabilities and advantages do we have?
+### 1. 強み（内部、ポジティブ）
+どのような内部ケイパビリティと優位性があるか？
 
-- Unique capabilities or expertise
-- Brand recognition or reputation
-- Customer relationships and loyalty
-- Technology or IP advantages
-- Cost advantages or operational efficiency
-- Team talent and experience
-- Existing customer base or distribution
+- ユニークなケイパビリティまたは専門知識
+- ブランド認知または評判
+- 顧客関係とロイヤルティ
+- テクノロジーまたはIPの優位性
+- コスト優位性または業務効率
+- チームの才能と経験
+- 既存の顧客ベースまたは流通
 
-### 2. Weaknesses (Internal, Negative)
-What internal limitations or gaps do we have?
+### 2. 弱み（内部、ネガティブ）
+どのような内部上の制限やギャップがあるか？
 
-- Resource constraints (budget, team size, skills)
-- Technology or infrastructure limitations
-- Lack of brand awareness or market presence
-- Weak customer relationships or high churn
-- High cost structure relative to competitors
-- Outdated processes or legacy systems
-- Dependence on key people or partners
+- リソース制約（予算、チームサイズ、スキル）
+- テクノロジーまたはインフラの限界
+- ブランド認知や市場プレゼンスの欠如
+- 弱い顧客関係または高いチャーン
+- 競合他社に比べた高いコスト構造
+- 時代遅れのプロセスやレガシーシステム
+- 主要な人物やパートナーへの依存
 
-### 3. Opportunities (External, Positive)
-What external trends or market dynamics could we leverage?
+### 3. 機会（外部、ポジティブ）
+どのような外部トレンドや市場ダイナミクスを活用できるか？
 
-- Growing market segments or customer needs
-- Technological advances enabling new solutions
-- Regulatory changes favoring our approach
-- Competitor weaknesses or market gaps
-- Partnership or acquisition opportunities
-- Expansion into adjacent markets or segments
-- Shifting customer preferences or behaviors
+- 成長中の市場セグメントや顧客ニーズ
+- 新しいソリューションを可能にする技術的進歩
+- 我々のアプローチを支持する規制の変化
+- 競合他社の弱みや市場ギャップ
+- パートナーシップや買収の機会
+- 隣接する市場やセグメントへの拡大
+- 変化する顧客の好みや行動
 
-### 4. Threats (External, Negative)
-What external factors could negatively impact us?
+### 4. 脅威（外部、ネガティブ）
+どのような外部要因が私たちにネガティブな影響を与える可能性があるか？
 
-- Emerging or stronger competitors
-- Changing customer preferences or needs
-- Technological disruption or obsolescence
-- Regulatory changes or compliance risks
-- Economic downturns or market contraction
-- Supply chain disruptions
-- Supplier or partner consolidation
+- 新たな、またはより強い競合他社
+- 変化する顧客の好みやニーズ
+- 技術的破壊や陳腐化
+- 規制の変化やコンプライアンスリスク
+- 景気後退や市場収縮
+- サプライチェーンの混乱
+- サプライヤーやパートナーの統合
 
-## Output Process
-1. Identify 5-7 strengths (be honest about competitive advantages)
-2. List 5-7 weaknesses (avoid minimizing; focus on addressable gaps)
-3. Map 5-7 opportunities (prioritize by market size and alignment)
-4. Flag 5-7 threats (assess probability and impact)
-5. Cross-reference analysis for strategic insights:
-   - How do we leverage strengths to capture opportunities?
-   - How do we shore up weaknesses to mitigate threats?
-   - Which opportunities can overcome weaknesses?
-   - Which threats could exploit weaknesses?
-6. Develop 3-5 strategic recommendations
-7. Prioritize actions and owners
-8. Identify metrics to track progress
+## アウトプットプロセス
+1. 5〜7つの強みを特定する（競争優位性について正直に）
+2. 5〜7つの弱みをリストアップする（最小化を避け、対処可能なギャップに焦点を当てる）
+3. 5〜7つの機会をマッピングする（市場規模と整合性によって優先順位をつける）
+4. 5〜7つの脅威にフラグを立てる（確率とインパクトを評価する）
+5. 戦略的インサイトのためにクロスリファレンス分析を行う：
+   - どのように強みを活用して機会を獲得するか？
+   - どのように弱みを強化して脅威を軽減するか？
+   - どの機会が弱みを克服できるか？
+   - どの脅威が弱みを悪用する可能性があるか？
+6. 3〜5つの戦略的推奨事項を開発する
+7. アクションとオーナーを優先順位付けする
+8. 進捗を追跡するメトリクスを特定する
 
-## Strategic Applications
-- **Build**: Double down on strengths + opportunities
-- **Defend**: Fortify weaknesses + mitigate threats
-- **Pivot**: Explore opportunities that change the competitive dynamic
-- **Exit**: If too many threats and weak competitive position
+## 戦略的応用
+- **構築**: 強み＋機会を活用する
+- **防御**: 弱みを強化し＋脅威を軽減する
+- **ピボット**: 競合ダイナミクスを変える機会を探る
+- **撤退**: 脅威が多すぎて競合ポジションが弱い場合
 
-## Notes
-- SWOT is internal to external assessment
-- Context matters: compare against competitors and industry standards
-- Update SWOT quarterly or when market conditions change
-- Use SWOT to inform product roadmap, partnerships, and resource allocation
-- Opportunities and threats should consider both current and emerging dynamics
+## 注意事項
+- SWOTは内部から外部への評価
+- コンテキストが重要：競合他社と業界標準と比較する
+- 市場状況が変化したとき、または四半期ごとにSWOTを更新する
+- SWOTを使ってプロダクトロードマップ、パートナーシップ、リソース配分を通知する
+- 機会と脅威は現在と新興のダイナミクスの両方を考慮する必要がある

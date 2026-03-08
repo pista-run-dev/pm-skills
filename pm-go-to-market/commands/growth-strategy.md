@@ -1,13 +1,13 @@
 ---
-description: Design sustainable growth mechanisms — growth loops and GTM motions for product-led and sales-led strategies
-argument-hint: "<product or growth challenge>"
+description: 持続可能なグロースメカニズムを設計します — プロダクトレッドとセールスレッド戦略のためのグロースループとGTMモーション
+argument-hint: "<製品または成長の課題>"
 ---
 
 # /growth-strategy -- Growth Loops & GTM Motions
 
-Identify and design the growth mechanisms that will drive sustainable traction. Evaluates five growth loop types and seven GTM motions to build a balanced acquisition and expansion strategy.
+持続可能なトラクションを促進するグロースメカニズムを特定・設計します。5種類のグロースループタイプと7種類のGTMモーションを評価し、バランスのとれた獲得・拡張戦略を構築します。
 
-## Invocation
+## 呼び出し方
 
 ```
 /growth-strategy B2B collaboration tool — growth has stalled at 5K users
@@ -15,102 +15,102 @@ Identify and design the growth mechanisms that will drive sustainable traction. 
 /growth-strategy [upload product metrics or growth data]
 ```
 
-## Workflow
+## ワークフロー
 
-### Step 1: Understand Growth Context
+### ステップ1: グロースコンテキストの理解
 
-Ask:
-- What is the product? Who uses it?
-- Current growth metrics: user count, growth rate, acquisition channels
-- What's working? What's not?
-- Business model: how does revenue relate to user growth?
-- Team and budget: what resources can you put toward growth?
+以下を確認します：
+- 製品は何ですか？誰が使用していますか？
+- 現在のグロース指標：ユーザー数、成長率、獲得チャネル
+- 何が機能していますか？何が機能していませんか？
+- ビジネスモデル：収益はユーザーグロースとどう関係していますか？
+- チームと予算：グロースにどれだけのリソースを割けますか？
 
-### Step 2: Evaluate Growth Loops
+### ステップ2: グロースループの評価
 
-Apply the **growth-loops** skill:
+**growth-loops** スキルを適用します：
 
-Analyze five growth loop types for your product:
+製品に対して5種類のグロースループタイプを分析します：
 
-1. **Viral Loop**: Users invite others as part of natural product use
-2. **Usage Loop**: More usage creates more value, bringing users back
-3. **Collaboration Loop**: Product becomes more valuable when used with others
-4. **User-Generated Content Loop**: Users create content that attracts new users
-5. **Referral Loop**: Satisfied users actively recommend to others
+1. **バイラルループ**：ユーザーが自然な製品使用の一部として他者を招待する
+2. **ユーセージループ**：より多くの使用がより多くの価値を生み出し、ユーザーを呼び戻す
+3. **コラボレーションループ**：他者と使用することで製品がより価値を持つ
+4. **ユーザー生成コンテンツループ**：ユーザーが新規ユーザーを引き付けるコンテンツを作成する
+5. **リファラルループ**：満足したユーザーが積極的に他者に推薦する
 
-For each applicable loop: mechanism, requirements, expected impact, implementation effort.
+各適用可能なループについて：メカニズム、要件、期待される影響、実装工数。
 
-### Step 3: Evaluate GTM Motions
+### ステップ3: GTMモーションの評価
 
-Apply the **gtm-motions** skill:
+**gtm-motions** スキルを適用します：
 
-Assess seven GTM approaches:
+7種類のGTMアプローチを評価します：
 
-1. **Inbound**: Content, SEO, thought leadership
-2. **Outbound**: Sales, cold outreach, account-based
-3. **Paid Digital**: SEM, social ads, display, retargeting
-4. **Community**: Forums, events, user groups, developer relations
-5. **Partners**: Integrations, resellers, co-marketing
-6. **ABM (Account-Based Marketing)**: Targeted enterprise acquisition
-7. **PLG (Product-Led Growth)**: Free tier, self-serve, product virality
+1. **インバウンド**：コンテンツ、SEO、ソートリーダーシップ
+2. **アウトバウンド**：セールス、コールドアウトリーチ、アカウントベース
+3. **有料デジタル**：SEM、ソーシャル広告、ディスプレイ、リターゲティング
+4. **コミュニティ**：フォーラム、イベント、ユーザーグループ、デベロッパーリレーションズ
+5. **パートナー**：インテグレーション、リセラー、共同マーケティング
+6. **ABM（Account-Based Marketing）**：ターゲットエンタープライズ獲得
+7. **PLG（Product-Led Growth）**：無料ティア、セルフサービス、製品のバイラリティ
 
-For each: fit for your product, expected CAC, timeline to results, tools needed.
+各モーションについて：製品へのフィット、期待CAC、結果までのタイムライン、必要ツール。
 
-### Step 4: Design Growth Strategy
+### ステップ4: グロース戦略の設計
 
 ```
-## Growth Strategy: [Product]
+## Growth Strategy: [製品]
 
-**Date**: [today]
-**Current state**: [user count, growth rate, key channels]
-**Growth goal**: [target]
+**日付**: [今日]
+**現状**: [ユーザー数、成長率、主要チャネル]
+**グロール目標**: [ターゲット]
 
 ### Recommended Growth Loops
-| Loop Type | Mechanism | Fit | Impact | Effort | Priority |
+| ループタイプ | メカニズム | フィット | 影響 | 工数 | 優先度 |
 |----------|-----------|-----|--------|--------|----------|
 
-### Primary Growth Loop: [Type]
-**How it works**: [step-by-step mechanism]
-**Requirements**: [what needs to be true/built]
-**Key metrics**: [how to measure loop health]
-**Implementation plan**: [concrete next steps]
+### Primary Growth Loop: [タイプ]
+**仕組み**: [ステップバイステップのメカニズム]
+**要件**: [何が真実/構築されている必要があるか]
+**主要指標**: [ループの健全性を測定する方法]
+**実装計画**: [具体的な次のステップ]
 
-### Secondary Growth Loop: [Type]
-[same format]
+### Secondary Growth Loop: [タイプ]
+[同じ形式]
 
 ### GTM Motion Mix
-| Motion | Investment | Expected ROI | Timeline | Tools |
+| モーション | 投資 | 期待ROI | タイムライン | ツール |
 |--------|-----------|-------------|----------|-------|
 
 ### Growth Experiments
-| # | Experiment | Tests What | Effort | Expected Learning |
+| # | 実験 | 何をテストするか | 工数 | 期待される学び |
 |---|-----------|-----------|--------|------------------|
 
 ### Growth Metrics Framework
-- **North Star**: [growth metric]
-- **Loop health**: [metrics per loop]
-- **CAC by channel**: [tracking approach]
-- **Payback period**: [target]
+- **North Star**: [グロース指標]
+- **ループの健全性**: [ループごとの指標]
+- **チャネル別CAC**: [追跡アプローチ]
+- **ペイバック期間**: [目標]
 
 ### 90-Day Growth Plan
-**Month 1**: [focus areas and experiments]
-**Month 2**: [scale what works, cut what doesn't]
-**Month 3**: [optimize and systematize]
+**月1**: [フォーカスエリアと実験]
+**月2**: [機能するものをスケール、機能しないものを削減]
+**月3**: [最適化と体系化]
 ```
 
-Save as markdown.
+マークダウンとして保存。
 
-### Step 5: Offer Next Steps
+### ステップ5: 次のステップの提案
 
-- "Want me to **plan a specific launch campaign**?"
-- "Should I **create marketing content** for the inbound motion?"
-- "Want me to **set up metrics** to track growth loop health?"
-- "Should I **design a referral program** based on the referral loop?"
+- "**特定のローンチキャンペーンを計画**しますか？"
+- "インバウンドモーション向けの**マーケティングコンテンツを作成**しますか？"
+- "グロースループの健全性を追跡するための**指標を設定**しますか？"
+- "リファラルループに基づいて**リファラルプログラムを設計**しますか？"
 
-## Notes
+## 注意事項
 
-- Growth loops compound; growth tactics don't — prioritize loops over one-off campaigns
-- The best growth loop uses the product itself as the channel (PLG, viral, collaboration)
-- Not every loop works for every product — a B2B analytics tool won't go viral on TikTok
-- Budget should follow learning: invest small in experiments, then scale what proves out
-- CAC should be < 1/3 of LTV for sustainable growth — flag if projected CAC is too high
+- グロースループは複利成長する；グロース戦術はしない — 単発のキャンペーンよりループを優先する
+- 最良のグロースループは製品自体をチャネルとして使用する（PLG、バイラル、コラボレーション）
+- すべてのループがすべての製品に機能するわけではない — B2BアナリティクスツールはTikTokでバイラルにはならない
+- 予算は学習に従うべき：実験に小額投資し、実証されたものをスケールさせる
+- 持続可能なグロースのためにはCAC < LTVの1/3である必要がある — 予測CACが高すぎる場合はフラグを立てる

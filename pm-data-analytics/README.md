@@ -1,23 +1,23 @@
 # pm-data-analytics
 
-Data analytics skills for PMs: SQL query generation and cohort analysis. Analyze user data, generate queries, and identify retention patterns.
+PM向けデータ分析スキル：SQLクエリ生成とコホート分析。ユーザーデータの分析、クエリの生成、保持率パターンの特定。
 
-## Skills (3)
+## スキル（3）
 
-- **ab-test-analysis** — Analyze A/B test results with statistical significance, sample size validation, confidence intervals, and actionable recommendations.
-- **cohort-analysis** — Perform cohort analysis on user engagement data.
-- **sql-queries** — Generate SQL queries from natural language descriptions.
+- **ab-test-analysis** — 統計的有意性、サンプルサイズ検証、信頼区間、実行可能な推奨事項でA/Bテスト結果を分析。
+- **cohort-analysis** — ユーザーエンゲージメントデータのコホート分析を実施。
+- **sql-queries** — 自然言語の説明からSQLクエリを生成。
 
-## Commands (3)
+## コマンド（3）
 
-- `/pm-data-analytics:analyze-cohorts` — Perform cohort analysis on user data — retention curves, feature adoption, and engagement trends.
-- `/pm-data-analytics:analyze-test` — Analyze A/B test results — statistical significance, sample size validation, and ship/extend/stop recommendations.
-- `/pm-data-analytics:write-query` — Generate SQL queries from natural language — supports BigQuery, PostgreSQL, MySQL, and more.
+- `/pm-data-analytics:analyze-cohorts` — ユーザーデータのコホート分析を実施 — 保持率曲線、フィーチャー採用率、エンゲージメントトレンド。
+- `/pm-data-analytics:analyze-test` — A/Bテスト結果を分析 — 統計的有意性、サンプルサイズ検証、出荷/延長/停止の推奨。
+- `/pm-data-analytics:write-query` — 自然言語からSQLクエリを生成 — BigQuery、PostgreSQL、MySQL、その他に対応。
 
-## Author
+## 著者
 
 Paweł Huryn — [The Product Compass Newsletter](https://www.productcompass.pm)
 
-## License
+## ライセンス
 
 MIT

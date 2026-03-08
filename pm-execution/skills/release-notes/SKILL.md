@@ -1,46 +1,46 @@
 ---
 name: release-notes
-description: "Generate user-facing release notes from tickets, PRDs, or changelogs. Creates clear, engaging summaries organized by category (new features, improvements, fixes). Use when writing release notes, creating changelogs, announcing product updates, or summarizing what shipped."
+description: "チケット、PRD、または変更履歴からユーザー向けリリースノートを生成します。カテゴリ別（新機能、改善点、修正点）に整理された明確で魅力的なサマリーを作成します。リリースノートの作成、変更履歴の生成、プロダクト更新の告知、またはリリースされた内容のサマリー作成に使用します。"
 ---
 
-## Release Notes Generator
+## リリースノートジェネレーター
 
-Transform technical tickets, PRDs, or internal changelogs into polished, user-facing release notes.
+技術的なチケット、PRD、または内部の変更履歴を洗練されたユーザー向けリリースノートに変換します。
 
-### Context
+### コンテキスト
 
-You are writing release notes for **$ARGUMENTS**.
+**$ARGUMENTS**のリリースノートを作成します。
 
-If the user provides files (JIRA exports, Linear tickets, PRDs, Git logs, or internal changelogs), read them first. If they mention a product URL, use web search to understand the product and audience.
+ユーザーがファイル（JIRAエクスポート、Linearチケット、PRD、Gitログ、または内部変更履歴）を提供した場合は、最初にそれを読んでください。プロダクトのURLを言及した場合は、ウェブ検索を使用してプロダクトとオーディエンスを理解してください。
 
-### Instructions
+### 指示
 
-1. **Gather raw material**: Read all provided tickets, changelogs, or descriptions. Extract:
-   - What changed (feature, improvement, or fix)
-   - Who it affects (which user segment)
-   - Why it matters (the user benefit)
+1. **生の素材を収集する**: 提供されたすべてのチケット、変更履歴、または説明を読んでください。以下を抽出してください：
+   - 何が変わったか（機能、改善点、または修正点）
+   - 誰に影響するか（どのユーザーセグメント）
+   - なぜ重要か（ユーザーへのメリット）
 
-2. **Categorize changes**:
-   - **New Features**: Entirely new capabilities
-   - **Improvements**: Enhancements to existing features
-   - **Bug Fixes**: Issues resolved
-   - **Breaking Changes**: Anything that requires user action (migrations, API changes)
-   - **Deprecations**: Features being sunset
+2. **変更を分類する**：
+   - **新機能**：まったく新しい機能
+   - **改善点**：既存機能の強化
+   - **バグ修正**：解決された問題
+   - **破壊的変更**：ユーザーのアクションが必要なもの（マイグレーション、API変更）
+   - **非推奨**：廃止される機能
 
-3. **Write each entry** following these principles:
-   - Lead with the user benefit, not the technical change
-   - Use plain language — avoid jargon, internal codenames, or ticket numbers
-   - Keep each entry to 1-3 sentences
-   - Include visuals or screenshots if the user provides them
+3. **以下の原則に従って各エントリを書く**：
+   - 技術的な変更ではなく、ユーザーへのメリットをリードする
+   - わかりやすい言葉を使う——専門用語、内部コード名、チケット番号を避ける
+   - 各エントリを1〜3文に保つ
+   - ユーザーが提供した場合はビジュアルやスクリーンショットを含める
 
-   **Example transformations**:
-   - Technical: "Implemented Redis caching layer for dashboard API endpoints"
-   - User-facing: "Dashboards now load up to 3× faster, so you spend less time waiting and more time analyzing."
+   **変換例**：
+   - 技術的：「Implemented Redis caching layer for dashboard API endpoints」
+   - ユーザー向け：「ダッシュボードの読み込みが最大3倍速くなり、待ち時間が減り、分析に集中できます。」
 
-   - Technical: "Fixed race condition in concurrent checkout flow"
-   - User-facing: "Fixed an issue where some orders could fail during high-traffic periods."
+   - 技術的：「Fixed race condition in concurrent checkout flow」
+   - ユーザー向け：「高トラフィック時に一部の注文が失敗する問題を修正しました。」
 
-4. **Structure the release notes**:
+4. **リリースノートを構造化する**：
 
    ```
    # [Product Name] — [Version / Date]
@@ -58,6 +58,6 @@ If the user provides files (JIRA exports, Linear tickets, PRDs, Git logs, or int
    - **Action required**: [What users need to do]
    ```
 
-5. **Adjust tone** to match the product's voice — professional for B2B, friendly for consumer, developer-focused for APIs.
+5. **トーンを調整する**：プロダクトの声に合わせる——B2Bはプロフェッショナル、コンシューマーはフレンドリー、APIは開発者向け。
 
-Save as a markdown document. If the user wants HTML or another format, convert accordingly.
+markdownドキュメントとして保存する。ユーザーがHTMLや別のフォーマットを希望する場合は適宜変換する。

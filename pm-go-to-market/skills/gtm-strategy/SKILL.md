@@ -1,94 +1,94 @@
 ---
 name: gtm-strategy
-description: "Create a go-to-market strategy covering marketing channels, messaging, success metrics, and launch timeline. Use when planning a product launch, creating a GTM plan from scratch, or defining a launch strategy for a new market."
+description: "マーケティングチャネル、メッセージング、成功指標、ローンチタイムラインを網羅したGTM戦略を作成します。製品ローンチの計画、ゼロからのGTMプラン作成、新市場向けローンチ戦略の定義に使用します。"
 ---
 # GTM Strategy
 
-## Overview
-Create a comprehensive go-to-market strategy for a product launch. This skill covers marketing channels, messaging development, success metrics definition, and launch planning.
+## 概要
+製品ローンチのための包括的なGTM戦略を作成します。このスキルはマーケティングチャネル、メッセージング開発、成功指標の定義、ローンチ計画をカバーします。
 
-## When to Use
-- Planning a product launch
-- Creating a GTM plan from scratch
-- Defining a launch strategy for a new market
-- Developing product-to-market fit strategy
-- Preparing a product go-live roadmap
+## 使用タイミング
+- 製品ローンチの計画時
+- ゼロからGTMプランを作成する時
+- 新市場向けローンチ戦略の定義時
+- 製品・市場フィット戦略の策定時
+- 製品のゴーライブロードマップの準備時
 
-## How It Works
+## 仕組み
 
-### Step 1: Gather Research Data
-The system will help you load and analyze early research about your product and target market. Provide:
-- Product description and key features
-- Target market segment details
-- Market research or validation data
-- Competitive landscape information
-- Any available customer interviews or survey data
+### ステップ1: 調査データの収集
+システムが製品とターゲット市場に関する初期調査のロードと分析を支援します。以下を提供してください：
+- 製品の説明と主要機能
+- ターゲット市場セグメントの詳細
+- 市場調査または検証データ
+- 競合状況の情報
+- 利用可能な顧客インタビューやアンケートデータ
 
-### Step 2: Define Marketing Channels
-Evaluate which channels best reach your target audience:
-- Digital marketing channels (paid search, social media, display)
-- Content and inbound channels (blog, SEO, thought leadership)
-- Sales and outbound channels (direct outreach, partnerships)
-- Community and grassroots channels
-- Product-led and viral channels
+### ステップ2: マーケティングチャネルの定義
+ターゲットオーディエンスに最もリーチできるチャネルを評価します：
+- デジタルマーケティングチャネル（ペイドサーチ、ソーシャルメディア、ディスプレイ）
+- コンテンツ・インバウンドチャネル（ブログ、SEO、ソートリーダーシップ）
+- セールス・アウトバウンドチャネル（直接アプローチ、パートナーシップ）
+- コミュニティ・グラスルーツチャネル
+- プロダクトレッド・バイラルチャネル
 
-### Step 3: Develop Messaging
-Create audience-specific messaging that resonates:
-- Core value proposition for target segment
-- Key differentiators and competitive advantages
-- Pain point validation and solution mapping
-- Proof points and social proof strategies
-- Channel-specific messaging variations
+### ステップ3: メッセージングの開発
+オーディエンスに響く特定のメッセージングを作成します：
+- ターゲットセグメント向けコアバリュープロポジション
+- 主要な差別化要素と競合優位性
+- ペインポイントの検証とソリューションのマッピング
+- 証拠となるポイントとソーシャルプルーフ戦略
+- チャネル固有のメッセージングバリエーション
 
-### Step 4: Define Success Metrics
-Establish measurable KPIs to track launch success:
-- Awareness metrics (impressions, reach, brand recall)
-- Engagement metrics (CTR, cost per engagement, time on site)
-- Conversion metrics (signups, demos requested, trials started)
-- Revenue metrics (MRR, customer acquisition cost, lifetime value)
-- Market metrics (market share, segment penetration)
+### ステップ4: 成功指標の定義
+ローンチの成功を追跡するための測定可能なKPIを確立します：
+- 認知指標（インプレッション、リーチ、ブランドリコール）
+- エンゲージメント指標（CTR、エンゲージメント単価、サイト滞在時間）
+- コンバージョン指標（サインアップ、デモリクエスト、トライアル開始）
+- 収益指標（MRR、顧客獲得コスト、ライフタイムバリュー）
+- 市場指標（市場シェア、セグメント浸透率）
 
-### Step 5: Create Launch Plan
-Build a phased launch timeline:
-- Pre-launch preparation (messaging, channels, timeline)
-- Launch day activities and announcements
-- Post-launch momentum (content, partnerships, communities)
-- Measurement and optimization cadence
-- Success criteria and go/no-go decision points
+### ステップ5: ローンチプランの作成
+段階的なローンチタイムラインを構築します：
+- ローンチ前の準備（メッセージング、チャネル、タイムライン）
+- ローンチ当日の活動とアナウンス
+- ローンチ後のモメンタム（コンテンツ、パートナーシップ、コミュニティ）
+- 測定と最適化のケイデンス
+- 成功基準とゴー/ノーゴーの意思決定ポイント
 
-## Input Format
-Use $ARGUMENTS to pass:
-- Product name and description
-- Target market segment
-- Research data or file path
-- Launch timeline and constraints
-- Budget or resource limitations
+## 入力フォーマット
+$ARGUMENTS を使用して以下を渡します：
+- 製品名と説明
+- ターゲット市場セグメント
+- 調査データまたはファイルパス
+- ローンチのタイムラインと制約
+- 予算またはリソースの制限
 
-## Output
-A structured GTM strategy document including:
-- Recommended marketing channels with justification
-- Channel-specific messaging and positioning
-- Launch timeline with key milestones
-- KPI targets and measurement framework
-- Risk mitigation strategies
-- 90-day execution roadmap
+## アウトプット
+以下を含む構造化されたGTM戦略ドキュメント：
+- 根拠を示した推奨マーケティングチャネル
+- チャネル固有のメッセージングとポジショニング
+- 主要マイルストーンを含むローンチタイムライン
+- KPIターゲットと測定フレームワーク
+- リスク軽減戦略
+- 90日間の実行ロードマップ
 
-## Framework
-This skill applies Product Compass GTM strategy methodology, focusing on market selection, channel fit, and message-market fit for sustainable product growth.
+## フレームワーク
+このスキルはProduct Compass GTM戦略メソドロジーを適用し、持続可能な製品成長のための市場選択、チャネルフィット、メッセージ・マーケットフィットに焦点を当てています。
 
-## Tips
-- Start with your most confident customer segment
-- Validate assumptions through customer interviews before full launch
-- Focus on a few channels excellently rather than many channels poorly
-- Establish baseline metrics before launch to measure impact
-- Plan for feedback loops and optimization
+## ヒント
+- 最も自信のある顧客セグメントから始める
+- フルローンチ前に顧客インタビューで仮説を検証する
+- 多くのチャネルを雑にこなすより、少数のチャネルを徹底的に行う
+- 影響を測定するためにローンチ前にベースライン指標を確立する
+- フィードバックループと最適化を計画する
 
 ---
 
-### Further Reading
+### 参考文献
 
 - [5 GTM Principles You Should Know as a PM](https://www.productcompass.pm/p/5-gtm-principles-with-frameworks-templates)
-- [OpenAI’s Product Leader Shares 3-Layer Distribution Framework To Win Mind & Market Share in the AI World](https://www.productcompass.pm/p/distribution-framework-ai-products)
+- [OpenAI's Product Leader Shares 3-Layer Distribution Framework To Win Mind & Market Share in the AI World](https://www.productcompass.pm/p/distribution-framework-ai-products)
 - [Product-Led Growth 101, Part 1/2](https://www.productcompass.pm/p/product-led-growth-101-12)
 - [How to Design a Value Proposition Customers Can't Resist?](https://www.productcompass.pm/p/how-to-design-value-proposition-template)
 - [How to Achieve Product-Market Fit? Part I: Market and Value Proposition](https://www.productcompass.pm/p/how-to-achieve-the-product-market)

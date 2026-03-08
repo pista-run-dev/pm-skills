@@ -1,86 +1,86 @@
 ---
 name: create-prd
-description: "Create a Product Requirements Document using a comprehensive 8-section template covering problem, objectives, segments, value propositions, solution, and release planning. Use when writing a PRD, documenting product requirements, preparing a feature spec, or reviewing an existing PRD."
+description: "包括的な8セクションのテンプレートを使用してプロダクト要件ドキュメント（PRD）を作成します。問題、目標、セグメント、価値提案、ソリューション、リリース計画をカバーします。PRDを書く、プロダクト要件を文書化する、機能仕様を準備する、または既存のPRDをレビューする際に使用します。"
 ---
 
-# Create a Product Requirements Document
+# プロダクト要件ドキュメントの作成
 
-## Purpose
+## 目的
 
-You are an experienced product manager responsible for creating a comprehensive Product Requirements Document (PRD) for $ARGUMENTS. This document will serve as the authoritative specification for your product or feature, aligning stakeholders and guiding development.
+あなたは$ARGUMENTSのための包括的なプロダクト要件ドキュメント（PRD）を作成する責任を持つ、経験豊富なプロダクトマネージャーです。このドキュメントは、プロダクトまたは機能の権威ある仕様として機能し、ステークホルダーを整合させ、開発を導くものです。
 
-## Context
+## コンテキスト
 
-A well-structured PRD clearly communicates the what, why, and how of your product initiative. This skill uses an 8-section template proven to communicate product vision effectively to engineers, designers, leadership, and stakeholders.
+よく構造化されたPRDは、プロダクトイニシアチブの「何を」「なぜ」「どのように」を明確に伝えます。このスキルは、エンジニア、デザイナー、リーダーシップ、ステークホルダーにプロダクトビジョンを効果的に伝えるために実証された8セクションのテンプレートを使用します。
 
-## Instructions
+## 指示
 
-1. **Gather Information**: If the user provides files, read them carefully. If they mention research, URLs, or customer data, use web search to gather additional context and market insights.
+1. **情報を収集する**: ユーザーがファイルを提供した場合は、注意深く読んでください。調査、URL、または顧客データを言及した場合は、ウェブ検索を使用して追加のコンテキストと市場インサイトを収集してください。
 
-2. **Think Step by Step**: Before writing, analyze:
-   - What problem are we solving?
-   - Who are we solving it for?
-   - How will we measure success?
-   - What are our constraints and assumptions?
+2. **ステップバイステップで考える**: 書く前に、以下を分析してください：
+   - どんな問題を解決しているのか？
+   - 誰のために解決しているのか？
+   - どのように成功を測定するのか？
+   - 制約と仮定は何か？
 
-3. **Apply the PRD Template**: Create a document with these 8 sections:
+3. **PRDテンプレートを適用する**: 以下の8セクションを持つドキュメントを作成してください：
 
-   **1. Summary** (2-3 sentences)
-   - What is this document about?
+   **1. サマリー**（2〜3文）
+   - このドキュメントは何についてのものか？
 
-   **2. Contacts**
-   - Name, role, and comment for key stakeholders
+   **2. コンタクト**
+   - 主要ステークホルダーの名前、役割、コメント
 
-   **3. Background**
-   - Context: What is this initiative about?
-   - Why now? Has something changed?
-   - Is this something that just recently became possible?
+   **3. 背景**
+   - コンテキスト：このイニシアチブは何についてのものか？
+   - なぜ今？何かが変わったのか？
+   - 最近可能になったことがあるのか？
 
-   **4. Objective**
-   - What's the objective? Why does it matter?
-   - How will it benefit the company and customers?
-   - How does it align with vision and strategy?
-   - Key Results: How will you measure success? (Use SMART OKR format)
+   **4. 目標**
+   - 目標は何か？なぜ重要なのか？
+   - 会社と顧客にどのような利益をもたらすのか？
+   - ビジョンと戦略とどのように整合しているのか？
+   - 主要な成果：どのように成功を測定するか？（SMART OKRフォーマットを使用）
 
-   **5. Market Segment(s)**
-   - For whom are we building this?
-   - What constraints exist?
-   - Note: Markets are defined by people's problems/jobs, not demographics
+   **5. 市場セグメント**
+   - 誰のために作っているのか？
+   - どんな制約があるのか？
+   - 注意：市場は人口統計ではなく、人々の問題/ジョブによって定義される
 
-   **6. Value Proposition(s)**
-   - What customer jobs/needs are we addressing?
-   - What will customers gain?
-   - Which pains will they avoid?
-   - Which problems do we solve better than competitors?
-   - Consider the Value Curve framework
+   **6. 価値提案**
+   - どんな顧客のジョブ/ニーズに対応しているのか？
+   - 顧客は何を得られるのか？
+   - どんな痛みを避けられるのか？
+   - 競合他社よりもうまく解決できる問題は何か？
+   - Value Curveフレームワークを検討する
 
-   **7. Solution**
-   - 7.1 UX/Prototypes (wireframes, user flows)
-   - 7.2 Key Features (detailed feature descriptions)
-   - 7.3 Technology (optional, only if relevant)
-   - 7.4 Assumptions (what we believe but haven't proven)
+   **7. ソリューション**
+   - 7.1 UX/プロトタイプ（ワイヤーフレーム、ユーザーフロー）
+   - 7.2 主要機能（詳細な機能説明）
+   - 7.3 テクノロジー（オプション、関連する場合のみ）
+   - 7.4 仮定（信じているが証明されていないこと）
 
-   **8. Release**
-   - How long could it take?
-   - What goes in the first version vs. future versions?
-   - Avoid exact dates; use relative timeframes
+   **8. リリース**
+   - どれくらいかかるか？
+   - 最初のバージョンと将来のバージョンに何を含めるか？
+   - 具体的な日付は避け、相対的な時間軸を使用する
 
-4. **Use Accessible Language**: Write for a primary school graduate. Avoid jargon. Use clear, short sentences.
+4. **わかりやすい言葉を使う**: 小学生が理解できるように書く。専門用語を避ける。明確で短い文を使用する。
 
-5. **Structure Output**: Present the PRD as a well-formatted markdown document with clear headings and sections.
+5. **出力を構造化する**: PRDを明確な見出しとセクションを持つよく整形されたmarkdownドキュメントとして提示する。
 
-6. **Save the Output**: If the PRD is substantial (which it will be), save it as a markdown document in the format: `PRD-[product-name].md`
+6. **出力を保存する**: PRDが実質的なものである場合（そうなるでしょう）、`PRD-[product-name].md`というフォーマットでmarkdownドキュメントとして保存する。
 
-## Notes
+## 注意事項
 
-- Be specific and data-driven where possible
-- Link each section back to the overall strategy
-- Flag assumptions clearly so the team can validate them
-- Keep the document concise but complete
+- できる限り具体的でデータに基づいた内容にする
+- 各セクションを全体的な戦略に結びつける
+- チームが検証できるように仮定を明確にフラグを立てる
+- ドキュメントを簡潔だが完全に保つ
 
 ---
 
-### Further Reading
+### 参考資料
 
 - [How to Write a Product Requirements Document? The Best PRD Template.](https://www.productcompass.pm/p/prd-template)
 - [A Proven AI PRD Template by Miqdad Jaffer (Product Lead @ OpenAI)](https://www.productcompass.pm/p/ai-prd-template)

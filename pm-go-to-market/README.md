@@ -1,26 +1,26 @@
 # pm-go-to-market
 
-Go-to-market skills for PMs: GTM strategy, growth loops, GTM motions, beachhead segments, and ideal customer profiles.
+PM向けGo-to-Marketスキル：GTM戦略、グロースループ、GTMモーション、ビーチヘッドセグメント、理想顧客プロファイル。
 
-## Skills (6)
+## スキル（6）
 
-- **beachhead-segment** — Identify the first beachhead market segment for a product launch.
-- **competitive-battlecard** — Create sales-ready competitive battlecards comparing your product against a specific competitor.
-- **growth-loops** — Identify growth loops (flywheels) for sustainable traction.
-- **gtm-motions** — Identify the best GTM motions and tools.
-- **gtm-strategy** — Create a go-to-market strategy for a product launch covering marketing channels, messaging, success metrics, and launch plan.
-- **ideal-customer-profile** — Identify the Ideal Customer Profile (ICP) from research data with demographics, behaviors, JTBD, and needs.
+- **beachhead-segment** — プロダクトローンチのための最初のビーチヘッド市場セグメントを特定。
+- **competitive-battlecard** — 特定の競合に対して自社プロダクトを比較する販売準備完了の競合バトルカードを作成。
+- **growth-loops** — 持続可能なトラクションのためのグロースループ（フライホイール）を特定。
+- **gtm-motions** — 最適なGTMモーションとツールを特定。
+- **gtm-strategy** — マーケティングチャネル、メッセージング、成功メトリクス、ローンチ計画をカバーするプロダクトローンチのgo-to-market戦略を作成。
+- **ideal-customer-profile** — 人口統計、行動、JTBD、ニーズを含むリサーチデータから理想顧客プロファイル（ICP）を特定。
 
-## Commands (3)
+## コマンド（3）
 
-- `/pm-go-to-market:battlecard` — Create a sales-ready competitive battlecard — positioning, feature comparison, objection handling, and win strategies.
-- `/pm-go-to-market:growth-strategy` — Design sustainable growth mechanisms — growth loops and GTM motions for product-led and sales-led strategies.
-- `/pm-go-to-market:plan-launch` — Create a full go-to-market strategy — beachhead segment, ICP, messaging, channels, and launch plan.
+- `/pm-go-to-market:battlecard` — 販売準備完了の競合バトルカードを作成 — ポジショニング、フィーチャー比較、反論処理、勝利戦略。
+- `/pm-go-to-market:growth-strategy` — 持続可能な成長メカニズムを設計 — プロダクトリードとセールスリード戦略のためのグロースループとGTMモーション。
+- `/pm-go-to-market:plan-launch` — 完全なgo-to-market戦略を作成 — ビーチヘッドセグメント、ICP、メッセージング、チャネル、ローンチ計画。
 
-## Author
+## 著者
 
 Paweł Huryn — [The Product Compass Newsletter](https://www.productcompass.pm)
 
-## License
+## ライセンス
 
 MIT

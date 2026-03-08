@@ -1,44 +1,44 @@
 ---
 name: identify-assumptions-existing
-description: "Identify risky assumptions for a feature idea in an existing product across Value, Usability, Viability, and Feasibility. Uses multi-perspective devil's advocate thinking. Use when stress-testing a feature idea, doing risk assessment, or preparing for assumption mapping."
+description: "Value・Usability・Viability・Feasibilityの4つのリスク領域で、既存製品の機能アイデアのリスクのある仮定を特定します。多視点の悪魔の代弁者思考を使用します。機能アイデアのストレステスト、リスク評価、または仮定マッピングの準備をするときに使用します。"
 ---
 
-## Identify Assumptions (Existing Product)
+## 仮定の特定（既存製品）
 
-Devil's advocate analysis to surface risky assumptions across four risk areas.
+4つのリスク領域にわたるリスクのある仮定を表面化するための悪魔の代弁者分析。
 
-### Context
+### コンテキスト
 
-You are stress-testing a feature idea for **$ARGUMENTS**.
+あなたは**$ARGUMENTS**の機能アイデアをストレステストしています。
 
-If the user provides files (designs, PRDs, research), read them first.
+ユーザーがファイル（デザイン、PRD、調査）を提供した場合は、まずそれらを読んでください。
 
-### Instructions
+### 手順
 
-The user will describe their product, objective, market segment, and feature idea. Work through these steps:
+ユーザーは製品、目標、市場セグメント、機能アイデアを説明します。以下のステップを実行してください：
 
-1. **Think from three perspectives** about why this feature might fail:
-   - **Product Manager perspective**: Business viability, market fit, strategic alignment
-   - **Designer perspective**: Usability, user experience, adoption barriers
-   - **Engineer perspective**: Technical feasibility, performance, integration challenges
+1. **この機能が失敗するかもしれない理由について3つの視点から考える**：
+   - **プロダクトマネージャーの視点**：ビジネスの実現可能性、市場適合性、戦略的整合性
+   - **デザイナーの視点**：使いやすさ、ユーザー体験、採用の障壁
+   - **エンジニアの視点**：技術的実現可能性、パフォーマンス、統合の課題
 
-2. **Identify assumptions across four risk areas**:
-   - **Value**: Will it create value for customers? Does it solve a real problem?
-   - **Usability**: Will users figure out how to use it? Is the learning curve acceptable?
-   - **Viability**: Can marketing, sales, finance, and legal support it?
-   - **Feasibility**: Can it be built with existing technology? Are there integration risks?
+2. **4つのリスク領域にわたる仮定を特定する**：
+   - **Value**：顧客に価値を生み出すか？実際の問題を解決するか？
+   - **Usability**：ユーザーは使い方を理解できるか？学習曲線は許容できるか？
+   - **Viability**：マーケティング・営業・財務・法務はサポートできるか？
+   - **Feasibility**：既存技術で構築できるか？統合リスクはあるか？
 
-3. **For each assumption**, note:
-   - What specifically could go wrong
-   - How confident you are (High/Medium/Low)
-   - Suggested way to test it
+3. **各仮定について**、以下を記録してください：
+   - 具体的に何が問題になる可能性があるか
+   - 信頼度（高/中/低）
+   - テスト方法の提案
 
-Think step by step. Be thorough but constructive — the goal is to strengthen the idea, not kill it.
+ステップバイステップで考えてください。徹底的かつ建設的に — 目標はアイデアを強化することであり、潰すことではありません。
 
 ---
 
-### Further Reading
+### 参考資料
 
 - [Assumption Prioritization Canvas: How to Identify And Test The Right Assumptions](https://www.productcompass.pm/p/assumption-prioritization-canvas)
 - [How to Manage Risks as a Product Manager](https://www.productcompass.pm/p/how-to-manage-risks-as-a-product-manager)
-- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (video course)
+- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (ビデオコース)

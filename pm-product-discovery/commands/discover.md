@@ -1,82 +1,82 @@
 ---
-description: Run a full product discovery cycle — from ideation through assumption mapping to experiment design
-argument-hint: "<product or feature idea>"
+description: アイデア出しから仮定マッピング、実験設計まで、完全なプロダクトディスカバリーサイクルを実行します
+argument-hint: "<製品または機能のアイデア>"
 ---
 
-# /discover -- Full Discovery Cycle
+# /discover -- 完全なディスカバリーサイクル
 
-Run a structured product discovery process that moves from divergent thinking to focused validation. This command chains multiple skills into a single end-to-end workflow.
+発散的思考から集中した検証へと進む、構造化されたプロダクトディスカバリープロセスを実行します。このコマンドは複数のスキルを単一のエンドツーエンドワークフローに連鎖させます。
 
-## Invocation
+## 呼び出し方
 
 ```
 /discover Smart notification system for our project management tool
 /discover New product: AI writing assistant for non-native speakers
-/discover                    # asks what you're discovering
+/discover                    # 何を発見するかを質問します
 ```
 
-## Workflow
+## ワークフロー
 
-### Step 1: Understand the Discovery Context
+### ステップ1：ディスカバリーコンテキストを理解する
 
-Determine whether this is:
-- **Existing product** — continuous discovery on a known product with real users
-- **New product** — initial discovery for a concept without validated demand
+これが以下のどちらかを判断します：
+- **既存製品** — 実際のユーザーを持つ既知の製品での継続的ディスカバリー
+- **新製品** — 検証されていない需要のコンセプトの初期ディスカバリー
 
-Ask the user:
-- What are you exploring? (product idea, feature area, opportunity space)
-- What do you already know? (prior research, customer feedback, data)
-- What decisions will this discovery inform? (build/kill, prioritize, pivot)
+ユーザーに質問します：
+- 何を探索していますか？（製品アイデア、機能領域、機会空間）
+- すでに何を知っていますか？（事前調査、顧客フィードバック、データ）
+- このディスカバリーはどのような意思決定に情報を提供しますか？（構築/廃止、優先順位付け、ピボット）
 
-Accept context from uploaded files (research, PRDs, transcripts, data), links, or conversation.
+アップロードされたファイル（調査、PRD、トランスクリプト、データ）、リンク、または会話からコンテキストを受け入れます。
 
-### Step 2: Brainstorm Ideas (Divergent Phase)
+### ステップ2：アイデアのブレインストーミング（発散フェーズ）
 
-Apply the **brainstorm-ideas-existing** or **brainstorm-ideas-new** skill:
+**brainstorm-ideas-existing** または **brainstorm-ideas-new** スキルを適用します：
 
-- Generate ideas from PM, Designer, and Engineer perspectives
-- Present the top 10 ideas with brief rationale
-- Ask the user to select 3-5 ideas to carry forward, or accept all
+- PM・デザイナー・エンジニアの視点からアイデアを生成する
+- 簡潔な根拠とともにトップ10のアイデアを提示する
+- ユーザーに3〜5つのアイデアを選んで進めるよう求めるか、すべてを受け入れる
 
-**Checkpoint**: "Here are 10 ideas. Which ones should we stress-test? Pick 3-5, or I can carry all forward."
+**チェックポイント**：「こちらが10のアイデアです。どれをストレステストしますか？3〜5つ選ぶか、すべて進めることもできます。」
 
-### Step 3: Identify Assumptions (Critical Thinking Phase)
+### ステップ3：仮定の特定（批判的思考フェーズ）
 
-For each selected idea, apply the **identify-assumptions-existing** or **identify-assumptions-new** skill:
+選択された各アイデアについて、**identify-assumptions-existing** または **identify-assumptions-new** スキルを適用します：
 
-- Surface assumptions across risk categories:
-  - **Value**: Will users want this?
-  - **Usability**: Can users figure it out?
-  - **Feasibility**: Can we build it?
-  - **Viability**: Does the business case work?
-  - **Go-to-Market** (new products only): Can we reach and convert users?
-- Use devil's advocate multi-perspective analysis
-- Compile a master list of all assumptions across all ideas
+- リスクカテゴリーにわたる仮定を表面化する：
+  - **Value**：ユーザーはこれを望むか？
+  - **Usability**：ユーザーは使い方を理解できるか？
+  - **Feasibility**：構築できるか？
+  - **Viability**：ビジネスケースは機能するか？
+  - **Go-to-Market**（新製品のみ）：ユーザーに到達してコンバートできるか？
+- 悪魔の代弁者の多視点分析を使用する
+- すべてのアイデアにわたるすべての仮定のマスターリストをまとめる
 
-### Step 4: Prioritize Assumptions (Focus Phase)
+### ステップ4：仮定の優先順位付け（集中フェーズ）
 
-Apply the **prioritize-assumptions** skill:
+**prioritize-assumptions** スキルを適用します：
 
-- Map assumptions on an Impact × Risk matrix
-- Identify the "leap of faith" assumptions — high impact, high uncertainty
-- Rank assumptions by test priority
-- Group related assumptions that can be tested together
+- インパクト×リスクマトリクスに仮定をマッピングする
+- 「信念の跳躍」の仮定を特定する — 高インパクト、高不確実性
+- テスト優先度で仮定をランク付けする
+- 一緒にテストできる関連する仮定をグループ化する
 
-**Checkpoint**: "Here are your riskiest assumptions. Which ones feel most critical to validate first?"
+**チェックポイント**：「こちらが最もリスクの高い仮定です。最初に検証することが最も重要と感じるのはどれですか？」
 
-### Step 5: Design Experiments (Validation Phase)
+### ステップ5：実験の設計（検証フェーズ）
 
-For the top-priority assumptions, apply **brainstorm-experiments-existing** or **brainstorm-experiments-new** skill:
+最優先の仮定について、**brainstorm-experiments-existing** または **brainstorm-experiments-new** スキルを適用します：
 
-- Design 1-2 experiments per critical assumption
-- For existing products: A/B tests, fake doors, prototypes, user tests, data analysis
-- For new products: XYZ hypotheses, pretotypes, landing pages, concierge MVPs
-- Include success criteria, timeline, and effort for each
-- Sequence experiments by dependency and effort
+- 重要な仮定ごとに1〜2つの実験を設計する
+- 既存製品の場合：A/Bテスト、フェイクドア、プロトタイプ、ユーザーテスト、データ分析
+- 新製品の場合：XYZ仮説、プレタイプ、ランディングページ、コンシェルジュMVP
+- 各実験の成功基準、タイムライン、工数を含める
+- 依存関係と工数で実験を順序付ける
 
-### Step 6: Create Discovery Plan
+### ステップ6：ディスカバリー計画を作成する
 
-Compile everything into a discovery plan document:
+すべてをディスカバリー計画ドキュメントにまとめます：
 
 ```
 ## Discovery Plan: [Topic]
@@ -86,10 +86,10 @@ Compile everything into a discovery plan document:
 **Discovery Question**: [what we're trying to learn]
 
 ### Ideas Explored
-[Summary of brainstormed ideas with brief descriptions]
+[ブレインストーミングされたアイデアの簡潔な説明のまとめ]
 
 ### Selected Ideas for Validation
-[3-5 ideas carried forward with rationale]
+[根拠を含む3〜5つの前進するアイデア]
 
 ### Critical Assumptions
 | # | Assumption | Category | Impact | Uncertainty | Priority |
@@ -100,7 +100,7 @@ Compile everything into a discovery plan document:
 |---|-----------------|--------|-----------------|--------|----------|
 
 ### Experiment Details
-[For each experiment: hypothesis, setup, measurement, decision criteria]
+[各実験：仮説、セットアップ、測定、意思決定基準]
 
 ### Discovery Timeline
 Week 1: [experiments]
@@ -112,20 +112,20 @@ Week 3: [analysis and decision]
 - If [experiment] fails → [pivot/kill/investigate further]
 ```
 
-Save the plan as a markdown file to the user's workspace.
+計画をMarkdownファイルとしてユーザーのワークスペースに保存します。
 
-### Step 7: Offer Next Steps
+### ステップ7：次のステップを提案する
 
-- "Want me to **create a PRD** for the top idea?"
-- "Should I **design an interview script** to supplement these experiments?"
-- "Want me to **set up metrics** to track the experiments?"
-- "Should I **estimate effort** and create user stories for the MVP?"
+- 「トップアイデアの**PRDを作成**しますか？」
+- 「これらの実験を補完する**インタビュースクリプトを設計**しますか？」
+- 「実験を追跡するための**指標をセットアップ**しますか？」
+- 「**工数を見積もり**、MVPのユーザーストーリーを作成しますか？」
 
-## Notes
+## 注意事項
 
-- This is a 15-30 minute structured workflow — let the user know upfront
-- At each checkpoint, the user can redirect, skip, or go deeper
-- If the user has research data, pull insights from it before brainstorming
-- The discovery plan should be a living document — offer to update it as experiments run
-- For new products, emphasize desirability validation before feasibility
-- For existing products, check if there's usage data that can inform assumptions
+- これは15〜30分の構造化されたワークフローです — 事前にユーザーに知らせてください
+- 各チェックポイントで、ユーザーはリダイレクト、スキップ、または深掘りができます
+- ユーザーが調査データを持っている場合は、ブレインストーミングの前にそこからインサイトを引き出してください
+- ディスカバリー計画は生きたドキュメントであるべきです — 実験が進むにつれて更新を申し出てください
+- 新製品の場合は、実現可能性の前に望ましさの検証を強調してください
+- 既存製品の場合は、仮定に情報を提供できる使用データがあるか確認してください

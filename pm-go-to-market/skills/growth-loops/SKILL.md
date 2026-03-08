@@ -1,125 +1,125 @@
 ---
 name: growth-loops
-description: "Identify growth loops (flywheels) for sustainable traction. Evaluates 5 loop types: Viral, Usage, Collaboration, User-Generated, and Referral. Use when designing growth mechanisms, building product-led traction, or understanding how growth loops work."
+description: "持続可能なトラクションのためのグロースループ（フライホイール）を特定します。バイラル、ユーセージ、コラボレーション、ユーザー生成コンテンツ、リファラルの5種類のループを評価します。グロースメカニズムの設計、プロダクトレッドトラクションの構築、グロースループの仕組みの理解に使用します。"
 ---
 # Growth Loops
 
-## Overview
-Identify and design growth loops (flywheels) that create sustainable traction. This skill evaluates five proven growth loop mechanisms to reduce reliance on paid acquisition and build product-led growth.
+## 概要
+持続可能なトラクションを生み出すグロースループ（フライホイール）を特定・設計します。このスキルは5つの実証済みグロースループメカニズムを評価し、有料獲得への依存を減らしてプロダクトレッドグロースを構築します。
 
-## When to Use
-- Designing growth mechanisms for a product
-- Building sustainable viral or referral traction
-- Reducing reliance on paid acquisition
-- Analyzing competitor growth strategies
-- Optimizing product for product-led growth
+## 使用タイミング
+- 製品のグロースメカニズムを設計する時
+- 持続可能なバイラルまたはリファラルトラクションを構築する時
+- 有料獲得への依存を減らす時
+- 競合のグロース戦略を分析する時
+- プロダクトレッドグロース向けに製品を最適化する時
 
-## The 5 Growth Loop Types
+## 5種類のグロースループ
 
-### 1. Viral Loop
-Product content created by users gets shared on external platforms, bringing new users back to the product.
-- **Mechanism**: Users create content in-product → Share on social/external platforms → New users discover and signup
-- **Example**: Figma designs shared as links, Loom videos shared in emails
-- **Strength**: Exponential user acquisition if content is inherently shareable
-- **Challenge**: Requires highly shareable output and strong incentive to share
+### 1. バイラルループ
+ユーザーが作成した製品コンテンツが外部プラットフォームでシェアされ、新規ユーザーを製品に呼び込む。
+- **メカニズム**: ユーザーが製品内でコンテンツを作成 → ソーシャル/外部プラットフォームでシェア → 新規ユーザーが発見してサインアップ
+- **例**: リンクとしてシェアされるFigmaのデザイン、メールでシェアされるLoomビデオ
+- **強み**: コンテンツが本質的にシェア可能な場合、指数関数的なユーザー獲得
+- **課題**: 高度にシェア可能なアウトプットとシェアへの強い動機が必要
 
-### 2. Usage Loop
-Users create content or value within the product, then share it, which invites new users or drives re-engagement.
-- **Mechanism**: User creates → Shares creation → Others consume → Become engaged users
-- **Example**: Twitter threads, Medium articles, Notion templates shared publicly
-- **Strength**: Growth tied directly to product usage and network effects
-- **Challenge**: Requires content creation friction to be very low
+### 2. ユーセージループ
+ユーザーが製品内でコンテンツや価値を作成し、それをシェアすることで新規ユーザーを招待したりリエンゲージメントを促す。
+- **メカニズム**: ユーザーが作成 → 作成物をシェア → 他者が消費 → エンゲージドユーザーになる
+- **例**: Twitterスレッド、Mediumの記事、公開シェアされるNotionテンプレート
+- **強み**: 製品使用とネットワーク効果に直接結びついた成長
+- **課題**: コンテンツ作成のフリクションが非常に低い必要がある
 
-### 3. Collaboration Loop
-Users invite colleagues to co-create or collaborate within the product, expanding the user base within organizations.
-- **Mechanism**: User creates → Invites colleagues for collaboration → Colleagues discover product value
-- **Example**: Google Docs invitations, Figma team projects, Slack channels
-- **Strength**: Deep organizational penetration and high retention
-- **Challenge**: Works best for collaborative/team-based products
+### 3. コラボレーションループ
+ユーザーが製品内で共同作成または共同作業するために同僚を招待し、組織内のユーザーベースを拡大する。
+- **メカニズム**: ユーザーが作成 → コラボレーションのために同僚を招待 → 同僚が製品の価値を発見する
+- **例**: Google Docsの招待、Figmaのチームプロジェクト、Slackチャンネル
+- **強み**: 深い組織への浸透と高いリテンション
+- **課題**: コラボレーション/チームベースの製品に最適
 
-### 4. User-Generated Loop
-Users discover new content or features through other users' creations, then create and share their own content.
-- **Mechanism**: User discovers content → Creates similar content → Shares creation → Others discover
-- **Example**: TikTok, Pinterest, YouTube trends driving creator participation
-- **Strength**: Creates content flywheel and network effects
-- **Challenge**: Requires critical mass of quality content to sustain
+### 4. ユーザー生成コンテンツループ
+ユーザーが他のユーザーの作成物から新しいコンテンツや機能を発見し、自らコンテンツを作成・シェアする。
+- **メカニズム**: ユーザーがコンテンツを発見 → 同様のコンテンツを作成 → 作成物をシェア → 他者が発見する
+- **例**: TikTok、Pinterest、クリエイターの参加を促すYouTubeのトレンド
+- **強み**: コンテンツフライホイールとネットワーク効果を生み出す
+- **課題**: 持続するために質の高いコンテンツのクリティカルマスが必要
 
-### 5. Referral Loop
-Users invite other potential users in exchange for rewards, incentives, or social recognition.
-- **Mechanism**: User refers → Referred user joins → Referrer gets reward → Shares more referrals
-- **Example**: Dropbox referral bonus, Uber rider referrals, PayPal signup bonuses
-- **Strength**: Directly incentivizes acquisition; easy to measure ROI
-- **Challenge**: Requires valuable incentive without eroding unit economics
+### 5. リファラルループ
+ユーザーが報酬、インセンティブ、または社会的認知と引き換えに他の潜在ユーザーを招待する。
+- **メカニズム**: ユーザーが紹介 → 紹介されたユーザーが参加 → 紹介者が報酬を得る → さらに紹介をシェアする
+- **例**: Dropboxのリファラルボーナス、Uberのライダーリファラル、PayPalのサインアップボーナス
+- **強み**: 獲得を直接インセンティブ化；ROIの測定が容易
+- **課題**: ユニットエコノミクスを損なわずに価値あるインセンティブが必要
 
-## How It Works
+## 仕組み
 
-### Step 1: Define Product Value
-Clarify the core value users experience:
-- Primary action users take in your product
-- Value created per user action
-- Network effects present (if any)
-- Friction points in the experience
+### ステップ1: 製品価値の定義
+ユーザーが経験するコアバリューを明確にします：
+- ユーザーが製品内で行うプライマリアクション
+- ユーザーアクション当たりの創出価値
+- 存在するネットワーク効果（あれば）
+- 体験のフリクションポイント
 
-### Step 2: Evaluate Loop Fit
-Assess which growth loops align with your product:
-- Product type (collaborative, content-based, utility, etc.)
-- Target user behavior and sharing habits
-- Network effects already present
-- Existing user base and engagement
+### ステップ2: ループのフィット評価
+どのグロースループが製品に合致するかを評価します：
+- 製品タイプ（コラボレーション型、コンテンツベース、ユーティリティなど）
+- ターゲットユーザーの行動とシェア習慣
+- 既に存在するネットワーク効果
+- 既存のユーザーベースとエンゲージメント
 
-### Step 3: Design Loop Mechanics
-Create specific loop implementation:
-- Trigger that initiates sharing or invitations
-- Incentive for participation (intrinsic or extrinsic)
-- Ease of sharing mechanism
-- Conversion rate from invite to activation
-- Frequency of loop repetition per user
+### ステップ3: ループメカニズムの設計
+具体的なループの実装を作成します：
+- シェアまたは招待を開始するトリガー
+- 参加への動機（内発的または外発的）
+- シェアメカニズムの使いやすさ
+- 招待からアクティベーションへのコンバージョン率
+- ユーザーごとのループ繰り返し頻度
 
-### Step 4: Calculate Loop Coefficient
-Estimate growth velocity:
-- Invites/shares per user per cycle
-- Conversion rate of invites to new users
-- Net new users per cycle
-- Time per cycle iteration
+### ステップ4: ループ係数の計算
+グロース速度を推定します：
+- サイクルごとのユーザー1人当たりの招待/シェア数
+- 招待から新規ユーザーへのコンバージョン率
+- サイクルごとの純新規ユーザー数
+- サイクルの繰り返しにかかる時間
 
-### Step 5: Build the Loop
-Implement the highest-leverage loop first:
-- Start with the most natural loop for your product
-- Optimize messaging and friction
-- Measure loop metrics and conversion rates
-- Compound results over time
+### ステップ5: ループの構築
+最もレバレッジの高いループを最初に実装します：
+- 製品に最も自然なループから始める
+- メッセージングとフリクションを最適化する
+- ループ指標とコンバージョン率を測定する
+- 時間とともに結果を複利成長させる
 
-## Input Format
-Use $ARGUMENTS to pass:
-- Product description and primary user action
-- Target user demographics and behavior
-- Existing sharing/collaboration features
-- Current growth channels and metrics
-- Constraints or opportunities
+## 入力フォーマット
+$ARGUMENTS を使用して以下を渡します：
+- 製品の説明とプライマリユーザーアクション
+- ターゲットユーザーのデモグラフィクスと行動
+- 既存のシェア/コラボレーション機能
+- 現在のグロースチャネルと指標
+- 制約または機会
 
-## Output
-A growth loops analysis including:
-- Ranked evaluation of all 5 loop types for your product
-- Recommended primary growth loop with implementation plan
-- Secondary loops to layer over time
-- Key metrics and measurement framework
-- 30-60-90 day implementation roadmap
-- Potential loop coefficient and growth projections
+## アウトプット
+以下を含むグロースループ分析：
+- 製品に対する5種類のループすべての順位付け評価
+- 実装計画を含む推奨プライマリグロースループ
+- 時間をかけて重ねるセカンダリループ
+- 主要指標と測定フレームワーク
+- 30-60-90日間の実装ロードマップ
+- 潜在的なループ係数とグロース予測
 
-## Framework
-Based on growth loops research by Ognjen Bošković. Focuses on compounding user acquisition through built-in, product-native sharing and collaboration mechanisms.
+## フレームワーク
+Ognjen Boškovićによるグロースループ研究に基づいています。製品固有のシェアとコラボレーションメカニズムを通じた複利的なユーザー獲得に焦点を当てています。
 
-## Tips
-- Start with one loop and master it before adding complexity
-- Viral loops compound fastest but take time to build
-- Collaboration loops create strongest retention and LTV
-- Measure loop health weekly during optimization phase
-- Combine loops for multiplicative effect once operating at scale
+## ヒント
+- 複雑さを加える前に1つのループをマスターする
+- バイラルループは最も速く複利成長するが、構築に時間がかかる
+- コラボレーションループは最強のリテンションとLTVを生み出す
+- 最適化フェーズ中は週次でループの健全性を測定する
+- 規模で運用している場合は、ループを組み合わせて乗数効果を得る
 
 ---
 
-### Further Reading
+### 参考文献
 
 - [Product-Led Growth 101, Part 1/2](https://www.productcompass.pm/p/product-led-growth-101-12)
-- [OpenAI’s Product Leader Shares 3-Layer Distribution Framework To Win Mind & Market Share in the AI World](https://www.productcompass.pm/p/distribution-framework-ai-products)
+- [OpenAI's Product Leader Shares 3-Layer Distribution Framework To Win Mind & Market Share in the AI World](https://www.productcompass.pm/p/distribution-framework-ai-products)
 - [How to Design a Value Proposition Customers Can't Resist?](https://www.productcompass.pm/p/how-to-design-value-proposition-template)

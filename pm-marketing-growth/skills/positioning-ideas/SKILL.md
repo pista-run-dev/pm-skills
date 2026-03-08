@@ -1,61 +1,61 @@
 ---
 name: positioning-ideas
-description: "Brainstorm product positioning ideas differentiated from competitors. Identifies top competitors and generates positioning statements with rationale. Use when developing product positioning, differentiating from competitors, or crafting brand positioning strategy."
+description: "競合から差別化された製品ポジショニングアイデアをブレインストーミングします。主要な競合を特定し、根拠を示したポジショニングステートメントを生成します。製品ポジショニングの開発、競合からの差別化、ブランドポジショニング戦略の策定に使用します。"
 ---
 # Positioning Ideas
 
-Brainstorm product positioning ideas differentiated from competitors. Identifies top competitors and generates positioning statements with strategic rationale. Use when developing product positioning, differentiating from competitors, or crafting brand positioning strategy.
+競合から差別化された製品ポジショニングアイデアをブレインストーミングします。主要な競合を特定し、戦略的な根拠を示したポジショニングステートメントを生成します。製品ポジショニングの開発、競合からの差別化、ブランドポジショニング戦略の策定に使用します。
 
-## When to Use
+## 使用タイミング
 
-- Developing product positioning strategy
-- Differentiating from competitors
-- Crafting brand positioning statements
-- Identifying market positioning gaps
-- Triggers: positioning, brand positioning, differentiation, how to position, positioning statement
+- 製品ポジショニング戦略の開発
+- 競合からの差別化
+- ブランドポジショニングステートメントの策定
+- 市場ポジショニングのギャップの特定
+- トリガー: ポジショニング、ブランドポジショニング、差別化、ポジショニング方法、ポジショニングステートメント
 
-## Prompt
+## プロンプト
 
-You are an experienced brand strategist with expertise in competitive positioning, market differentiation, and brand strategy.
+あなたは競合ポジショニング、市場差別化、ブランド戦略の専門知識を持つ経験豊富なブランドストラテジストです。
 
-Given the following product and market context: $ARGUMENTS
+以下の製品と市場コンテキストを前提として：$ARGUMENTS
 
-Follow these steps:
+次の手順に従ってください：
 
-**Step 1: Competitive Landscape Analysis**
-Identify and briefly describe the top 5 competitors in this market. For each, note:
-- Their primary positioning angle
-- Their target audience focus
-- Key differentiators they emphasize
-- Potential positioning gaps they leave open
+**ステップ1：競合状況分析**
+この市場で上位5社の競合を特定し、簡単に説明してください。各社について以下を記録します：
+- プライマリポジショニングの角度
+- ターゲットオーディエンスのフォーカス
+- 強調する主要な差別化要素
+- 残しているポジショニングのギャップ
 
-**Step 2: Positioning Brainstorm**
-Generate 5 unique positioning ideas for this product that target the specified market segment. Each positioning idea should:
-- Be clearly differentiated from competitor positioning
-- Resonate with the target audience's values and needs
-- Emphasize specific capabilities that competitors downplay or ignore
-- Open an unclaimed market territory
+**ステップ2：ポジショニングのブレインストーミング**
+特定の市場セグメントをターゲットとするこの製品の5つのユニークなポジショニングアイデアを生成してください。各ポジショニングアイデアは：
+- 競合のポジショニングから明確に差別化されている
+- ターゲットオーディエンスの価値観とニーズに共鳴する
+- 競合が軽視または無視している特定の機能を強調する
+- 未主張の市場領域を開拓する
 
-**Step 3: Positioning Statements**
-For each idea, provide:
+**ステップ3：ポジショニングステートメント**
+各アイデアについて以下を提供します：
 
-1. **Positioning Statement**: A one-sentence statement that captures the core positioning (e.g., "The [product] is the only [category] designed for [target segment] who want to [primary benefit]")
-2. **Strategic Rationale**: Explain why this positioning would resonate with the audience and create differentiation
-3. **Supporting Message**: Key supporting messages that reinforce this positioning
-4. **Competitive Advantage**: What specific advantages enable this positioning claim
+1. **ポジショニングステートメント**：コアポジショニングを捉えた一文のステートメント（例：「[製品]は[主なベネフィット]を望む[ターゲットセグメント]向けに設計された唯一の[カテゴリ]です」）
+2. **戦略的根拠**：このポジショニングがなぜオーディエンスに共鳴し、差別化を生み出すかの説明
+3. **サポートメッセージ**：このポジショニングを強化する主要なサポートメッセージ
+4. **競合優位性**：このポジショニング主張を可能にする具体的な優位性
 
-## Tips for Best Results
+## 最良の結果のためのヒント
 
-- Provide detailed target audience profiles and their pain points
-- Share your product's unique capabilities and differentiators
-- Mention current positioning (if any) and what's working or not working
-- Include information about competitor positioning and messaging
-- Describe what market segment or niche you want to own
-- Share your long-term vision and business strategy
+- 詳細なターゲットオーディエンスプロファイルとそのペインポイントを提供する
+- 製品のユニークな機能と差別化要素を共有する
+- 現在のポジショニング（あれば）と何が機能しているかまたは機能していないかを述べる
+- 競合のポジショニングとメッセージングに関する情報を含める
+- 所有したい市場セグメントまたはニッチを説明する
+- 長期ビジョンとビジネス戦略を共有する
 
 ---
 
-### Further Reading
+### 参考文献
 
 - [Product Management vs. Product Marketing vs. Product Growth 101](https://www.productcompass.pm/p/product-management-vs-product-marketing)
 - [How to Design a Value Proposition Customers Can't Resist?](https://www.productcompass.pm/p/how-to-design-value-proposition-template)

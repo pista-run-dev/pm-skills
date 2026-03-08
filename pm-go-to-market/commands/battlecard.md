@@ -1,13 +1,13 @@
 ---
-description: Create a sales-ready competitive battlecard — positioning, feature comparison, objection handling, and win strategies
-argument-hint: "<your product> vs <competitor>"
+description: セールスレディな競合バトルカードを作成します — ポジショニング、機能比較、異議対応、勝利戦略
+argument-hint: "<自社製品> vs <競合>"
 ---
 
 # /battlecard -- Competitive Battlecard
 
-Create a concise, sales-ready battlecard that helps your team win deals against a specific competitor. Includes positioning, feature comparison, objection handling, and conversation strategies.
+特定の競合に対するディール獲得をチームが支援するための簡潔でセールスレディなバトルカードを作成します。ポジショニング、機能比較、異議対応、会話戦略を含みます。
 
-## Invocation
+## 呼び出し方
 
 ```
 /battlecard Our CRM vs Salesforce
@@ -15,97 +15,97 @@ Create a concise, sales-ready battlecard that helps your team win deals against 
 /battlecard [upload competitor materials or win/loss data]
 ```
 
-## Workflow
+## ワークフロー
 
-### Step 1: Identify the Matchup
+### ステップ1: 対戦を特定する
 
-Ask:
-- Your product and the specific competitor
-- Who is the typical buyer choosing between you?
-- Do you have win/loss data or sales feedback?
-- What deal stage does this typically come up? (early evaluation, final decision, displacement)
+以下を確認します：
+- 自社製品と特定の競合
+- 典型的な購入者は誰を比較していますか？
+- 勝敗データやセールスフィードバックがありますか？
+- これは通常どのディールステージで発生しますか？（初期評価、最終決定、乗り換え）
 
-### Step 2: Research the Competitor
+### ステップ2: 競合のリサーチ
 
-Apply the **competitive-battlecard** skill with web research:
+ウェブリサーチで **competitive-battlecard** スキルを適用します：
 
-- Current product capabilities and recent launches
-- Pricing model and published pricing
-- Target market and positioning
-- Known weaknesses (from reviews, forums, customer feedback)
-- Recent company news (funding, leadership, strategy shifts)
+- 現在の製品機能と最近のローンチ
+- 価格モデルと公表価格
+- ターゲット市場とポジショニング
+- 既知の弱点（レビュー、フォーラム、顧客フィードバックから）
+- 最近の会社ニュース（資金調達、リーダーシップ、戦略の変化）
 
-### Step 3: Generate Battlecard
+### ステップ3: バトルカードの生成
 
 ```
-## Competitive Battlecard: [Your Product] vs [Competitor]
+## Competitive Battlecard: [自社製品] vs [競合]
 
-**Last updated**: [today]
-**Use when**: [situation where this competitor comes up]
+**最終更新**: [今日]
+**使用場面**: [この競合が話題になる状況]
 
 ### Quick Summary
-**We win when**: [buyer profile and situation where you have advantage]
-**We lose when**: [buyer profile and situation where competitor has advantage]
-**Key differentiator**: [one sentence]
+**自社が勝つ場合**: [優位性があるバイヤープロファイルと状況]
+**自社が負ける場合**: [競合に優位性があるバイヤープロファイルと状況]
+**主要差別化要素**: [一文]
 
 ### Positioning
-**How they position**: [their messaging]
-**How we position against them**: [our counter-positioning]
+**競合のポジショニング**: [競合のメッセージング]
+**自社のカウターポジショニング**: [競合に対する自社のポジショニング]
 
 ### Feature Comparison
-| Capability | Us | Them | Verdict |
+| 機能 | 自社 | 競合 | 判定 |
 |-----------|-----|------|---------|
-| [capability] | [status] | [status] | [advantage] |
+| [機能] | [ステータス] | [ステータス] | [優位性] |
 
 ### Pricing Comparison
-| Dimension | Us | Them | Notes |
+| 次元 | 自社 | 競合 | 注記 |
 |----------|-----|------|-------|
 
 ### Objection Handling
-| Objection | Response | Proof Point |
+| 異議 | 返答 | 証拠ポイント |
 |----------|---------|------------|
-| "They have [feature]" | [response] | [evidence] |
-| "They're cheaper" | [response] | [TCO analysis] |
-| "They're more established" | [response] | [counter] |
+| "競合は[機能]を持っている" | [返答] | [証拠] |
+| "競合の方が安い" | [返答] | [TCO分析] |
+| "競合の方が実績がある" | [返答] | [反論] |
 
 ### Landmines to Plant
-[Questions to ask the prospect that expose competitor weaknesses]
-1. "Ask them about [topic] — their answer will reveal [weakness]"
+[競合の弱点を明らかにするためにプロスペクトに聞く質問]
+1. "[トピック]について聞いてみてください — 返答で[弱点]が明らかになります"
 
 ### Trap Questions to Expect
-[Questions the competitor will encourage the prospect to ask you]
-1. "[Question]" — How to respond: [response]
+[競合がプロスペクトに自社へ聞くよう促す質問]
+1. "[質問]" — 返答方法：[返答]
 
 ### Win/Loss Patterns
-**We typically win because**: [top 3 reasons]
-**We typically lose because**: [top 3 reasons]
+**自社が勝つ典型的な理由**: [上位3理由]
+**自社が負ける典型的な理由**: [上位3理由]
 
 ### Conversation Starters
-**If they're already using [Competitor]**:
-- [approach for displacement deals]
+**[競合]をすでに使用している場合**:
+- [乗り換えディールのアプローチ]
 
-**If they're evaluating both**:
-- [approach for competitive evaluations]
+**両方を評価している場合**:
+- [競合評価のアプローチ]
 
 ### Resources
-- [Customer story / case study that counters this competitor]
-- [Third-party comparison or review]
-- [Demo script optimized for this competitive situation]
+- [この競合に対抗する顧客ストーリー/ケーススタディ]
+- [サードパーティの比較またはレビュー]
+- [この競合状況に最適化されたデモスクリプト]
 ```
 
-Save as markdown.
+マークダウンとして保存。
 
-### Step 4: Offer Next Steps
+### ステップ4: 次のステップの提案
 
-- "Want me to **create battlecards for other competitors**?"
-- "Should I **run a full competitive analysis** of the market?"
-- "Want me to **draft customer-facing comparison content** based on this?"
-- "Should I **update the positioning** based on competitive insights?"
+- "**他の競合向けのバトルカードを作成**しますか？"
+- "市場の**完全な競合分析を実施**しますか？"
+- "これに基づいた**顧客向け比較コンテンツを下書き**しますか？"
+- "競合の洞察に基づいて**ポジショニングを更新**しますか？"
 
-## Notes
+## 注意事項
 
-- Battlecards should be updated quarterly — competitors change fast
-- "Landmines" are the most valuable section for sales — teach reps what questions to ask
-- Never trash the competitor in front of the prospect — position on your strengths, not their weaknesses
-- Win/loss data from real deals is worth 10x any analysis — encourage the user to add it
-- Keep it to one page equivalent — sales reps won't read a 10-page document during a call
+- バトルカードは四半期ごとに更新する必要があります — 競合は速く変化します
+- 「地雷」はセールスにとって最も価値のあるセクションです — 担当者にどんな質問をするかを教えてください
+- プロスペクトの前で競合を批判しないでください — 競合の弱点ではなく自社の強みでポジショニングしてください
+- 実際のディールからの勝敗データはどんな分析の10倍の価値があります — ユーザーに追加するよう促してください
+- 1ページ相当に収めてください — セールス担当者はコール中に10ページの文書を読みません

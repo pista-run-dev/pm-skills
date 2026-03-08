@@ -1,88 +1,88 @@
 ---
 name: interview-script
-description: "Create a structured customer interview script with JTBD probing questions, warm-up, core exploration, and wrap-up sections. Follows The Mom Test principles — no leading questions, no pitching, focus on past behavior. Use when preparing for user interviews, creating interview guides, or planning discovery research."
+description: "JTBDの深掘り質問、ウォームアップ、コア探索、まとめのセクションを含む構造化された顧客インタビュースクリプトを作成します。The Mom Testの原則に従い、誘導質問なし、ピッチなし、過去の行動に焦点を当てます。ユーザーインタビューの準備、インタビューガイドの作成、またはディスカバリーリサーチの計画を立てるときに使用します。"
 ---
 
-## Customer Interview Script
+## 顧客インタビュースクリプト
 
-Create a structured interview script that surfaces real insights, not just opinions. Follows "The Mom Test" principles — ask about their life, not your idea.
+意見ではなく実際のインサイトを引き出す構造化されたインタビュースクリプトを作成します。「The Mom Test」の原則に従い、あなたのアイデアではなく彼らの生活について質問します。
 
-### Domain Context
+### ドメインコンテキスト
 
-Customer interviews are one source in **Stage 1 (Explore)** of continuous discovery. Other sources: stakeholder interviews, usage analytics, data analytics, surveys, market trends, SEO/SEM analysis. The PM needs direct access to users, stakeholders, engineers, and designers — "without proxies." The **Product Trio** (PM + Designer + Engineer — Teresa Torres) should work together on discovery, not just the PM alone.
+顧客インタビューは継続的ディスカバリーの**ステージ1（探索）**における情報源の一つです。その他の情報源：ステークホルダーインタビュー、使用分析、データ分析、アンケート、市場トレンド、SEO/SEM分析。PMはユーザー・ステークホルダー・エンジニア・デザイナーへの直接アクセスが必要です。「プロキシなしで。」**プロダクトトリオ**（PM + デザイナー + エンジニア — Teresa Torres）はPMだけでなく、ディスカバリーで一緒に取り組むべきです。
 
-### Context
+### コンテキスト
 
-You are preparing a customer interview script for research on **$ARGUMENTS**.
+あなたは**$ARGUMENTS**に関するリサーチのための顧客インタビュースクリプトを準備しています。
 
-If the user provides files (personas, hypothesis lists, product briefs, or previous interview notes), read them first.
+ユーザーがファイル（ペルソナ、仮説リスト、製品概要、または以前のインタビューノート）を提供した場合は、まずそれらを読んでください。
 
-### Instructions
+### 手順
 
-1. **Clarify research objectives**:
-   - What specific questions does the team need answered?
-   - What decisions will this research inform?
-   - What assumptions need validation?
+1. **リサーチ目標を明確にする**：
+   - チームが答えを必要としている具体的な質問は何か？
+   - このリサーチはどのような意思決定に情報を提供するか？
+   - 検証が必要な仮定は何か？
 
-2. **Create the interview script** with these sections:
+2. **以下のセクションを含むインタビュースクリプトを作成する**：
 
-   ### Opening (2-3 min)
-   - Introduce yourself and the purpose (learning, not selling)
-   - Set expectations: "There are no right or wrong answers. We're here to learn from your experience."
-   - Ask permission to record (if applicable)
-   - Confirm time available
+   ### オープニング（2〜3分）
+   - 自己紹介と目的の説明（学習であり、販売ではない）
+   - 期待値の設定：「正しい答えも間違った答えもありません。あなたの経験から学ぶためにここにいます。」
+   - 録音の許可を求める（該当する場合）
+   - 利用可能な時間を確認する
 
-   ### Warm-Up: Context & Background (5 min)
-   - "Tell me about your role and what a typical day/week looks like."
-   - "How long have you been doing [activity related to the product area]?"
-   - Goal: Build rapport and understand their context
+   ### ウォームアップ：コンテキストと背景（5分）
+   - 「あなたの役割と典型的な一日/一週間の様子を教えてください。」
+   - 「[製品領域に関連する活動]をどのくらい続けていますか？」
+   - 目標：ラポートを構築し、彼らのコンテキストを理解する
 
-   ### Core Exploration: Jobs to Be Done (15-20 min)
+   ### コア探索：Jobs to Be Done（15〜20分）
 
-   **Current situation and behavior** (past tense, specific instances):
-   - "Walk me through the last time you [did the thing we're exploring]. What happened?"
-   - "What tools or methods did you use?"
-   - "How long did it take? Who else was involved?"
+   **現在の状況と行動**（過去形、具体的な事例）：
+   - 「最後に[探索していることをした]ときのことを教えてください。何が起きましたか？」
+   - 「どんなツールや方法を使いましたか？」
+   - 「どのくらい時間がかかりましたか？他に誰が関わっていましたか？」
 
-   **Pain points and frustrations** (observe, don't lead):
-   - "What was the hardest part about that?"
-   - "If you could wave a magic wand, what would change?"
-   - "What have you tried to solve this? What happened?"
+   **ペインポイントと不満**（観察し、誘導しない）：
+   - 「その中で一番難しかったのはどの部分でしたか？」
+   - 「魔法の杖を振れるとしたら、何を変えますか？」
+   - 「これを解決しようと何かを試しましたか？何が起きましたか？」
 
-   **Desired outcomes** (their words, not yours):
-   - "What does 'good' look like for you in this area?"
-   - "How would you know if this was working well?"
+   **望ましい成果**（あなたの言葉ではなく彼らの言葉で）：
+   - 「この領域で『良い』とはどのような状態ですか？」
+   - 「これがうまくいっているとどうやって分かりますか？」
 
-   **Willingness to pay / priority** (skin in the game):
-   - "How much time/money do you currently spend on this?"
-   - "Have you looked for a better solution? What did you find?"
-   - "What would you give up to have this solved?"
+   **支払い意欲 / 優先度**（スキン・イン・ザ・ゲーム）：
+   - 「現在これにどのくらいの時間/お金を費やしていますか？」
+   - 「より良いソリューションを探しましたか？何を見つけましたか？」
+   - 「これが解決されるためにあなたは何を諦めますか？」
 
-   ### Probing Techniques
-   Use these when you hit an interesting thread:
-   - **"Tell me more about that"** — opens up any topic
-   - **"Why?"** (asked gently, 2-3 times) — gets to root causes
-   - **"Can you give me a specific example?"** — moves from opinions to facts
-   - **"What happened next?"** — follows the story
-   - **"How did that make you feel?"** — captures emotional intensity
+   ### 深掘りテクニック
+   興味深いスレッドに当たったときに使用してください：
+   - **「それについてもっと教えてください」** — どんなトピックでも広げる
+   - **「なぜですか？」**（優しく、2〜3回）— 根本原因に到達する
+   - **「具体的な例を挙げてもらえますか？」** — 意見から事実に移行する
+   - **「その後どうなりましたか？」** — ストーリーを追う
+   - **「それはどのような気持ちにしましたか？」** — 感情的な強度を捉える
 
-   ### The Mom Test Rules
-   - Ask about **their life**, not your idea
-   - Ask about **the past**, not the future ("Would you use X?" is useless)
-   - **Talk less, listen more** — aim for 80/20 split
-   - **Never pitch** during the interview
-   - Look for **strong emotions** — they signal real pain or delight
-   - **Compliments are noise** — "That sounds cool!" tells you nothing
+   ### The Mom Testのルール
+   - **あなたのアイデアではなく彼らの生活**について質問する
+   - **未来ではなく過去**について質問する（「Xを使いますか？」は役に立たない）
+   - **話す量を減らし、聞く量を増やす** — 80/20の分割を目指す
+   - インタビュー中は**絶対にピッチしない**
+   - **強い感情**を探す — 実際のペインや喜びを示すシグナル
+   - **褒め言葉はノイズ** — 「それは面白そう！」は何も教えてくれない
 
-   ### Wrap-Up (3-5 min)
-   - "Is there anything I didn't ask that you think is important?"
-   - "Who else should I talk to about this?"
-   - Thank them for their time
-   - Share next steps (if any)
+   ### まとめ（3〜5分）
+   - 「私が聞かなかったことで重要だと思うことはありますか？」
+   - 「これについて他に誰に話すべきですか？」
+   - 時間を割いてくれたことへの感謝
+   - 次のステップを共有する（ある場合）
 
-3. **Customize the script**: Adapt questions to the specific product area, persona, and research objectives. Add or remove sections based on the interview length available.
+3. **スクリプトをカスタマイズする**：特定の製品領域、ペルソナ、リサーチ目標に質問を適応させてください。利用可能なインタビュー時間に応じてセクションを追加または削除してください。
 
-4. **Include a note-taking template**:
+4. **ノートテンプレートを含める**：
    ```
    Participant: [Name / ID]
    Date: [Date]
@@ -95,11 +95,11 @@ If the user provides files (personas, hypothesis lists, product briefs, or previ
    Follow-up: [Next steps]
    ```
 
-Save as markdown. Include both the script and the note-taking template.
+Markdownとして保存してください。スクリプトとノートテンプレートの両方を含めてください。
 
 ---
 
-### Further Reading
+### 参考資料
 
 - [User Interviews: The Ultimate Guide to Research Interviews](https://www.productcompass.pm/p/interviewing-customers-the-ultimate)
-- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (video course)
+- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (ビデオコース)

@@ -1,53 +1,53 @@
 ---
-description: Analyze user feedback at scale — sentiment analysis, theme extraction, and segment-level insights
-argument-hint: "<feedback data as CSV, text, or file>"
+description: 大規模なユーザーフィードバックを分析する — センチメント分析、テーマ抽出、セグメントレベルのインサイト
+argument-hint: "<CSV、テキスト、またはファイルとしてのフィードバックデータ>"
 ---
 
 # /analyze-feedback -- User Feedback Analysis
 
-Process large volumes of user feedback (reviews, surveys, support tickets, NPS responses) into structured insights with sentiment analysis and segment-level patterns.
+大量のユーザーフィードバック（レビュー、アンケート、サポートチケット、NPS回答）をセンチメント分析とセグメントレベルのパターンを含む構造化されたインサイトに処理します。
 
-## Invocation
+## 呼び出し方
 
 ```
-/analyze-feedback [upload a CSV of NPS responses]
-/analyze-feedback [paste app store reviews or survey responses]
-/analyze-feedback [upload support ticket export]
+/analyze-feedback [NPS回答のCSVをアップロード]
+/analyze-feedback [アプリストアレビューまたはアンケート回答を貼り付け]
+/analyze-feedback [サポートチケットエクスポートをアップロード]
 ```
 
-## Workflow
+## ワークフロー
 
-### Step 1: Accept Feedback Data
+### ステップ1: フィードバックデータを受け付ける
 
-Accept in any format:
-- CSV/Excel with feedback text (and optional metadata: date, segment, rating)
-- Pasted text (reviews, survey responses, Slack messages)
-- Uploaded documents or exports from feedback tools
+任意の形式で受け付けます：
+- フィードバックテキストを含むCSV/Excel（およびオプションのメタデータ：日付、セグメント、評価）
+- 貼り付けテキスト（レビュー、アンケート回答、Slackメッセージ）
+- フィードバックツールからのアップロードドキュメントまたはエクスポート
 
-Ask:
-- What kind of feedback is this? (NPS, reviews, support tickets, survey, etc.)
-- Any segments to analyze separately? (user tier, plan, geography)
-- What are you looking for? (general themes, specific issues, trends over time)
+確認事項：
+- これはどの種類のフィードバックですか？（NPS、レビュー、サポートチケット、アンケートなど）
+- 別々に分析するセグメントはありますか？（ユーザー層、プラン、地域）
+- 何を探していますか？（一般的なテーマ、特定の問題、時間の経過とともにのトレンド）
 
-### Step 2: Analyze
+### ステップ2: 分析する
 
-Apply the **sentiment-analysis** skill:
+**sentiment-analysis** スキルを適用します：
 
-- **Sentiment scoring**: Classify each piece of feedback (positive, neutral, negative)
-- **Theme extraction**: Identify recurring topics and cluster related feedback
-- **Frequency analysis**: Count how often each theme appears
-- **Segment analysis**: Break down sentiment and themes by user segment (if data available)
-- **Trend detection**: If dates are available, identify sentiment shifts over time
+- **センチメントスコアリング**: 各フィードバックを分類する（ポジティブ、ニュートラル、ネガティブ）
+- **テーマ抽出**: 繰り返し現れるトピックを特定し、関連するフィードバックをクラスター化する
+- **頻度分析**: 各テーマの出現回数をカウントする
+- **セグメント分析**: ユーザーセグメントごとにセンチメントとテーマを分解する（データが利用可能な場合）
+- **トレンド検出**: 日付が利用可能な場合、時間の経過とともにのセンチメント変化を特定する
 
-### Step 3: Generate Analysis Report
+### ステップ3: 分析レポートを生成する
 
 ```
 ## Feedback Analysis Report
 
 **Date**: [today]
-**Feedback analyzed**: [count] responses
+**Feedback analyzed**: [数] responses
 **Source**: [NPS survey / app reviews / support tickets / etc.]
-**Period**: [date range if available]
+**Period**: [利用可能な場合は日付範囲]
 
 ### Overall Sentiment
 - Positive: [X%] | Neutral: [Y%] | Negative: [Z%]
@@ -60,44 +60,44 @@ Apply the **sentiment-analysis** skill:
 
 ### Theme Deep-Dive
 
-#### Theme 1: [Name] — [X] mentions, [sentiment]
-- **What users are saying**: [summary with representative quotes]
-- **Root cause**: [what's driving this feedback]
-- **Impact**: [how this affects retention, satisfaction, or revenue]
-- **Recommendation**: [what to do about it]
+#### Theme 1: [名前] — [X] mentions, [sentiment]
+- **What users are saying**: [代表的な引用を含むサマリー]
+- **Root cause**: [このフィードバックを引き起こしているもの]
+- **Impact**: [リテンション、満足度、または収益への影響]
+- **Recommendation**: [対処法]
 
-[Repeat for top 5-8 themes]
+[上位5〜8テーマについて繰り返す]
 
 ### Segment Analysis
 | Segment | Volume | Avg Sentiment | Top Theme | Key Difference |
 |---------|--------|-------------|-----------|---------------|
 
 ### Notable Quotes
-> "[quote]" — [segment, sentiment]
+> "[引用]" — [セグメント、センチメント]
 
 ### Trends Over Time
-[If date data available: chart-ready data showing sentiment shifts]
+[日付データが利用可能な場合：センチメント変化を示すチャート対応データ]
 
 ### Actionable Insights
-1. [Insight + recommended action]
+1. [インサイト + 推奨アクション]
 2. ...
 
 ### Gaps
-[What this feedback doesn't tell you — suggested follow-up research]
+[このフィードバックが答えていないこと — 推奨されるフォローアップリサーチ]
 ```
 
-Save as markdown. If input was structured data (CSV), also save enriched data with sentiment scores as CSV.
+マークダウンとして保存します。インプットが構造化データ（CSV）だった場合は、センチメントスコアを含む拡充データもCSVとして保存します。
 
-### Step 4: Offer Next Steps
+### ステップ4: 次のステップを提案する
 
-- "Want me to **create user personas** from these feedback patterns?"
-- "Should I **triage the top themes as feature requests**?"
-- "Want me to **design an interview script** to go deeper on a specific theme?"
+- 「これらのフィードバックパターンから**ユーザーペルソナを作成**しましょうか？」
+- 「上位テーマを**機能リクエストとしてトリアージ**すべきでしょうか？」
+- 「特定のテーマをより深く掘り下げるための**インタビュースクリプトを設計**しましょうか？」
 
-## Notes
+## 注意事項
 
-- Sentiment analysis is approximate — flag edge cases (sarcasm, mixed sentiment, non-English text)
-- Theme extraction should look for needs behind requests, not just surface-level topics
-- If sample sizes are small per segment, note limited confidence
-- For NPS data specifically, analyze Detractors (0-6), Passives (7-8), and Promoters (9-10) separately
-- Output enriched CSV when input is structured, so the user can use it in their own tools
+- センチメント分析は近似値 — エッジケース（皮肉、混合センチメント、英語以外のテキスト）にフラグを立てる
+- テーマ抽出は表面的なトピックだけでなく、リクエストの背後にあるニーズを探すべき
+- セグメントごとのサンプルサイズが小さい場合は、信頼度が限定的であることを記載する
+- NPSデータについては、Detractors（0〜6）、Passives（7〜8）、Promoters（9〜10）を別々に分析する
+- インプットが構造化されている場合は拡充CSVを出力し、ユーザーが自分のツールで使用できるようにする
